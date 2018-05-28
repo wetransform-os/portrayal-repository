@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle xmlns:cp="http://inspire.ec.europa.eu/schemas/cp/4.0" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
+  <se:Description>
+    <se:Title>Reference Point Only Default Style</se:Title>
+    <se:Abstract>Point geometries are rendered as a circle with a size of 10 pixels, with a magenta (#FF00FF) fill and a 2 pixel black outline.</se:Abstract>
+  </se:Description>
+  <se:FeatureTypeName>cp:CadastralParcel</se:FeatureTypeName>
+  <se:Rule>
+    <se:Description>
+      <se:Title>cadastral parcel - reference point only</se:Title>
+    </se:Description>
+    <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
+    <se:MaxScaleDenominator>60000.0</se:MaxScaleDenominator>
+    <se:PointSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>cp:referencePoint</ogc:PropertyName>
+      </se:Geometry>
+      <se:Graphic>
+        <se:Mark>
+          <se:WellKnownName>circle</se:WellKnownName>
+          <se:Fill>
+            <se:SvgParameter name="fill">#FF00FF</se:SvgParameter>
+          </se:Fill>
+          <se:Stroke>
+            <se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
+            <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+          </se:Stroke>
+        </se:Mark>
+        <se:Size>10</se:Size>
+      </se:Graphic>
+    </se:PointSymbolizer>
+  </se:Rule>
+</se:FeatureTypeStyle>

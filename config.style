@@ -1,0 +1,778 @@
+ "beta"
+Layer {
+	id: "AD_Address"
+	Name: "AD.Address"
+	Title: en "Addresses"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/ad/4.0:Address
+	Styles: AD_Address
+}
+Layer {
+	id: "AU_AdministrativeBoundary"
+	Name: "AU.AdministrativeBoundary"
+	Title: en "Administrative boundary"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/au/4.0:AdministrativeBoundary
+	Styles: AU_AdministrativeBoundary
+}
+Layer {
+	id: "AU_AdministrativeUnit"
+	Name: "AU.AdministrativeUnit"
+	Title: en "Administrative unit"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/au/4.0:AdministrativeUnit
+	Styles: AU_AdministrativeUnit
+}
+Layer {
+	id: "AU_Baseline"
+	Name: "AU.Baseline"
+	Title: en "Baseline"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/mu/3.0:Baseline
+	Styles: MU_Baseline
+}
+Layer {
+	id: "AU_Condominium"
+	Name: "AU.Condominium"
+	Title: en "Condominium"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/au/4.0:Condominium
+	Styles: AU_Condominium
+}
+Layer {
+	id: "AU_ContiguousZone"
+	Name: "AU.ContiguousZone"
+	Title: en "Contiguous zone"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/mu/3.0:ContiguousZone
+	Styles: MU_ContiguousZone
+}
+Layer {
+	id: "AU_ContinentalShelf"
+	Name: "AU.ContinentalShelf"
+	Title: en "Continental shelf"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/mu/3.0:ContinentalShelf
+	Styles: MU_ContinentalShelf
+}
+Layer {
+	id: "AU_ExclusiveEconomicZone"
+	Name: "AU.ExclusiveEconomicZone"
+	Title: en "Exclusive economic zone"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/mu/3.0:ExclusiveEconomicZone
+	Styles: MU_ExclusiveEconomicZone
+}
+Layer {
+	id: "AU_InternalWaters"
+	Name: "AU.InternalWaters"
+	Title: en "Internal waters"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/mu/3.0:InternalWaters
+	Styles: MU_InternalWaters
+}
+Layer {
+	id: "AU_MaritimeBoundary"
+	Name: "AU.MaritimeBoundary"
+	Title: en "Maritime boundary"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/mu/3.0:MaritimeBoundary
+	Styles: MU_MaritimeBoundary
+}
+Layer {
+	id: "AU_TerritorialSea"
+	Name: "AU.TerritorialSea"
+	Title: en "Territorial sea"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/mu/3.0:TerritorialSea
+	Styles: MU_TerritorialSea
+}
+Layer {
+	id: "CP_CadastralBoundary"
+	Name: "CP.CadastralBoundary"
+	Title: en "Cadastral Boundary"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/cp/4.0:CadastralBoundary
+	Styles: CP_CadastralBoundary
+}
+Layer {
+	id: "CP_Cadastr"
+	Name: "CP.CadastralParcel.BoundariesOnly"
+	Title: en "Cadastral Boundary only"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/cp/4.0:CadastralParcel
+	Styles: CP_CadastralParcel
+}
+Layer {
+	id: "CP_CadastralParcel"
+	Name: "CP.CadastralParcel"
+	Title: en "Cadastral Parcel"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/cp/4.0:CadastralParcel
+	Styles: CP_CadastralParcel_1
+}
+Layer {
+	id: "CP_Cadastr_1"
+	Name: "CP.CadastralParcel.LabelOnReferencePoint"
+	Title: en "Cadastral Parcel (LabelOnReferencePoint)"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/cp/4.0:CadastralParcel
+	Styles: CP_CadastralParcel_2
+}
+Layer {
+	id: "CP_Cadastr_2"
+	Name: "CP.CadastralParcel.ReferencePointOnly"
+	Title: en "Cadastral Parcel (ReferencePointOnly)"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/cp/4.0:CadastralParcel
+	Styles: CP_CadastralParcel_3
+}
+Layer {
+	id: "CP_CadastralZoning"
+	Name: "CP.CadastralZoning"
+	Title: en "Cadastral Zoning"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/cp/4.0:CadastralZoning
+	Styles: CP_CadastralZoning
+}
+Layer {
+	id: "GN_GeographicalNames"
+	Name: "GN.GeographicalNames"
+	Title: en "Geographical Names"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/gn/4.0:NamedPlace
+	Styles: GN_NamedPlace
+}
+Layer {
+	id: "HY_Network"
+	Name: "HY.Network"
+	Title: en "Hydrographic network"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-n/4.0:WatercourseLink
+	, http://inspire.ec.europa.eu/schemas/hy-n/4.0:HydroNode Styles: HY_N_WatercourseLink , HY_N_HydroNode
+}
+Layer {
+	id: "HY_Physica"
+	Name: "HY.PhysicalWaters.Catchments"
+	Title: en "Catchment"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:DrainageBasin
+	, http://inspire.ec.europa.eu/schemas/hy-p/4.0:RiverBasin Styles: HY_P_DrainageBasin , HY_P_RiverBasin
+}
+Layer {
+	id: "HY_Physica_1"
+	Name: "HY.PhysicalWaters.HydroPointOfInterest"
+	Title: en "Hydro Point of Interest"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Rapids
+	, http://inspire.ec.europa.eu/schemas/hy-p/4.0:Falls Styles: HY_P_Rapids , HY_P_Falls
+}
+Layer {
+	id: "HY_Physica_2"
+	Name: "HY.PhysicalWaters.LandWaterBoundary"
+	Title: en "Land water boundary"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:LandWaterBoundary
+	Styles: HY_P_LandWaterBoundary
+}
+Layer {
+	id: "HY_Physica_4"
+	Name: "HY.PhysicalWaters.ManMadeObject"
+	Title: en "Man-made Object"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Crossing
+	, http://inspire.ec.europa.eu/schemas/hy-p/4.0:DamOrWeir , http://inspire.ec.europa.eu/schemas/hy-p/4.0:ShorelineConstruction , http://inspire.ec.europa.eu/schemas/hy-p/4.0:Ford , http://inspire.ec.europa.eu/schemas/hy-p/4.0:Lock Styles: HY_P_Crossing , HY_P_DamOrWeir , HY_P_Shore , HY_P_Ford , HY_P_Lock
+}
+Layer {
+	id: "HY_PhysicalWaters_Shore"
+	Name: "HY.PhysicalWaters.Shore"
+	Title: en "Shores"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Shore
+	Styles: HY_P_Shore_1
+}
+Layer {
+	id: "HY_Physica_5"
+	Name: "HY.PhysicalWaters.Waterbodies"
+	Title: en "Waterbody"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Watercourse
+	, http://inspire.ec.europa.eu/schemas/hy-p/4.0:StandingWater Styles: HY_P_Watercourse , HY_P_StandingWater
+}
+Layer {
+	id: "HY_Physica_6"
+	Name: "HY.PhysicalWaters.Waterbodies.Man.Made.Natural"
+	Title: en "Man-made Object (Natural)"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Watercourse
+	, http://inspire.ec.europa.eu/schemas/hy-p/4.0:StandingWater Styles: HY_P_Watercourse_1 , HY_P_StandingWater_1
+}
+Layer {
+	id: "HY_Physica_7"
+	Name: "HY.PhysicalWaters.Waterbodies.Persistence"
+	Title: en "Waterbody (Persistence)"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Watercourse
+	, http://inspire.ec.europa.eu/schemas/hy-p/4.0:StandingWater Styles: HY_P_Watercourse_2 , HY_P_StandingWater_2
+}
+Layer {
+	id: "HY_PhysicalWaters_Wetland"
+	Name: "HY.PhysicalWaters.Wetland"
+	Title: en "Wetlands"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Wetland
+	Styles: HY_P_Wetland
+}
+Layer {
+	id: "PS_ProtectedSites"
+	Name: "PS.ProtectedSites"
+	Title: en "Protected Sites"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/ps/4.0:ProtectedSites
+	Styles: PS_ProtectedSites
+}
+Layer {
+	id: "TN_AirTran"
+	Name: "TN.AirTransportNetwork.AerodromeArea"
+	Title: en "Aerodrome Area"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:AerodromeArea
+	Styles: TN_A_AerodromeArea
+}
+Layer {
+	id: "TN_AirTran_1"
+	Name: "TN.AirTransportNetwork.AirLink"
+	Title: en "Air Link"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:ProcedureLink
+	, http://inspire.ec.europa.eu/schemas/tn-a/4.0:AirRouteLink Styles: TN_A_ProcedureLink , TN_A_AirRouteLink
+}
+Layer {
+	id: "TN_AirTran_2"
+	Name: "TN.AirTransportNetwork.AirSpaceArea"
+	Title: en "Air Space Area"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:AirspaceArea
+	Styles: TN_A_AirspaceArea
+}
+Layer {
+	id: "TN_AirTran_3"
+	Name: "TN.AirTransportNetwork.ApronArea"
+	Title: en "Apron Area"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:ApronArea
+	Styles: TN_A_ApronArea
+}
+Layer {
+	id: "TN_AirTran_4"
+	Name: "TN.AirTransportNetwork.RunwayArea"
+	Title: en "Runway Area"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:RunwayArea
+	Styles: TN_A_RunwayArea
+}
+Layer {
+	id: "TN_AirTran_5"
+	Name: "TN.AirTransportNetwork.TaxiwayArea"
+	Title: en "Taxiway Area"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:TaxiwayArea
+	Styles: TN_A_TaxiwayArea
+}
+Layer {
+	id: "TN_CableTr"
+	Name: "TN.CableTransportNetwork.CablewayLink"
+	Title: en "Cableway Link"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-c/4.0:CablewayLink
+	Styles: TN_C_CablewayLink
+}
+Layer {
+	id: "TN_CommonT"
+	Name: "TN.CommonTransportElements.TransportArea"
+	Title: en "Generic Transport Area"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn/4.0:TransportArea
+	Styles: TN_TransportArea
+}
+Layer {
+	id: "TN_CommonT_1"
+	Name: "TN.CommonTransportElements.TransportLink"
+	Title: en "Generic Transport Link"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn/4.0:TransportLink
+	Styles: TN_TransportLink
+}
+Layer {
+	id: "TN_CommonT_2"
+	Name: "TN.CommonTransportElements.TransportNode"
+	Title: en "Generic Transport Node"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn/4.0:TransportNode
+	Styles: TN_TransportNode
+}
+Layer {
+	id: "TN_RailTra"
+	Name: "TN.RailTransportNetwork.RailwayArea"
+	Title: en "Railway Area"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ra/4.0:RailwayArea
+	Styles: TN_RA_RailwayArea
+}
+Layer {
+	id: "TN_RailTra_1"
+	Name: "TN.RailTransportNetwork.RailwayLink"
+	Title: en "Railway Link"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ra/4.0:RailwayLink
+	Styles: TN_RA_RailwayLink
+}
+Layer {
+	id: "TN_RailTra_2"
+	Name: "TN.RailTransportNetwork.RailwayStationArea"
+	Title: en "Railway Station Area"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ra/4.0:RailwayStationArea
+	Styles: TN_RA_RailwayStationArea
+}
+Layer {
+	id: "TN_RailTra_3"
+	Name: "TN.RailTransportNetwork.RailwayYardArea"
+	Title: en "Railway Yard Area"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ra/4.0:RailwayYardArea
+	Styles: TN_RA_RailwayYardArea
+}
+Layer {
+	id: "TN_RoadTra"
+	Name: "TN.RoadTransportNetwork.RoadArea"
+	Title: en "Road Area"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:RoadArea
+	Styles: TN_RO_RoadArea
+}
+Layer {
+	id: "TN_RoadTra_1"
+	Name: "TN.RoadTransportNetwork.RoadLink"
+	Title: en "Road Link"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:RoadLink
+	Styles: TN_RO_RoadLink
+}
+Layer {
+	id: "TN_RoadTra_2"
+	Name: "TN.RoadTransportNetwork.RoadServiceArea"
+	Title: en "Road Service Area"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:RoadServiceArea
+	Styles: TN_RO_RoadServiceArea
+}
+Layer {
+	id: "TN_RoadTra_3"
+	Name: "TN.RoadTransportNetwork.VehicleTrafficArea"
+	Title: en "Vehicle traffic Area"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:VehicleTrafficArea
+	Styles: TN_RO_VehicleTrafficArea
+}
+Layer {
+	id: "TN_WaterTr"
+	Name: "TN.WaterTransportNetwork.FairwayArea"
+	Title: en "Fairway Area"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/4.0:FairwayArea
+	Styles: TN_W_FairwayArea
+}
+Layer {
+	id: "TN_WaterTr_1"
+	Name: "TN.WaterTransportNetwork.PortArea"
+	Title: en "Port Area"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/4.0:PortArea
+	Styles: TN_W_PortArea
+}
+Layer {
+	id: "TN_WaterTr_2"
+	Name: "TN.WaterTransportNetwork.WaterwayLink"
+	Title: en "Waterway Link"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/4.0:WaterwayLink
+	Styles: TN_W_WaterwayLink
+}
+Style {
+	id: "AD_Address"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/ad/4.0:Address
+		URL: "feature-styles/AD_Address.se"
+	}
+}
+Style {
+	id: "AU_AdministrativeBoundary"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/au/4.0:AdministrativeBoundary
+		URL: "feature-styles/AU_AdministrativeBoundary.se"
+	}
+}
+Style {
+	id: "AU_AdministrativeUnit"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/au/4.0:AdministrativeUnit
+		URL: "feature-styles/AU_AdministrativeUnit.se"
+	}
+}
+Style {
+	id: "MU_Baseline"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/mu/3.0:Baseline
+		URL: "feature-styles/MU_Baseline.se"
+	}
+}
+Style {
+	id: "AU_Condominium"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/au/4.0:Condominium
+		URL: "feature-styles/AU_Condominium.se"
+	}
+}
+Style {
+	id: "MU_ContiguousZone"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/mu/3.0:ContiguousZone
+		URL: "feature-styles/MU_ContiguousZone.se"
+	}
+}
+Style {
+	id: "MU_ContinentalShelf"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/mu/3.0:ContinentalShelf
+		URL: "feature-styles/MU_ContinentalShelf.se"
+	}
+}
+Style {
+	id: "MU_ExclusiveEconomicZone"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/mu/3.0:ExclusiveEconomicZone
+		URL: "feature-styles/MU_ExclusiveEconomicZone.se"
+	}
+}
+Style {
+	id: "MU_InternalWaters"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/mu/3.0:InternalWaters
+		URL: "feature-styles/MU_InternalWaters.se"
+	}
+}
+Style {
+	id: "MU_MaritimeBoundary"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/mu/3.0:MaritimeBoundary
+		URL: "feature-styles/MU_MaritimeBoundary.se"
+	}
+}
+Style {
+	id: "MU_TerritorialSea"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/mu/3.0:TerritorialSea
+		URL: "feature-styles/MU_TerritorialSea.se"
+	}
+}
+Style {
+	id: "CP_CadastralBoundary"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/cp/4.0:CadastralBoundary
+		URL: "feature-styles/CP_CadastralBoundary.se"
+	}
+}
+Style {
+	id: "CP_CadastralParcel"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/cp/4.0:CadastralParcel
+		URL: "feature-styles/CP_CadastralParcel.se"
+	}
+}
+Style {
+	id: "CP_CadastralParcel_1"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/cp/4.0:CadastralParcel
+		URL: "feature-styles/CP_CadastralParcel_1.se"
+	}
+}
+Style {
+	id: "CP_CadastralParcel_2"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/cp/4.0:CadastralParcel
+		URL: "feature-styles/CP_CadastralParcel_2.se"
+	}
+}
+Style {
+	id: "CP_CadastralParcel_3"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/cp/4.0:CadastralParcel
+		URL: "feature-styles/CP_CadastralParcel_3.se"
+	}
+}
+Style {
+	id: "CP_CadastralZoning"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/cp/4.0:CadastralZoning
+		URL: "feature-styles/CP_CadastralZoning.se"
+	}
+}
+Style {
+	id: "GN_NamedPlace"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/gn/4.0:NamedPlace
+		URL: "feature-styles/GN_NamedPlace.se"
+	}
+}
+Style {
+	id: "HY_N_WatercourseLink"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-n/4.0:WatercourseLink
+		URL: "feature-styles/HY_N_WatercourseLink.se"
+	}
+}
+Style {
+	id: "HY_N_HydroNode"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-n/4.0:HydroNode
+		URL: "feature-styles/HY_N_HydroNode.se"
+	}
+}
+Style {
+	id: "HY_P_DrainageBasin"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:DrainageBasin
+		URL: "feature-styles/HY_P_DrainageBasin.se"
+	}
+}
+Style {
+	id: "HY_P_RiverBasin"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:RiverBasin
+		URL: "feature-styles/HY_P_RiverBasin.se"
+	}
+}
+Style {
+	id: "HY_P_Rapids"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Rapids
+		URL: "feature-styles/HY_P_Rapids.se"
+	}
+}
+Style {
+	id: "HY_P_Falls"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Falls
+		URL: "feature-styles/HY_P_Falls.se"
+	}
+}
+Style {
+	id: "HY_P_LandWaterBoundary"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:LandWaterBoundary
+		URL: "feature-styles/HY_P_LandWaterBoundary.se"
+	}
+}
+Style {
+	id: "HY_P_Crossing"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Crossing
+		URL: "feature-styles/HY_P_Crossing.se"
+	}
+}
+Style {
+	id: "HY_P_DamOrWeir"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:DamOrWeir
+		URL: "feature-styles/HY_P_DamOrWeir.se"
+	}
+}
+Style {
+	id: "HY_P_Shore"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:ShorelineConstruction
+		URL: "feature-styles/HY_P_Shore.se"
+	}
+}
+Style {
+	id: "HY_P_Ford"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Ford
+		URL: "feature-styles/HY_P_Ford.se"
+	}
+}
+Style {
+	id: "HY_P_Lock"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Lock
+		URL: "feature-styles/HY_P_Lock.se"
+	}
+}
+Style {
+	id: "HY_P_Shore_1"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Shore
+		URL: "feature-styles/HY_P_Shore_1.se"
+	}
+}
+Style {
+	id: "HY_P_Watercourse"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Watercourse
+		URL: "feature-styles/HY_P_Watercourse.se"
+	}
+}
+Style {
+	id: "HY_P_StandingWater"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:StandingWater
+		URL: "feature-styles/HY_P_StandingWater.se"
+	}
+}
+Style {
+	id: "HY_P_Watercourse_1"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Watercourse
+		URL: "feature-styles/HY_P_Watercourse_1.se"
+	}
+}
+Style {
+	id: "HY_P_StandingWater_1"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:StandingWater
+		URL: "feature-styles/HY_P_StandingWater_1.se"
+	}
+}
+Style {
+	id: "HY_P_Watercourse_2"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Watercourse
+		URL: "feature-styles/HY_P_Watercourse_2.se"
+	}
+}
+Style {
+	id: "HY_P_StandingWater_2"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:StandingWater
+		URL: "feature-styles/HY_P_StandingWater_2.se"
+	}
+}
+Style {
+	id: "HY_P_Wetland"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Wetland
+		URL: "feature-styles/HY_P_Wetland.se"
+	}
+}
+Style {
+	id: "PS_ProtectedSites"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/ps/4.0:ProtectedSites
+		URL: "feature-styles/PS_ProtectedSites.se"
+	}
+}
+Style {
+	id: "TN_A_AerodromeArea"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/4.0:AerodromeArea
+		URL: "feature-styles/TN_A_AerodromeArea.se"
+	}
+}
+Style {
+	id: "TN_A_ProcedureLink"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/4.0:ProcedureLink
+		URL: "feature-styles/TN_A_ProcedureLink.se"
+	}
+}
+Style {
+	id: "TN_A_AirRouteLink"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/4.0:AirRouteLink
+		URL: "feature-styles/TN_A_AirRouteLink.se"
+	}
+}
+Style {
+	id: "TN_A_AirspaceArea"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/4.0:AirspaceArea
+		URL: "feature-styles/TN_A_AirspaceArea.se"
+	}
+}
+Style {
+	id: "TN_A_ApronArea"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/4.0:ApronArea
+		URL: "feature-styles/TN_A_ApronArea.se"
+	}
+}
+Style {
+	id: "TN_A_RunwayArea"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/4.0:RunwayArea
+		URL: "feature-styles/TN_A_RunwayArea.se"
+	}
+}
+Style {
+	id: "TN_A_TaxiwayArea"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/4.0:TaxiwayArea
+		URL: "feature-styles/TN_A_TaxiwayArea.se"
+	}
+}
+Style {
+	id: "TN_C_CablewayLink"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-c/4.0:CablewayLink
+		URL: "feature-styles/TN_C_CablewayLink.se"
+	}
+}
+Style {
+	id: "TN_TransportArea"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn/4.0:TransportArea
+		URL: "feature-styles/TN_TransportArea.se"
+	}
+}
+Style {
+	id: "TN_TransportLink"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn/4.0:TransportLink
+		URL: "feature-styles/TN_TransportLink.se"
+	}
+}
+Style {
+	id: "TN_TransportNode"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn/4.0:TransportNode
+		URL: "feature-styles/TN_TransportNode.se"
+	}
+}
+Style {
+	id: "TN_RA_RailwayArea"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-ra/4.0:RailwayArea
+		URL: "feature-styles/TN_RA_RailwayArea.se"
+	}
+}
+Style {
+	id: "TN_RA_RailwayLink"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-ra/4.0:RailwayLink
+		URL: "feature-styles/TN_RA_RailwayLink.se"
+	}
+}
+Style {
+	id: "TN_RA_RailwayStationArea"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-ra/4.0:RailwayStationArea
+		URL: "feature-styles/TN_RA_RailwayStationArea.se"
+	}
+}
+Style {
+	id: "TN_RA_RailwayYardArea"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-ra/4.0:RailwayYardArea
+		URL: "feature-styles/TN_RA_RailwayYardArea.se"
+	}
+}
+Style {
+	id: "TN_RO_RoadArea"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:RoadArea
+		URL: "feature-styles/TN_RO_RoadArea.se"
+	}
+}
+Style {
+	id: "TN_RO_RoadLink"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:RoadLink
+		URL: "feature-styles/TN_RO_RoadLink.se"
+	}
+}
+Style {
+	id: "TN_RO_RoadServiceArea"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:RoadServiceArea
+		URL: "feature-styles/TN_RO_RoadServiceArea.se"
+	}
+}
+Style {
+	id: "TN_RO_VehicleTrafficArea"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:VehicleTrafficArea
+		URL: "feature-styles/TN_RO_VehicleTrafficArea.se"
+	}
+}
+Style {
+	id: "TN_W_FairwayArea"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-w/4.0:FairwayArea
+		URL: "feature-styles/TN_W_FairwayArea.se"
+	}
+}
+Style {
+	id: "TN_W_PortArea"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-w/4.0:PortArea
+		URL: "feature-styles/TN_W_PortArea.se"
+	}
+}
+Style {
+	id: "TN_W_WaterwayLink"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-w/4.0:WaterwayLink
+		URL: "feature-styles/TN_W_WaterwayLink.se"
+	}
+}
