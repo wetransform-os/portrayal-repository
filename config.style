@@ -349,6 +349,34 @@ Layer {
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/4.0:WaterwayLink
 	Styles: TN_W_WaterwayLink
 }
+Layer {
+	id:"LC_LandCoverPoints"
+	Name: "LC.LandCoverPoints"
+	Title: en "Land Cover Points", de "Bodenbedeckungspunkte"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/lcv/4.0:LandCoverUnit
+	Styles: LC_LandCoverPoints
+}
+Layer {
+	id:"LC_LandCoverSurfaces"
+	Name: "LC.LandCoverSurfaces"
+	Title: en "Land Cover Surfaces", de "Bodenbedeckungsflächen"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/lcv/4.0:LandCoverUnit
+	Styles: LC_LandCoverSurfaces
+}
+Layer {
+	id: "BU_Building"
+	Name: "BU.Building"
+	Title: en "Buildings", de "Gebäude"
+	SpatialObjectTypes:	http://inspire.ec.europa.eu/schemas/bu-core2d/4.0:Building
+	Styles: BU_Building
+}
+Layer {
+	id: "BU_BuildingPart"
+	Name: "BU.BuildingPart"
+	Title: en "Building Parts", de "Gebäudeteile"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/bu-core2d/4.0:Building
+	Styles: BU_BuildingPart
+}
 Style {
 	id: "AD_Address"
 	Remote {
@@ -776,3 +804,32 @@ Style {
 		URL: "feature-styles/TN_W_WaterwayLink.se"
 	}
 }
+Style {
+	id: "LC_LandCoverPoints"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/lcv/4.0:LandCoverUnit
+		URL: "feature-styles/LC_LandCoverPoints.se"
+	}
+}
+Style {
+	id: "LC_LandCoverSurfaces"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/lcv/4.0:LandCoverUnit
+		URL: "feature-styles/LC_LandCoverSurfaces.se"
+	}
+}
+Style {
+	id: "BU_Building"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/bu-core2d/4.0:Building
+		URL: "feature-styles/BU_Building.se"
+	}
+}
+Style {
+	id: "BU_BuildingPart"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/bu-core2d/4.0:BuildingPart
+		URL: "feature-styles/BU_BuildingPart.se"
+	}
+}
+

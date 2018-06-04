@@ -1,51 +1,63 @@
-<?xml version="1.0" encoding="ASCII"?>
-<styleconfig:StyleModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ad_4.0="http://inspire.ec.europa.eu/schemas/ad/4.0" xmlns:au_4.0="http://inspire.ec.europa.eu/schemas/au/4.0" xmlns:cp_4.0="http://inspire.ec.europa.eu/schemas/cp/4.0" xmlns:gn_4.0="http://inspire.ec.europa.eu/schemas/gn/4.0" xmlns:hy-n_4.0="http://inspire.ec.europa.eu/schemas/hy-n/4.0" xmlns:hy-p_4.0="http://inspire.ec.europa.eu/schemas/hy-p/4.0" xmlns:mu_3.0="http://inspire.ec.europa.eu/schemas/mu/3.0" xmlns:ps_4.0="http://inspire.ec.europa.eu/schemas/ps/4.0" xmlns:styleconfig="http://to.wetf.styling.models/model/styles" xmlns:tn-a_4.0="http://inspire.ec.europa.eu/schemas/tn-a/4.0" xmlns:tn-c_4.0="http://inspire.ec.europa.eu/schemas/tn-c/4.0" xmlns:tn-ra_4.0="http://inspire.ec.europa.eu/schemas/tn-ra/4.0" xmlns:tn-ro_4.0="http://inspire.ec.europa.eu/schemas/tn-ro/4.0" xmlns:tn-w_4.0="http://inspire.ec.europa.eu/schemas/tn-w/4.0" xmlns:tn_4.0="http://inspire.ec.europa.eu/schemas/tn/4.0" version="beta">
+<?xml version="1.0" encoding="UTF-8"?>
+<styleconfig:StyleModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ad_4.0="http://inspire.ec.europa.eu/schemas/ad/4.0" xmlns:au_4.0="http://inspire.ec.europa.eu/schemas/au/4.0" xmlns:bu-core2d_4.0="http://inspire.ec.europa.eu/schemas/bu-core2d/4.0" xmlns:cp_4.0="http://inspire.ec.europa.eu/schemas/cp/4.0" xmlns:gn_4.0="http://inspire.ec.europa.eu/schemas/gn/4.0" xmlns:hy-n_4.0="http://inspire.ec.europa.eu/schemas/hy-n/4.0" xmlns:hy-p_4.0="http://inspire.ec.europa.eu/schemas/hy-p/4.0" xmlns:lcv_4.0="http://inspire.ec.europa.eu/schemas/lcv/4.0" xmlns:mu_3.0="http://inspire.ec.europa.eu/schemas/mu/3.0" xmlns:ps_4.0="http://inspire.ec.europa.eu/schemas/ps/4.0" xmlns:styleconfig="http://to.wetf.styling.models/model/styles" xmlns:tn-a_4.0="http://inspire.ec.europa.eu/schemas/tn-a/4.0" xmlns:tn-c_4.0="http://inspire.ec.europa.eu/schemas/tn-c/4.0" xmlns:tn-ra_4.0="http://inspire.ec.europa.eu/schemas/tn-ra/4.0" xmlns:tn-ro_4.0="http://inspire.ec.europa.eu/schemas/tn-ro/4.0" xmlns:tn-w_4.0="http://inspire.ec.europa.eu/schemas/tn-w/4.0" xmlns:tn_4.0="http://inspire.ec.europa.eu/schemas/tn/4.0" version="beta">
   <layerConfig name="AD_Address" layerName="AD.Address" styleConfig="//@styleConfig.0">
     <title lang="en" text="Addresses"/>
+    <title text="Addressen"/>
     <objectType>ad_4.0:Address</objectType>
   </layerConfig>
   <layerConfig name="AU_AdministrativeBoundary" layerName="AU.AdministrativeBoundary" styleConfig="//@styleConfig.1">
     <title lang="en" text="Administrative boundary"/>
+    <title text="Verwaltungsgrenze"/>
     <objectType>au_4.0:AdministrativeBoundary</objectType>
   </layerConfig>
   <layerConfig name="AU_AdministrativeUnit" layerName="AU.AdministrativeUnit" styleConfig="//@styleConfig.2">
     <title lang="en" text="Administrative unit"/>
+    <title text="Verwaltungseinheit"/>
     <objectType>au_4.0:AdministrativeUnit</objectType>
   </layerConfig>
   <layerConfig name="AU_Baseline" layerName="AU.Baseline" styleConfig="//@styleConfig.3">
     <title lang="en" text="Baseline"/>
+    <title text="Basislinie"/>
     <objectType>mu_3.0:Baseline</objectType>
   </layerConfig>
   <layerConfig name="AU_Condominium" layerName="AU.Condominium" styleConfig="//@styleConfig.4">
     <title lang="en" text="Condominium"/>
+    <title text="Kondominium"/>
     <objectType>au_4.0:Condominium</objectType>
   </layerConfig>
   <layerConfig name="AU_ContiguousZone" layerName="AU.ContiguousZone" styleConfig="//@styleConfig.5">
     <title lang="en" text="Contiguous zone"/>
+    <title text="Anschlusszone"/>
     <objectType>mu_3.0:ContiguousZone</objectType>
   </layerConfig>
   <layerConfig name="AU_ContinentalShelf" layerName="AU.ContinentalShelf" styleConfig="//@styleConfig.6">
     <title lang="en" text="Continental shelf"/>
+    <title text="Festlandsockel"/>
     <objectType>mu_3.0:ContinentalShelf</objectType>
   </layerConfig>
   <layerConfig name="AU_ExclusiveEconomicZone" layerName="AU.ExclusiveEconomicZone" styleConfig="//@styleConfig.7">
     <title lang="en" text="Exclusive economic zone"/>
+    <title text="Ausschließliche Wirtschaftszone"/>
     <objectType>mu_3.0:ExclusiveEconomicZone</objectType>
   </layerConfig>
   <layerConfig name="AU_InternalWaters" layerName="AU.InternalWaters" styleConfig="//@styleConfig.8">
     <title lang="en" text="Internal waters"/>
+    <title text="Innere Gewässer"/>
     <objectType>mu_3.0:InternalWaters</objectType>
   </layerConfig>
   <layerConfig name="AU_MaritimeBoundary" layerName="AU.MaritimeBoundary" styleConfig="//@styleConfig.9">
     <title lang="en" text="Maritime boundary"/>
+    <title text="Seegrenze"/>
     <objectType>mu_3.0:MaritimeBoundary</objectType>
   </layerConfig>
   <layerConfig name="AU_TerritorialSea" layerName="AU.TerritorialSea" styleConfig="//@styleConfig.10">
     <title lang="en" text="Territorial sea"/>
+    <title text="Küstenmeer"/>
     <objectType>mu_3.0:TerritorialSea</objectType>
   </layerConfig>
   <layerConfig name="CP_CadastralBoundary" layerName="CP.CadastralBoundary" styleConfig="//@styleConfig.11">
     <title lang="en" text="Cadastral Boundary"/>
+    <title text="Flurstücksgrenze"/>
     <objectType>cp_4.0:CadastralBoundary</objectType>
   </layerConfig>
   <layerConfig name="CP_Cadastr" layerName="CP.CadastralParcel.BoundariesOnly" styleConfig="//@styleConfig.12">
@@ -54,6 +66,7 @@
   </layerConfig>
   <layerConfig name="CP_CadastralParcel" layerName="CP.CadastralParcel" styleConfig="//@styleConfig.13">
     <title lang="en" text="Cadastral Parcel"/>
+    <title text="Flurstück"/>
     <objectType>cp_4.0:CadastralParcel</objectType>
   </layerConfig>
   <layerConfig name="CP_Cadastr_1" layerName="CP.CadastralParcel.LabelOnReferencePoint" styleConfig="//@styleConfig.14">
@@ -66,33 +79,40 @@
   </layerConfig>
   <layerConfig name="CP_CadastralZoning" layerName="CP.CadastralZoning" styleConfig="//@styleConfig.16">
     <title lang="en" text="Cadastral Zoning"/>
+    <title text="Katasterbezirk"/>
     <objectType>cp_4.0:CadastralZoning</objectType>
   </layerConfig>
   <layerConfig name="GN_GeographicalNames" layerName="GN.GeographicalNames" styleConfig="//@styleConfig.17">
     <title lang="en" text="Geographical Names"/>
+    <title text="Geografische Bezeichnungen"/>
     <objectType>gn_4.0:NamedPlace</objectType>
   </layerConfig>
   <layerConfig name="HY_Network" layerName="HY.Network" styleConfig="//@styleConfig.18 //@styleConfig.19">
     <title lang="en" text="Hydrographic network"/>
+    <title text="Hydrografisches Netzwerk"/>
     <objectType>hy-n_4.0:WatercourseLink</objectType>
     <objectType>hy-n_4.0:HydroNode</objectType>
   </layerConfig>
   <layerConfig name="HY_Physica" layerName="HY.PhysicalWaters.Catchments" styleConfig="//@styleConfig.20 //@styleConfig.21">
     <title lang="en" text="Catchment"/>
+    <title text="Einzugsgebiete"/>
     <objectType>hy-p_4.0:DrainageBasin</objectType>
     <objectType>hy-p_4.0:RiverBasin</objectType>
   </layerConfig>
   <layerConfig name="HY_Physica_1" layerName="HY.PhysicalWaters.HydroPointOfInterest" styleConfig="//@styleConfig.22 //@styleConfig.23">
     <title lang="en" text="Hydro Point of Interest"/>
+    <title text="Interessante hydrologische Punkte"/>
     <objectType>hy-p_4.0:Rapids</objectType>
     <objectType>hy-p_4.0:Falls</objectType>
   </layerConfig>
   <layerConfig name="HY_Physica_2" layerName="HY.PhysicalWaters.LandWaterBoundary" styleConfig="//@styleConfig.24">
     <title lang="en" text="Land water boundary"/>
+    <title text="Uferlinien"/>
     <objectType>hy-p_4.0:LandWaterBoundary</objectType>
   </layerConfig>
   <layerConfig name="HY_Physica_4" layerName="HY.PhysicalWaters.ManMadeObject" styleConfig="//@styleConfig.25 //@styleConfig.26 //@styleConfig.27 //@styleConfig.28 //@styleConfig.29">
     <title lang="en" text="Man-made Object"/>
+    <title text="Bauwerke an Gewässern"/>
     <objectType>hy-p_4.0:Crossing</objectType>
     <objectType>hy-p_4.0:DamOrWeir</objectType>
     <objectType>hy-p_4.0:ShorelineConstruction</objectType>
@@ -101,10 +121,12 @@
   </layerConfig>
   <layerConfig name="HY_PhysicalWaters_Shore" layerName="HY.PhysicalWaters.Shore" styleConfig="//@styleConfig.30">
     <title lang="en" text="Shores"/>
+    <title text="Küsten"/>
     <objectType>hy-p_4.0:Shore</objectType>
   </layerConfig>
   <layerConfig name="HY_Physica_5" layerName="HY.PhysicalWaters.Waterbodies" styleConfig="//@styleConfig.31 //@styleConfig.32">
     <title lang="en" text="Waterbody"/>
+    <title text="Wasserkörper"/>
     <objectType>hy-p_4.0:Watercourse</objectType>
     <objectType>hy-p_4.0:StandingWater</objectType>
   </layerConfig>
@@ -120,96 +142,139 @@
   </layerConfig>
   <layerConfig name="HY_PhysicalWaters_Wetland" layerName="HY.PhysicalWaters.Wetland" styleConfig="//@styleConfig.37">
     <title lang="en" text="Wetlands"/>
+    <title text="Feuchtgebiete"/>
     <objectType>hy-p_4.0:Wetland</objectType>
   </layerConfig>
   <layerConfig name="PS_ProtectedSites" layerName="PS.ProtectedSites" styleConfig="//@styleConfig.38">
     <title lang="en" text="Protected Sites"/>
+    <title text="Schutzgebiete"/>
     <objectType>ps_4.0:ProtectedSites</objectType>
   </layerConfig>
   <layerConfig name="TN_AirTran" layerName="TN.AirTransportNetwork.AerodromeArea" styleConfig="//@styleConfig.39">
     <title lang="en" text="Aerodrome Area"/>
+    <title text="Flugplatzgelände"/>
     <objectType>tn-a_4.0:AerodromeArea</objectType>
   </layerConfig>
   <layerConfig name="TN_AirTran_1" layerName="TN.AirTransportNetwork.AirLink" styleConfig="//@styleConfig.40 //@styleConfig.41">
     <title lang="en" text="Air Link"/>
+    <title text="Luftverbindung"/>
     <objectType>tn-a_4.0:ProcedureLink</objectType>
     <objectType>tn-a_4.0:AirRouteLink</objectType>
   </layerConfig>
   <layerConfig name="TN_AirTran_2" layerName="TN.AirTransportNetwork.AirSpaceArea" styleConfig="//@styleConfig.42">
     <title lang="en" text="Air Space Area"/>
+    <title text="Luftraumbereich"/>
     <objectType>tn-a_4.0:AirspaceArea</objectType>
   </layerConfig>
   <layerConfig name="TN_AirTran_3" layerName="TN.AirTransportNetwork.ApronArea" styleConfig="//@styleConfig.43">
     <title lang="en" text="Apron Area"/>
+    <title text="Vorfeldgelände"/>
     <objectType>tn-a_4.0:ApronArea</objectType>
   </layerConfig>
   <layerConfig name="TN_AirTran_4" layerName="TN.AirTransportNetwork.RunwayArea" styleConfig="//@styleConfig.44">
     <title lang="en" text="Runway Area"/>
+    <title text="Landebahngelände"/>
     <objectType>tn-a_4.0:RunwayArea</objectType>
   </layerConfig>
   <layerConfig name="TN_AirTran_5" layerName="TN.AirTransportNetwork.TaxiwayArea" styleConfig="//@styleConfig.45">
     <title lang="en" text="Taxiway Area"/>
+    <title text="Rollfeld"/>
     <objectType>tn-a_4.0:TaxiwayArea</objectType>
   </layerConfig>
   <layerConfig name="TN_CableTr" layerName="TN.CableTransportNetwork.CablewayLink" styleConfig="//@styleConfig.46">
     <title lang="en" text="Cableway Link"/>
+    <title text="Seilbahnverbindung"/>
     <objectType>tn-c_4.0:CablewayLink</objectType>
   </layerConfig>
   <layerConfig name="TN_CommonT" layerName="TN.CommonTransportElements.TransportArea" styleConfig="//@styleConfig.47">
     <title lang="en" text="Generic Transport Area"/>
+    <title text="Generischer Verkehrsbereich"/>
     <objectType>tn_4.0:TransportArea</objectType>
   </layerConfig>
   <layerConfig name="TN_CommonT_1" layerName="TN.CommonTransportElements.TransportLink" styleConfig="//@styleConfig.48">
     <title lang="en" text="Generic Transport Link"/>
+    <title text="Generisches Verkehrssegment"/>
     <objectType>tn_4.0:TransportLink</objectType>
   </layerConfig>
   <layerConfig name="TN_CommonT_2" layerName="TN.CommonTransportElements.TransportNode" styleConfig="//@styleConfig.49">
     <title lang="en" text="Generic Transport Node"/>
+    <title text="Generischer Verkehrsknotenpunkt"/>
     <objectType>tn_4.0:TransportNode</objectType>
   </layerConfig>
   <layerConfig name="TN_RailTra" layerName="TN.RailTransportNetwork.RailwayArea" styleConfig="//@styleConfig.50">
     <title lang="en" text="Railway Area"/>
+    <title text="Bahngelände"/>
     <objectType>tn-ra_4.0:RailwayArea</objectType>
   </layerConfig>
   <layerConfig name="TN_RailTra_1" layerName="TN.RailTransportNetwork.RailwayLink" styleConfig="//@styleConfig.51">
     <title lang="en" text="Railway Link"/>
+    <title text="Eisenbahnverbindung"/>
     <objectType>tn-ra_4.0:RailwayLink</objectType>
   </layerConfig>
   <layerConfig name="TN_RailTra_2" layerName="TN.RailTransportNetwork.RailwayStationArea" styleConfig="//@styleConfig.52">
     <title lang="en" text="Railway Station Area"/>
+    <title text="Bahnhofsgelände"/>
     <objectType>tn-ra_4.0:RailwayStationArea</objectType>
   </layerConfig>
   <layerConfig name="TN_RailTra_3" layerName="TN.RailTransportNetwork.RailwayYardArea" styleConfig="//@styleConfig.53">
     <title lang="en" text="Railway Yard Area"/>
+    <title text="Rangierbahnhofsgelände"/>
     <objectType>tn-ra_4.0:RailwayYardArea</objectType>
   </layerConfig>
   <layerConfig name="TN_RoadTra" layerName="TN.RoadTransportNetwork.RoadArea" styleConfig="//@styleConfig.54">
     <title lang="en" text="Road Area"/>
+    <title text="Straßenfläche"/>
     <objectType>tn-ro_4.0:RoadArea</objectType>
   </layerConfig>
   <layerConfig name="TN_RoadTra_1" layerName="TN.RoadTransportNetwork.RoadLink" styleConfig="//@styleConfig.55">
     <title lang="en" text="Road Link"/>
+    <title text="Straßensegment"/>
     <objectType>tn-ro_4.0:RoadLink</objectType>
   </layerConfig>
   <layerConfig name="TN_RoadTra_2" layerName="TN.RoadTransportNetwork.RoadServiceArea" styleConfig="//@styleConfig.56">
     <title lang="en" text="Road Service Area"/>
+    <title text="Servicebereich"/>
     <objectType>tn-ro_4.0:RoadServiceArea</objectType>
   </layerConfig>
   <layerConfig name="TN_RoadTra_3" layerName="TN.RoadTransportNetwork.VehicleTrafficArea" styleConfig="//@styleConfig.57">
     <title lang="en" text="Vehicle traffic Area"/>
+    <title text="Verkehrsfläche"/>
     <objectType>tn-ro_4.0:VehicleTrafficArea</objectType>
   </layerConfig>
   <layerConfig name="TN_WaterTr" layerName="TN.WaterTransportNetwork.FairwayArea" styleConfig="//@styleConfig.58">
     <title lang="en" text="Fairway Area"/>
+    <title text="Fahrrinnenbereich"/>
     <objectType>tn-w_4.0:FairwayArea</objectType>
   </layerConfig>
   <layerConfig name="TN_WaterTr_1" layerName="TN.WaterTransportNetwork.PortArea" styleConfig="//@styleConfig.59">
     <title lang="en" text="Port Area"/>
+    <title text="Hafengelände"/>
     <objectType>tn-w_4.0:PortArea</objectType>
   </layerConfig>
   <layerConfig name="TN_WaterTr_2" layerName="TN.WaterTransportNetwork.WaterwayLink" styleConfig="//@styleConfig.60">
     <title lang="en" text="Waterway Link"/>
+    <title text="Wasserstraßenverbindung"/>
     <objectType>tn-w_4.0:WaterwayLink</objectType>
+  </layerConfig>
+  <layerConfig name="LC_LandCoverPoints" layerName="LC.LandCoverPoints" styleConfig="//@styleConfig.61">
+    <title lang="en" text="Land Cover Points"/>
+    <title text="Bodenbedeckungspunkte"/>
+    <objectType>lcv_4.0:LandCoverUnit</objectType>
+  </layerConfig>
+  <layerConfig name="LC_LandCoverSurfaces" layerName="LC.LandCoverSurfaces" styleConfig="//@styleConfig.62">
+    <title lang="en" text="Land Cover Surfaces"/>
+    <title text="Bodenbedeckungsflächen"/>
+    <objectType>lcv_4.0:LandCoverUnit</objectType>
+  </layerConfig>
+  <layerConfig name="BU_Building" layerName="BU.Building" styleConfig="//@styleConfig.63">
+    <title lang="en" text="Buildings"/>
+    <title text="Gebäude"/>
+    <objectType>bu-core2d_4.0:Building</objectType>
+  </layerConfig>
+  <layerConfig name="BU_BuildingPart" layerName="BU.BuildingPart" styleConfig="//@styleConfig.64">
+    <title lang="en" text="Building Parts"/>
+    <title text="Gebäudeteile"/>
+    <objectType>bu-core2d_4.0:Building</objectType>
   </layerConfig>
   <styleConfig name="AD_Address">
     <remoteStyle featureTypeName="ad_4.0:Address" url="feature-styles/AD_Address.se"/>
@@ -393,5 +458,17 @@
   </styleConfig>
   <styleConfig name="TN_W_WaterwayLink">
     <remoteStyle featureTypeName="tn-w_4.0:WaterwayLink" url="feature-styles/TN_W_WaterwayLink.se"/>
+  </styleConfig>
+  <styleConfig name="LC_LandCoverPoints">
+    <remoteStyle featureTypeName="lcv_4.0:LandCoverUnit" url="feature-styles/LC_LandCoverPoints.se"/>
+  </styleConfig>
+  <styleConfig name="LC_LandCoverSurfaces">
+    <remoteStyle featureTypeName="lcv_4.0:LandCoverUnit" url="feature-styles/LC_LandCoverSurfaces.se"/>
+  </styleConfig>
+  <styleConfig name="BU_Building">
+    <remoteStyle featureTypeName="bu-core2d_4.0:Building" url="feature-styles/BU_Building.se"/>
+  </styleConfig>
+  <styleConfig name="BU_BuildingPart">
+    <remoteStyle featureTypeName="bu-core2d_4.0:BuildingPart" url="feature-styles/BU_BuildingPart.se"/>
   </styleConfig>
 </styleconfig:StyleModel>
