@@ -10,27 +10,27 @@ version="1.1.0"
 xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
 	<se:Description>
     	<se:Title>Building default style</se:Title>
-    	<se:Abstractract>This Style defines the default INSPIRE style for building reference geometry. The style for surface geometries is a polygon with a grey (#808080) fill, black (#000000) outline and an outline width of 0.4. The style for point geometries is a circle with a dark grey (#525252) fill and a size of 10.</se:Abstract>
+    	<se:Abstract>This Style defines the default INSPIRE style for building reference geometry. The style for surface geometries is a polygon with a grey (#808080) fill, black (#000000) outline and an outline width of 0.4. The style for point geometries is a circle with a dark grey (#525252) fill and a size of 10.</se:Abstract>
   	</se:Description>
   	<se:FeatureTypeName>bu:Building</se:FeatureTypeName>
-	<Rule>
+	<se:Rule>
   	<ogc:Filter> 
-		<se:And>
-			<se:PropertyIsEqualTo>
-				<se:Function name="in2">
-					<se:Function name="geometryType">
+		<ogc:And>
+			<ogc:PropertyIsEqualTo>
+				<ogc:Function name="in2">
+					<ogc:Function name="geometryType">
 						<ogc:PropertyName>bu:geometry2D/geometry</ogc:PropertyName>
-					</se:Function>
-					<se:Literal>Polygon</se:Literal>
-					<se:Literal>MultiPolygon</se:Literal>
-				</se:Function>
-				<se:Literal>true</se:Literal>
-			</se:PropertyIsEqualTo>
-			<se:PropertyIsEqualTo>
+					</ogc:Function>
+					<ogc:Literal>Polygon</ogc:Literal>
+					<ogc:Literal>MultiPolygon</ogc:Literal>
+				</ogc:Function>
+				<ogc:Literal>true</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>bu:geometry2D/referenceGeometry</ogc:PropertyName>
-				<se:Literal>true</se:Literal>
-			</se:PropertyIsEqualTo>
-		</se:And>
+				<ogc:Literal>true</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:And>
 	</ogc:Filter>
 	<se:MinScaleDenominator>50</se:MinScaleDenominator>
 	<se:MaxScaleDenominator>25000</se:MaxScaleDenominator>
@@ -46,25 +46,25 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 			<se:SvgParameter name="strokewidth">0.4</se:SvgParameter>
 		</se:Stroke>
 	</se:PolygonSymbolizer>
-	</Rule>
-	<Rule>
+	</se:Rule>
+	<se:Rule>
 	<ogc:Filter>
-		<se:And>
-			<se:PropertyIsEqualTo>
-				<se:Function name="in2">
-					<se:Function name="geometryType">
+		<ogc:And>
+			<ogc:PropertyIsEqualTo>
+				<ogc:Function name="in2">
+					<ogc:Function name="geometryType">
 						<ogc:PropertyName>bu:geometry2D/geometry</ogc:PropertyName>
-					</se:Function>
-					<se:Literal>Point</se:Literal>
-					<se:Literal>MultiPoint</se:Literal>
-				</se:Function>
-				<se:Literal>true</se:Literal>
-			</se:PropertyIsEqualTo>
-			<se:PropertyIsEqualTo>
+					</ogc:Function>
+					<ogc:Literal>Point</ogc:Literal>
+					<ogc:Literal>MultiPoint</ogc:Literal>
+				</ogc:Function>
+				<ogc:Literal>true</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>bu:geometry2D/referenceGeometry</ogc:PropertyName>
-				<se:Literal>true</se:Literal>
-			</se:PropertyIsEqualTo>
-		</se:And>
+				<ogc:Literal>true</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:And>
 	</ogc:Filter>
 	<se:MinScaleDenominator>50</se:MinScaleDenominator>
 	<se:MaxScaleDenominator>25000</se:MaxScaleDenominator>
@@ -79,11 +79,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 					<se:SvgParameter name="fill">#525252</se:SvgParameter>
 				</se:Fill>
 			</se:Mark>
-			<se:Size>
-				<se:SvgParameter> name="size">10</se:SvgParameter>
-			</se:Size>
+			<se:Size>10</se:Size>
 		</se:Graphic>
 	</se:PointSymbolizer>
-	</Rule>
+	</se:Rule>
 </se:FeatureTypeStyle>
 
