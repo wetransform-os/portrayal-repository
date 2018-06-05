@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle  xmlns:bu="http://inspire.ec.europa.eu/schemas/bu-core2d/4.0" 
+xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0" 
+xmlns:ogc="http://www.opengis.net/ogc" 
+xmlns:se="http://www.opengis.net/se" 
+xmlns:sld="http://www.opengis.net/sld" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+version="1.1.0" 
+xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+	<se:Description>
+    	<se:Title>BuildingPart default style</se:Title>
+    	<se:Abstract>This Style defines the default INSPIRE style for building reference geometry. The style for surface geometries is a polygon with a transparent fill, black (#000000) outline and an outline width of 0.2. The style for point geometries is a circle with a grey (#808080) fill and a size of 5.</se:Abstract>
+  	</se:Description>
+  	<se:FeatureTypeName>bu:BuildingPart</se:FeatureTypeName>
+	<se:Rule>
+	  <ogc:Filter> 
+		<ogc:And>
+			<ogc:PropertyIsEqualTo>
+				<ogc:Function name="in2">
+					<ogc:Function name="geometryType">
+						<ogc:PropertyName>bu:geometry2D/geometry</ogc:PropertyName>
+					</ogc:Function>
+					<ogc:Literal>Polygon</ogc:Literal>
+					<ogc:Literal>MultiPolygon</ogc:Literal>
+				</ogc:Function>
+				<ogc:Literal>true</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+			<ogc:PropertyIsEqualTo>
+				<ogc:PropertyName>bu:geometry2D/referenceGeometry</ogc:PropertyName>
+				<ogc:Literal>true</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:And>
+	</ogc:Filter>
+	<se:MinScaleDenominator>50</se:MinScaleDenominator>
+	<se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
+	<se:PolygonSymbolizer>
+		<se:Geometry>
+			<ogc:PropertyName>bu:geometry2D/geometry</ogc:PropertyName>
+		</se:Geometry>
+		<se:Stroke>
+			<se:SvgParameter name="stroke">#000000</se:SvgParameter>
+			<se:SvgParameter name="strokewidth">0.2</se:SvgParameter>
+		</se:Stroke>
+	</se:PolygonSymbolizer>
+	</se:Rule>
+	<se:Rule>
+	<ogc:Filter>
+		<ogc:And>
+			<ogc:PropertyIsEqualTo>
+				<ogc:Function name="in2">
+					<ogc:Function name="geometryType">
+						<ogc:PropertyName>bu:geometry2D/geometry</ogc:PropertyName>
+					</ogc:Function>
+					<ogc:Literal>Point</ogc:Literal>
+					<ogc:Literal>MultiPoint</ogc:Literal>
+				</ogc:Function>
+				<ogc:Literal>true</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+			<ogc:PropertyIsEqualTo>
+				<ogc:PropertyName>bu:geometry2D/referenceGeometry</ogc:PropertyName>
+				<ogc:Literal>true</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:And>
+	</ogc:Filter>
+	<se:MinScaleDenominator>50</se:MinScaleDenominator>
+	<se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
+	<se:PointSymbolizer>
+		<se:Geometry>
+			<ogc:PropertyName>bu:geometry2D/geometry</ogc:PropertyName>
+		</se:Geometry>
+		<se:Graphic>
+			<se:Mark>
+				<se:WellKnownName>circle</se:WellKnownName>
+				<se:Fill>
+					<se:SvgParameter name="fill">#808080</se:SvgParameter>
+				</se:Fill>
+			</se:Mark>
+			<se:Size>5</se:Size>
+		</se:Graphic>
+	</se:PointSymbolizer>
+	</se:Rule>	
+</se:FeatureTypeStyle>

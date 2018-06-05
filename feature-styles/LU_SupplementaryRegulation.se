@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle  xmlns:plu="http://inspire.ec.europa.eu/schemas/plu/4.0" 
+xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0" 
+xmlns:ogc="http://www.opengis.net/ogc" 
+xmlns:se="http://www.opengis.net/se" 
+xmlns:sld="http://www.opengis.net/sld" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+version="1.1.0" 
+xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+	<se:Description>
+    	<se:Title>Supplementary Regulation default style</se:Title>
+    	<se:Abstract>This Style defines the default INSPIRE style for supplementary regulations. Contour or line of the Supplementary regulation is depicted by a color line of two pixels. The fill color is dependent upon the value of the attribute supplementaryRegulation.</se:Abstract> 
+    </se:Description>
+  	<se:FeatureTypeName>plu:SupplementaryRegulation</se:FeatureTypeName>
+ 	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
+				<ogc:Function name="HSRCL_lEVEL1">
+					<ogc:PropertyName>plu:supplementaryRegulation</ogc:PropertyName>
+				</ogc:Function>
+				<ogc:Literal>1_ImpactOnEnvironment</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:LineSymbolizer>
+		<se:Geometry>
+			<ogc:PropertyName>plu:geometry</ogc:PropertyName>
+		</se:Geometry>
+		<se:Stroke>
+			<se:SvgParameter name="stroke">#78A050</se:SvgParameter>
+			<se:SvgParameter name="strokewidth">0.2</se:SvgParameter>
+		</se:Stroke>
+	</se:LineSymbolizer>
+	</se:Rule>
+	 <se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
+				<ogc:Function name="HSRCL_lEVEL1">
+					<ogc:PropertyName>plu:supplementaryRegulation</ogc:PropertyName>
+				</ogc:Function>
+				<ogc:Literal>2_RiskExposure</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:LineSymbolizer>
+		<se:Geometry>
+			<ogc:PropertyName>plu:geometry</ogc:PropertyName>
+		</se:Geometry>
+		<se:Stroke>
+			<se:SvgParameter name="stroke">#464664</se:SvgParameter>
+			<se:SvgParameter name="strokewidth">0.2</se:SvgParameter>
+		</se:Stroke>
+	</se:LineSymbolizer>
+	</se:Rule>
+	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
+				<ogc:Function name="HSRCL_lEVEL1">
+					<ogc:PropertyName>plu:supplementaryRegulation</ogc:PropertyName>
+				</ogc:Function>
+				<ogc:Literal>3_HeritageProtection</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:LineSymbolizer>
+		<se:Geometry>
+			<ogc:PropertyName>plu:geometry</ogc:PropertyName>
+		</se:Geometry>
+		<se:Stroke>
+			<se:SvgParameter name="stroke">#78503C</se:SvgParameter>
+			<se:SvgParameter name="strokewidth">0.2</se:SvgParameter>
+		</se:Stroke>
+	</se:LineSymbolizer>
+	</se:Rule>
+</se:FeatureTypeStyle>

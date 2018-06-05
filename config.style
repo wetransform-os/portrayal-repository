@@ -377,6 +377,62 @@ Layer {
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/bu-core2d/4.0:Building
 	Styles: BU_BuildingPart
 }
+Layer{
+	id: "LU_ExistingLandUse"
+	Name:"LU.ExistingLandUse"
+	Title: en "Existing Land Use", de "Existierende Bodennutzung"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/elu/4.0:ExistingLandUseObject
+	Styles: LU_ExistingLandUse
+}
+Layer{
+	id:"LU_SpatialPlan"
+	Name:"LU.SpatialPlan"
+	Title: en "Spatial Plan", de "Räumlicher Plan"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/plu/4.0:SpatialPlan
+	Styles: LU_SpatialPlan
+}
+Layer{
+	id: "LU_ZoningElement"
+	Name: "LU.ZoningElement"
+	Title: en "Zoning Element", de "Zonierungselement"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/plu/4.0:ZoningElement
+	Styles: LU_ZoningElement
+}
+Layer{
+	id: "LU_SupplementaryRegulation"
+	Name: "LU.SupplementaryRegulation"
+	Title: en "Supplementary Regulation", de "Ergänzende Vorschrift"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/plu/4.0:SupplementaryRegulation
+	Styles: LU_SupplementaryRegulation
+}
+Style{
+	id:"LU_SupplementaryRegulation"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/plu/4.0:SupplementaryRegulation
+		URL: "feature-styles/LU_SupplementaryRegulation.se"
+	}
+}
+Style{
+	id: "LU_ZoningElement"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/plu/4.0:ZoningElement
+		URL:"feature-styles/LU_ZoningElement.se"	
+	}
+}
+Style{
+	id: "LU_SpatialPlan"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/plu/4.0:SpatialPlan
+		URL: "feature-styles/LU_SpatialPlan.se"	
+	}
+}
+Style{
+	id:"LU_ExistingLandUse"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/elu/4.0:ExistingLandUseObject
+		URL: "feature-styles/LU_ExistingLandUse.se"
+	}
+}
 Style {
 	id: "AD_Address"
 	Remote {
