@@ -19,7 +19,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 				<ogc:Function name="HILUCS_lEVEL1">
 					<ogc:PropertyName>plu:hilucsLandUse</ogc:PropertyName>
 				</ogc:Function>
-				<ogc:Literal>1_PrimaryProduction</ogc:Literal>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/HILUCSValue/1_*</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
 		<se:PolygonSymbolizer>
@@ -41,7 +41,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 				<ogc:Function name="HILUCS_lEVEL1">
 					<ogc:PropertyName>plu:hilucsLandUse</ogc:PropertyName>
 				</ogc:Function>
-				<ogc:Literal>2_SecondaryProduction</ogc:Literal>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/HILUCSValue/2_*</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
 		<se:PolygonSymbolizer>
@@ -63,7 +63,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 				<ogc:Function name="HILUCS_lEVEL1">
 					<ogc:PropertyName>plu:hilucsLandUse</ogc:PropertyName>
 				</ogc:Function>
-				<ogc:Literal>3_TertiaryProduction</ogc:Literal>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/HILUCSValue/3_*</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
 		<se:PolygonSymbolizer>
@@ -85,7 +85,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 				<ogc:Function name="HILUCS_lEVEL1">
 					<ogc:PropertyName>plu:hilucsLandUse</ogc:PropertyName>
 				</ogc:Function>
-				<ogc:Literal>4_TransportNetworkdLogisticsAndUtilities</ogc:Literal>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/HILUCSValue/4_*</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
 		<se:PolygonSymbolizer>
@@ -107,7 +107,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 				<ogc:Function name="HILUCS_lEVEL1">
 					<ogc:PropertyName>plu:hilucsLandUse</ogc:PropertyName>
 				</ogc:Function>
-				<ogc:Literal>5_ResidentialUse</ogc:Literal>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/HILUCSValue/5_*</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
 		<se:PolygonSymbolizer>
@@ -129,7 +129,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 				<ogc:Function name="HILUCS_lEVEL1">
 					<ogc:PropertyName>plu:hilucsLandUse</ogc:PropertyName>
 				</ogc:Function>
-				<ogc:Literal>6_OtherUses</ogc:Literal>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/HILUCSValue/6_*</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
 		<se:PolygonSymbolizer>
