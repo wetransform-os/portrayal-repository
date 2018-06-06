@@ -1,161 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<se:FeatureTypeStyle xmlns:au="http://inspire.ec.europa.eu/schemas/au/4.0" 
-xmlns:ogc="http://www.opengis.net/ogc" 
-xmlns:se="http://www.opengis.net/se" 
-xmlns:sld="http://www.opengis.net/sld" 
-xmlns:xlink="http://www.w3.org/1999/xlink" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-version="1.1.0"
-xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
-  <se:Description>
-    <se:Title>Administrative Unit Default Style</se:Title>
-    <se:Abstract>The administrative unit is rendered using a yellow (#FFFF66) fill.</se:Abstract>
-  </se:Description>
-  <se:FeatureTypeName>au:AdministrativeUnit</se:FeatureTypeName>
-  <se:Rule>
-	<ogc:Filter>
-		<ogc:PropertyIsEqualTo>
-			<ogc:Function name="Administrative_Hierarchy_Level">
+<se:FeatureTypeStyle
+	xmlns:au="http://inspire.ec.europa.eu/schemas/au/4.0"
+	xmlns:ogc="http://www.opengis.net/ogc"
+	xmlns:se="http://www.opengis.net/se"
+	xmlns:sld="http://www.opengis.net/sld"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0"
+	xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+	<se:Description>
+		<se:Title>Administrative Unit Default Style</se:Title>
+		<se:Abstract>The administrative unit is rendered using a yellow (#FFFF66) fill.</se:Abstract>
+	</se:Description>
+	<se:FeatureTypeName>au:AdministrativeUnit</se:FeatureTypeName>
+	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>au:nationalLevel</ogc:PropertyName>
-			</ogc:Function>
-			<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/1stOrder</ogc:Literal>
-		</ogc:PropertyIsEqualTo>
-	</ogc:Filter>
-	<se:MinScaleDenominator>10000</se:MinScaleDenominator>
-	<se:MaxScaleDenominator>25000</se:MaxScaleDenominator>
-	<se:PolygonSymbolizer>
-	<se:Geometry>
-		<ogc:PropertyName>au:geometry</ogc:PropertyName>
-	</se:Geometry>
-	<se:Fill>
-		<se:SvgParameter name="fill">#FFFF66</se:SvgParameter>
-	</se:Fill>
-	<se:Stroke>
-		<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-		<se:SvgParameter name="strokewidth">0.2</se:SvgParameter>
-	</se:Stroke>
-	</se:PolygonSymbolizer>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/1stOrder</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:MinScaleDenominator>10000</se:MinScaleDenominator>
+		<se:MaxScaleDenominator>25000</se:MaxScaleDenominator>
+		<se:PolygonSymbolizer>
+			<se:Geometry>
+				<ogc:PropertyName>au:geometry</ogc:PropertyName>
+			</se:Geometry>
+			<se:Fill>
+				<se:SvgParameter name="fill">#FFFF66</se:SvgParameter>
+			</se:Fill>
+			<se:Stroke>
+				<se:SvgParameter name="stroke">#000000</se:SvgParameter>
+				<se:SvgParameter name="strokewidth">0.2</se:SvgParameter>
+			</se:Stroke>
+		</se:PolygonSymbolizer>
 	</se:Rule>
 	<se:Rule>
-	<ogc:Filter>
-		<ogc:PropertyIsEqualTo>
-			<ogc:Function name="Administrative_Hierarchy_Level">
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>au:nationalLevel</ogc:PropertyName>
-			</ogc:Function>
-			<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/2ndOrder</ogc:Literal>
-		</ogc:PropertyIsEqualTo>
-	</ogc:Filter>
-	<se:MinScaleDenominator>5000</se:MinScaleDenominator>
-	<se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
-	<se:PolygonSymbolizer>
-	<se:Geometry>
-		<ogc:PropertyName>au:geometry</ogc:PropertyName>
-	</se:Geometry>
-	<se:Fill>
-		<se:SvgParameter name="fill">#FFFF66</se:SvgParameter>
-	</se:Fill>
-	<se:Stroke>
-		<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-		<se:SvgParameter name="strokewidth">0.2</se:SvgParameter>
-	</se:Stroke>
-	</se:PolygonSymbolizer>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/2ndOrder</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:MinScaleDenominator>5000</se:MinScaleDenominator>
+		<se:MaxScaleDenominator>10000</se:MaxScaleDenominator>
+		<se:PolygonSymbolizer>
+			<se:Geometry>
+				<ogc:PropertyName>au:geometry</ogc:PropertyName>
+			</se:Geometry>
+			<se:Fill>
+				<se:SvgParameter name="fill">#FFFF66</se:SvgParameter>
+			</se:Fill>
+			<se:Stroke>
+				<se:SvgParameter name="stroke">#000000</se:SvgParameter>
+				<se:SvgParameter name="strokewidth">0.2</se:SvgParameter>
+			</se:Stroke>
+		</se:PolygonSymbolizer>
 	</se:Rule>
 	<se:Rule>
-	<ogc:Filter>
-		<ogc:PropertyIsEqualTo>
-			<ogc:Function name="Administrative_Hierarchy_Level">
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>au:nationalLevel</ogc:PropertyName>
-			</ogc:Function>
-			<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/3rdOrder</ogc:Literal>
-		</ogc:PropertyIsEqualTo>
-	</ogc:Filter>
-	<se:MinScaleDenominator>2500</se:MinScaleDenominator>
-	<se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
-	<se:PolygonSymbolizer>
-	<se:Geometry>
-		<ogc:PropertyName>au:geometry</ogc:PropertyName>
-	</se:Geometry>
-	<se:Fill>
-		<se:SvgParameter name="fill">#FFFF66</se:SvgParameter>
-	</se:Fill>
-	<se:Stroke>
-		<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-		<se:SvgParameter name="strokewidth">0.2</se:SvgParameter>
-	</se:Stroke>
-	</se:PolygonSymbolizer>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/3rdOrder</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:MinScaleDenominator>2500</se:MinScaleDenominator>
+		<se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
+		<se:PolygonSymbolizer>
+			<se:Geometry>
+				<ogc:PropertyName>au:geometry</ogc:PropertyName>
+			</se:Geometry>
+			<se:Fill>
+				<se:SvgParameter name="fill">#FFFF66</se:SvgParameter>
+			</se:Fill>
+			<se:Stroke>
+				<se:SvgParameter name="stroke">#000000</se:SvgParameter>
+				<se:SvgParameter name="strokewidth">0.2</se:SvgParameter>
+			</se:Stroke>
+		</se:PolygonSymbolizer>
 	</se:Rule>
 	<se:Rule>
-	<ogc:Filter>
-		<ogc:PropertyIsEqualTo>
-			<ogc:Function name="Administrative_Hierarchy_Level">
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>au:nationalLevel</ogc:PropertyName>
-			</ogc:Function>
-			<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder</ogc:Literal>
-		</ogc:PropertyIsEqualTo>
-	</ogc:Filter>
-	<se:MinScaleDenominator>1000</se:MinScaleDenominator>
-	<se:MaxScaleDenominator>2500</se:MaxScaleDenominator>
-	<se:PolygonSymbolizer>
-	<se:Geometry>
-		<ogc:PropertyName>au:geometry</ogc:PropertyName>
-	</se:Geometry>
-	<se:Fill>
-		<se:SvgParameter name="fill">#FFFF66</se:SvgParameter>
-	</se:Fill>
-	<se:Stroke>
-		<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-		<se:SvgParameter name="strokewidth">0.2</se:SvgParameter>
-	</se:Stroke>
-	</se:PolygonSymbolizer>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:MinScaleDenominator>1000</se:MinScaleDenominator>
+		<se:MaxScaleDenominator>2500</se:MaxScaleDenominator>
+		<se:PolygonSymbolizer>
+			<se:Geometry>
+				<ogc:PropertyName>au:geometry</ogc:PropertyName>
+			</se:Geometry>
+			<se:Fill>
+				<se:SvgParameter name="fill">#FFFF66</se:SvgParameter>
+			</se:Fill>
+			<se:Stroke>
+				<se:SvgParameter name="stroke">#000000</se:SvgParameter>
+				<se:SvgParameter name="strokewidth">0.2</se:SvgParameter>
+			</se:Stroke>
+		</se:PolygonSymbolizer>
 	</se:Rule>
 	<se:Rule>
-	<ogc:Filter>
-		<ogc:PropertyIsEqualTo>
-			<ogc:Function name="Administrative_Hierarchy_Level">
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>au:nationalLevel</ogc:PropertyName>
-			</ogc:Function>
-			<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/5thOrder</ogc:Literal>
-		</ogc:PropertyIsEqualTo>
-	</ogc:Filter>
-	<se:MinScaleDenominator>500</se:MinScaleDenominator>
-	<se:MaxScaleDenominator>1000</se:MaxScaleDenominator>
-	<se:PolygonSymbolizer>
-	<se:Geometry>
-		<ogc:PropertyName>au:geometry</ogc:PropertyName>
-	</se:Geometry>
-	<se:Fill>
-		<se:SvgParameter name="fill">#FFFF66</se:SvgParameter>
-	</se:Fill>
-	<se:Stroke>
-		<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-		<se:SvgParameter name="strokewidth">0.2</se:SvgParameter>
-	</se:Stroke>
-	</se:PolygonSymbolizer>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/5thOrder</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:MinScaleDenominator>500</se:MinScaleDenominator>
+		<se:MaxScaleDenominator>1000</se:MaxScaleDenominator>
+		<se:PolygonSymbolizer>
+			<se:Geometry>
+				<ogc:PropertyName>au:geometry</ogc:PropertyName>
+			</se:Geometry>
+			<se:Fill>
+				<se:SvgParameter name="fill">#FFFF66</se:SvgParameter>
+			</se:Fill>
+			<se:Stroke>
+				<se:SvgParameter name="stroke">#000000</se:SvgParameter>
+				<se:SvgParameter name="strokewidth">0.2</se:SvgParameter>
+			</se:Stroke>
+		</se:PolygonSymbolizer>
 	</se:Rule>
 	<se:Rule>
-	<ogc:Filter>
-		<ogc:PropertyIsEqualTo>
-			<ogc:Function name="Administrative_Hierarchy_Level">
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>au:nationalLevel</ogc:PropertyName>
-			</ogc:Function>
-			<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/6thOrder</ogc:Literal>
-		</ogc:PropertyIsEqualTo>
-	</ogc:Filter>
-	<se:MinScaleDenominator>50</se:MinScaleDenominator>
-	<se:MaxScaleDenominator>500</se:MaxScaleDenominator>
-	<se:PolygonSymbolizer>
-	<se:Geometry>
-		<ogc:PropertyName>au:geometry</ogc:PropertyName>
-	</se:Geometry>
-	<se:Fill>
-		<se:SvgParameter name="fill">#FFFF66</se:SvgParameter>
-	</se:Fill>
-	<se:Stroke>
-		<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-		<se:SvgParameter name="strokewidth">0.2</se:SvgParameter>
-	</se:Stroke>
-	</se:PolygonSymbolizer>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/6thOrder</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:MinScaleDenominator>50</se:MinScaleDenominator>
+		<se:MaxScaleDenominator>500</se:MaxScaleDenominator>
+		<se:PolygonSymbolizer>
+			<se:Geometry>
+				<ogc:PropertyName>au:geometry</ogc:PropertyName>
+			</se:Geometry>
+			<se:Fill>
+				<se:SvgParameter name="fill">#FFFF66</se:SvgParameter>
+			</se:Fill>
+			<se:Stroke>
+				<se:SvgParameter name="stroke">#000000</se:SvgParameter>
+				<se:SvgParameter name="strokewidth">0.2</se:SvgParameter>
+			</se:Stroke>
+		</se:PolygonSymbolizer>
 	</se:Rule>
-  </se:FeatureTypeStyle>
+</se:FeatureTypeStyle>
  
   

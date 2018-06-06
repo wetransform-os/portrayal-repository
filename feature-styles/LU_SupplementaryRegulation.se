@@ -16,9 +16,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
  	<se:Rule>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
-				<ogc:Function name="HSRCL_lEVEL1">
-					<ogc:PropertyName>plu:supplementaryRegulation</ogc:PropertyName>
-				</ogc:Function>
+				<ogc:PropertyName>plu:supplementaryRegulation</ogc:PropertyName>
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/1_*</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
@@ -35,9 +33,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	<se:Rule>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
-				<ogc:Function name="HSRCL_lEVEL1">
-					<ogc:PropertyName>plu:supplementaryRegulation</ogc:PropertyName>
-				</ogc:Function>
+				<ogc:PropertyName>plu:supplementaryRegulation</ogc:PropertyName>
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/2_*</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
@@ -54,9 +50,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	<se:Rule>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
-				<ogc:Function name="HSRCL_lEVEL1">
-					<ogc:PropertyName>plu:supplementaryRegulation</ogc:PropertyName>
-				</ogc:Function>
+				<ogc:PropertyName>plu:supplementaryRegulation</ogc:PropertyName>
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/3_*</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
@@ -73,9 +67,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	<se:Rule>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
-				<ogc:Function name="HSRCL_lEVEL1">
-					<ogc:PropertyName>plu:supplementaryRegulation</ogc:PropertyName>
-				</ogc:Function>
+				<ogc:PropertyName>plu:supplementaryRegulation</ogc:PropertyName>
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/4_*</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
@@ -92,9 +84,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	<se:Rule>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
-				<ogc:Function name="HSRCL_lEVEL1">
-					<ogc:PropertyName>plu:supplementaryRegulation</ogc:PropertyName>
-				</ogc:Function>
+				<ogc:PropertyName>plu:supplementaryRegulation</ogc:PropertyName>
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/5_*</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
@@ -111,9 +101,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	<se:Rule>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
-				<ogc:Function name="HSRCL_lEVEL1">
-					<ogc:PropertyName>plu:supplementaryRegulation</ogc:PropertyName>
-				</ogc:Function>
+				<ogc:PropertyName>plu:supplementaryRegulation</ogc:PropertyName>
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/6_*</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
@@ -130,9 +118,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	<se:Rule>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
-				<ogc:Function name="HSRCL_lEVEL1">
-					<ogc:PropertyName>plu:supplementaryRegulation</ogc:PropertyName>
-				</ogc:Function>
+				<ogc:PropertyName>plu:supplementaryRegulation</ogc:PropertyName>
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/7_*</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
@@ -149,9 +135,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	<se:Rule>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
-				<ogc:Function name="HSRCL_lEVEL1">
-					<ogc:PropertyName>plu:supplementaryRegulation</ogc:PropertyName>
-				</ogc:Function>
+				<ogc:PropertyName>plu:supplementaryRegulation</ogc:PropertyName>
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/8_*</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
@@ -168,9 +152,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	<se:Rule>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
-				<ogc:Function name="HSRCL_lEVEL1">
-					<ogc:PropertyName>plu:supplementaryRegulation</ogc:PropertyName>
-				</ogc:Function>
+				<ogc:PropertyName>plu:supplementaryRegulation</ogc:PropertyName>
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/9_*</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
@@ -187,9 +169,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	<se:Rule>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
-				<ogc:Function name="HSRCL_lEVEL1">
-					<ogc:PropertyName>plu:supplementaryRegulation</ogc:PropertyName>
-				</ogc:Function>
+				<ogc:PropertyName>plu:supplementaryRegulation</ogc:PropertyName>
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/10_*</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
