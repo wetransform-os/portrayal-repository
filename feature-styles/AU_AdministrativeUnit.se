@@ -15,7 +15,7 @@
 	<se:Rule>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
-				<ogc:PropertyName>au:nationalLevel</ogc:PropertyName>
+				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/1stOrder</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
@@ -37,7 +37,7 @@
 	<se:Rule>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
-				<ogc:PropertyName>au:nationalLevel</ogc:PropertyName>
+				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/2ndOrder</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
@@ -59,7 +59,7 @@
 	<se:Rule>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
-				<ogc:PropertyName>au:nationalLevel</ogc:PropertyName>
+				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/3rdOrder</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
@@ -81,7 +81,7 @@
 	<se:Rule>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
-				<ogc:PropertyName>au:nationalLevel</ogc:PropertyName>
+				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
@@ -103,7 +103,7 @@
 	<se:Rule>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
-				<ogc:PropertyName>au:nationalLevel</ogc:PropertyName>
+				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/5thOrder</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
@@ -125,7 +125,7 @@
 	<se:Rule>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
-				<ogc:PropertyName>au:nationalLevel</ogc:PropertyName>
+				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/6thOrder</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
