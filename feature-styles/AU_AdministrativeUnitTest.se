@@ -16,32 +16,10 @@
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
-				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/1stOrder</ogc:Literal>
-			</ogc:PropertyIsEqualTo>
-		</ogc:Filter>
-		<se:MinScaleDenominator>125000</se:MinScaleDenominator>
-		<se:MaxScaleDenominator>150000</se:MaxScaleDenominator>
-		<se:PolygonSymbolizer>
-			<se:Geometry>
-				<ogc:PropertyName>au:geometry</ogc:PropertyName>
-			</se:Geometry>
-			<se:Fill>
-				<se:SvgParameter name="fill">#FFFF66</se:SvgParameter>
-			</se:Fill>
-			<se:Stroke>
-				<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-				<se:SvgParameter name="strokewidth">0.2</se:SvgParameter>
-			</se:Stroke>
-		</se:PolygonSymbolizer>
-	</se:Rule>
-	<se:Rule>
-		<ogc:Filter>
-			<ogc:PropertyIsEqualTo>
-				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/2ndOrder</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
-		<se:MinScaleDenominator>100000</se:MinScaleDenominator>
+		<se:MinScaleDenominator>250e3</se:MinScaleDenominator>
 		<se:MaxScaleDenominator>125000</se:MaxScaleDenominator>
 		<se:PolygonSymbolizer>
 			<se:Geometry>
@@ -131,6 +109,27 @@
 		</ogc:Filter>
 		<se:MinScaleDenominator>50</se:MinScaleDenominator>
 		<se:MaxScaleDenominator>25000</se:MaxScaleDenominator>
+		<se:PolygonSymbolizer>
+			<se:Geometry>
+				<ogc:PropertyName>au:geometry</ogc:PropertyName>
+			</se:Geometry>
+			<se:Fill>
+				<se:SvgParameter name="fill">#FFFF66</se:SvgParameter>
+			</se:Fill>
+			<se:Stroke>
+				<se:SvgParameter name="stroke">#000000</se:SvgParameter>
+				<se:SvgParameter name="strokewidth">0.2</se:SvgParameter>
+			</se:Stroke>
+		</se:PolygonSymbolizer>
+	</se:Rule>
+	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
+				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/1stOrder</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:MaxScaleDenominator>250e3</se:MaxScaleDenominator>
 		<se:PolygonSymbolizer>
 			<se:Geometry>
 				<ogc:PropertyName>au:geometry</ogc:PropertyName>
