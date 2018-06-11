@@ -276,11 +276,6 @@
     <title text="Gebäudeteile"/>
     <objectType>bu-core2d_4.0:Building</objectType>
   </layerConfig>
-  <layerConfig name="LU_ExistingLandUse" layerName="LU.ExistingLandUse" styleConfig="//@styleConfig.3">
-    <title lang="en" text="Existing Land Use"/>
-    <title text="Existierende Bodennutzung"/>
-    <objectType>elu_4.0:ExistingLandUseObject</objectType>
-  </layerConfig>
   <layerConfig name="LU_SpatialPlan" layerName="LU.SpatialPlan" styleConfig="//@styleConfig.2">
     <title lang="en" text="Spatial Plan"/>
     <title text="Räumlicher Plan"/>

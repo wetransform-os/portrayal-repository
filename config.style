@@ -377,13 +377,13 @@ Layer {
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/bu-core2d/4.0:Building
 	Styles: BU_BuildingPart
 }
-Layer{
-	id: "LU_ExistingLandUse"
-	Name:"LU.ExistingLandUse"
-	Title: en "Existing Land Use", de "Existierende Bodennutzung"
-	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/elu/4.0:ExistingLandUseObject
-	Styles: LU_ExistingLandUse
-}
+//Layer{
+//	id: "LU_ExistingLandUse"
+//	Name:"LU.ExistingLandUse"
+//	Title: en "Existing Land Use", de "Existierende Bodennutzung"
+//	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/elu/4.0:ExistingLandUseObject
+//	Styles: LU_ExistingLandUse
+//}
 Layer{
 	id:"LU_SpatialPlan"
 	Name:"LU.SpatialPlan"
