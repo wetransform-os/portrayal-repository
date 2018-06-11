@@ -17,7 +17,10 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>elu:hilucsLandUse/@xlink:href</ogc:PropertyName>
+				<!-- 
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/HILUCSValue/1_*</ogc:Literal>
+				 -->
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/HILUCSValue/1_PrimaryProduction</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
 		<se:PolygonSymbolizer>
