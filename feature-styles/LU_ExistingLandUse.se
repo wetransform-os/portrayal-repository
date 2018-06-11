@@ -17,9 +17,6 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 		<ogc:Filter>
 			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
 				<ogc:PropertyName>elu:hilucsLandUse/@xlink:href</ogc:PropertyName>
-				<!-- 
-				<ogc:Literal>http://inspire.ec.europa.eu/codelist/HILUCSValue/1_PrimaryProduction</ogc:Literal>
-				 -->
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/HILUCSValue/1_*</ogc:Literal>
 			</ogc:PropertyIsLike>
 		</ogc:Filter>
@@ -38,10 +35,10 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:Rule>
 	<se:Rule>
 		<ogc:Filter>
-			<ogc:PropertyIsEqualTo>
+			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
 				<ogc:PropertyName>elu:hilucsLandUse/@xlink:href</ogc:PropertyName>
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/HILUCSValue/2_*</ogc:Literal>
-			</ogc:PropertyIsEqualTo>
+			</ogc:PropertyIsLike>
 		</ogc:Filter>
 		<se:PolygonSymbolizer>
 		<se:Geometry>
@@ -58,10 +55,10 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:Rule>
 	<se:Rule>
 		<ogc:Filter>
-			<ogc:PropertyIsEqualTo>
+			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
 				<ogc:PropertyName>elu:hilucsLandUse/@xlink:href</ogc:PropertyName>
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/HILUCSValue/3_*</ogc:Literal>
-			</ogc:PropertyIsEqualTo>
+			</ogc:PropertyIsLike>
 		</ogc:Filter>
 		<se:PolygonSymbolizer>
 		<se:Geometry>
@@ -78,10 +75,10 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:Rule>
 	<se:Rule>
 		<ogc:Filter>
-			<ogc:PropertyIsEqualTo>
+			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
 				<ogc:PropertyName>elu:hilucsLandUse/@xlink:href</ogc:PropertyName>
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/HILUCSValue/4_*</ogc:Literal>
-			</ogc:PropertyIsEqualTo>
+			</ogc:PropertyIsLike>
 		</ogc:Filter>
 		<se:PolygonSymbolizer>
 		<se:Geometry>
@@ -98,10 +95,10 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:Rule>
 	<se:Rule>
 		<ogc:Filter>
-			<ogc:PropertyIsEqualTo>
+			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
 				<ogc:PropertyName>elu:hilucsLandUse/@xlink:href</ogc:PropertyName>
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/HILUCSValue/5_*</ogc:Literal>
-			</ogc:PropertyIsEqualTo>
+			</ogc:PropertyIsLike>
 		</ogc:Filter>
 		<se:PolygonSymbolizer>
 		<se:Geometry>
@@ -118,10 +115,10 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:Rule>
 	<se:Rule>
 		<ogc:Filter>
-			<ogc:PropertyIsEqualTo>
+			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
 				<ogc:PropertyName>elu:hilucsLandUse/@xlink:href</ogc:PropertyName>
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/HILUCSValue/6_*</ogc:Literal>
-			</ogc:PropertyIsEqualTo>
+			</ogc:PropertyIsLike>
 		</ogc:Filter>
 		<se:PolygonSymbolizer>
 		<se:Geometry>
