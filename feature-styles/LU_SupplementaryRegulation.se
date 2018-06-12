@@ -49,7 +49,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:Rule>
 	<se:Rule>
 		<ogc:Filter>
-			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!"o>
+			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
 				<ogc:PropertyName>plu:supplementaryRegulation/@xlink:href</ogc:PropertyName>
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/3_*</ogc:Literal>
 			</ogc:PropertyIsLike>
@@ -117,7 +117,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:Rule>
 	<se:Rule>
 		<ogc:Filter>
-			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!"o>
+			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
 				<ogc:PropertyName>plu:supplementaryRegulation/@xlink:href</ogc:PropertyName>
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/7_*</ogc:Literal>
 			</ogc:PropertyIsLike>
