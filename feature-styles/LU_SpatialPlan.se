@@ -16,7 +16,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
   	<se:Rule>
     	<se:LineSymbolizer>
       	<se:Geometry>
-        	<ogc:PropertyName>plu:geometry</ogc:PropertyName>
+        	<ogc:PropertyName>plu:extent/MultiSurface</ogc:PropertyName>
       	</se:Geometry>
       	<se:Stroke>
         	<se:SvgParameter name="stroke">#000000</se:SvgParameter>
