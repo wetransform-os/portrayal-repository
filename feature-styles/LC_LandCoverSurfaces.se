@@ -17,6 +17,8 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
   	<se:Description>
       <se:Title>land cover unit</se:Title>
     </se:Description>
+    <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
+    <se:MaxScaleDenominator>20000.0</se:MaxScaleDenominator>
     <se:PolygonSymbolizer>
       <se:Geometry>
         <ogc:PropertyName>lcv:geometry</ogc:PropertyName>
@@ -26,7 +28,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
       </se:Fill>
       <se:Stroke>
         <se:SvgParameter name="stroke">#000000</se:SvgParameter>
-        <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+        <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
       </se:Stroke>
     </se:PolygonSymbolizer>
   </se:Rule>
