@@ -196,11 +196,11 @@ Layer {
 	Styles: HY_P_Wetland
 }
 Layer {
-	id: "PS_ProtectedSites"
-	Name: "PS.ProtectedSites"
+	id: "PS_ProtectedSite"
+	Name: "PS.ProtectedSite"
 	Title: en "Protected Sites", de "Schutzgebiete"
-	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/ps/4.0:ProtectedSites
-	Styles: PS_ProtectedSites
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/ps/4.0:ProtectedSite
+	Styles: PS_ProtectedSite
 }
 Layer {
 	id: "TN_AirTran"
@@ -700,9 +700,9 @@ Style {
 	}
 }
 Style {
-	id: "PS_ProtectedSites"
+	id: "PS_ProtectedSite"
 	Remote {
-		FeatureType: http://inspire.ec.europa.eu/schemas/ps/4.0:ProtectedSites
+		FeatureType: http://inspire.ec.europa.eu/schemas/ps/4.0:ProtectedSite
 		URL: "feature-styles/PS_ProtectedSites.se"
 	}
 }

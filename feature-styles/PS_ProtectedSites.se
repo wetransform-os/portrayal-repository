@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<se:FeatureTypeStyle xmlns:PS="urn:xinspire:specification:ProtectedSites:3.1" xmlns:ogc="http://www.opengis.net/ogc" xmlns:ps="http://inspire.ec.europa.eu/schemas/ps/4.0" xmlns:se="http://www.opengis.net/se" xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
+<se:FeatureTypeStyle xmlns:PS="urn:xinspire:specification:ProtectedSites:3.1" xmlns:ogc="http://www.opengis.net/ogc" xmlns:ps="http://inspire.ec.europa.eu/schemas/ps/4.0" xmlns:se="http://www.opengis.net/se" xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
   <se:Description>
     <se:Title>Protected Sites Default Style</se:Title>
     <se:Abstract>Point geometries are rendered as a square with a size of 6 pixels, with a 50% grey (#808080) fill and a black (#000000) outline. Line geometries are rendered as a solid black line with a stroke width of 1 pixel. Polygon geometries are rendered using a 50% grey (#808080) fill and a solid black outline with a stroke width of 1 pixel.</se:Abstract>
   </se:Description>
-  <se:FeatureTypeName>ps:ProtectedSites</se:FeatureTypeName>
+  <se:FeatureTypeName>ps:ProtectedSite</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
       <se:Title>protected sites: polygon</se:Title>

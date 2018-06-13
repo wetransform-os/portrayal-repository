@@ -145,10 +145,10 @@
     <title text="Feuchtgebiete"/>
     <objectType>hy-p_4.0:Wetland</objectType>
   </layerConfig>
-  <layerConfig name="PS_ProtectedSites" layerName="PS.ProtectedSites" styleConfig="//@styleConfig.42">
+  <layerConfig name="PS_ProtectedSite" layerName="PS.ProtectedSite" styleConfig="//@styleConfig.42">
     <title lang="en" text="Protected Sites"/>
     <title text="Schutzgebiete"/>
-    <objectType>ps_4.0:ProtectedSites</objectType>
+    <objectType>ps_4.0:ProtectedSite</objectType>
   </layerConfig>
   <layerConfig name="TN_AirTran" layerName="TN.AirTransportNetwork.AerodromeArea" styleConfig="//@styleConfig.43">
     <title lang="en" text="Aerodrome Area"/>
@@ -422,8 +422,8 @@
   <styleConfig name="HY_P_Wetland">
     <remoteStyle featureTypeName="hy-p_4.0:Wetland" url="feature-styles/HY_P_Wetland.se"/>
   </styleConfig>
-  <styleConfig name="PS_ProtectedSites">
-    <remoteStyle featureTypeName="ps_4.0:ProtectedSites" url="feature-styles/PS_ProtectedSites.se"/>
+  <styleConfig name="PS_ProtectedSite">
+    <remoteStyle featureTypeName="ps_4.0:ProtectedSite" url="feature-styles/PS_ProtectedSites.se"/>
   </styleConfig>
   <styleConfig name="TN_A_AerodromeArea">
     <remoteStyle featureTypeName="tn-a_4.0:AerodromeArea" url="feature-styles/TN_A_AerodromeArea.se"/>
