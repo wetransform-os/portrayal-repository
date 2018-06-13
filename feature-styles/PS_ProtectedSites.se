@@ -31,7 +31,7 @@
         <ogc:PropertyName>ps:geometry</ogc:PropertyName>
       </se:Geometry>
       <se:Stroke>
-        <se:SvgParameter name="stroke">#808080</se:SvgParameter>
+        <se:SvgParameter name="stroke">#000000</se:SvgParameter>
         <se:SvgParameter name="stroke-width">1</se:SvgParameter>
       </se:Stroke>
     </se:LineSymbolizer>
