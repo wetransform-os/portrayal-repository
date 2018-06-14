@@ -19,13 +19,12 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
     </se:Description>
     <ogc:Filter>
     	<ogc:PropertyIsEqualTo>
-        	<ogc:Function name="in3">
+        	<ogc:Function name="in2">
          		<ogc:Function name="geometryType">
             		<ogc:PropertyName>lcv:geometry</ogc:PropertyName>
           		</ogc:Function>
-          		<ogc:Literal>LineString</ogc:Literal>
-          		<ogc:Literal>LinearRing</ogc:Literal>
-          		<ogc:Literal>MultiLineString</ogc:Literal>
+          		<ogc:Literal>Polygon</ogc:Literal>
+          		<ogc:Literal>MultiPolygon</ogc:Literal>
        		</ogc:Function>
        		<ogc:Literal>true</ogc:Literal>
      	</ogc:PropertyIsEqualTo>
