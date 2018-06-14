@@ -19,7 +19,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
     </se:Description>
     <ogc:Filter>
     	<ogc:PropertyIsEqualTo>
-        	<ogc:Function name="in2">
+        	<ogc:Function name="in3">
          		<ogc:Function name="geometryType">
             		<ogc:PropertyName>lcv:geometry</ogc:PropertyName>
           		</ogc:Function>
