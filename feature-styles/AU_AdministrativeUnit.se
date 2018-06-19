@@ -19,8 +19,8 @@
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/2ndOrder</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
-		<se:MinScaleDenominator>200000</se:MinScaleDenominator>
-		<se:MaxScaleDenominator>300000</se:MaxScaleDenominator>
+		<se:MinScaleDenominator>1000000</se:MinScaleDenominator>
+		<se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
 		<se:PolygonSymbolizer>
 			<se:Geometry>
 				<ogc:PropertyName>au:geometry</ogc:PropertyName>
@@ -41,8 +41,8 @@
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/3rdOrder</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
-		<se:MinScaleDenominator>100000</se:MinScaleDenominator>
-		<se:MaxScaleDenominator>200000</se:MaxScaleDenominator>
+		<se:MinScaleDenominator>700000</se:MinScaleDenominator>
+		<se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
 		<se:PolygonSymbolizer>
 			<se:Geometry>
 				<ogc:PropertyName>au:geometry</ogc:PropertyName>
@@ -63,8 +63,8 @@
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
-		<se:MinScaleDenominator>50000</se:MinScaleDenominator>
-		<se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
+		<se:MinScaleDenominator>500000</se:MinScaleDenominator>
+		<se:MaxScaleDenominator>700000</se:MaxScaleDenominator>
 		<se:PolygonSymbolizer>
 			<se:Geometry>
 				<ogc:PropertyName>au:geometry</ogc:PropertyName>
@@ -85,8 +85,8 @@
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/5thOrder</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
-		<se:MinScaleDenominator>25000</se:MinScaleDenominator>
-		<se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
+		<se:MinScaleDenominator>250000</se:MinScaleDenominator>
+		<se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
 		<se:PolygonSymbolizer>
 			<se:Geometry>
 				<ogc:PropertyName>au:geometry</ogc:PropertyName>
@@ -107,7 +107,7 @@
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/6thOrder</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
-		<se:MaxScaleDenominator>25000</se:MaxScaleDenominator>
+		<se:MaxScaleDenominator>250000</se:MaxScaleDenominator>
 		<se:PolygonSymbolizer>
 			<se:Geometry>
 				<ogc:PropertyName>au:geometry</ogc:PropertyName>
@@ -128,7 +128,7 @@
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/1stOrder</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
-		<se:MinScaleDenominator>300000</se:MinScaleDenominator>
+		<se:MinScaleDenominator>2000000</se:MinScaleDenominator>
 		<se:PolygonSymbolizer>
 			<se:Geometry>
 				<ogc:PropertyName>au:geometry</ogc:PropertyName>
