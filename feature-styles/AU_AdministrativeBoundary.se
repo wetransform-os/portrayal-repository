@@ -92,8 +92,8 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/6thOrder</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
-		<se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
 		<se:MinScaleDenominator>0</se:MinScaleDenominator>
+		<se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
 	    <se:LineSymbolizer>
 	      <se:Geometry>
 	        <ogc:PropertyName>au:geometry</ogc:PropertyName>
@@ -111,8 +111,8 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/1stOrder</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
-		<se:MaxScaleDenominator>10000000</se:MaxScaleDenominator>
 		<se:MinScaleDenominator>30000000</se:MinScaleDenominator>
+		<se:MaxScaleDenominator>10000000</se:MaxScaleDenominator>
 	    <se:LineSymbolizer>
 	      <se:Geometry>
 	        <ogc:PropertyName>au:geometry</ogc:PropertyName>
