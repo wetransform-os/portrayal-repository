@@ -65,18 +65,6 @@
 		</ogc:Filter>
 		<se:MinScaleDenominator>500000</se:MinScaleDenominator>
 		<se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
-		<se:PolygonSymbolizer>
-			<se:Geometry>
-				<ogc:PropertyName>au:geometry</ogc:PropertyName>
-			</se:Geometry>
-			<se:Fill>
-				<se:SvgParameter name="fill">#FFFF66</se:SvgParameter>
-			</se:Fill>
-			<se:Stroke>
-				<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-				<se:SvgParameter name="strokewidth">0.7</se:SvgParameter>
-			</se:Stroke>
-		</se:PolygonSymbolizer>
 		<se:TextSymbolizer>   
 			<se:Geometry>     
 				<ogc:PropertyName>au:geometry</ogc:PropertyName>   
@@ -100,6 +88,18 @@
 				<se:SvgParameter name="fill">#000000</se:SvgParameter>   
 			</se:Fill> 
 		</se:TextSymbolizer>
+		<se:PolygonSymbolizer>
+			<se:Geometry>
+				<ogc:PropertyName>au:geometry</ogc:PropertyName>
+			</se:Geometry>
+			<se:Fill>
+				<se:SvgParameter name="fill">#FFFF66</se:SvgParameter>
+			</se:Fill>
+			<se:Stroke>
+				<se:SvgParameter name="stroke">#000000</se:SvgParameter>
+				<se:SvgParameter name="strokewidth">0.7</se:SvgParameter>
+			</se:Stroke>
+		</se:PolygonSymbolizer>
 	</se:Rule>
 	<se:Rule>
 		<ogc:Filter>
@@ -122,6 +122,17 @@
 				<se:SvgParameter name="strokewidth">1.0</se:SvgParameter>
 			</se:Stroke>
 		</se:PolygonSymbolizer>
+
+	</se:Rule>
+	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
+				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/6thOrder</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:MinScaleDenominator>0</se:MinScaleDenominator>
+		<se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
 		<se:TextSymbolizer>   
 			<se:Geometry>     
 				<ogc:PropertyName>au:geometry</ogc:PropertyName>   
@@ -145,16 +156,6 @@
 				<se:SvgParameter name="fill">#000000</se:SvgParameter>   
 			</se:Fill> 
 		</se:TextSymbolizer>
-	</se:Rule>
-	<se:Rule>
-		<ogc:Filter>
-			<ogc:PropertyIsEqualTo>
-				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
-				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/6thOrder</ogc:Literal>
-			</ogc:PropertyIsEqualTo>
-		</ogc:Filter>
-		<se:MinScaleDenominator>0</se:MinScaleDenominator>
-		<se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
 		<se:PolygonSymbolizer>
 			<se:Geometry>
 				<ogc:PropertyName>au:geometry</ogc:PropertyName>
