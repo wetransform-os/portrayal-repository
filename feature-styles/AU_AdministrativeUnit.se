@@ -122,6 +122,29 @@
 				<se:SvgParameter name="strokewidth">1.0</se:SvgParameter>
 			</se:Stroke>
 		</se:PolygonSymbolizer>
+		<se:TextSymbolizer>   
+			<se:Geometry>     
+				<ogc:PropertyName>au:geometry</ogc:PropertyName>   
+			</se:Geometry>   
+			<se:Label>    
+				<ogc:PropertyName>au:name/GeographicalName/spelling/SpellingOfName/text</ogc:PropertyName>   
+			</se:Label>   
+			<se:Font>     
+				<se:SvgParameter name="font-family">Arial</se:SvgParameter>     
+				<se:SvgParameter name="font-family">Sans-Serif</se:SvgParameter>     
+				<se:SvgParameter name="font-style">italic</se:SvgParameter>     
+				<se:SvgParameter name="font-size">10</se:SvgParameter>   
+			</se:Font>   
+			<se:Halo>
+				<se:Radius>2</se:Radius>
+				<se:Fill>
+					<se:SvgParameter name="fill">#000000</se:SvgParameter>
+				</se:Fill>
+			</se:Halo>
+			<se:Fill>     
+				<se:SvgParameter name="fill">#000000</se:SvgParameter>   
+			</se:Fill> 
+		</se:TextSymbolizer>
 	</se:Rule>
 	<se:Rule>
 		<ogc:Filter>
