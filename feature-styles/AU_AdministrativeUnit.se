@@ -92,7 +92,7 @@
 				<ogc:PropertyName>au:geometry</ogc:PropertyName>
 			</se:Geometry>     
 			<se:Label>    
-				<ogc:PropertyName>au:name/GeographicalName/spelling/SpellingOfName/text</ogc:PropertyName>   
+				<ogc:PropertyName>au:name/GeographicalName/spelling/SpellingOfName/text()</ogc:PropertyName>   
 			</se:Label>   
 			<se:Font>     
 				<se:SvgParameter name="font-family">Arial</se:SvgParameter>         
