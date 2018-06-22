@@ -82,6 +82,11 @@
 					<se:SvgParameter name="fill">#000000</se:SvgParameter>
 				</se:Fill>
 			</se:Halo>
+			<se:LabelPlacement>
+				<se:LinePlacement>
+					<se:GeneralizeLine>1</se:GeneralizeLine>
+				</se:LinePlacement>
+			</se:LabelPlacement>
 			<se:Fill>     
 				<se:SvgParameter name="fill">#000000</se:SvgParameter>   
 			</se:Fill> 
@@ -116,9 +121,7 @@
 				<ogc:PropertyName>au:name/GeographicalName/spelling/SpellingOfName/text()</ogc:PropertyName>   
 			</se:Label>   
 			<se:Font>     
-				<se:SvgParameter name="font-family">Arial</se:SvgParameter>     
-				<se:SvgParameter name="font-family">Sans-Serif</se:SvgParameter>     
-				<se:SvgParameter name="font-style">italic</se:SvgParameter>     
+				<se:SvgParameter name="font-family">Arial</se:SvgParameter>         
 				<se:SvgParameter name="font-size">10</se:SvgParameter>   
 			</se:Font>   
 			<se:Halo>
@@ -127,6 +130,11 @@
 					<se:SvgParameter name="fill">#000000</se:SvgParameter>
 				</se:Fill>
 			</se:Halo>
+			<se:LabelPlacement>
+				<se:LinePlacement>
+					<se:GeneralizeLine>1</se:GeneralizeLine>
+				</se:LinePlacement>
+			</se:LabelPlacement>
 			<se:Fill>     
 				<se:SvgParameter name="fill">#000000</se:SvgParameter>   
 			</se:Fill> 
