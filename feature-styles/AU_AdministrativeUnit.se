@@ -65,32 +65,6 @@
 		</ogc:Filter>
 		<se:MinScaleDenominator>500000</se:MinScaleDenominator>
 		<se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
-		<se:TextSymbolizer>
-			<se:Geometry>
-				<ogc:PropertyName>au:geometry</ogc:PropertyName>
-			</se:Geometry>
-			<se:Label>    
-				<ogc:PropertyName>au:name/GeographicalName/spelling/SpellingOfName/text()</ogc:PropertyName>   
-			</se:Label>   
-			<se:Font>     
-				<se:SvgParameter name="font-family">Arial</se:SvgParameter>        
-				<se:SvgParameter name="font-size">10</se:SvgParameter>   
-			</se:Font>   
-			<se:Halo>
-				<se:Radius>1</se:Radius>
-				<se:Fill>
-					<se:SvgParameter name="fill">#000000</se:SvgParameter>
-				</se:Fill>
-			</se:Halo>
-			<se:LabelPlacement>
-				<se:LinePlacement>
-					<se:GeneralizeLine>1</se:GeneralizeLine>
-				</se:LinePlacement>
-			</se:LabelPlacement>
-			<se:Fill>     
-				<se:SvgParameter name="fill">#000000</se:SvgParameter>   
-			</se:Fill> 
-		</se:TextSymbolizer>
 		<se:PolygonSymbolizer>
 			<se:Geometry>
 				<ogc:PropertyName>au:geometry</ogc:PropertyName>
@@ -123,22 +97,32 @@
 			<se:Font>     
 				<se:SvgParameter name="font-family">Arial</se:SvgParameter>         
 				<se:SvgParameter name="font-size">10</se:SvgParameter>   
-			</se:Font>   
+			</se:Font>  
+			<se:LabelPlacement>
+				<se:LinePlacement>
+					<se:GeneralizeLine>1</se:GeneralizeLine>
+				</se:LinePlacement>
+			</se:LabelPlacement> 
 			<se:Halo>
 				<se:Radius>2</se:Radius>
 				<se:Fill>
 					<se:SvgParameter name="fill">#000000</se:SvgParameter>
 				</se:Fill>
 			</se:Halo>
-			<se:LabelPlacement>
-				<se:LinePlacement>
-					<se:GeneralizeLine>1</se:GeneralizeLine>
-				</se:LinePlacement>
-			</se:LabelPlacement>
 			<se:Fill>     
 				<se:SvgParameter name="fill">#000000</se:SvgParameter>   
 			</se:Fill> 
 		</se:TextSymbolizer>
+	</se:Rule>
+	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
+				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/5thOrder</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:MinScaleDenominator>100000</se:MinScaleDenominator>
+		<se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
 		<se:PolygonSymbolizer>
 			<se:Geometry>
 				<ogc:PropertyName>au:geometry</ogc:PropertyName>
