@@ -90,7 +90,9 @@
 		<se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
 		<se:TextSymbolizer>
 			<se:Geometry>
-				<ogc:PropertyName>au:geometry</ogc:PropertyName>
+				<ogc:Function name="Centroid">
+					<ogc:PropertyName>au:geometry</ogc:PropertyName>
+				</ogc:Function>
 			</se:Geometry>     
 			<se:Label>    
 				<ogc:PropertyName>au:name/gn:GeographicalName/gn:spelling/gn:SpellingOfName/gn:text/text()</ogc:PropertyName>   
