@@ -97,13 +97,8 @@
 			</se:Label>   
 			<se:Font>     
 				<se:SvgParameter name="font-family">Arial</se:SvgParameter>         
-				<se:SvgParameter name="font-size">10</se:SvgParameter>   
+				<se:SvgParameter name="font-size">14</se:SvgParameter>   
 			</se:Font>  
-			<se:LabelPlacement>
-				<se:LinePlacement>
-					<se:GeneralizeLine>1</se:GeneralizeLine>
-				</se:LinePlacement>
-			</se:LabelPlacement> 
 			<se:Halo>
 				<se:Radius>2</se:Radius>
 				<se:Fill>
