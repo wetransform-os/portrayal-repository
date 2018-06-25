@@ -66,6 +66,18 @@
 		</ogc:Filter>
 		<se:MinScaleDenominator>500000</se:MinScaleDenominator>
 		<se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
+		<se:PolygonSymbolizer>
+			<se:Geometry>
+				<ogc:PropertyName>au:geometry</ogc:PropertyName>
+			</se:Geometry>
+			<se:Fill>
+				<se:SvgParameter name="fill">#FFFF66</se:SvgParameter>
+			</se:Fill>
+			<se:Stroke>
+				<se:SvgParameter name="stroke">#000000</se:SvgParameter>
+				<se:SvgParameter name="strokewidth">0.7</se:SvgParameter>
+			</se:Stroke>
+		</se:PolygonSymbolizer>
 		<se:TextSymbolizer>
 			<se:Geometry>
 				<ogc:Function name="Centroid">
@@ -89,18 +101,6 @@
 				<se:SvgParameter name="fill">#000000</se:SvgParameter>   
 			</se:Fill> 
 		</se:TextSymbolizer>
-		<se:PolygonSymbolizer>
-			<se:Geometry>
-				<ogc:PropertyName>au:geometry</ogc:PropertyName>
-			</se:Geometry>
-			<se:Fill>
-				<se:SvgParameter name="fill">#FFFF66</se:SvgParameter>
-			</se:Fill>
-			<se:Stroke>
-				<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-				<se:SvgParameter name="strokewidth">0.7</se:SvgParameter>
-			</se:Stroke>
-		</se:PolygonSymbolizer>
 	</se:Rule>
 	<se:Rule>
 		<ogc:Filter>
