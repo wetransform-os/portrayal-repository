@@ -34,6 +34,29 @@
 				<se:SvgParameter name="strokewidth">0.3</se:SvgParameter>
 			</se:Stroke>
 		</se:PolygonSymbolizer>
+		<se:TextSymbolizer>
+			<se:Geometry>
+				<ogc:Function name="Centroid">
+					<ogc:PropertyName>au:geometry</ogc:PropertyName>
+				</ogc:Function>
+			</se:Geometry>     
+			<se:Label>    
+				<ogc:PropertyName>au:name/gn:GeographicalName/gn:spelling/gn:SpellingOfName/gn:text/text()</ogc:PropertyName>   
+			</se:Label>   
+			<se:Font>     
+				<se:SvgParameter name="font-family">Arial</se:SvgParameter>         
+				<se:SvgParameter name="font-size">16</se:SvgParameter>   
+			</se:Font>  
+			<se:Halo>
+				<se:Radius>2</se:Radius>
+				<se:Fill>
+					<se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+				</se:Fill>
+			</se:Halo>
+			<se:Fill>     
+				<se:SvgParameter name="fill">#000000</se:SvgParameter>   
+			</se:Fill> 
+		</se:TextSymbolizer>
 	</se:Rule>
 	<se:Rule>
 		<ogc:Filter>
@@ -56,6 +79,29 @@
 				<se:SvgParameter name="strokewidth">0.5</se:SvgParameter>
 			</se:Stroke>
 		</se:PolygonSymbolizer>
+		<se:TextSymbolizer>
+			<se:Geometry>
+				<ogc:Function name="Centroid">
+					<ogc:PropertyName>au:geometry</ogc:PropertyName>
+				</ogc:Function>
+			</se:Geometry>     
+			<se:Label>    
+				<ogc:PropertyName>au:name/gn:GeographicalName/gn:spelling/gn:SpellingOfName/gn:text/text()</ogc:PropertyName>   
+			</se:Label>   
+			<se:Font>     
+				<se:SvgParameter name="font-family">Arial</se:SvgParameter>         
+				<se:SvgParameter name="font-size">16</se:SvgParameter>   
+			</se:Font>  
+			<se:Halo>
+				<se:Radius>2</se:Radius>
+				<se:Fill>
+					<se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+				</se:Fill>
+			</se:Halo>
+			<se:Fill>     
+				<se:SvgParameter name="fill">#000000</se:SvgParameter>   
+			</se:Fill> 
+		</se:TextSymbolizer>
 	</se:Rule>
 	<se:Rule>
 		<ogc:Filter>
@@ -111,29 +157,6 @@
 		</ogc:Filter>
 		<se:MinScaleDenominator>100000</se:MinScaleDenominator>
 		<se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
-		<se:TextSymbolizer>
-			<se:Geometry>
-				<ogc:Function name="Centroid">
-					<ogc:PropertyName>au:geometry</ogc:PropertyName>
-				</ogc:Function>
-			</se:Geometry>     
-			<se:Label>    
-				<ogc:PropertyName>au:name/gn:GeographicalName/gn:spelling/gn:SpellingOfName/gn:text/text()</ogc:PropertyName>   
-			</se:Label>   
-			<se:Font>     
-				<se:SvgParameter name="font-family">Arial</se:SvgParameter>         
-				<se:SvgParameter name="font-size">14</se:SvgParameter>   
-			</se:Font>  
-			<se:Halo>
-				<se:Radius>2</se:Radius>
-				<se:Fill>
-					<se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
-				</se:Fill>
-			</se:Halo>
-			<se:Fill>     
-				<se:SvgParameter name="fill">#000000</se:SvgParameter>   
-			</se:Fill> 
-		</se:TextSymbolizer>
 		<se:PolygonSymbolizer>
 			<se:Geometry>
 				<ogc:PropertyName>au:geometry</ogc:PropertyName>
@@ -146,6 +169,29 @@
 				<se:SvgParameter name="strokewidth">1.0</se:SvgParameter>
 			</se:Stroke>
 		</se:PolygonSymbolizer>
+		<se:TextSymbolizer>
+			<se:Geometry>
+				<ogc:Function name="Centroid">
+					<ogc:PropertyName>au:geometry</ogc:PropertyName>
+				</ogc:Function>
+			</se:Geometry>     
+			<se:Label>    
+				<ogc:PropertyName>au:name/gn:GeographicalName/gn:spelling/gn:SpellingOfName/gn:text/text()</ogc:PropertyName>   
+			</se:Label>   
+			<se:Font>     
+				<se:SvgParameter name="font-family">Arial</se:SvgParameter>         
+				<se:SvgParameter name="font-size">12</se:SvgParameter>   
+			</se:Font>  
+			<se:Halo>
+				<se:Radius>2</se:Radius>
+				<se:Fill>
+					<se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+				</se:Fill>
+			</se:Halo>
+			<se:Fill>     
+				<se:SvgParameter name="fill">#000000</se:SvgParameter>   
+			</se:Fill> 
+		</se:TextSymbolizer>
 	</se:Rule>
 	<se:Rule>
 		<ogc:Filter>
@@ -168,6 +214,29 @@
 				<se:SvgParameter name="strokewidth">1.5</se:SvgParameter>
 			</se:Stroke>
 		</se:PolygonSymbolizer>
+		<se:TextSymbolizer>
+			<se:Geometry>
+				<ogc:Function name="Centroid">
+					<ogc:PropertyName>au:geometry</ogc:PropertyName>
+				</ogc:Function>
+			</se:Geometry>     
+			<se:Label>    
+				<ogc:PropertyName>au:name/gn:GeographicalName/gn:spelling/gn:SpellingOfName/gn:text/text()</ogc:PropertyName>   
+			</se:Label>   
+			<se:Font>     
+				<se:SvgParameter name="font-family">Arial</se:SvgParameter>         
+				<se:SvgParameter name="font-size">10</se:SvgParameter>   
+			</se:Font>  
+			<se:Halo>
+				<se:Radius>2</se:Radius>
+				<se:Fill>
+					<se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+				</se:Fill>
+			</se:Halo>
+			<se:Fill>     
+				<se:SvgParameter name="fill">#000000</se:SvgParameter>   
+			</se:Fill> 
+		</se:TextSymbolizer>
 	</se:Rule>
 	<se:Rule>
 		<ogc:Filter>
@@ -190,6 +259,29 @@
 				<se:SvgParameter name="strokewidth">0.2</se:SvgParameter>
 			</se:Stroke>
 		</se:PolygonSymbolizer>
+		<se:TextSymbolizer>
+			<se:Geometry>
+				<ogc:Function name="Centroid">
+					<ogc:PropertyName>au:geometry</ogc:PropertyName>
+				</ogc:Function>
+			</se:Geometry>     
+			<se:Label>    
+				<ogc:PropertyName>au:name/gn:GeographicalName/gn:spelling/gn:SpellingOfName/gn:text/text()</ogc:PropertyName>   
+			</se:Label>   
+			<se:Font>     
+				<se:SvgParameter name="font-family">Arial</se:SvgParameter>         
+				<se:SvgParameter name="font-size">18</se:SvgParameter>   
+			</se:Font>  
+			<se:Halo>
+				<se:Radius>2</se:Radius>
+				<se:Fill>
+					<se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+				</se:Fill>
+			</se:Halo>
+			<se:Fill>     
+				<se:SvgParameter name="fill">#000000</se:SvgParameter>   
+			</se:Fill> 
+		</se:TextSymbolizer>
 	</se:Rule>
 </se:FeatureTypeStyle>
  
