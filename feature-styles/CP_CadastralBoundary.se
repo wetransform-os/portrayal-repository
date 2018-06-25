@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<se:FeatureTypeStyle xmlns:cp="http://inspire.ec.europa.eu/schemas/cp/4.0" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
+<se:FeatureTypeStyle xmlns:cp="http://inspire.ec.europa.eu/schemas/cp/4.0" 
+xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" 
+xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" 
+xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
   <se:Description>
     <se:Title>Cadastral Boundary Default Style</se:Title>
     <se:Abstract>The cadastral boundary is rendered as a black (#000000) line and 1 pixel width.</se:Abstract>
@@ -10,7 +14,7 @@
       <se:Title>cadastral boundary</se:Title>
     </se:Description>
     <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
-    <se:MaxScaleDenominator>20000.0</se:MaxScaleDenominator>
+    <se:MaxScaleDenominator>22000.0</se:MaxScaleDenominator>
     <se:LineSymbolizer>
       <se:Geometry>
         <ogc:PropertyName>cp:geometry</ogc:PropertyName>

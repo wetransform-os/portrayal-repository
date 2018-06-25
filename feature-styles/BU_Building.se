@@ -28,8 +28,8 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 			</ogc:PropertyIsEqualTo>
 		</ogc:And>
 	</ogc:Filter>
-	<se:MinScaleDenominator>0</se:MinScaleDenominator>
-	<se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
+	<se:MinScaleDenominator>50</se:MinScaleDenominator>
+	<se:MaxScaleDenominator>22000</se:MaxScaleDenominator>
 	<se:PolygonSymbolizer>
 		<se:Geometry>
 			<ogc:PropertyName>bu:geometry2D/geometry</ogc:PropertyName>
@@ -58,8 +58,8 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 			</ogc:PropertyIsEqualTo>
 		</ogc:And>
 	</ogc:Filter>
-	<se:MinScaleDenominator>0</se:MinScaleDenominator>
-	<se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
+	<se:MinScaleDenominator>50</se:MinScaleDenominator>
+	<se:MaxScaleDenominator>22000</se:MaxScaleDenominator>
 	<se:PointSymbolizer>
 		<se:Geometry>
 			<ogc:PropertyName>bu:geometry2D/geometry</ogc:PropertyName>
