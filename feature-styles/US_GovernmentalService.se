@@ -28,7 +28,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
     <se:MaxScaleDenominator>500000.0</se:MaxScaleDenominator>
     <se:PointSymbolizer>
       <se:Geometry>
-        <ogc:PropertyName>us:serviceLocation/us:ServiceLocationType/us:choice/gml:serviceLocationByGeometry/gml:AbstractGeometry</ogc:PropertyName>
+        <ogc:PropertyName>us:serviceLocation/us:ServiceLocationType/us:serviceLocationByGeometry</ogc:PropertyName>
       </se:Geometry>
       <se:Graphic>
         <se:Mark>
