@@ -19,10 +19,10 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
       <se:Title>Administrative and social governmental services - point symbol</se:Title>
     </se:Description>
     <ogc:Filter>
-		<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!"> 
+		<ogc:PropertyIsEqualTo> 
 			<ogc:PropertyName>us:serviceType/@xlink:href</ogc:PropertyName>
-			<ogc:Literal>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/education</ogc:Literal>
-		</ogc:PropertyIsLike>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/administrationForEducation</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
 	</ogc:Filter>
     <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
     <se:MaxScaleDenominator>500000.0</se:MaxScaleDenominator>
