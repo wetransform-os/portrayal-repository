@@ -405,6 +405,20 @@ Layer{
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/plu/4.0:SupplementaryRegulation
 	Styles: LU_SupplementaryRegulation
 }
+Layer{
+	id:"US_GovernmentalService"
+	Name: "US.GovernmentalService"
+	Title: en "Governmental Service", de "Stätlicher Dienst"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/us-govserv/4.0:GovernmentalService
+	Styles: US_GovernmentalService
+}
+Style{
+	id:"US_GovernmentalService"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/us-govserv/4.0:GovernmentalService
+		URL: "feature-styles/US_GovernmentalService.se"
+	}
+}
 Style{
 	id:"LU_SupplementaryRegulation"
 	Remote{
