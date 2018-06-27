@@ -5,6 +5,8 @@ xmlns:ogc="http://www.opengis.net/ogc"
 xmlns:se="http://www.opengis.net/se" 
 xmlns:sld="http://www.opengis.net/sld" 
 xmlns:gml="http://www.opengis.net/gml/3.2"
+xmlns:ag="http://www.opengis.net/gml/3.2/AbstractGeometry"
+xmlns:ch="http://inspire.ec.europa.eu/schemas/us-govserv/4.0/ServiceLocationTypeType"
 xmlns:xlink="http://www.w3.org/1999/xlink" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 version="1.1.0" 
@@ -28,7 +30,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
     <se:MaxScaleDenominator>500000.0</se:MaxScaleDenominator>
     <se:PointSymbolizer>
       <se:Geometry>
-        <ogc:PropertyName>us:serviceLocation/us:ServiceLocationType/us:choice/gml:serviceLocationByGeometry/gml:AbstractGeometry</ogc:PropertyName>
+        <ogc:PropertyName>us:serviceLocation/us:ServiceLocationType/ch:choice/gml:serviceLocationByGeometry/ag:AbstractGeometry</ogc:PropertyName>
       </se:Geometry>
       <se:Graphic>
         <se:Mark>
