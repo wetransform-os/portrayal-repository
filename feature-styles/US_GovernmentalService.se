@@ -21,7 +21,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
     <ogc:Filter>
 		<ogc:PropertyIsEqualTo> 
 			<ogc:PropertyName>us:serviceType/@xlink:href</ogc:PropertyName>
-			<ogc:Literal>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/*ducation*</ogc:Literal>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/administrationForEducation</ogc:Literal>
 		</ogc:PropertyIsEqualTo>
 	</ogc:Filter>
     <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
