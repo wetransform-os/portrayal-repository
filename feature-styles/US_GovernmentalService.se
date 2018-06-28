@@ -36,7 +36,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
         	xlink:href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/800px-Flag_of_Germany.svg.png"/>
         	<se:Format>image/png</se:Format>
         </se:ExternalGraphic>
-        <se:Size>10</se:Size>
+        <se:Size>20</se:Size>
       </se:Graphic>
     </se:PointSymbolizer>
   </se:Rule>
