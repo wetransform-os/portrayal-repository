@@ -9,7 +9,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 version="1.1.0" 
 xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
 	<se:Description>
-    	<se:Title>Supplementary Regulation default style</se:Title>
+    	<se:Title>Supplementary Regulation Default Style</se:Title>
     	<se:Abstract>This Style defines the default INSPIRE style for supplementary regulations. Contour or line of the Supplementary regulation is depicted by a color line of two pixels. The fill color is dependent upon the value of the attribute supplementaryRegulation.</se:Abstract> 
     </se:Description>
   	<se:FeatureTypeName>plu:SupplementaryRegulation</se:FeatureTypeName>

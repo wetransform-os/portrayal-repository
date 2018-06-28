@@ -9,7 +9,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 version="1.1.0" 
 xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
 	<se:Description>
-    	<se:Title>Existing land use default style</se:Title>
+    	<se:Title>Existing Land Use Default Style</se:Title>
     	<se:Abstract>This Style defines the default INSPIRE style for existing land use objects. Existing Land Use objects are filled with a color depending on the value of the attribute from HILUCS level 1 nomenclature and their boundaries are black lines of 2 pixels.</se:Abstract> 
     </se:Description>
   	<se:FeatureTypeName>elu:ExistingLandUseObject</se:FeatureTypeName>
