@@ -40,12 +40,12 @@
   </layerConfig>
   <layerConfig name="AU_ExclusiveEconomicZone" registryId="http://inspire.ec.europa.eu/layer/AU.ExclusiveEconomicZone" layerName="AU.ExclusiveEconomicZone" styleConfig="//@styleConfig.12">
     <title lang="en" text="Exclusive economic zone"/>
-    <title text="Ausschließliche Wirtschaftszone"/>
+    <title text="Ausschlie�liche Wirtschaftszone"/>
     <objectType>mu_3.0:ExclusiveEconomicZone</objectType>
   </layerConfig>
   <layerConfig name="AU_InternalWaters" registryId="http://inspire.ec.europa.eu/layer/AU.InternalWaters" layerName="AU.InternalWaters" styleConfig="//@styleConfig.13">
     <title lang="en" text="Internal waters"/>
-    <title text="Innere Gewässer"/>
+    <title text="Innere Gew�sser"/>
     <objectType>mu_3.0:InternalWaters</objectType>
   </layerConfig>
   <layerConfig name="AU_MaritimeBoundary" registryId="http://inspire.ec.europa.eu/layer/AU.MaritimeBoundary" layerName="AU.MaritimeBoundary" styleConfig="//@styleConfig.14">
@@ -55,12 +55,12 @@
   </layerConfig>
   <layerConfig name="AU_TerritorialSea" registryId="http://inspire.ec.europa.eu/layer/AU.TerritorialSea" layerName="AU.TerritorialSea" styleConfig="//@styleConfig.15">
     <title lang="en" text="Territorial sea"/>
-    <title text="Küstenmeer"/>
+    <title text="K�stenmeer"/>
     <objectType>mu_3.0:TerritorialSea</objectType>
   </layerConfig>
   <layerConfig name="CP_CadastralBoundary" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralBoundary" layerName="CP.CadastralBoundary" styleConfig="//@styleConfig.16">
     <title lang="en" text="Cadastral Boundary"/>
-    <title text="Flurstücksgrenze"/>
+    <title text="Flurst�cksgrenze"/>
     <objectType>cp_4.0:CadastralBoundary</objectType>
   </layerConfig>
   <layerConfig name="CP_Cadastr" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralParcel" layerName="CP.CadastralParcel.BoundariesOnly" styleConfig="//@styleConfig.17">
@@ -69,7 +69,7 @@
   </layerConfig>
   <layerConfig name="CP_CadastralParcel" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralParcel" layerName="CP.CadastralParcel" styleConfig="//@styleConfig.18">
     <title lang="en" text="Cadastral Parcel"/>
-    <title text="Flurstück"/>
+    <title text="Flurst�ck"/>
     <objectType>cp_4.0:CadastralParcel</objectType>
   </layerConfig>
   <layerConfig name="CP_Cadastr_1" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralParcel" layerName="CP.CadastralParcel.LabelOnReferencePoint" styleConfig="//@styleConfig.19">
@@ -115,7 +115,7 @@
   </layerConfig>
   <layerConfig name="HY_Physica_4" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.ManMadeObject" layerName="HY.PhysicalWaters.ManMadeObject" styleConfig="//@styleConfig.30 //@styleConfig.31 //@styleConfig.32 //@styleConfig.33 //@styleConfig.34">
     <title lang="en" text="Man-made Object"/>
-    <title text="Bauwerke an Gewässern"/>
+    <title text="Bauwerke an Gew�ssern"/>
     <objectType>hy-p_4.0:Crossing</objectType>
     <objectType>hy-p_4.0:DamOrWeir</objectType>
     <objectType>hy-p_4.0:ShorelineConstruction</objectType>
@@ -124,12 +124,12 @@
   </layerConfig>
   <layerConfig name="HY_PhysicalWaters_Shore" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Shore" layerName="HY.PhysicalWaters.Shore" styleConfig="//@styleConfig.35">
     <title lang="en" text="Shores"/>
-    <title text="Küsten"/>
+    <title text="K�sten"/>
     <objectType>hy-p_4.0:Shore</objectType>
   </layerConfig>
   <layerConfig name="HY_Physica_5" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Waterbodies" layerName="HY.PhysicalWaters.Waterbodies" styleConfig="//@styleConfig.36 //@styleConfig.37">
     <title lang="en" text="Waterbody"/>
-    <title text="Wasserkörper"/>
+    <title text="Wasserk�rper"/>
     <objectType>hy-p_4.0:Watercourse</objectType>
     <objectType>hy-p_4.0:StandingWater</objectType>
   </layerConfig>
@@ -155,7 +155,7 @@
   </layerConfig>
   <layerConfig name="TN_AirTran" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AerodromeArea" layerName="TN.AirTransportNetwork.AerodromeArea" styleConfig="//@styleConfig.44">
     <title lang="en" text="Aerodrome Area"/>
-    <title text="Flugplatzgelände"/>
+    <title text="Flugplatzgel�nde"/>
     <objectType>tn-a_4.0:AerodromeArea</objectType>
   </layerConfig>
   <layerConfig name="TN_AirTran_1" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AirLink" layerName="TN.AirTransportNetwork.AirLink" styleConfig="//@styleConfig.45 //@styleConfig.46">
@@ -171,12 +171,12 @@
   </layerConfig>
   <layerConfig name="TN_AirTran_3" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.ApronArea" layerName="TN.AirTransportNetwork.ApronArea" styleConfig="//@styleConfig.48">
     <title lang="en" text="Apron Area"/>
-    <title text="Vorfeldgelände"/>
+    <title text="Vorfeldgel�nde"/>
     <objectType>tn-a_4.0:ApronArea</objectType>
   </layerConfig>
   <layerConfig name="TN_AirTran_4" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.RunwayArea" layerName="TN.AirTransportNetwork.RunwayArea" styleConfig="//@styleConfig.49">
     <title lang="en" text="Runway Area"/>
-    <title text="Landebahngelände"/>
+    <title text="Landebahngel�nde"/>
     <objectType>tn-a_4.0:RunwayArea</objectType>
   </layerConfig>
   <layerConfig name="TN_AirTran_5" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.TaxiwayArea" layerName="TN.AirTransportNetwork.TaxiwayArea" styleConfig="//@styleConfig.50">
@@ -206,7 +206,7 @@
   </layerConfig>
   <layerConfig name="TN_RailTra" registryId="http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayArea" layerName="TN.RailTransportNetwork.RailwayArea" styleConfig="//@styleConfig.55">
     <title lang="en" text="Railway Area"/>
-    <title text="Bahngelände"/>
+    <title text="Bahngel�nde"/>
     <objectType>tn-ra_4.0:RailwayArea</objectType>
   </layerConfig>
   <layerConfig name="TN_RailTra_1" registryId="http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayLink" layerName="TN.RailTransportNetwork.RailwayLink" styleConfig="//@styleConfig.56">
@@ -216,22 +216,22 @@
   </layerConfig>
   <layerConfig name="TN_RailTra_2" registryId="http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayStationArea" layerName="TN.RailTransportNetwork.RailwayStationArea" styleConfig="//@styleConfig.57">
     <title lang="en" text="Railway Station Area"/>
-    <title text="Bahnhofsgelände"/>
+    <title text="Bahnhofsgel�nde"/>
     <objectType>tn-ra_4.0:RailwayStationArea</objectType>
   </layerConfig>
   <layerConfig name="TN_RailTra_3" registryId="http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayYardArea" layerName="TN.RailTransportNetwork.RailwayYardArea" styleConfig="//@styleConfig.58">
     <title lang="en" text="Railway Yard Area"/>
-    <title text="Rangierbahnhofsgelände"/>
+    <title text="Rangierbahnhofsgel�nde"/>
     <objectType>tn-ra_4.0:RailwayYardArea</objectType>
   </layerConfig>
   <layerConfig name="TN_RoadTra" registryId="http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadArea" layerName="TN.RoadTransportNetwork.RoadArea" styleConfig="//@styleConfig.59">
     <title lang="en" text="Road Area"/>
-    <title text="Straßenfläche"/>
+    <title text="Stra�enfl�che"/>
     <objectType>tn-ro_4.0:RoadArea</objectType>
   </layerConfig>
   <layerConfig name="TN_RoadTra_1" registryId="http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadLink" layerName="TN.RoadTransportNetwork.RoadLink" styleConfig="//@styleConfig.60">
     <title lang="en" text="Road Link"/>
-    <title text="Straßensegment"/>
+    <title text="Stra�ensegment"/>
     <objectType>tn-ro_4.0:RoadLink</objectType>
   </layerConfig>
   <layerConfig name="TN_RoadTra_2" registryId="http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadServiceArea" layerName="TN.RoadTransportNetwork.RoadServiceArea" styleConfig="//@styleConfig.61">
@@ -241,7 +241,7 @@
   </layerConfig>
   <layerConfig name="TN_RoadTra_3" registryId="http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.VehicleTrafficArea" layerName="TN.RoadTransportNetwork.VehicleTrafficArea" styleConfig="//@styleConfig.62">
     <title lang="en" text="Vehicle traffic Area"/>
-    <title text="Verkehrsfläche"/>
+    <title text="Verkehrsfl�che"/>
     <objectType>tn-ro_4.0:VehicleTrafficArea</objectType>
   </layerConfig>
   <layerConfig name="TN_WaterTr" registryId="http://inspire.ec.europa.eu/layer/TN.WaterTransportNetwork.FairwayArea" layerName="TN.WaterTransportNetwork.FairwayArea" styleConfig="//@styleConfig.63">
@@ -251,57 +251,57 @@
   </layerConfig>
   <layerConfig name="TN_WaterTr_1" registryId="http://inspire.ec.europa.eu/layer/TN.WaterTransportNetwork.PortArea" layerName="TN.WaterTransportNetwork.PortArea" styleConfig="//@styleConfig.64">
     <title lang="en" text="Port Area"/>
-    <title text="Hafengelände"/>
+    <title text="Hafengel�nde"/>
     <objectType>tn-w_4.0:PortArea</objectType>
   </layerConfig>
   <layerConfig name="TN_WaterTr_2" registryId="http://inspire.ec.europa.eu/layer/TN.WaterTransportNetwork.WaterwayLink" layerName="TN.WaterTransportNetwork.WaterwayLink" styleConfig="//@styleConfig.65">
     <title lang="en" text="Waterway Link"/>
-    <title text="Wasserstraßenverbindung"/>
+    <title text="Wasserstra�enverbindung"/>
     <objectType>tn-w_4.0:WaterwayLink</objectType>
   </layerConfig>
-  <layerConfig name="LC_LandCoverPoints" registryId="http://inspire.ec.europa.eu/layer/LC.LandCoverPoints" layerName="LC.LandCoverPoints" styleConfig="//@styleConfig.66">
+  <layerConfig name="LC_LandCoverPoints" registryId="http://inspire.ec.europa.eu/layer/LC.LandCoverPoints" tags="//@tags.2 //@tags.0" layerName="LC.LandCoverPoints" styleConfig="//@styleConfig.66">
     <title lang="en" text="Land Cover Points"/>
     <title text="Bodenbedeckungspunkte"/>
     <objectType>lcv_4.0:LandCoverUnit</objectType>
   </layerConfig>
-  <layerConfig name="LC_LandCoverSurfaces" registryId="http://inspire.ec.europa.eu/layer/LC.LandCoverSurfaces" layerName="LC.LandCoverSurfaces" styleConfig="//@styleConfig.67">
+  <layerConfig name="LC_LandCoverSurfaces" registryId="http://inspire.ec.europa.eu/layer/LC.LandCoverSurfaces" tags="//@tags.2 //@tags.0" layerName="LC.LandCoverSurfaces" styleConfig="//@styleConfig.67">
     <title lang="en" text="Land Cover Surfaces"/>
-    <title text="Bodenbedeckungsflächen"/>
+    <title text="Bodenbedeckungsfl�chen"/>
     <objectType>lcv_4.0:LandCoverUnit</objectType>
   </layerConfig>
   <layerConfig name="BU_Building" registryId="http://inspire.ec.europa.eu/layer/BU.Building" layerName="BU.Building" styleConfig="//@styleConfig.68">
     <title lang="en" text="Buildings"/>
-    <title text="Gebäude"/>
+    <title text="Geb�ude"/>
     <objectType>bu-core2d_4.0:Building</objectType>
   </layerConfig>
   <layerConfig name="BU_BuildingPart" registryId="http://inspire.ec.europa.eu/layer/BU.BuildingPart" layerName="BU.BuildingPart" styleConfig="//@styleConfig.69">
     <title lang="en" text="Building Parts"/>
-    <title text="Gebäudeteile"/>
+    <title text="Geb�udeteile"/>
     <objectType>bu-core2d_4.0:Building</objectType>
   </layerConfig>
-  <layerConfig name="LU_ExistingLandUse" registryId="http://inspire.ec.europa.eu/layer/LU.ExistingLandUse" layerName="LU.ExistingLandUse" styleConfig="//@styleConfig.4">
+  <layerConfig name="LU_ExistingLandUse" registryId="http://inspire.ec.europa.eu/layer/LU.ExistingLandUse" tags="//@tags.2 //@tags.0" layerName="LU.ExistingLandUse" styleConfig="//@styleConfig.4">
     <title lang="en" text="Existing Land Use"/>
     <title text="Existierende Bodennutzung"/>
     <objectType>elu_4.0:ExistingLandUseObject</objectType>
   </layerConfig>
-  <layerConfig name="LU_SpatialPlan" registryId="http://inspire.ec.europa.eu/layer/LU.SpatialPlan" layerName="LU.SpatialPlan" styleConfig="//@styleConfig.3">
+  <layerConfig name="LU_SpatialPlan" registryId="http://inspire.ec.europa.eu/layer/LU.SpatialPlan" tags="//@tags.2 //@tags.0" layerName="LU.SpatialPlan" styleConfig="//@styleConfig.3">
     <title lang="en" text="Spatial Plan"/>
-    <title text="Räumlicher Plan"/>
+    <title text="R�umlicher Plan"/>
     <objectType>plu_4.0:SpatialPlan</objectType>
   </layerConfig>
-  <layerConfig name="LU_ZoningElement" registryId="http://inspire.ec.europa.eu/layer/LU.ZoningElement" layerName="LU.ZoningElement" styleConfig="//@styleConfig.2">
+  <layerConfig name="LU_ZoningElement" registryId="http://inspire.ec.europa.eu/layer/LU.ZoningElement" tags="//@tags.2 //@tags.0" layerName="LU.ZoningElement" styleConfig="//@styleConfig.2">
     <title lang="en" text="Zoning Element"/>
     <title text="Zonierungselement"/>
     <objectType>plu_4.0:ZoningElement</objectType>
   </layerConfig>
-  <layerConfig name="LU_SupplementaryRegulation" registryId="http://inspire.ec.europa.eu/layer/LU.SupplementaryRegulation" layerName="LU.SupplementaryRegulation" styleConfig="//@styleConfig.1">
+  <layerConfig name="LU_SupplementaryRegulation" registryId="http://inspire.ec.europa.eu/layer/LU.SupplementaryRegulation" tags="//@tags.2 //@tags.0" layerName="LU.SupplementaryRegulation" styleConfig="//@styleConfig.1">
     <title lang="en" text="Supplementary Regulation"/>
-    <title text="Ergänzende Vorschrift"/>
+    <title text="Erg�nzende Vorschrift"/>
     <objectType>plu_4.0:SupplementaryRegulation</objectType>
   </layerConfig>
   <layerConfig name="US_GovernmentalService" registryId="" layerName="US.GovernmentalService" styleConfig="//@styleConfig.0">
     <title lang="en" text="Governmental Service"/>
-    <title text="Stätlicher Dienst"/>
+    <title text="St�tlicher Dienst"/>
     <objectType>us-govserv_4.0:GovernmentalService</objectType>
   </layerConfig>
   <styleConfig name="US_GovernmentalService">
