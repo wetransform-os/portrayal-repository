@@ -16,18 +16,18 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
   	<se:FeatureTypeName>bu:Building</se:FeatureTypeName>
 	<se:Rule>
   	<ogc:Filter> 
-		<ogc:And>
+		<!--<ogc:And>  -->
 			<ogc:PropertyIsEqualTo>
 				<ogc:Function name="IsSurface">
 					<ogc:PropertyName>bu:geometry2D/bu-base:geometry</ogc:PropertyName>
 				</ogc:Function>
 				<ogc:Literal>true</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<ogc:PropertyIsEqualTo>
+		<!--<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>bu:geometry2D/bu-base:referenceGeometry</ogc:PropertyName>
 				<ogc:Literal>true</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-		</ogc:And>
+		 </ogc:And> -->
 	</ogc:Filter>
 	<se:MinScaleDenominator>50</se:MinScaleDenominator>
 	<se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
@@ -46,18 +46,18 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:Rule>
 	<se:Rule>
 	<ogc:Filter>
-		<ogc:And>
+		<!--<ogc:And>  -->
 			<ogc:PropertyIsEqualTo>
 				<ogc:Function name="IsPoint">
 					<ogc:PropertyName>bu:geometry2D/bu-base:geometry</ogc:PropertyName>
 				</ogc:Function>
 				<ogc:Literal>true</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<ogc:PropertyIsEqualTo>
+		<!--  <ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>bu:geometry2D/bu-base:referenceGeometry</ogc:PropertyName>
 				<ogc:Literal>true</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-		</ogc:And>
+		</ogc:And>-->	
 	</ogc:Filter>
 	<se:MinScaleDenominator>50</se:MinScaleDenominator>
 	<se:MaxScaleDenominator>100000</se:MaxScaleDenominator>

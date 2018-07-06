@@ -4,6 +4,7 @@ xmlns:bu-base="http://inspire.ec.europa.eu/schemas/bu-base/4.0"
 xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0" 
 xmlns:ogc="http://www.opengis.net/ogc" 
 xmlns:se="http://www.opengis.net/se" 
+xmlns:gml="http://www.opengis.net/gml/3.2"
 xmlns:sld="http://www.opengis.net/sld" 
 xmlns:xlink="http://www.w3.org/1999/xlink" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -16,18 +17,18 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
   	<se:FeatureTypeName>bu:BuildingPart</se:FeatureTypeName>
 	<se:Rule>
 	  <ogc:Filter> 
-		<ogc:And>
+		<!-- <ogc:And> -->
 			<ogc:PropertyIsEqualTo>
 				<ogc:Function name="IsSurface">
 					<ogc:PropertyName>bu:geometry2D/bu-base:geometry</ogc:PropertyName>
 				</ogc:Function>
 				<ogc:Literal>true</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<ogc:PropertyIsEqualTo>
+			<!--  <ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>bu:geometry2D/bu-base:referenceGeometry</ogc:PropertyName>
 				<ogc:Literal>true</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-		</ogc:And>
+		</ogc:And>-->
 	</ogc:Filter>
 	<se:MinScaleDenominator>50</se:MinScaleDenominator>
 	<se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
@@ -43,18 +44,18 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:Rule>
 	<se:Rule>
 	<ogc:Filter>
-		<ogc:And>
+		<!-- <ogc:And> -->
 			<ogc:PropertyIsEqualTo>
 				<ogc:Function name="IsPoint">
 					<ogc:PropertyName>bu:geometry2D/bu-base:geometry</ogc:PropertyName>
 				</ogc:Function>
 				<ogc:Literal>true</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<ogc:PropertyIsEqualTo>
+		<!--  <ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>bu:geometry2D/bu-base:referenceGeometry</ogc:PropertyName>
 				<ogc:Literal>true</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-		</ogc:And>
+		</ogc:And>-->	
 	</ogc:Filter>
 	<se:MinScaleDenominator>50</se:MinScaleDenominator>
 	<se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
