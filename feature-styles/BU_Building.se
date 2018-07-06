@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <se:FeatureTypeStyle  xmlns:bu="http://inspire.ec.europa.eu/schemas/bu-core2d/4.0" 
+xmlns:bu-base="http://inspire.ec.europa.eu/schemas/bu-base/4.0"
 xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0" 
 xmlns:ogc="http://www.opengis.net/ogc" 
 xmlns:se="http://www.opengis.net/se" 
@@ -18,12 +19,12 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 		<ogc:And>
 			<ogc:PropertyIsEqualTo>
 				<ogc:Function name="IsSurface">
-					<ogc:PropertyName>bu:geometry2D/geometry</ogc:PropertyName>
+					<ogc:PropertyName>bu:geometry2D/bu-base:geometry</ogc:PropertyName>
 				</ogc:Function>
 				<ogc:Literal>true</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 			<ogc:PropertyIsEqualTo>
-				<ogc:PropertyName>bu:geometry2D/referenceGeometry</ogc:PropertyName>
+				<ogc:PropertyName>bu:geometry2D/bu-base:referenceGeometry</ogc:PropertyName>
 				<ogc:Literal>true</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:And>
@@ -32,7 +33,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	<se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
 	<se:PolygonSymbolizer>
 		<se:Geometry>
-			<ogc:PropertyName>bu:geometry2D/geometry</ogc:PropertyName>
+			<ogc:PropertyName>bu:geometry2D/bu-base:geometry</ogc:PropertyName>
 		</se:Geometry>
 		<se:Fill>
 			<se:SvgParameter name="fill">#808080</se:SvgParameter>
@@ -48,12 +49,12 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 		<ogc:And>
 			<ogc:PropertyIsEqualTo>
 				<ogc:Function name="IsPoint">
-					<ogc:PropertyName>bu:geometry2D/geometry</ogc:PropertyName>
+					<ogc:PropertyName>bu:geometry2D/bu-base:geometry</ogc:PropertyName>
 				</ogc:Function>
 				<ogc:Literal>true</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 			<ogc:PropertyIsEqualTo>
-				<ogc:PropertyName>bu:geometry2D/referenceGeometry</ogc:PropertyName>
+				<ogc:PropertyName>bu:geometry2D/bu-base:referenceGeometry</ogc:PropertyName>
 				<ogc:Literal>true</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 		</ogc:And>
@@ -62,7 +63,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	<se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
 	<se:PointSymbolizer>
 		<se:Geometry>
-			<ogc:PropertyName>bu:geometry2D/geometry</ogc:PropertyName>
+			<ogc:PropertyName>bu:geometry2D/bu-base:geometry</ogc:PropertyName>
 		</se:Geometry>
 		<se:Graphic>
 			<se:Mark>
