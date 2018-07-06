@@ -482,7 +482,7 @@ Layer {
 	tags:
 	Name: "BU.BuildingPart"
 	Title: en "Building Parts", de "Geb�udeteile"
-	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/bu-core2d/4.0:Building
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/bu-core2d/4.0:BuildingPart
 	Styles: BU_BuildingPart
 }
 Layer{

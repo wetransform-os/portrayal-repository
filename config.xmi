@@ -277,7 +277,7 @@
   <layerConfig name="BU_BuildingPart" registryId="http://inspire.ec.europa.eu/layer/BU.BuildingPart" layerName="BU.BuildingPart" styleConfig="//@styleConfig.70">
     <title lang="en" text="Building Parts"/>
     <title text="Geb�udeteile"/>
-    <objectType>bu-core2d_4.0:Building</objectType>
+    <objectType>bu-core2d_4.0:BuildingPart</objectType>
   </layerConfig>
   <layerConfig name="LU_ExistingLandUse" registryId="http://inspire.ec.europa.eu/layer/LU.ExistingLandUse" tags="//@tags.2 //@tags.0" layerName="LU.ExistingLandUse" styleConfig="//@styleConfig.5">
     <title lang="en" text="Existing Land Use"/>
