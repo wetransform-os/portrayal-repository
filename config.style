@@ -539,6 +539,23 @@ Layer{
 	SpatialObjectTypes: https://inspire.ec.europa.eu/schemas/hb/4.0:Habitat
 	Styles: HB_Habitat
 }
+Layer{
+	id:"AM_AirQualityManagementZone"
+	registry-id: "http://inspire.ec.europa.eu/layer/AM.AirQualityManagementZone"
+	tags: inspire
+	Name:"AM.AirQualityManagementZone"
+	Title: en "AirQualityManagementZone", de "Luftqualitäts-Kontrollgebiet"
+	SpatialObjectTypes: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
+	Styles: AM_AirQualityManagementZone
+}
+
+Style{
+	id:"AM_AirQualityManagementZone"
+	Remote{
+		FeatureType: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
+		URL: "feature-styles/AM_AirQualityManagementZone.se"
+	}
+}
 Style{
 	id:"HB_Habitat"
 	Remote{
