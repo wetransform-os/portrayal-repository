@@ -7,10 +7,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0"
 version="1.1.0" 
 xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
   <se:Description>
-    <se:Title>Air Quality Management Zone Default Style</se:Title>
-    <se:Abstract>The geometry is rendered for points as a square with a size of 6 pixels, with a mango (#FFD37F) fill 
-and a black outline; for curves as a solid mango (#FFD37F) line with a stroke width of 2 pixels; 
-and for surfaces using a mango (#FFD37F) fill with a transparency of 50% and a solid mango (#FFD37F) outline 
+    <se:Title>Regulated Fairway At Sea Or Large Inland Water Default Style</se:Title>
+    <se:Abstract>The geometry is rendered for points as a square with a size of 6 pixels, with a  blue (#85ABFF) fill 
+and a black outline; for curves as a solid  blue (#85ABFF) line with a stroke width of 2 pixels; 
+and for surfaces using a  blue (#85ABFF) fill with a transparency of 50% and a solid  blue (#85ABFF) outline 
 with a stroke width of 2 pixels.</se:Abstract>
   </se:Description>
   <se:FeatureTypeName>am:ManagementRestrictionOrRegulationZone</se:FeatureTypeName> 

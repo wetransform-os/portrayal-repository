@@ -14,6 +14,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
    	<se:Rule>
 		<ogc:Filter>
 			<ogc:PropertyName>hb:habitat/hb:HabitatTypeCoverType/hb:referenceHabitatTypeID</ogc:PropertyName>
+			xlink:href="http://inspire.ec.europa.eu/codelist/ReferenceHabitatTypeSchemeValue/habitatsDirective#9130"
 			<ogc:Literal>2310</ogc:Literal>
 		</ogc:Filter>
 		<se:PolygonSymbolizer>

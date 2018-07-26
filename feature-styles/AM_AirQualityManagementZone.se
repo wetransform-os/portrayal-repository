@@ -81,7 +81,7 @@ with a stroke width of 2 pixels.</se:Abstract>
 		<ogc:Filter>
 		<ogc:And>
     		<ogc:PropertyIsEqualTo>
-        		<ogc:Function name="IsLine">
+        		<ogc:Function name="IsCurve">
         			<ogc:PropertyName>am:geometry</ogc:PropertyName>
        			</ogc:Function>
        			<ogc:Literal>true</ogc:Literal>
