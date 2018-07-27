@@ -548,12 +548,75 @@ Layer{
 	SpatialObjectTypes: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
 	Styles: AM_AirQualityManagementZone
 }
-
+Layer{
+	id: "AM_AnimalHealthRestrictionZone"
+	registry-id: "http://inspire.ec.europa.eu/layer/AM.AnimalHealthRestrictionZone"
+	tags: inspire
+	Name: "AM.AnimalHealthRestrictionZone"
+	Title: en "AnimalHealthRestrictionZone", de "Tiergesundheits-Schutzgebiet"
+	SpatialObjectTypes: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
+	Styles: AM_AnimalHealthRestrictionZone
+}
+Layer{
+	id: "AM_AreaForDisposalOfWaste"
+	registry-id: "http://inspire.ec.europa.eu/layer/AM.AreaForDisposalOfWaste"
+	tags: inspire
+	Name: "AM.AreaForDisposalOfWaste"
+	Title: en "AreaForDisposalOfWaste", de "Abfallentsorgungsgebiet"
+	SpatialObjectTypes: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
+	Styles: AM_AreaForDisposalOfWaste
+}
+Layer{
+	id: "AM_BathingWaters"
+	registry-id:"http://inspire.ec.europa.eu/layer/AM.BathingWaters"
+	tags: inspire
+	Name: "AM.BathingWaters"
+	Title: en "BathingWaters", de "Badegewässer"
+	SpatialObjectTypes: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
+	Styles: AM_BathingWaters
+}
+Layer{
+	id: "AM_CoastalZoneManagementArea"
+	registry-id:"http://inspire.ec.europa.eu/layer/AM.CoastalZoneManagementArea"
+	tags: inspire
+	Name: "AM.CoastalZoneManagementArea"
+	Title: en "CoastalZoneManagementArea", de "Gebiete des Küstenzonenmanagements"
+	SpatialObjectTypes: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
+	Styles: AM_CoastalZoneManagementArea 
+}
+Style{
+	id: "AM_CoastalZoneManagementArea"
+	Remote{
+		FeatureType: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
+		URL: "feature-styles/AM_CoastalZoneManagementArea.se"
+	}
+}
+Style{
+	id: "AM_BathingWaters"
+	Remote{
+		FeatureType: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
+		URL: "feature-styles/AM_BathingWaters.se"
+	}
+}
+Style{
+	id: "AM_AreaForDisposalOfWaste"
+	Remote{
+		FeatureType: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
+		URL: "feature-styles/AM_AreaForDisposalOfWaste.se"
+	}
+}
 Style{
 	id:"AM_AirQualityManagementZone"
 	Remote{
 		FeatureType: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
 		URL: "feature-styles/AM_AirQualityManagementZone.se"
+	}
+}
+Style{
+	id:"AM_AnimalHealthRestrictionZone"
+	Remote{
+		FeatureType: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
+		URL: "feature-styles/AM_AnimalHealthRestrictionZone.se"
 	}
 }
 Style{
