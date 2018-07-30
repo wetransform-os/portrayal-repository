@@ -544,7 +544,7 @@ Layer{
 	registry-id: "http://inspire.ec.europa.eu/layer/AM.AirQualityManagementZone"
 	tags: inspire
 	Name:"AM.AirQualityManagementZone"
-	Title: en "AirQualityManagementZone", de "Luftqualitäts-Kontrollgebiet"
+	Title: en "Air Quality Management Zone", de "Luftqualitäts-Kontrollgebiet"
 	SpatialObjectTypes: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
 	Styles: AM_AirQualityManagementZone
 }
@@ -553,7 +553,7 @@ Layer{
 	registry-id: "http://inspire.ec.europa.eu/layer/AM.AnimalHealthRestrictionZone"
 	tags: inspire
 	Name: "AM.AnimalHealthRestrictionZone"
-	Title: en "AnimalHealthRestrictionZone", de "Tiergesundheits-Schutzgebiet"
+	Title: en "Animal Health Restriction Zone", de "Tiergesundheits-Schutzgebiet"
 	SpatialObjectTypes: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
 	Styles: AM_AnimalHealthRestrictionZone
 }
@@ -562,7 +562,7 @@ Layer{
 	registry-id: "http://inspire.ec.europa.eu/layer/AM.AreaForDisposalOfWaste"
 	tags: inspire
 	Name: "AM.AreaForDisposalOfWaste"
-	Title: en "AreaForDisposalOfWaste", de "Abfallentsorgungsgebiet"
+	Title: en "Area For Disposal Of Waste", de "Abfallentsorgungsgebiet"
 	SpatialObjectTypes: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
 	Styles: AM_AreaForDisposalOfWaste
 }
@@ -571,7 +571,7 @@ Layer{
 	registry-id:"http://inspire.ec.europa.eu/layer/AM.BathingWaters"
 	tags: inspire
 	Name: "AM.BathingWaters"
-	Title: en "BathingWaters", de "Badegewässer"
+	Title: en "Bathing Waters", de "Badegewässer"
 	SpatialObjectTypes: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
 	Styles: AM_BathingWaters
 }
@@ -580,9 +580,137 @@ Layer{
 	registry-id:"http://inspire.ec.europa.eu/layer/AM.CoastalZoneManagementArea"
 	tags: inspire
 	Name: "AM.CoastalZoneManagementArea"
-	Title: en "CoastalZoneManagementArea", de "Gebiete des Küstenzonenmanagements"
+	Title: en "Coastal Zone Management Area", de "Gebiete des Küstenzonenmanagements"
 	SpatialObjectTypes: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
 	Styles: AM_CoastalZoneManagementArea 
+}
+Layer{
+	id:"AM_DesignatedWaters"
+	registry-id:"http://inspire.ec.europa.eu/layer/AM.DesignatedWaters"
+	tags: inspire
+	Name: "AM.DesignatedWaters"
+	Title: en "Designated Waters", de "Bezeichnetes Gewässer"
+	SpatialObjectTypes: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
+	Styles: AM_DesignatedWaters
+}
+Layer{
+	id: "AM_DrinkingWaterProtectionArea"
+	registry-id:"http://inspire.ec.europa.eu/layer/AM.DrinkingWaterProtectionArea"
+	tags: inspire
+	Name: "AM.DrinkingWaterProtectionArea"
+	Title: en "Drinking Water Protection Area", de "Trinkwasserschutzgebiet"
+	SpatialObjectTypes: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
+	Styles: AM_DrinkingWaterProtectionArea
+}
+Layer{
+	id:"AM_FloodUnitOfManagement"
+	registry-id:"http://inspire.ec.europa.eu/layer/AM.FloodUnitOfManagement"
+	tags: inspire
+	Name: "AM.FloodUnitOfManagement"
+	Title: en "Flood Unit Of Management", de"Bewirtschaftungseinheit für Hochwasserrisiken"
+	SpatialObjectTypes: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
+	Styles: AM_FloodUnitOfManagement	
+}
+Layer{
+	id:"AM_ForestManagementArea"
+	registry-id:"http://inspire.ec.europa.eu/layer/AM.ForestManagementArea"
+	tags: inspire
+	Name: "AM.Forest Management Area"
+	Title: en "Forest Management Area", de"Waldbewirtschaftungsgebiet"
+	SpatialObjectTypes: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
+	Styles: AM_ForestManagementArea
+}
+Layer{
+	id:"AM_MarineRegion"
+	registry-id:"http://inspire.ec.europa.eu/layer/AM.MarineRegion"
+	tags: inspire
+	Name: "AM.MarineRegion"
+	Title: en "Marine Region", de"Meeresregion"
+	SpatialObjectTypes: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
+	Styles: AM_MarineRegion
+}
+Layer{
+	id: "AM_NitrateVulnerableZone"
+	registry-id:"http://inspire.ec.europa.eu/layer/AM.NitrateVulnerableZone"
+	tags: inspire
+	Name: "AM.NitrateVulnerableZone"
+	Title: en "Nitrate Vulnerable Zone", de "Nitratgefährdetes Gebiet"
+	SpatialObjectTypes: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
+	Styles: AM_NitrateVulnerableZone
+}
+Layer{
+	id:"AM_NoiseRestrictionZone"
+	registry-id:"http://inspire.ec.europa.eu/layer/AM.NoiseRestrictionZone"
+	tags: inspire
+	Name: "AM.NoiseRestrictionZone"
+	Title: en "Noise Restriction Zone", de "Lärmschutzgebiet"
+	SpatialObjectTypes: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
+	Styles: AM_NoiseRestrictionZone
+}
+Layer{
+	id: "AM_PlantHealthProtectionZone"
+	registry-id:"http://inspire.ec.europa.eu/layer/AM.PlantHealthProtectionZone"
+	tags: inspire
+	Name: "AM.PlantHealthProtectionZone"
+	Title: en"Plant Health Protection Zone", de "Pflanzengesundheitliches Schutzgebiet"
+	SpatialObjectTypes: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
+	Styles: AM_PlantHealthProtectionZone
+}
+Style{
+	id: "AM_PlantHealthProtectionZone"
+	Remote{
+		FeatureType: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
+		URL: "feature-styles/AM_PlantHealthProtectionZone.se"
+	}
+}
+Style{
+	id: "AM_NoiseRestrictionZone"
+	Remote{
+		FeatureType: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
+		URL: "feature-styles/AM_NoiseRestrictionZone.se"
+	}
+}
+Style{
+	id:"AM_NitrateVulnerableZone"
+	Remote{
+		FeatureType: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
+		URL:"feature-styles/AM_NitrateVulnerableZon.se"
+	}
+}
+Style{
+	id: "AM_MarineRegion"
+	Remote{
+		FeatureType: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
+		URL: "feature-styles/AM_MarineRegion.se"
+	}
+}
+Style{
+	id:"AM_ForestManagementArea"
+	Remote{
+		FeatureType: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
+		URL:"feature-styles/AM_ForestManagementArea.se"
+	}
+}
+Style{
+	id:"AM_FloodUnitOfManagement"
+	Remote{
+		FeatureType: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
+		URL:"feature-styles/AM_FloodUnitOfManagement.se"
+	}
+}
+Style{
+	id:"AM_DrinkingWaterProtectionArea"
+	Remote{
+		FeatureType: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
+		URL: "feature-styles/AM_DrinkingWaterProtectionArea.se"
+	}
+}
+Style{
+	id:"AM_DesignatedWaters"
+	Remote{
+		FeatureType: https://inspire.ec.europa.eu/schemas/am/4.0/:ManagementRestrictionOrRegulationZone
+		URL: "feature-styles/AM_DesignatedWaters.se"
+	}
 }
 Style{
 	id: "AM_CoastalZoneManagementArea"
