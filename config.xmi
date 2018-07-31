@@ -299,7 +299,7 @@
     <title text="Erg�nzende Vorschrift"/>
     <objectType>plu_4.0:SupplementaryRegulation</objectType>
   </layerConfig>
-  <layerConfig name="US_GovernmentalService" registryId="" layerName="US.GovernmentalService" styleConfig="//@styleConfig.20">
+  <layerConfig name="US_GovernmentalService" registryId="" tags="//@tags.0" layerName="US.GovernmentalService" styleConfig="//@styleConfig.20">
     <title lang="en" text="Governmental Service"/>
     <title text="St�tlicher Dienst"/>
     <objectType>us-govserv_4.0:GovernmentalService</objectType>

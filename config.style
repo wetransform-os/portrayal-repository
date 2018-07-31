@@ -524,7 +524,7 @@ Layer{
 Layer{
 	id:"US_GovernmentalService"
 	registry-id:""
-	tags:
+	tags: inspire
 	Name: "US.GovernmentalService"
 	Title: en "Governmental Service", de "St�tlicher Dienst"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/us-govserv/4.0:GovernmentalService
