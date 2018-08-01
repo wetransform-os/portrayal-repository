@@ -429,7 +429,7 @@
     <remoteStyle featureTypeName="am_4.0:ManagementRestrictionOrRegulationZone" url="feature-styles/AM_NoiseRestrictionZone.se"/>
   </styleConfig>
   <styleConfig name="AM_NitrateVulnerableZone">
-    <remoteStyle featureTypeName="am_4.0:ManagementRestrictionOrRegulationZone" url="feature-styles/AM_NitrateVulnerableZon.se"/>
+    <remoteStyle featureTypeName="am_4.0:ManagementRestrictionOrRegulationZone" url="feature-styles/AM_NitrateVulnerableZone.se"/>
   </styleConfig>
   <styleConfig name="AM_MarineRegion">
     <remoteStyle featureTypeName="am_4.0:ManagementRestrictionOrRegulationZone" url="feature-styles/AM_MarineRegion.se"/>

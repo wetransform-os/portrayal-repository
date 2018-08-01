@@ -770,7 +770,7 @@ Style{
 	id:"AM_NitrateVulnerableZone"
 	Remote{
 		FeatureType: http://inspire.ec.europa.eu/schemas/am/4.0:ManagementRestrictionOrRegulationZone
-		URL:"feature-styles/AM_NitrateVulnerableZon.se"
+		URL:"feature-styles/AM_NitrateVulnerableZone.se"
 	}
 }
 Style{
