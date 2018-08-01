@@ -31,7 +31,7 @@
 			</se:Fill>
 			<se:Stroke>
 				<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-				<se:SvgParameter name="strokewidth">0.3</se:SvgParameter>
+				<se:SvgParameter name="stroke-width">0.3</se:SvgParameter>
 			</se:Stroke>
 		</se:PolygonSymbolizer>
 		<se:TextSymbolizer>
@@ -76,7 +76,7 @@
 			</se:Fill>
 			<se:Stroke>
 				<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-				<se:SvgParameter name="strokewidth">0.5</se:SvgParameter>
+				<se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
 			</se:Stroke>
 		</se:PolygonSymbolizer>
 		<se:TextSymbolizer>
@@ -121,7 +121,7 @@
 			</se:Fill>
 			<se:Stroke>
 				<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-				<se:SvgParameter name="strokewidth">0.7</se:SvgParameter>
+				<se:SvgParameter name="stroke-width">0.7</se:SvgParameter>
 			</se:Stroke>
 		</se:PolygonSymbolizer>
 		<se:TextSymbolizer>
@@ -166,7 +166,7 @@
 			</se:Fill>
 			<se:Stroke>
 				<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-				<se:SvgParameter name="strokewidth">1.0</se:SvgParameter>
+				<se:SvgParameter name="stroke-width">1.0</se:SvgParameter>
 			</se:Stroke>
 		</se:PolygonSymbolizer>
 		<se:TextSymbolizer>
@@ -211,7 +211,7 @@
 			</se:Fill>
 			<se:Stroke>
 				<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-				<se:SvgParameter name="strokewidth">1.5</se:SvgParameter>
+				<se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
 			</se:Stroke>
 		</se:PolygonSymbolizer>
 		<se:TextSymbolizer>
@@ -256,7 +256,7 @@
 			</se:Fill>
 			<se:Stroke>
 				<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-				<se:SvgParameter name="strokewidth">0.2</se:SvgParameter>
+				<se:SvgParameter name="stroke-width">0.2</se:SvgParameter>
 			</se:Stroke>
 		</se:PolygonSymbolizer>
 		<se:TextSymbolizer>

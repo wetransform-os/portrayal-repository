@@ -703,12 +703,60 @@ Layer{
 }
 Layer{
 	id: "AM_WaterBodyForWFD"
-	registry-id: "http://inspire.ec.europa.eu/layer/AM_WaterBodyForWFD"
+	registry-id: "http://inspire.ec.europa.eu/layer/AM.WaterBodyForWFD"
 	tags: inspire
 	Name: "AM.WaterBodyForWFD"
 	Title: en "WaterBodyForWFD", de "Wasserkörper gemäß der Wasserrahmenrichtlinie (2000/60/EG)"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/am/4.0:ManagementRestrictionOrRegulationZone
 	Styles: AM_WaterBodyForWFD
+}
+Layer{
+	id: "EF_EnvironmentalMonitoringFacilities"
+	registry-id: "http://inspire.ec.europa.eu/layer/EF.EnvironmentalMonitoringFacilities"
+	tags: inspire
+	Name: "EF.EnvironmentalMonitoringFacilities"
+	Title: en "Environmental Monitoring Facilities", de "Umweltüberwachungseinrichtungen"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/ef/4.0:EnvironmentalMonitoringFacility 
+	Styles: EF_EnvironmentalMonitoringFacilities
+}
+Layer{
+	id: "EF_EnvironmentalMonitoringNetworks"
+	registry-id: "http://inspire.ec.europa.eu/layer/EF.EnvironmentalMonitoringNetworks"
+	tags: inspire
+	Name: "EF.EnvironmentalMonitoringNetworks"
+	Title: en "Environmental Monitoring Networks", de "Umweltüberwachungsnetzwerke"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/ef/4.0:EnvironmentalMonitoringNetwork 
+	Styles:  EF_EnvironmentalMonitoringNetworks
+}
+Layer{
+	id:"EF_EnvironmentalMonitoringProgrammes"
+	registry-id: "http://inspire.ec.europa.eu/layer/EF.EnvironmentalMonitoringProgrammes"
+	tags: inspire
+	Name: "EF.EnvironmentalMonitoringProgrammes"
+	Title: en "Environmental Monitoring Programmes", de "Umweltüberwachungsprogramme"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/ef/4.0:EnvironmentalMonitoringProgramme
+	Styles:  EF_EnvironmentalMonitoringProgrammes
+}
+Style{
+	id: "EF_EnvironmentalMonitoringProgrammes"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/ef/4.0:EnvironmentalMonitoringProgramme 
+		URL: "feature-styles/EF_EnvironmentalMonitoringProgramme.se"
+	}
+}
+Style{
+	id: "EF_EnvironmentalMonitoringNetworks"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/ef/4.0:EnvironmentalMonitoringNetwork
+		URL: "feature-styles/EF_EnvironmentalMonitoringNetworks.se"
+	}
+}
+Style{
+	id: "EF_EnvironmentalMonitoringFacilities"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/ef/4.0:EnvironmentalMonitoringFacility
+		URL: "feature-styles/EF_EnvironmentalMonitoringFacilities.se"
+	}
 }
 Style{
 	id: "AM_WaterBodyForWFD"
