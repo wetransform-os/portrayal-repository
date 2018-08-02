@@ -14,4 +14,92 @@ and for surfaces using a mango (#FFD37F) fill with a transparency of 50% and a s
 with a stroke width of 2 pixels.</se:Abstract>
   </se:Description>
   <se:FeatureTypeName>am:ManagementRestrictionOrRegulationZone</se:FeatureTypeName> 
+    <se:Rule> 
+		<ogc:Filter>
+		<ogc:And>
+    		<ogc:PropertyIsEqualTo>
+        		<ogc:Function name="IsSurface">
+        			<ogc:PropertyName>am:geometry</ogc:PropertyName>
+       			</ogc:Function>
+       			<ogc:Literal>true</ogc:Literal>
+       		</ogc:PropertyIsEqualTo>
+       		<ogc:PropertyIsEqualTo>
+       			<ogc:PropertyName>am:zoneType/@xlink:href</ogc:PropertyName>
+       			<ogc:Literal>http://inspire.ec.europa.eu/codelist/ZoneTypeCode/noiseRestrictionZone</ogc:Literal>
+     		</ogc:PropertyIsEqualTo>
+     	</ogc:And>
+   		</ogc:Filter>
+	    <se:PolygonSymbolizer>
+	      <se:Geometry>
+	        <ogc:PropertyName>am:geometry</ogc:PropertyName>
+	      </se:Geometry>
+	      <se:Fill>
+	      	<se:SvgParameter name="fill">#FFD37F</se:SvgParameter>
+	      	<se:SvgParameter name="fill-opacity">0.5</se:SvgParameter> 
+	      </se:Fill>
+	      <se:Stroke>
+	        <se:SvgParameter name="stroke">#FFD37F</se:SvgParameter>
+	        <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+	      </se:Stroke>
+	    </se:PolygonSymbolizer>
+	  </se:Rule>
+	  <se:Rule>
+		<ogc:Filter>
+		<ogc:And>
+    		<ogc:PropertyIsEqualTo>
+        		<ogc:Function name="IsPoint">
+        			<ogc:PropertyName>am:geometry</ogc:PropertyName>
+       			</ogc:Function>
+       			<ogc:Literal>true</ogc:Literal>
+       		</ogc:PropertyIsEqualTo>
+       		<ogc:PropertyIsEqualTo>
+       			<ogc:PropertyName>am:zoneType/@xlink:href</ogc:PropertyName>
+       			<ogc:Literal>http://inspire.ec.europa.eu/codelist/ZoneTypeCode/noiseRestrictionZone</ogc:Literal>
+     		</ogc:PropertyIsEqualTo>
+     	</ogc:And>
+   		</ogc:Filter>
+	    <se:PointSymbolizer>
+	      <se:Geometry>
+	        <ogc:PropertyName>am:geometry</ogc:PropertyName>
+	      </se:Geometry>
+	      <se:Graphic>
+	        <se:Mark>
+	          <se:WellKnownName>square</se:WellKnownName>
+	          <se:Fill>
+	            <se:SvgParameter name="fill">#FFD37F</se:SvgParameter>
+	          </se:Fill>
+	          <se:Stroke>
+	            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	            <se:SvgParameter name="stroke-width">1</se:SvgParameter> 
+	          </se:Stroke>
+	        </se:Mark>
+	        <se:Size>6</se:Size>
+	      </se:Graphic>
+	    </se:PointSymbolizer>    
+	</se:Rule>
+	<se:Rule>
+		<ogc:Filter>
+		<ogc:And>
+    		<ogc:PropertyIsEqualTo>
+        		<ogc:Function name="IsCurve">
+        			<ogc:PropertyName>am:geometry</ogc:PropertyName>
+       			</ogc:Function>
+       			<ogc:Literal>true</ogc:Literal>
+       		</ogc:PropertyIsEqualTo>
+       		<ogc:PropertyIsEqualTo>
+       			<ogc:PropertyName>am:zoneType/@xlink:href</ogc:PropertyName>
+       			<ogc:Literal>http://inspire.ec.europa.eu/codelist/ZoneTypeCode/noiseRestrictionZone</ogc:Literal>
+     		</ogc:PropertyIsEqualTo>
+     	</ogc:And>
+   		</ogc:Filter>
+	    <se:LineSymbolizer>
+	      <se:Geometry>
+	        <ogc:PropertyName>am:geometry</ogc:PropertyName>
+	      </se:Geometry>
+	      <se:Stroke>
+	      	<se:SvgParameter name="stroke">#FFD37F</se:SvgParameter>
+	        <se:SvgParameter name="stroke-width">2</se:SvgParameter> 
+	      </se:Stroke>
+	    </se:LineSymbolizer>    
+	</se:Rule>
 </se:FeatureTypeStyle>
