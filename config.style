@@ -741,7 +741,7 @@ Style{
 	id: "EF_EnvironmentalMonitoringProgrammes"
 	Remote{
 		FeatureType: http://inspire.ec.europa.eu/schemas/ef/4.0:EnvironmentalMonitoringProgramme 
-		URL: "feature-styles/EF_EnvironmentalMonitoringProgramme.se"
+		URL: "feature-styles/EF_EnvironmentalMonitoringProgrammes.se"
 	}
 }
 Style{

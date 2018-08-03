@@ -420,7 +420,7 @@
     <objectType>ef_4.0:EnvironmentalMonitoringProgramme</objectType>
   </layerConfig>
   <styleConfig name="EF_EnvironmentalMonitoringProgrammes">
-    <remoteStyle featureTypeName="ef_4.0:EnvironmentalMonitoringProgramme" url="feature-styles/EF_EnvironmentalMonitoringProgramme.se"/>
+    <remoteStyle featureTypeName="ef_4.0:EnvironmentalMonitoringProgramme" url="feature-styles/EF_EnvironmentalMonitoringProgrammes.se"/>
   </styleConfig>
   <styleConfig name="EF_EnvironmentalMonitoringNetworks">
     <remoteStyle featureTypeName="ef_4.0:EnvironmentalMonitoringNetwork" url="feature-styles/EF_EnvironmentalMonitoringNetworks.se"/>
