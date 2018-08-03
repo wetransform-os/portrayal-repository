@@ -9,6 +9,14 @@
     <se:Description>
       <se:Title>protected sites: polygon</se:Title>
     </se:Description>
+    <ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:Function name="IsSurface">
+        		<ogc:PropertyName>ps:geometry</ogc:PropertyName>
+       		</ogc:Function>
+       		<ogc:Literal>true</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   	</ogc:Filter>
     <se:PolygonSymbolizer>
       <se:Geometry>
         <ogc:PropertyName>ps:geometry</ogc:PropertyName>
@@ -26,6 +34,14 @@
     <se:Description>
       <se:Title>protected sites: line</se:Title>
     </se:Description>
+    <ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:Function name="IsCurve">
+        		<ogc:PropertyName>ps:geometry</ogc:PropertyName>
+       		</ogc:Function>
+       		<ogc:Literal>true</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   	</ogc:Filter>
     <se:LineSymbolizer>
       <se:Geometry>
         <ogc:PropertyName>ps:geometry</ogc:PropertyName>
@@ -40,6 +56,14 @@
     <se:Description>
       <se:Title>protected sites: point</se:Title>
     </se:Description>
+    <ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:Function name="IsPoint">
+        		<ogc:PropertyName>ps:geometry</ogc:PropertyName>
+       		</ogc:Function>
+       		<ogc:Literal>true</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   	</ogc:Filter>
     <se:PointSymbolizer>
       <se:Geometry>
         <ogc:PropertyName>ps:geometry</ogc:PropertyName>
