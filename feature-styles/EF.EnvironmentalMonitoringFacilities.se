@@ -3,9 +3,7 @@
 xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" 
 xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" 
 xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0"
-version="1.1.0" 
-xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
 	<se:Description>
     	<se:Title>Environmental Monitoring Facilities</se:Title>
     	<se:Abstract>The geometry is rendered for points or representativePoints as a square with a size of 6 pixels, with a 50% grey (#808080) fill and a black (#000000) outline; 
