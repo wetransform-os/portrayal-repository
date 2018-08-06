@@ -742,7 +742,7 @@ Layer{
 	registry-id:""
 	tags: inspire
 	Name: "NZ.RiskZone"
-	Title: en "Risk Zone", de "Gebiete Mit Risiken"
+	Title: en "Risk Zone", de "Risikogebiet"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/nz-core/4.0:RiskZone
 	Styles: NZ_RiskZone
 }
@@ -751,7 +751,7 @@ Layer{
 	registry-id: ""
 	tags: inspire
 	Name: "NZ.HazardArea"
-	Title: en "Hazard Area", de ""
+	Title: en "Hazard Area", de "Gefahrengebiet"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/nz-core/4.0:HazardArea
 	Styles: NZ_HazardArea
 }
@@ -760,7 +760,7 @@ Layer{
 	registry-id:""
 	tags: inspire
 	Name: "NZ.ExposedElement"
-	Title: en "Exposed Element", de ""
+	Title: en "Exposed Element", de "Gefährdetes Element"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/nz-core/4.0:ExposedElement
 	Styles: NZ_ExposedElement
 }
@@ -769,7 +769,7 @@ Layer{
 	registry-id:""
 	tags: inspire
 	Name: "NZ.ObservedEvent"
-	Title: en "Observed Element", de ""
+	Title: en "Observed Element", de "Beobachtetes Ereignis"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/nz-core/4.0:ObservedEvent
 	Styles: NZ_ObservedEvent
 }

@@ -421,22 +421,22 @@
   </layerConfig>
   <layerConfig name="NZ_RiskZone" registryId="" tags="//@tags.0" layerName="NZ.RiskZone" styleConfig="//@styleConfig.3">
     <title lang="en" text="Risk Zone"/>
-    <title text="Gebiete Mit Risiken"/>
+    <title text="Risikogebiet"/>
     <objectType>nz-core_4.0:RiskZone</objectType>
   </layerConfig>
   <layerConfig name="NZ_HazardArea" registryId="" tags="//@tags.0" layerName="NZ.HazardArea" styleConfig="//@styleConfig.2">
     <title lang="en" text="Hazard Area"/>
-    <title text=""/>
+    <title text="Gefahrengebiet"/>
     <objectType>nz-core_4.0:HazardArea</objectType>
   </layerConfig>
   <layerConfig name="NZ_ExposedElement" registryId="" tags="//@tags.0" layerName="NZ.ExposedElement" styleConfig="//@styleConfig.1">
     <title lang="en" text="Exposed Element"/>
-    <title text=""/>
+    <title text="Gefährdetes Element"/>
     <objectType>nz-core_4.0:ExposedElement</objectType>
   </layerConfig>
   <layerConfig name="NZ_ObservedEvent" registryId="" tags="//@tags.0" layerName="NZ.ObservedEvent" styleConfig="//@styleConfig.0">
     <title lang="en" text="Observed Element"/>
-    <title text=""/>
+    <title text="Beobachtetes Ereignis"/>
     <objectType>nz-core_4.0:ObservedEvent</objectType>
   </layerConfig>
   <styleConfig name="NZ_ObservedEvent">
