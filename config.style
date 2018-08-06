@@ -737,6 +737,70 @@ Layer{
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/ef/4.0:EnvironmentalMonitoringProgramme
 	Styles:  EF_EnvironmentalMonitoringProgrammes
 }
+Layer{
+	id: "NZ_RiskZone"
+	registry-id:""
+	tags: inspire
+	Name: "NZ.RiskZone"
+	Title: en "Risk Zone", de "Gebiete Mit Risiken"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/nz-core/4.0:RiskZone
+	Styles: NZ_RiskZone
+}
+Layer{
+	id: "NZ_HazardArea"
+	registry-id: ""
+	tags: inspire
+	Name: "NZ.HazardArea"
+	Title: en "Hazard Area", de ""
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/nz-core/4.0:HazardArea
+	Styles: NZ_HazardArea
+}
+Layer{
+	id: "NZ_ExposedElement"
+	registry-id:""
+	tags: inspire
+	Name: "NZ.ExposedElement"
+	Title: en "Exposed Element", de ""
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/nz-core/4.0:ExposedElement
+	Styles: NZ_ExposedElement
+}
+Layer{
+	id: "NZ_ObservedEvent"
+	registry-id:""
+	tags: inspire
+	Name: "NZ.ObservedEvent"
+	Title: en "Observed Element", de ""
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/nz-core/4.0:ObservedEvent
+	Styles: NZ_ObservedEvent
+}
+Style{
+	id: "NZ_ObservedEvent"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/nz-core/4.0:ObservedEvent
+		URL: "feature-styles/NZ_ObservedEvent.se"
+	}
+}
+Style{
+	id: "NZ_ExposedElement"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/nz-core/4.0:ExposedElement
+		URL: "feature-styles/NZ_ExposedElement.se"
+	}
+}
+Style{
+	id: "NZ_HazardArea"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/nz-core/4.0:HazardArea
+		URL: "feature-styles/NZ_HazardArea.se"
+	}
+}
+Style{
+	id: "NZ_RiskZone"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/nz-core/4.0:RiskZone
+		URL: "feature-styles/NZ_RiskZone.se"
+	}
+}
 Style{
 	id: "EF_EnvironmentalMonitoringProgrammes"
 	Remote{
