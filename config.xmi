@@ -435,7 +435,7 @@
     <objectType>nz-core_4.0:ExposedElement</objectType>
   </layerConfig>
   <layerConfig name="NZ_ObservedEvent" registryId="" tags="//@tags.0" layerName="NZ.ObservedEvent" styleConfig="//@styleConfig.0">
-    <title lang="en" text="Observed Element"/>
+    <title lang="en" text="Observed Event"/>
     <title text="Beobachtetes Ereignis"/>
     <objectType>nz-core_4.0:ObservedEvent</objectType>
   </layerConfig>

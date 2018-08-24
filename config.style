@@ -769,7 +769,7 @@ Layer{
 	registry-id:""
 	tags: inspire
 	Name: "NZ.ObservedEvent"
-	Title: en "Observed Element", de "Beobachtetes Ereignis"
+	Title: en "Observed Event", de "Beobachtetes Ereignis"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/nz-core/4.0:ObservedEvent
 	Styles: NZ_ObservedEvent
 }
