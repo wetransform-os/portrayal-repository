@@ -429,7 +429,7 @@
     <title text="Gefahrengebiet"/>
     <objectType>nz-core_4.0:HazardArea</objectType>
   </layerConfig>
-  <layerConfig name="NZ_ExposedElement" registryId="" tags="//@tags.0" layerName="NZ.ExposedElement" styleConfig="//@styleConfig.1">
+  <layerConfig name="NZ_ExposedElement" registryId="http://inspire.ec.europa.eu/layer/NZ.ExposedElement" tags="//@tags.0" layerName="NZ.ExposedElement" styleConfig="//@styleConfig.1">
     <title lang="en" text="Exposed Element"/>
     <title text="Gefährdetes Element"/>
     <objectType>nz-core_4.0:ExposedElement</objectType>

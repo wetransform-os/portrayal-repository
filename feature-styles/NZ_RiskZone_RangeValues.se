@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle xmlns:nz="http://inspire.ec.europa.eu/schemas/nz-core/4.0" 
+xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" 
+xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" 
+xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
+	<se:Description>
+    	<se:Title>Risk Zones</se:Title>
+    	<se:Abstract>This style is for the representation of risk levels data as polygons or grid cells (coverage). The risk categories are usually represented using a colour ramp from 
+clear to darker (low risk to high risk) depending on the attribute included in "levelOfRisk". 
+    	</se:Abstract>
+	</se:Description>
+	<se:FeatureTypeName>nz:RiskZone</se:FeatureTypeName> 
+  	<se:Rule>
+  	<ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:PropertyName>nz:levelOfRisk/nz:LevelOrIntensity/nz:qualitativeValue</ogc:PropertyName>
+       		<ogc:Literal>Low</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>	
+   	</ogc:Filter>
+   	<se:PolygonSymbolizer>
+		<se:Geometry>
+	    	<ogc:PropertyName>nz:geometry</ogc:PropertyName>
+	    </se:Geometry>
+	    <se:Fill>
+	    	<se:SvgParameter name="fill">#176230</se:SvgParameter>
+	    </se:Fill>
+	    <se:Stroke>
+	    	<se:SvgParameter name="stroke">#176230</se:SvgParameter>
+	        <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	    </se:Stroke>
+	</se:PolygonSymbolizer>
+  	</se:Rule>
+  	<se:Rule>
+  	<ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:PropertyName>nz:levelOfRisk/nz:LevelOrIntensity/nz:qualitativeValue</ogc:PropertyName>
+       		<ogc:Literal>Medium</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>	
+   	</ogc:Filter>
+   	<se:PolygonSymbolizer>
+		<se:Geometry>
+	    	<ogc:PropertyName>nz:geometry</ogc:PropertyName>
+	    </se:Geometry>
+	    <se:Fill>
+	    	<se:SvgParameter name="fill">#FFF200</se:SvgParameter>
+	    </se:Fill>
+	    <se:Stroke>
+	    	<se:SvgParameter name="stroke">#FFF200</se:SvgParameter>
+	        <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	    </se:Stroke>
+	</se:PolygonSymbolizer>
+  	</se:Rule>
+  	<se:Rule>
+  	<ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:PropertyName>nz:levelOfRisk/nz:LevelOrIntensity/nz:qualitativeValue</ogc:PropertyName>
+       		<ogc:Literal>High</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>	
+   	</ogc:Filter>
+   	<se:PolygonSymbolizer>
+		<se:Geometry>
+	    	<ogc:PropertyName>nz:geometry</ogc:PropertyName>
+	    </se:Geometry>
+	    <se:Fill>
+	    	<se:SvgParameter name="fill">#ED1C24</se:SvgParameter>
+	    </se:Fill>
+	    <se:Stroke>
+	    	<se:SvgParameter name="stroke">#ED1C24</se:SvgParameter>
+	        <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	    </se:Stroke>
+	</se:PolygonSymbolizer>
+  	</se:Rule>
+  	<se:Rule>
+  	<ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:PropertyName>nz:levelOfRisk/nz:LevelOrIntensity/nz:quantitativeValue</ogc:PropertyName>
+       		<ogc:Literal>0</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>	
+   	</ogc:Filter>
+   	<se:PolygonSymbolizer>
+		<se:Geometry>
+	    	<ogc:PropertyName>nz:geometry</ogc:PropertyName>
+	    </se:Geometry>
+	    <se:Fill>
+	    	<se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+	    </se:Fill>
+	    <se:Stroke>
+	    	<se:SvgParameter name="stroke">#FFFFFF</se:SvgParameter>
+	        <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	    </se:Stroke>
+	</se:PolygonSymbolizer>
+  	</se:Rule>
+  	<se:Rule>
+  	<ogc:Filter>
+    	<ogc:PropertyIsBetween>
+        	<ogc:PropertyName>nz:levelOfRisk/nz:LevelOrIntensity/nz:quantitativeValue</ogc:PropertyName>
+       		<ogc:LowerBoundary>
+       			<ogc:Literal>1</ogc:Literal>
+       		</ogc:LowerBoundary>
+       		<ogc:UpperBoundary>
+       			<ogc:Literal>1000</ogc:Literal>
+       		</ogc:UpperBoundary>
+       	</ogc:PropertyIsBetween>	
+   	</ogc:Filter>
+   	<se:PolygonSymbolizer>
+		<se:Geometry>
+	    	<ogc:PropertyName>nz:geometry</ogc:PropertyName>
+	    </se:Geometry>
+	    <se:Fill>
+	    	<se:SvgParameter name="fill">#FFD176</se:SvgParameter>
+	    </se:Fill>
+	    <se:Stroke>
+	    	<se:SvgParameter name="stroke">#FFD176</se:SvgParameter>
+	        <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	    </se:Stroke>
+	</se:PolygonSymbolizer>
+  	</se:Rule>
+  	<se:Rule>
+  	<ogc:Filter>
+    	<ogc:PropertyIsBetween>
+        	<ogc:PropertyName>nz:levelOfRisk/nz:LevelOrIntensity/nz:quantitativeValue</ogc:PropertyName>
+       		<ogc:LowerBoundary>
+       			<ogc:Literal>1001</ogc:Literal>
+       		</ogc:LowerBoundary>
+       		<ogc:UpperBoundary>
+       			<ogc:Literal>3000</ogc:Literal>
+       		</ogc:UpperBoundary>
+       	</ogc:PropertyIsBetween>	
+   	</ogc:Filter>
+   	<se:PolygonSymbolizer>
+		<se:Geometry>
+	    	<ogc:PropertyName>nz:geometry</ogc:PropertyName>
+	    </se:Geometry>
+	    <se:Fill>
+	    	<se:SvgParameter name="fill">#FB0000</se:SvgParameter>
+	    </se:Fill>
+	    <se:Stroke>
+	    	<se:SvgParameter name="stroke">#FB0000</se:SvgParameter>
+	        <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	    </se:Stroke>
+	</se:PolygonSymbolizer>
+  	</se:Rule>
+  	<se:Rule>
+  	<ogc:Filter>
+    	<ogc:PropertyIsBetween>
+        	<ogc:PropertyName>nz:levelOfRisk/nz:LevelOrIntensity/nz:quantitativeValue</ogc:PropertyName>
+       		<ogc:LowerBoundary>
+       			<ogc:Literal>3001</ogc:Literal>
+       		</ogc:LowerBoundary>
+       		<ogc:UpperBoundary>
+       			<ogc:Literal>5000</ogc:Literal>
+       		</ogc:UpperBoundary>
+       	</ogc:PropertyIsBetween>	
+   	</ogc:Filter>
+   	<se:PolygonSymbolizer>
+		<se:Geometry>
+	    	<ogc:PropertyName>nz:geometry</ogc:PropertyName>
+	    </se:Geometry>
+	    <se:Fill>
+	    	<se:SvgParameter name="fill">#EF078E</se:SvgParameter>
+	    </se:Fill>
+	    <se:Stroke>
+	    	<se:SvgParameter name="stroke">#EF078E</se:SvgParameter>
+	        <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	    </se:Stroke>
+	</se:PolygonSymbolizer>
+  	</se:Rule>
+  	<se:Rule>
+  	<ogc:Filter>
+    	<ogc:PropertyIsBetween>
+        	<ogc:PropertyName>nz:levelOfRisk/nz:LevelOrIntensity/nz:quantitativeValue</ogc:PropertyName>
+       		<ogc:LowerBoundary>
+       			<ogc:Literal>5001</ogc:Literal>
+       		</ogc:LowerBoundary>
+       		<ogc:UpperBoundary>
+       			<ogc:Literal>50000</ogc:Literal>
+       		</ogc:UpperBoundary>
+       	</ogc:PropertyIsBetween>	
+   	</ogc:Filter>
+   	<se:PolygonSymbolizer>
+		<se:Geometry>
+	    	<ogc:PropertyName>nz:geometry</ogc:PropertyName>
+	    </se:Geometry>
+	    <se:Fill>
+	    	<se:SvgParameter name="fill">#9002DF</se:SvgParameter>
+	    </se:Fill>
+	    <se:Stroke>
+	    	<se:SvgParameter name="stroke">#9002DF</se:SvgParameter>
+	        <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	    </se:Stroke>
+	</se:PolygonSymbolizer>
+  	</se:Rule>
+  	<se:Rule>
+  	<ogc:Filter>
+    	<ogc:PropertyIsGreaterThan>
+        	<ogc:PropertyName>nz:levelOfRisk/nz:LevelOrIntensity/nz:quantitativeValue</ogc:PropertyName>
+       		<ogc:Literal>50000</ogc:Literal>
+       	</ogc:PropertyIsGreaterThan>	
+   	</ogc:Filter>
+   	<se:PolygonSymbolizer>
+		<se:Geometry>
+	    	<ogc:PropertyName>nz:geometry</ogc:PropertyName>
+	    </se:Geometry>
+	    <se:Fill>
+	    	<se:SvgParameter name="fill">#0005E4</se:SvgParameter>
+	    </se:Fill>
+	    <se:Stroke>
+	    	<se:SvgParameter name="stroke">#0005E4</se:SvgParameter>
+	        <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	    </se:Stroke>
+	</se:PolygonSymbolizer>
+  	</se:Rule>
+ </se:FeatureTypeStyle>

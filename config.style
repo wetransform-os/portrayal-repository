@@ -757,7 +757,7 @@ Layer{
 }
 Layer{
 	id: "NZ_ExposedElement"
-	registry-id:""
+	registry-id:"http://inspire.ec.europa.eu/layer/NZ.ExposedElement"
 	tags: inspire
 	Name: "NZ.ExposedElement"
 	Title: en "Exposed Element", de "Gefährdetes Element"
