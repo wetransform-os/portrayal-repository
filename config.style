@@ -353,7 +353,7 @@ Layer {
 Layer {
 	id: "TN_RailTra"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayArea"
-	tags:
+	tags: inspire production
 	Name: "TN.RailTransportNetwork.RailwayArea"
 	Title: en "Railway Area", de "Bahngel�nde"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ra/4.0:RailwayArea
@@ -371,7 +371,7 @@ Layer {
 Layer {
 	id: "TN_RailTra_2"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayStationArea"
-	tags:
+	tags: inspire production
 	Name: "TN.RailTransportNetwork.RailwayStationArea"
 	Title: en "Railway Station Area", de "Bahnhofsgel�nde"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ra/4.0:RailwayStationArea
@@ -380,7 +380,7 @@ Layer {
 Layer {
 	id: "TN_RailTra_3"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayYardArea"
-	tags:
+	tags: inspire production
 	Name: "TN.RailTransportNetwork.RailwayYardArea"
 	Title: en "Railway Yard Area", de "Rangierbahnhofsgel�nde"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ra/4.0:RailwayYardArea
@@ -389,7 +389,7 @@ Layer {
 Layer {
 	id: "TN_RoadTra"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadArea"
-	tags: inspire 
+	tags: inspire production
 	Name: "TN.RoadTransportNetwork.RoadArea"
 	Title: en "Road Area", de "Stra�enfl�che"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:RoadArea
@@ -407,7 +407,7 @@ Layer {
 Layer {
 	id: "TN_RoadTra_2"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadServiceArea"
-	tags:
+	tags: inspire production
 	Name: "TN.RoadTransportNetwork.RoadServiceArea"
 	Title: en "Road Service Area", de "Servicebereich"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:RoadServiceArea
@@ -416,7 +416,7 @@ Layer {
 Layer {
 	id: "TN_RoadTra_3"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.VehicleTrafficArea"
-	tags: 
+	tags: inspire production
 	Name: "TN.RoadTransportNetwork.VehicleTrafficArea"
 	Title: en "Vehicle traffic Area", de "Verkehrsfl�che"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:VehicleTrafficArea
@@ -425,7 +425,7 @@ Layer {
 Layer {
 	id: "TN_WaterTr"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.WaterTransportNetwork.FairwayArea"
-	tags:
+	tags: inspire production
 	Name: "TN.WaterTransportNetwork.FairwayArea"
 	Title: en "Fairway Area", de "Fahrrinnenbereich"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/4.0:FairwayArea
@@ -434,9 +434,9 @@ Layer {
 Layer {
 	id: "TN_WaterTr_1"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.WaterTransportNetwork.PortArea"
-	tags:
+	tags: inspire production
 	Name: "TN.WaterTransportNetwork.PortArea"
-	Title: en "Port Area", de "Hafengel�nde"
+	Title: en "Port Area", de "Hafengelände"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/4.0:PortArea
 	Styles: TN_W_PortArea
 }
@@ -445,14 +445,14 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.WaterTransportNetwork.WaterwayLink"
 	tags: inspire production
 	Name: "TN.WaterTransportNetwork.WaterwayLink"
-	Title: en "Waterway Link", de "Wasserstra�enverbindung"
+	Title: en "Waterway Link", de "Wasserstraßenverbindung"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/4.0:WaterwayLink
 	Styles: TN_W_WaterwayLink
 }
-Layer {
+Layer { 
 	id:"LC_LandCoverPoints"
 	registry-id:"http://inspire.ec.europa.eu/layer/LC.LandCoverPoints"
-	tags: production inspire
+	tags: production inspire 
 	Name: "LC.LandCoverPoints"
 	Title: en "Land Cover Points", de "Bodenbedeckungspunkte"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/lcv/4.0:LandCoverUnit
@@ -463,7 +463,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/LC.LandCoverSurfaces"
 	tags: production inspire
 	Name: "LC.LandCoverSurfaces"
-	Title: en "Land Cover Surfaces", de "Bodenbedeckungsfl�chen"
+	Title: en "Land Cover Surfaces", de "Bodenbedeckungsflächen"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/lcv/4.0:LandCoverUnit
 	Styles: LC_LandCoverSurfaces
 }
