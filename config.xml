@@ -209,7 +209,7 @@
     <title text="Bahngel�nde"/>
     <objectType>tn-ra_4.0:RailwayArea</objectType>
   </layerConfig>
-  <layerConfig name="TN_RailTra_1" registryId="http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayLink" layerName="TN.RailTransportNetwork.RailwayLink" styleConfig="//@styleConfig.83">
+  <layerConfig name="TN_RailTra_1" registryId="http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayLink" tags="//@tags.0 //@tags.2" layerName="TN.RailTransportNetwork.RailwayLink" styleConfig="//@styleConfig.83">
     <title lang="en" text="Railway Link"/>
     <title text="Eisenbahnverbindung"/>
     <objectType>tn-ra_4.0:RailwayLink</objectType>
@@ -224,12 +224,12 @@
     <title text="Rangierbahnhofsgel�nde"/>
     <objectType>tn-ra_4.0:RailwayYardArea</objectType>
   </layerConfig>
-  <layerConfig name="TN_RoadTra" registryId="http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadArea" layerName="TN.RoadTransportNetwork.RoadArea" styleConfig="//@styleConfig.86">
+  <layerConfig name="TN_RoadTra" registryId="http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadArea" tags="//@tags.0 //@tags.2" layerName="TN.RoadTransportNetwork.RoadArea" styleConfig="//@styleConfig.86">
     <title lang="en" text="Road Area"/>
     <title text="Stra�enfl�che"/>
     <objectType>tn-ro_4.0:RoadArea</objectType>
   </layerConfig>
-  <layerConfig name="TN_RoadTra_1" registryId="http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadLink" layerName="TN.RoadTransportNetwork.RoadLink" styleConfig="//@styleConfig.87">
+  <layerConfig name="TN_RoadTra_1" registryId="http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadLink" tags="//@tags.0 //@tags.2" layerName="TN.RoadTransportNetwork.RoadLink" styleConfig="//@styleConfig.87">
     <title lang="en" text="Road Link"/>
     <title text="Stra�ensegment"/>
     <objectType>tn-ro_4.0:RoadLink</objectType>
@@ -254,7 +254,7 @@
     <title text="Hafengel�nde"/>
     <objectType>tn-w_4.0:PortArea</objectType>
   </layerConfig>
-  <layerConfig name="TN_WaterTr_2" registryId="http://inspire.ec.europa.eu/layer/TN.WaterTransportNetwork.WaterwayLink" layerName="TN.WaterTransportNetwork.WaterwayLink" styleConfig="//@styleConfig.92">
+  <layerConfig name="TN_WaterTr_2" registryId="http://inspire.ec.europa.eu/layer/TN.WaterTransportNetwork.WaterwayLink" tags="//@tags.0 //@tags.2" layerName="TN.WaterTransportNetwork.WaterwayLink" styleConfig="//@styleConfig.92">
     <title lang="en" text="Waterway Link"/>
     <title text="Wasserstra�enverbindung"/>
     <objectType>tn-w_4.0:WaterwayLink</objectType>
@@ -419,17 +419,17 @@
     <title text="Umweltüberwachungsprogramme"/>
     <objectType>ef_4.0:EnvironmentalMonitoringProgramme</objectType>
   </layerConfig>
-  <layerConfig name="NZ_RiskZone" registryId="" tags="//@tags.0" layerName="NZ.RiskZone" styleConfig="//@styleConfig.3">
+  <layerConfig name="NZ_RiskZone" registryId="" tags="//@tags.0 //@tags.2" layerName="NZ.RiskZone" styleConfig="//@styleConfig.3">
     <title lang="en" text="Risk Zone"/>
     <title text="Risikogebiet"/>
     <objectType>nz-core_4.0:RiskZone</objectType>
   </layerConfig>
-  <layerConfig name="NZ_HazardArea" registryId="" tags="//@tags.0" layerName="NZ.HazardArea" styleConfig="//@styleConfig.2">
+  <layerConfig name="NZ_HazardArea" registryId="" tags="//@tags.0 //@tags.2" layerName="NZ.HazardArea" styleConfig="//@styleConfig.2">
     <title lang="en" text="Hazard Area"/>
     <title text="Gefahrengebiet"/>
     <objectType>nz-core_4.0:HazardArea</objectType>
   </layerConfig>
-  <layerConfig name="NZ_ExposedElement" registryId="http://inspire.ec.europa.eu/layer/NZ.ExposedElement" tags="//@tags.0" layerName="NZ.ExposedElement" styleConfig="//@styleConfig.1">
+  <layerConfig name="NZ_ExposedElement" registryId="http://inspire.ec.europa.eu/layer/NZ.ExposedElement" tags="//@tags.0 //@tags.2" layerName="NZ.ExposedElement" styleConfig="//@styleConfig.1">
     <title lang="en" text="Exposed Element"/>
     <title text="Gefährdetes Element"/>
     <objectType>nz-core_4.0:ExposedElement</objectType>

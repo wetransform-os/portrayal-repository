@@ -362,7 +362,7 @@ Layer {
 Layer {
 	id: "TN_RailTra_1"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayLink"
-	tags:
+	tags: inspire production
 	Name: "TN.RailTransportNetwork.RailwayLink"
 	Title: en "Railway Link", de "Eisenbahnverbindung"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ra/4.0:RailwayLink
@@ -389,7 +389,7 @@ Layer {
 Layer {
 	id: "TN_RoadTra"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadArea"
-	tags:
+	tags: inspire production
 	Name: "TN.RoadTransportNetwork.RoadArea"
 	Title: en "Road Area", de "Stra�enfl�che"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:RoadArea
@@ -398,7 +398,7 @@ Layer {
 Layer {
 	id: "TN_RoadTra_1"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadLink"
-	tags:
+	tags: inspire production
 	Name: "TN.RoadTransportNetwork.RoadLink"
 	Title: en "Road Link", de "Stra�ensegment"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:RoadLink
@@ -443,7 +443,7 @@ Layer {
 Layer {
 	id: "TN_WaterTr_2"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.WaterTransportNetwork.WaterwayLink"
-	tags:
+	tags: inspire production
 	Name: "TN.WaterTransportNetwork.WaterwayLink"
 	Title: en "Waterway Link", de "Wasserstra�enverbindung"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/4.0:WaterwayLink
@@ -740,7 +740,7 @@ Layer{
 Layer{
 	id: "NZ_RiskZone"
 	registry-id:""
-	tags: inspire
+	tags: inspire production
 	Name: "NZ.RiskZone"
 	Title: en "Risk Zone", de "Risikogebiet"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/nz-core/4.0:RiskZone
@@ -749,7 +749,7 @@ Layer{
 Layer{
 	id: "NZ_HazardArea"
 	registry-id: ""
-	tags: inspire
+	tags: inspire production
 	Name: "NZ.HazardArea"
 	Title: en "Hazard Area", de "Gefahrengebiet"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/nz-core/4.0:HazardArea
@@ -758,7 +758,7 @@ Layer{
 Layer{
 	id: "NZ_ExposedElement"
 	registry-id:"http://inspire.ec.europa.eu/layer/NZ.ExposedElement"
-	tags: inspire
+	tags: inspire production
 	Name: "NZ.ExposedElement"
 	Title: en "Exposed Element", de "Gefährdetes Element"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/nz-core/4.0:ExposedElement
