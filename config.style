@@ -389,7 +389,7 @@ Layer {
 Layer {
 	id: "TN_RoadTra"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadArea"
-	tags: inspire production
+	tags: inspire 
 	Name: "TN.RoadTransportNetwork.RoadArea"
 	Title: en "Road Area", de "Stra�enfl�che"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:RoadArea

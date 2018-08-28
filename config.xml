@@ -224,7 +224,7 @@
     <title text="Rangierbahnhofsgel�nde"/>
     <objectType>tn-ra_4.0:RailwayYardArea</objectType>
   </layerConfig>
-  <layerConfig name="TN_RoadTra" registryId="http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadArea" tags="//@tags.0 //@tags.2" layerName="TN.RoadTransportNetwork.RoadArea" styleConfig="//@styleConfig.86">
+  <layerConfig name="TN_RoadTra" registryId="http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadArea" tags="//@tags.0" layerName="TN.RoadTransportNetwork.RoadArea" styleConfig="//@styleConfig.86">
     <title lang="en" text="Road Area"/>
     <title text="Stra�enfl�che"/>
     <objectType>tn-ro_4.0:RoadArea</objectType>
