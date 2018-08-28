@@ -11,7 +11,7 @@
     </se:Description>
     <se:PolygonSymbolizer>
       <se:Geometry>
-        <ogc:PropertyName>tn-w:geometry</ogc:PropertyName>
+        <ogc:PropertyName>net:geometry</ogc:PropertyName>
       </se:Geometry>
       <se:Fill>
         <se:SvgParameter name="fill">#696969</se:SvgParameter>

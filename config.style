@@ -67,7 +67,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/AU.ExclusiveEconomicZone"
 	tags: 
 	Name: "AU.ExclusiveEconomicZone"
-	Title: en "Exclusive economic zone", de "Ausschlie�liche Wirtschaftszone"
+	Title: en "Exclusive economic zone", de "Ausschließliche Wirtschaftszone"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/mu/3.0:ExclusiveEconomicZone
 	Styles: MU_ExclusiveEconomicZone
 }
@@ -76,7 +76,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/AU.InternalWaters"
 	tags:
 	Name: "AU.InternalWaters"
-	Title: en "Internal waters", de "Innere Gew�sser"
+	Title: en "Internal waters", de "Innere Gewässer"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/mu/3.0:InternalWaters
 	Styles: MU_InternalWaters
 }
@@ -94,7 +94,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/AU.TerritorialSea"
 	tags:
 	Name: "AU.TerritorialSea"
-	Title: en "Territorial sea", de "K�stenmeer"
+	Title: en "Territorial sea", de "Küstenmeer"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/mu/3.0:TerritorialSea
 	Styles: MU_TerritorialSea
 }
@@ -103,7 +103,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/CP.CadastralBoundary"
 	tags:
 	Name: "CP.CadastralBoundary"
-	Title: en "Cadastral Boundary", de "Flurst�cksgrenze"
+	Title: en "Cadastral Boundary", de "Flurstücksgrenze"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/cp/4.0:CadastralBoundary
 	Styles: CP_CadastralBoundary
 }
@@ -121,7 +121,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/CP.CadastralParcel"
 	tags:
 	Name: "CP.CadastralParcel"
-	Title: en "Cadastral Parcel", de "Flurst�ck"
+	Title: en "Cadastral Parcel", de "Flurstück"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/cp/4.0:CadastralParcel
 	Styles: CP_CadastralParcel_1
 }
@@ -202,7 +202,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.ManMadeObject"
 	tags:
 	Name: "HY.PhysicalWaters.ManMadeObject"
-	Title: en "Man-made Object", de "Bauwerke an Gew�ssern"
+	Title: en "Man-made Object", de "Bauwerke an Gewässern"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Crossing
 	, http://inspire.ec.europa.eu/schemas/hy-p/4.0:DamOrWeir , http://inspire.ec.europa.eu/schemas/hy-p/4.0:ShorelineConstruction , http://inspire.ec.europa.eu/schemas/hy-p/4.0:Ford , http://inspire.ec.europa.eu/schemas/hy-p/4.0:Lock Styles: HY_P_Crossing , HY_P_DamOrWeir , HY_P_Shore , HY_P_Ford , HY_P_Lock
 }
@@ -211,7 +211,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Shore"
 	tags:
 	Name: "HY.PhysicalWaters.Shore"
-	Title: en "Shores", de "K�sten"
+	Title: en "Shores", de "Küsten"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Shore
 	Styles: HY_P_Shore_1
 }
@@ -220,7 +220,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Waterbodies"
 	tags:
 	Name: "HY.PhysicalWaters.Waterbodies"
-	Title: en "Waterbody", de "Wasserk�rper"
+	Title: en "Waterbody", de "Wasserkörper"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Watercourse
 	, http://inspire.ec.europa.eu/schemas/hy-p/4.0:StandingWater Styles: HY_P_Watercourse , HY_P_StandingWater
 }
@@ -265,7 +265,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AerodromeArea"
 	tags:
 	Name: "TN.AirTransportNetwork.AerodromeArea"
-	Title: en "Aerodrome Area", de "Flugplatzgel�nde"
+	Title: en "Aerodrome Area", de "Flugplatzgelände"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:AerodromeArea
 	Styles: TN_A_AerodromeArea
 }
@@ -292,7 +292,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.ApronArea"
 	tags:
 	Name: "TN.AirTransportNetwork.ApronArea"
-	Title: en "Apron Area", de "Vorfeldgel�nde"
+	Title: en "Apron Area", de "Vorfeldgelände"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:ApronArea
 	Styles: TN_A_ApronArea
 }
@@ -301,7 +301,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.RunwayArea"
 	tags:
 	Name: "TN.AirTransportNetwork.RunwayArea"
-	Title: en "Runway Area", de "Landebahngel�nde"
+	Title: en "Runway Area", de "Landebahngelände"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:RunwayArea
 	Styles: TN_A_RunwayArea
 }
@@ -355,7 +355,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayArea"
 	tags: inspire production
 	Name: "TN.RailTransportNetwork.RailwayArea"
-	Title: en "Railway Area", de "Bahngel�nde"
+	Title: en "Railway Area", de "Bahngelände"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ra/4.0:RailwayArea
 	Styles: TN_RA_RailwayArea
 }
@@ -373,7 +373,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayStationArea"
 	tags: inspire production
 	Name: "TN.RailTransportNetwork.RailwayStationArea"
-	Title: en "Railway Station Area", de "Bahnhofsgel�nde"
+	Title: en "Railway Station Area", de "Bahnhofsgelände"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ra/4.0:RailwayStationArea
 	Styles: TN_RA_RailwayStationArea
 }
@@ -382,7 +382,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayYardArea"
 	tags: inspire production
 	Name: "TN.RailTransportNetwork.RailwayYardArea"
-	Title: en "Railway Yard Area", de "Rangierbahnhofsgel�nde"
+	Title: en "Railway Yard Area", de "Rangierbahnhofsgelände"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ra/4.0:RailwayYardArea
 	Styles: TN_RA_RailwayYardArea
 }
@@ -391,7 +391,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadArea"
 	tags: inspire production
 	Name: "TN.RoadTransportNetwork.RoadArea"
-	Title: en "Road Area", de "Stra�enfl�che"
+	Title: en "Road Area", de "Straßenfläche"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:RoadArea
 	Styles: TN_RO_RoadArea
 }
@@ -400,7 +400,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadLink"
 	tags: inspire production
 	Name: "TN.RoadTransportNetwork.RoadLink"
-	Title: en "Road Link", de "Stra�ensegment"
+	Title: en "Road Link", de "Straßensegment"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:RoadLink
 	Styles: TN_RO_RoadLink
 }
@@ -418,7 +418,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.VehicleTrafficArea"
 	tags: inspire production
 	Name: "TN.RoadTransportNetwork.VehicleTrafficArea"
-	Title: en "Vehicle traffic Area", de "Verkehrsfl�che"
+	Title: en "Vehicle traffic Area", de "Verkehrsfläche"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:VehicleTrafficArea
 	Styles: TN_RO_VehicleTrafficArea
 }
@@ -472,7 +472,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/BU.Building"
 	tags:
 	Name: "BU.Building"
-	Title: en "Buildings", de "Geb�ude"
+	Title: en "Buildings", de "Gebäude"
 	SpatialObjectTypes:	http://inspire.ec.europa.eu/schemas/bu-core2d/4.0:Building
 	Styles: BU_Building
 }
@@ -481,7 +481,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/BU.BuildingPart"
 	tags:
 	Name: "BU.BuildingPart"
-	Title: en "Building Parts", de "Geb�udeteile"
+	Title: en "Building Parts", de "Gebäudeteile"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/bu-core2d/4.0:BuildingPart
 	Styles: BU_BuildingPart
 }
@@ -499,7 +499,7 @@ Layer{
 	registry-id:"http://inspire.ec.europa.eu/layer/LU.SpatialPlan"
 	tags: production inspire
 	Name:"LU.SpatialPlan"
-	Title: en "Spatial Plan", de "R�umlicher Plan"
+	Title: en "Spatial Plan", de "Räumlicher Plan"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/plu/4.0:SpatialPlan
 	Styles: LU_SpatialPlan
 }
@@ -517,7 +517,7 @@ Layer{
 	registry-id:"http://inspire.ec.europa.eu/layer/LU.SupplementaryRegulation"
 	tags: production inspire
 	Name: "LU.SupplementaryRegulation"
-	Title: en "Supplementary Regulation", de "Erg�nzende Vorschrift"
+	Title: en "Supplementary Regulation", de "Ergänzende Vorschrift"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/plu/4.0:SupplementaryRegulation
 	Styles: LU_SupplementaryRegulation
 }
@@ -526,7 +526,7 @@ Layer{
 	registry-id:""
 	tags: inspire
 	Name: "US.GovernmentalService"
-	Title: en "Governmental Service", de "St�tlicher Dienst"
+	Title: en "Governmental Service", de "Stätlicher Dienst"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/us-govserv/4.0:GovernmentalService
 	Styles: US_GovernmentalService
 }
