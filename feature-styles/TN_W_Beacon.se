@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <se:FeatureTypeStyle xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" 
+xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0"
+xmlns:tn-w="http://inspire.ec.europa.eu/schemas/tn-w/4.0"
 xmlns:sld="http://www.opengis.net/sld" xmlns:tn-w="http://inspire.ec.europa.eu/schemas/tn-w/4.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
   <se:Description>
-    <se:Title>Transport Node Default Style</se:Title>
-    <se:Abstract>The geometry is rendered as a circle with a size of 3 pixels, with a red (#FF0000) fill and a black outline (#000000).</se:Abstract>
+    <se:Title>Beacon Default Style</se:Title>
+    <se:Abstract>The geometry is rendered as a circle with a size of 3 pixels, with an orange (#FF6600) fill and a black outline (#000000).</se:Abstract>
   </se:Description>
   <se:FeatureTypeName>tn-w:Beacon</se:FeatureTypeName>
   <se:Rule>
@@ -12,13 +14,13 @@ xmlns:sld="http://www.opengis.net/sld" xmlns:tn-w="http://inspire.ec.europa.eu/s
     </se:Description>
     <se:PointSymbolizer>
       <se:Geometry>
-        <ogc:PropertyName>tn-w:geometry</ogc:PropertyName>
+        <ogc:PropertyName>net:geometry</ogc:PropertyName>
       </se:Geometry>
       <se:Graphic>
         <se:Mark>
           <se:WellKnownName>circle</se:WellKnownName>
           <se:Fill>
-            <se:SvgParameter name="fill">#FF0000</se:SvgParameter>
+            <se:SvgParameter name="fill">#FF6600</se:SvgParameter>
           </se:Fill>
           <se:Stroke>
             <se:SvgParameter name="stroke">#000000</se:SvgParameter>
