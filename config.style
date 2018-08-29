@@ -773,6 +773,86 @@ Layer{
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/nz-core/4.0:ObservedEvent
 	Styles: NZ_ObservedEvent
 }
+Layer{
+	id:"TN_MarkerPost"
+	registry-id:""
+	tags: inspire production //wetransform custom
+	Name: "TN.CommonTransportElements.MarkerPost"
+	Title: en "Marker Post", de "Stationszeichen"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn/4.0:MarkerPost
+	Styles: TN_MarkerPost
+}
+Layer{
+	id: "TN_W_Beacon"
+	registry-id: ""
+	tags: inspire production //wetransform custom
+	Name:"TN.WaterTransportNetwork.Beacon"
+	Title: en "Beacon", de "Leuchtfeuer"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/4.0:Beacon
+	Styles: TN_W_Beacon	
+}
+Layer{
+	id: "TN_W_Buoy"
+	registry-id: ""
+	tags: inspire production //wetransform custom
+	Name: "TN.WaterTransportNetwork.Buoy"
+	Title: en "Buoy", de "Tonne"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/4.0:Buoy
+	Styles: TN_W_Buoy
+}
+Layer{
+	id: "TN_W_TrafficSeparationSchemeCrossing"
+	registry-id:""
+	tags: inspire production //wetransform custom
+	Name: "TN.WaterTransportNetwork.TrafficSeparationSchemeCrossing"
+	Title: en "Traffic Separation Scheme Crossing", de "Kreuzung eines Verkehrstrennungsgebiets"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/4.0:TrafficSeparationSchemeCrossing
+	Styles: TN_W_TrafficSeparationSchemeCrossing
+}
+Layer{
+	id: "TN_W_TrafficSeparationSchemeSeparator"
+	registry-id:""
+	tags: inspire production //wetransform custom
+	Name: "TN.WaterTransportNetwork.TrafficSeparationSchemeSeparator"
+	Title: en "Traffic Separation Scheme Separator", de "Übergangszone eines Verkehrstrennungsgebiets"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/4.0:TrafficSeparationSchemeSeparator
+	Styles: TN_W_TrafficSeparationSchemeSeparator
+}
+Style{
+	id:"TN_W_TrafficSeparationSchemeSeparator"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-w/4.0:TrafficSeparationSchemeSeparator
+		URL:"feature-styles/TN_W_TrafficSeparationSchemeSeparator.se"
+	}
+}
+Style{
+	id: "TN_W_TrafficSeparationSchemeCrossing"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-w/4.0:TrafficSeparationSchemeCrossing
+		URL: "feature-styles/TN_W_TrafficSeparationSchemeCrossing.se"
+	}
+}
+Style{
+	id: "TN_W_Buoy"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-w/4.0:Buoy
+		URL: "feature-styles/TN_W_Buoy.se"
+	}
+}
+Style{
+	id: "TN_W_Beacon"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-w/4.0:Beacon
+		URL: "feature-styles/TN_W_Beacon.se"
+	}
+}
+Style{
+	id: "TN_MarkerPost"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn/4.0:MarkerPost
+		URL: "feature-styles/TN_MarkerPost.se"
+	}
+}
 Style{
 	id: "NZ_ObservedEvent"
 	Remote{
