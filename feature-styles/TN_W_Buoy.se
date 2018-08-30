@@ -14,7 +14,7 @@ xmlns:sld="http://www.opengis.net/sld" xmlns:tn="http://inspire.ec.europa.eu/sch
     </se:Description>
     <se:PointSymbolizer>
       <se:Geometry>
-        <ogc:PropertyName>net:geometry</ogc:PropertyName>
+        <ogc:PropertyName>tn:geometry</ogc:PropertyName>
       </se:Geometry>
       <se:Graphic>
         <se:Mark>
