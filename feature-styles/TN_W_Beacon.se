@@ -25,7 +25,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
           </se:Fill>
           <se:Stroke>
             <se:SvgParameter name="stroke">#000000</se:SvgParameter>
-            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+            <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
           </se:Stroke>
         </se:Mark>
         <se:Size>3</se:Size>

@@ -24,7 +24,7 @@ xmlns:sld="http://www.opengis.net/sld" xmlns:tn="http://inspire.ec.europa.eu/sch
           </se:Fill>
           <se:Stroke>
             <se:SvgParameter name="stroke">#000000</se:SvgParameter>
-            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+            <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
           </se:Stroke>
         </se:Mark>
         <se:Size>3</se:Size>
