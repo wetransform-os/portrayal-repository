@@ -7,13 +7,53 @@
   <se:FeatureTypeName>hy-p:Watercourse</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>waterbodies persistence: intermittent</se:Title>
+      <se:Title>waterbodies persistence: perennial</se:Title>
     </se:Description>
     <ogc:Filter>
-      <ogc:PropertyIsEqualTo>
-        <ogc:PropertyName>hy-p:persistence/@xlink:href</ogc:PropertyName>
-        <ogc:Literal>http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue/intermittent</ogc:Literal>
-      </ogc:PropertyIsEqualTo>
+      <ogc:And>
+        <ogc:PropertyIsEqualTo>
+          <ogc:PropertyName>hy-p:persistence/@xlink:href</ogc:PropertyName>
+          <ogc:Literal>http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue/perennial</ogc:Literal>
+        </ogc:PropertyIsEqualTo>
+        <ogc:PropertyIsEqualTo>
+          <ogc:PropertyName>hy-p:delineationKnown</ogc:PropertyName>
+          <ogc:Literal>true</ogc:Literal>
+        </ogc:PropertyIsEqualTo>
+      </ogc:And>
+    </ogc:Filter>
+    <se:LineSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>hy-p:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Stroke>
+        <se:SvgParameter name="stroke">#33CCFF</se:SvgParameter>
+        <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+      </se:Stroke>
+    </se:LineSymbolizer>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>hy-p:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Fill>
+        <se:SvgParameter name="fill">#CCFFFF</se:SvgParameter>
+      </se:Fill>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  <se:Rule>
+    <se:Description>
+      <se:Title>waterbodies persistence: intermittent</se:Title>
+    </se:Description>
+   <ogc:Filter>
+      <ogc:And>
+        <ogc:PropertyIsEqualTo>
+          <ogc:PropertyName>hy-p:persistence/@xlink:href</ogc:PropertyName>
+          <ogc:Literal>http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue/intermittent</ogc:Literal>
+        </ogc:PropertyIsEqualTo>
+        <ogc:PropertyIsEqualTo>
+          <ogc:PropertyName>hy-p:delineationKnown</ogc:PropertyName>
+          <ogc:Literal>true</ogc:Literal>
+        </ogc:PropertyIsEqualTo>
+      </ogc:And>
     </ogc:Filter>
     <se:LineSymbolizer>
       <se:Geometry>
@@ -41,20 +81,22 @@
       <se:Title>waterbodies persistence: ephemeral or dry</se:Title>
     </se:Description>
     <ogc:Filter>
-      <ogc:Or>
-        <ogc:PropertyIsEqualTo>
-          <ogc:PropertyName>hy-p:persistence/@xlink:href</ogc:PropertyName>
-          <ogc:Literal>http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue/ephemeral</ogc:Literal>
+      <ogc:And>
+      <ogc:PropertyIsEqualTo>
+          <ogc:PropertyName>hy-p:delineationKnown</ogc:PropertyName>
+          <ogc:Literal>true</ogc:Literal>
         </ogc:PropertyIsEqualTo>
+        <ogc:Or>
         <ogc:PropertyIsEqualTo>
           <ogc:PropertyName>hy-p:persistence/@xlink:href</ogc:PropertyName>
           <ogc:Literal>http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue/dry</ogc:Literal>
         </ogc:PropertyIsEqualTo>
         <ogc:PropertyIsEqualTo>
-          <ogc:PropertyName>hy-p:delineationKnown</ogc:PropertyName>
-          <ogc:Literal>true</ogc:Literal>
+          <ogc:PropertyName>hy-p:persistence/@xlink:href</ogc:PropertyName>
+          <ogc:Literal>http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue/ephemeral</ogc:Literal>
         </ogc:PropertyIsEqualTo>
-      </ogc:Or>
+        </ogc:Or>
+      </ogc:And>
     </ogc:Filter>
     <se:LineSymbolizer>
       <se:Geometry>

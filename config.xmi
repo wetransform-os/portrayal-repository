@@ -269,12 +269,12 @@
     <title text="Bodenbedeckungsflächen"/>
     <objectType>lcv_4.0:LandCoverUnit</objectType>
   </layerConfig>
-  <layerConfig name="BU_Building" registryId="http://inspire.ec.europa.eu/layer/BU.Building" layerName="BU.Building" styleConfig="//@styleConfig.100">
+  <layerConfig name="BU_Building" registryId="http://inspire.ec.europa.eu/layer/BU.Building" tags="//@tags.0" layerName="BU.Building" styleConfig="//@styleConfig.100">
     <title lang="en" text="Buildings"/>
     <title text="Gebäude"/>
     <objectType>bu-core2d_4.0:Building</objectType>
   </layerConfig>
-  <layerConfig name="BU_BuildingPart" registryId="http://inspire.ec.europa.eu/layer/BU.BuildingPart" layerName="BU.BuildingPart" styleConfig="//@styleConfig.101">
+  <layerConfig name="BU_BuildingPart" registryId="http://inspire.ec.europa.eu/layer/BU.BuildingPart" tags="//@tags.0" layerName="BU.BuildingPart" styleConfig="//@styleConfig.101">
     <title lang="en" text="Building Parts"/>
     <title text="Gebäudeteile"/>
     <objectType>bu-core2d_4.0:BuildingPart</objectType>

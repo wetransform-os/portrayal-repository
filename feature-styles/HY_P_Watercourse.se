@@ -16,6 +16,14 @@
       </ogc:PropertyIsEqualTo>
     </ogc:Filter>
     <se:LineSymbolizer>
+    <ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:Function name="IsCurve">
+        		<ogc:PropertyName>hy-p:geometry</ogc:PropertyName>
+       		</ogc:Function>
+       		<ogc:Literal>true</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   	</ogc:Filter>
       <se:Geometry>
         <ogc:PropertyName>hy-p:geometry</ogc:PropertyName>
       </se:Geometry>
@@ -25,6 +33,14 @@
       </se:Stroke>
     </se:LineSymbolizer>
     <se:PolygonSymbolizer>
+    <ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:Function name="IsSurface">
+        		<ogc:PropertyName>hy-p:geometry</ogc:PropertyName>
+       		</ogc:Function>
+       		<ogc:Literal>true</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   	</ogc:Filter>
       <se:Geometry>
         <ogc:PropertyName>hy-p:geometry</ogc:PropertyName>
       </se:Geometry>

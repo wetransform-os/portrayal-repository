@@ -9,13 +9,15 @@
     <se:Description>
       <se:Title>physical waters - waterbodies: standing water</se:Title>
     </se:Description>
-    <ogc:Filter>
-      <ogc:PropertyIsEqualTo>
-        <ogc:PropertyName>hy-p:delineationKnown</ogc:PropertyName>
-        <ogc:Literal>true</ogc:Literal>
-      </ogc:PropertyIsEqualTo>
-    </ogc:Filter>
     <se:PointSymbolizer>
+    <ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:Function name="IsPoint">
+        		<ogc:PropertyName>hy-p:geometry</ogc:PropertyName>
+       		</ogc:Function>
+       		<ogc:Literal>true</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   	</ogc:Filter>
       <se:Geometry>
         <ogc:PropertyName>hy-p:geometry</ogc:PropertyName>
       </se:Geometry>
@@ -30,12 +32,20 @@
       </se:Graphic>
     </se:PointSymbolizer>
     <se:PolygonSymbolizer>
-      <se:Geometry>
-        <ogc:PropertyName>hy-p:geometry</ogc:PropertyName>
-      </se:Geometry>
-      <se:Fill>
-        <se:SvgParameter name="fill">#CCFFFF</se:SvgParameter>
-      </se:Fill>
-    </se:PolygonSymbolizer>
+    <ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:Function name="IsSurface">
+        		<ogc:PropertyName>hy-p:geometry</ogc:PropertyName>
+       		</ogc:Function>
+       		<ogc:Literal>true</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   	</ogc:Filter>
+   	<se:Geometry>
+    	<ogc:PropertyName>hy-p:geometry</ogc:PropertyName>
+    </se:Geometry>
+    <se:Fill>
+    	<se:SvgParameter name="fill">#CCFFFF</se:SvgParameter>
+    </se:Fill>
+   </se:PolygonSymbolizer>
   </se:Rule>
 </se:FeatureTypeStyle>
