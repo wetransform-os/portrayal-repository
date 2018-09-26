@@ -14,20 +14,20 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
       <se:Title>physical waters - waterbodies: watercourse</se:Title>
     </se:Description>
     <ogc:Filter>
-      <ogc:PropertyIsEqualTo>
-        <ogc:PropertyName>hy-p:delineationKnown</ogc:PropertyName>
-        <ogc:Literal>true</ogc:Literal>
-      </ogc:PropertyIsEqualTo>
-    </ogc:Filter>
-    <se:LineSymbolizer>
-    <ogc:Filter>
-    	<ogc:PropertyIsEqualTo>
+    	<ogc:And>
+      		<ogc:PropertyIsEqualTo>
+        		<ogc:PropertyName>hy-p:delineationKnown</ogc:PropertyName>
+        		<ogc:Literal>true</ogc:Literal>
+      		</ogc:PropertyIsEqualTo>
+      		<ogc:PropertyIsEqualTo>
         	<ogc:Function name="IsCurve">
         		<ogc:PropertyName>hy-p:geometry</ogc:PropertyName>
        		</ogc:Function>
        		<ogc:Literal>true</ogc:Literal>
        	</ogc:PropertyIsEqualTo>
-   	</ogc:Filter>
+     	</ogc:And>
+    </ogc:Filter>
+    <se:LineSymbolizer>
       <se:Geometry>
         <ogc:PropertyName>hy-p:geometry</ogc:PropertyName>
       </se:Geometry>
@@ -36,15 +36,26 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
         <se:SvgParameter name="stroke-width">1</se:SvgParameter>
       </se:Stroke>
     </se:LineSymbolizer>
-    <se:PolygonSymbolizer>
+     </se:Rule>
+     <se:Rule>
+     <se:Description>
+      <se:Title>physical waters - waterbodies: watercourse</se:Title>
+    </se:Description>
     <ogc:Filter>
-    	<ogc:PropertyIsEqualTo>
+    	<ogc:And>
+      		<ogc:PropertyIsEqualTo>
+        		<ogc:PropertyName>hy-p:delineationKnown</ogc:PropertyName>
+        		<ogc:Literal>true</ogc:Literal>
+      		</ogc:PropertyIsEqualTo>
+      		<ogc:PropertyIsEqualTo>
         	<ogc:Function name="IsSurface">
         		<ogc:PropertyName>hy-p:geometry</ogc:PropertyName>
        		</ogc:Function>
        		<ogc:Literal>true</ogc:Literal>
        	</ogc:PropertyIsEqualTo>
-   	</ogc:Filter>
+     	</ogc:And>
+    </ogc:Filter>
+    <se:PolygonSymbolizer>
       <se:Geometry>
         <ogc:PropertyName>hy-p:geometry</ogc:PropertyName>
       </se:Geometry>

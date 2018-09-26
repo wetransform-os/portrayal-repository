@@ -14,20 +14,20 @@ version="1.1.0">
       <se:Title>standing waters persistence: perennial</se:Title>
     </se:Description>
     <ogc:Filter>
+    <ogc:And>
       <ogc:PropertyIsEqualTo>
         <ogc:PropertyName>hy-p:persistence/@xlink:href</ogc:PropertyName>
         <ogc:Literal>http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue/perennial</ogc:Literal>
       </ogc:PropertyIsEqualTo>
-    </ogc:Filter>
-    <se:PointSymbolizer>
-    <ogc:Filter>
-    	<ogc:PropertyIsEqualTo>
+   	  <ogc:PropertyIsEqualTo>
         	<ogc:Function name="IsPoint">
         		<ogc:PropertyName>hy-p:geometry</ogc:PropertyName>
        		</ogc:Function>
        		<ogc:Literal>true</ogc:Literal>
-       	</ogc:PropertyIsEqualTo>
-   	</ogc:Filter>
+       </ogc:PropertyIsEqualTo>
+    </ogc:And>
+    </ogc:Filter>
+    <se:PointSymbolizer>
       <se:Geometry>
         <ogc:PropertyName>hy-p:geometry</ogc:PropertyName>
       </se:Geometry>
