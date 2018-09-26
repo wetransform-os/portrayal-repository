@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <se:FeatureTypeStyle xmlns:hy-p="http://inspire.ec.europa.eu/schemas/hy-p/4.0" xmlns:ogc="http://www.opengis.net/ogc" 
 xmlns:se="http://www.opengis.net/se" xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd"
+version="1.1.0">
   <se:Description>
     <se:Title>Waterbodies Man-Made Default Style</se:Title>
     <se:Abstract>Physical waters as watercourses or standing water are depicted taking into account if they are natural or man-made. Natural water bodies are depicted using a light blue (#CCFFFF) filled polygon and a solid blue (#33CCFF) border with stroke width of 1 pixel.Man-made water bodies are depicted using a light blue (#CCFFFF) filled polygon and a solid blue (#0066FF) border with stroke width of 1 pixel.Natural standing waters are rendered by 6 pixel size filled blue circles (#0066FF) on a light blue (#CCFFFF) filled polygon.Man-made standing waters are rendered by 6 pixel size filled blue circles (#0066FF) with a black (?) (#0000) border on a light blue (#0000) filled polygon with a black (?) (#0000) border and a stroke width of 1 pixel.</se:Abstract>
