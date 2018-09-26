@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<se:FeatureTypeStyle xmlns:hy-n="http://inspire.ec.europa.eu/schemas/hy-n/4.0" xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
+<se:FeatureTypeStyle xmlns:hy-n="http://inspire.ec.europa.eu/schemas/hy-n/4.0" 
+xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0" xmlns:ogc="http://www.opengis.net/ogc" 
+xmlns:se="http://www.opengis.net/se" xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd"
+version="1.1.0">
   <se:Description>
     <se:Title>Hydrographic Network Default Style</se:Title>
     <se:Abstract>Hydrographic network where the hydro node category depends to outlet, junction and source is rendered by solid blue (#33CCFF) lines with stroke width of 1 pixel and 3 pixel size filled light blue (#CCFFFF) circles with black (#000000) border. Hydrographic network where the hydro node category depends to flow constriction and regulation is rendered by 3 pixel size filled black circles (#000000). Hydrographic network where the hydro node category depends to boundary is rendered by 3 pixel size filled red circles (#FF0000) with black (#000000) border.</se:Abstract>

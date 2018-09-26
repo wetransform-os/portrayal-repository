@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<se:FeatureTypeStyle xmlns:hy-p="http://inspire.ec.europa.eu/schemas/hy-p/4.0" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
+<se:FeatureTypeStyle xmlns:hy-p="http://inspire.ec.europa.eu/schemas/hy-p/4.0" xmlns:ogc="http://www.opengis.net/ogc" 
+xmlns:se="http://www.opengis.net/se" xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd"
+version="1.1.0">
   <se:Description>
     <se:Title>Water Bodies Persistence Default Style</se:Title>
     <se:Abstract>Physical waters as watercourses or standing water are depicted taking into account their water persistence. Intermittent water bodies are depicted using a dashed (10 to 5) blue (#33CCFF) line with a strole width of 1 pixel and a non filled polygon with a dashed (10 to 5) blue (#33CCFF) line with a stroke width of 1 pixel. Ephemeral or dry waterbodies are depicted using a dashed (5 to 5) blue (#33CCFF) line with a strole width of 1 pixel and a non filled polygon with a dashed (5 to 5) blue (#33CCFF) line with a stroke width of 1 pixel. Perennial standing waters are depicted using a 6 pixel size filled solid blue circles (#0066FF) on a light blue (#CCFFFF) filled polygon. Intermittent standing waters are depicted using a non filled polygon with a dashed (10 to 5) blue (#33CCFF) line with a stroke width of 1 pixel. Ephemeral or dry standing waters are depicted using a non filled polygon with a dashed (5 to 5) blue (#33CCFF) line with a stroke width of 1 pixel.</se:Abstract>
