@@ -14,12 +14,6 @@ version="1.1.0">
     <se:Description>
       <se:Title>physical waters - catchments: drainage basin</se:Title>
     </se:Description>
-    <ogc:Filter>
-      <ogc:PropertyIsEqualTo>
-        <ogc:PropertyName>hy-p:PhysicalWaters.Catchments</ogc:PropertyName>
-        <ogc:Literal>DrainageBasin</ogc:Literal>
-      </ogc:PropertyIsEqualTo>
-    </ogc:Filter>
     <se:PolygonSymbolizer>
       <se:Geometry>
         <ogc:PropertyName>hy-p:geometry</ogc:PropertyName>
