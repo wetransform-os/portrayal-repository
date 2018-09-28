@@ -17,16 +17,16 @@ version="1.1.0">
     <ogc:Filter>
       <ogc:Or>
         <ogc:PropertyIsEqualTo>
-          <ogc:PropertyName>hy-n:hydroNodeCategory</ogc:PropertyName>
-          <ogc:Literal>outlet</ogc:Literal>
+          <ogc:PropertyName>hy-n:hydroNodeCategory/@xlink:href</ogc:PropertyName>
+          <ogc:Literal>http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/outlet</ogc:Literal>
         </ogc:PropertyIsEqualTo>
         <ogc:PropertyIsEqualTo>
-          <ogc:PropertyName>hy-n:hydroNodeCategory</ogc:PropertyName>
-          <ogc:Literal>junction</ogc:Literal>
+          <ogc:PropertyName>hy-n:hydroNodeCategory/@xlink:href</ogc:PropertyName>
+          <ogc:Literal>http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/junction</ogc:Literal>
         </ogc:PropertyIsEqualTo>
         <ogc:PropertyIsEqualTo>
-          <ogc:PropertyName>hy-n:hydroNodeCategory</ogc:PropertyName>
-          <ogc:Literal>source</ogc:Literal>
+          <ogc:PropertyName>hy-n:hydroNodeCategory/@xlink:href</ogc:PropertyName>
+          <ogc:Literal>http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/source</ogc:Literal>
         </ogc:PropertyIsEqualTo>
       </ogc:Or>
     </ogc:Filter>
@@ -55,12 +55,12 @@ version="1.1.0">
     <ogc:Filter>
       <ogc:Or>
         <ogc:PropertyIsEqualTo>
-          <ogc:PropertyName>hy-n:hydroNodeCategory</ogc:PropertyName>
-          <ogc:Literal>flowConstriction</ogc:Literal>
+          <ogc:PropertyName>hy-n:hydroNodeCategory/@xlink:href</ogc:PropertyName>
+          <ogc:Literal>http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/flowConstriction</ogc:Literal>
         </ogc:PropertyIsEqualTo>
         <ogc:PropertyIsEqualTo>
-          <ogc:PropertyName>hy-n:hydroNodeCategory</ogc:PropertyName>
-          <ogc:Literal>regulation</ogc:Literal>
+          <ogc:PropertyName>hy-n:hydroNodeCategory/@xlink:href</ogc:PropertyName>
+          <ogc:Literal>http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/flowRegulation</ogc:Literal>
         </ogc:PropertyIsEqualTo>
       </ogc:Or>
     </ogc:Filter>
@@ -85,8 +85,8 @@ version="1.1.0">
     </se:Description>
     <ogc:Filter>
       <ogc:PropertyIsEqualTo>
-        <ogc:PropertyName>hy-n:hydroNodeCategory</ogc:PropertyName>
-        <ogc:Literal>boundary</ogc:Literal>
+        <ogc:PropertyName>hy-n:hydroNodeCategory/@xlink:href</ogc:PropertyName>
+        <ogc:Literal>http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/boundary</ogc:Literal>
       </ogc:PropertyIsEqualTo>
     </ogc:Filter>
     <se:PointSymbolizer>
