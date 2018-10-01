@@ -90,30 +90,30 @@
     <title text="Geografische Bezeichnungen"/>
     <objectType>gn_4.0:NamedPlace</objectType>
   </layerConfig>
-  <layerConfig name="HY_Network" registryId="http://inspire.ec.europa.eu/layer/HY.Network" layerName="HY.Network" styleConfig="//@styleConfig.55 //@styleConfig.56">
+  <layerConfig name="HY_Network" registryId="http://inspire.ec.europa.eu/layer/HY.Network" tags="//@tags.0 //@tags.2" layerName="HY.Network" styleConfig="//@styleConfig.55 //@styleConfig.56">
     <title lang="en" text="Hydrographic network"/>
     <title text="Hydrografisches Netzwerk"/>
     <objectType>hy-n_4.0:WatercourseLink</objectType>
     <objectType>hy-n_4.0:HydroNode</objectType>
   </layerConfig>
-  <layerConfig name="HY_Physica" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Catchments" layerName="HY.PhysicalWaters.Catchments" styleConfig="//@styleConfig.57 //@styleConfig.58">
+  <layerConfig name="HY_Physica" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Catchments" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.Catchments" styleConfig="//@styleConfig.57 //@styleConfig.58">
     <title lang="en" text="Catchment"/>
     <title text="Einzugsgebiete"/>
     <objectType>hy-p_4.0:DrainageBasin</objectType>
     <objectType>hy-p_4.0:RiverBasin</objectType>
   </layerConfig>
-  <layerConfig name="HY_Physica_1" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.HydroPointOfInterest" layerName="HY.PhysicalWaters.HydroPointOfInterest" styleConfig="//@styleConfig.59 //@styleConfig.60">
+  <layerConfig name="HY_Physica_1" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.HydroPointOfInterest" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.HydroPointOfInterest" styleConfig="//@styleConfig.59 //@styleConfig.60">
     <title lang="en" text="Hydro Point of Interest"/>
     <title text="Interessante hydrologische Punkte"/>
     <objectType>hy-p_4.0:Rapids</objectType>
     <objectType>hy-p_4.0:Falls</objectType>
   </layerConfig>
-  <layerConfig name="HY_Physica_2" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.LandWaterBoundary" layerName="HY.PhysicalWaters.LandWaterBoundary" styleConfig="//@styleConfig.61">
+  <layerConfig name="HY_Physica_2" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.LandWaterBoundary" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.LandWaterBoundary" styleConfig="//@styleConfig.61">
     <title lang="en" text="Land water boundary"/>
     <title text="Uferlinien"/>
     <objectType>hy-p_4.0:LandWaterBoundary</objectType>
   </layerConfig>
-  <layerConfig name="HY_Physica_4" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.ManMadeObject" layerName="HY.PhysicalWaters.ManMadeObject" styleConfig="//@styleConfig.62 //@styleConfig.63 //@styleConfig.64 //@styleConfig.65 //@styleConfig.66">
+  <layerConfig name="HY_Physica_4" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.ManMadeObject" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.ManMadeObject" styleConfig="//@styleConfig.62 //@styleConfig.63 //@styleConfig.64 //@styleConfig.65 //@styleConfig.66">
     <title lang="en" text="Man-made Object"/>
     <title text="Bauwerke an Gewässern"/>
     <objectType>hy-p_4.0:Crossing</objectType>
@@ -122,28 +122,28 @@
     <objectType>hy-p_4.0:Ford</objectType>
     <objectType>hy-p_4.0:Lock</objectType>
   </layerConfig>
-  <layerConfig name="HY_PhysicalWaters_Shore" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Shore" layerName="HY.PhysicalWaters.Shore" styleConfig="//@styleConfig.67">
+  <layerConfig name="HY_PhysicalWaters_Shore" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Shore" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.Shore" styleConfig="//@styleConfig.67">
     <title lang="en" text="Shores"/>
     <title text="Küsten"/>
     <objectType>hy-p_4.0:Shore</objectType>
   </layerConfig>
-  <layerConfig name="HY_Physica_5" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Waterbodies" layerName="HY.PhysicalWaters.Waterbodies" styleConfig="//@styleConfig.68 //@styleConfig.69">
+  <layerConfig name="HY_Physica_5" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Waterbodies" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.Waterbodies" styleConfig="//@styleConfig.68 //@styleConfig.69">
     <title lang="en" text="Waterbody"/>
     <title text="Wasserkörper"/>
     <objectType>hy-p_4.0:Watercourse</objectType>
     <objectType>hy-p_4.0:StandingWater</objectType>
   </layerConfig>
-  <layerConfig name="HY_Physica_6" registryId="" layerName="HY.PhysicalWaters.Waterbodies.Man.Made.Natural" styleConfig="//@styleConfig.70 //@styleConfig.71">
+  <layerConfig name="HY_Physica_6" registryId="" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.Waterbodies.Man.Made.Natural" styleConfig="//@styleConfig.70 //@styleConfig.71">
     <title lang="en" text="Man-made Object (Natural)"/>
     <objectType>hy-p_4.0:Watercourse</objectType>
     <objectType>hy-p_4.0:StandingWater</objectType>
   </layerConfig>
-  <layerConfig name="HY_Physica_7" registryId="" layerName="HY.PhysicalWaters.Waterbodies.Persistence" styleConfig="//@styleConfig.72 //@styleConfig.73">
+  <layerConfig name="HY_Physica_7" registryId="" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.Waterbodies.Persistence" styleConfig="//@styleConfig.72 //@styleConfig.73">
     <title lang="en" text="Waterbody (Persistence)"/>
     <objectType>hy-p_4.0:Watercourse</objectType>
     <objectType>hy-p_4.0:StandingWater</objectType>
   </layerConfig>
-  <layerConfig name="HY_PhysicalWaters_Wetland" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Wetland" layerName="HY.PhysicalWaters.Wetland" styleConfig="//@styleConfig.74">
+  <layerConfig name="HY_PhysicalWaters_Wetland" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Wetland" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.Wetland" styleConfig="//@styleConfig.74">
     <title lang="en" text="Wetlands"/>
     <title text="Feuchtgebiete"/>
     <objectType>hy-p_4.0:Wetland</objectType>

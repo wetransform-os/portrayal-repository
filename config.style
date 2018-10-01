@@ -164,7 +164,7 @@ Layer {
 Layer {
 	id: "HY_Network"
 	registry-id:"http://inspire.ec.europa.eu/layer/HY.Network"
-	tags:
+	tags: inspire production
 	Name: "HY.Network"
 	Title: en "Hydrographic network", de "Hydrografisches Netzwerk"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-n/4.0:WatercourseLink
@@ -173,7 +173,7 @@ Layer {
 Layer {
 	id: "HY_Physica"
 	registry-id:"http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Catchments"
-	tags:
+	tags: inspire production
 	Name: "HY.PhysicalWaters.Catchments"
 	Title: en "Catchment", de "Einzugsgebiete"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:DrainageBasin
@@ -182,7 +182,7 @@ Layer {
 Layer {
 	id: "HY_Physica_1"
 	registry-id:"http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.HydroPointOfInterest"
-	tags:
+	tags: inspire production
 	Name: "HY.PhysicalWaters.HydroPointOfInterest"
 	Title: en "Hydro Point of Interest", de "Interessante hydrologische Punkte"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Rapids
@@ -191,7 +191,7 @@ Layer {
 Layer {
 	id: "HY_Physica_2"
 	registry-id:"http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.LandWaterBoundary"
-	tags:
+	tags: inspire production
 	Name: "HY.PhysicalWaters.LandWaterBoundary"
 	Title: en "Land water boundary", de "Uferlinien"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:LandWaterBoundary
@@ -200,7 +200,7 @@ Layer {
 Layer {
 	id: "HY_Physica_4"
 	registry-id:"http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.ManMadeObject"
-	tags:
+	tags: inspire production
 	Name: "HY.PhysicalWaters.ManMadeObject"
 	Title: en "Man-made Object", de "Bauwerke an Gewässern"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Crossing
@@ -209,7 +209,7 @@ Layer {
 Layer {
 	id: "HY_PhysicalWaters_Shore"
 	registry-id:"http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Shore"
-	tags:
+	tags: inspire production
 	Name: "HY.PhysicalWaters.Shore"
 	Title: en "Shores", de "Küsten"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Shore
@@ -218,7 +218,7 @@ Layer {
 Layer {
 	id: "HY_Physica_5"
 	registry-id:"http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Waterbodies"
-	tags:
+	tags: inspire production
 	Name: "HY.PhysicalWaters.Waterbodies"
 	Title: en "Waterbody", de "Wasserkörper"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Watercourse
@@ -227,7 +227,7 @@ Layer {
 Layer {
 	id: "HY_Physica_6"
 	registry-id:""
-	tags:
+	tags: inspire production
 	Name: "HY.PhysicalWaters.Waterbodies.Man.Made.Natural"
 	Title: en "Man-made Object (Natural)"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Watercourse
@@ -236,7 +236,7 @@ Layer {
 Layer {
 	id: "HY_Physica_7"
 	registry-id:""
-	tags:
+	tags: inspire production
 	Name: "HY.PhysicalWaters.Waterbodies.Persistence"
 	Title: en "Waterbody (Persistence)"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Watercourse
@@ -245,7 +245,7 @@ Layer {
 Layer {
 	id: "HY_PhysicalWaters_Wetland"
 	registry-id:"http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Wetland"
-	tags:
+	tags: inspire production
 	Name: "HY.PhysicalWaters.Wetland"
 	Title: en "Wetlands", de "Feuchtgebiete"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Wetland
