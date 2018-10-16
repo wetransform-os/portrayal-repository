@@ -1,0 +1,49 @@
+$layer.name
+
+file.se:
+
+foreach layer:file.csv
+{
+
+
+<foreach a:../tables/Geology.csv>
+   $layer.name
+   $a.codevalue
+    <foreach b:../tables/Geology_2.csv>
+       $a.polycolor
+       $b.codevalue
+   </foreach>
+</foreach>
+
+
+
+
+<se:Rule> 
+		<ogc:Filter>
+			<ogc:And>
+	    		<ogc:PropertyIsEqualTo>
+	        		<ogc:Function name="IsSurface">
+	        			<ogc:PropertyName>am:geometry</ogc:PropertyName>
+	       			</ogc:Function>
+	       			<ogc:Literal>true</ogc:Literal>
+	       		</ogc:PropertyIsEqualTo>
+       		<ogc:PropertyIsEqualTo>
+       			<ogc:PropertyName>am:zoneType/@xlink:href</ogc:PropertyName>
+       			<ogc:Literal>$layer.codevalue</ogc:Literal>
+     		</ogc:PropertyIsEqualTo>
+     	</ogc:And>
+   		</ogc:Filter>
+	    <se:PolygonSymbolizer>
+	      <se:Geometry>
+	        <ogc:PropertyName>am:geometry</ogc:PropertyName>
+	      </se:Geometry>
+	      <se:Fill>
+	      	<se:SvgParameter name="fill">$layer.color</se:SvgParameter>
+	      	<se:SvgParameter name="fill-opacity">0.5</se:SvgParameter> 
+	      </se:Fill>
+	      <se:Stroke>
+	        <se:SvgParameter name="stroke">#FFD37F</se:SvgParameter>
+	        <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+	      </se:Stroke>
+	    </se:PolygonSymbolizer>
+	  </se:Rule>
