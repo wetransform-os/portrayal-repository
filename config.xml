@@ -64,7 +64,7 @@
     <objectType>cp_4.0:CadastralBoundary</objectType>
   </layerConfig>
   <layerConfig name="CP_Cadastr" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralParcel" tags="//@tags.0" layerName="CP.CadastralParcel.BoundariesOnly" styleConfig="//@styleConfig.49">
-    <title lang="en" text="Cadastral Boundary only"/>
+    <title lang="en" text="Cadastral Parcel (Boundary only)"/>
     <objectType>cp_4.0:CadastralParcel</objectType>
   </layerConfig>
   <layerConfig name="CP_CadastralParcel" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralParcel" tags="//@tags.0" layerName="CP.CadastralParcel" styleConfig="//@styleConfig.50">

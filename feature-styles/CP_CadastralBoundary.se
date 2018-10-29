@@ -13,8 +13,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
     <se:Description>
       <se:Title>Cadastral boundary</se:Title>
     </se:Description>
-    <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
-    <se:MaxScaleDenominator>35000.0</se:MaxScaleDenominator>
+    <se:MinScaleDenominator>1</se:MinScaleDenominator>
+    <se:MaxScaleDenominator>35000</se:MaxScaleDenominator>
     <se:LineSymbolizer>
       <se:Geometry>
         <ogc:PropertyName>cp:geometry</ogc:PropertyName>

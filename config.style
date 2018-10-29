@@ -112,7 +112,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/CP.CadastralParcel"
 	tags: inspire
 	Name: "CP.CadastralParcel.BoundariesOnly"
-	Title: en "Cadastral Boundary only"
+	Title: en "Cadastral Parcel (Boundary only)"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/cp/4.0:CadastralParcel
 	Styles: CP_CadastralParcel
 }
