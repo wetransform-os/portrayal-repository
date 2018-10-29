@@ -14,7 +14,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
       <se:Title>Cadastral parcel with label on reference point</se:Title>
     </se:Description>
     <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
-    <se:MaxScaleDenominator>22000.0</se:MaxScaleDenominator>
+    <se:MaxScaleDenominator>35000.0</se:MaxScaleDenominator>
     <se:PolygonSymbolizer>
       <se:Geometry>
         <ogc:PropertyName>cp:geometry</ogc:PropertyName>
@@ -29,7 +29,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
         <ogc:PropertyName>cp:referencePoint</ogc:PropertyName>
       </se:Geometry>
       <se:Label>
-      	<ogc:PropertyName>cp:label</ogc:PropertyName>
+      	<ogc:PropertyName>cp:label/text()</ogc:PropertyName>
       </se:Label>
       <se:Font>
         <se:SvgParameter name="font-family">Arial</se:SvgParameter>

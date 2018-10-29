@@ -11,10 +11,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
   <se:FeatureTypeName>cp:CadastralBoundary</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>cadastral boundary</se:Title>
+      <se:Title>Cadastral boundary</se:Title>
     </se:Description>
     <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
-    <se:MaxScaleDenominator>22000.0</se:MaxScaleDenominator>
+    <se:MaxScaleDenominator>35000.0</se:MaxScaleDenominator>
     <se:LineSymbolizer>
       <se:Geometry>
         <ogc:PropertyName>cp:geometry</ogc:PropertyName>

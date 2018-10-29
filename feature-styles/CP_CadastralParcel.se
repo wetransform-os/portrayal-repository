@@ -15,7 +15,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
       <se:Title>Cadastral parcel - boundaries only</se:Title>
     </se:Description>
     <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
-    <se:MaxScaleDenominator>43000.0</se:MaxScaleDenominator>
+    <se:MaxScaleDenominator>69000.0</se:MaxScaleDenominator>
     <se:PolygonSymbolizer>
       <se:Geometry>
         <ogc:PropertyName>cp:geometry</ogc:PropertyName>

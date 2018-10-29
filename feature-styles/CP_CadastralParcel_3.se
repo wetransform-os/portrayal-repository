@@ -11,10 +11,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
   <se:FeatureTypeName>cp:CadastralParcel</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>cadastral parcel - reference point only</se:Title>
+      <se:Title>Cadastral parcel - reference point only</se:Title>
     </se:Description>
     <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
-    <se:MaxScaleDenominator>86000.0</se:MaxScaleDenominator>
+    <se:MaxScaleDenominator>69000.0</se:MaxScaleDenominator>
     <se:PointSymbolizer>
       <se:Geometry>
         <ogc:PropertyName>cp:referencePoint</ogc:PropertyName>
