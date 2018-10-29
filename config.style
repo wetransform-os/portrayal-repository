@@ -101,7 +101,7 @@ Layer {
 Layer {
 	id: "CP_CadastralBoundary"
 	registry-id:"http://inspire.ec.europa.eu/layer/CP.CadastralBoundary"
-	tags: inspire
+	tags: production inspire
 	Name: "CP.CadastralBoundary"
 	Title: en "Cadastral Boundary", de "Flurstücksgrenze"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/cp/4.0:CadastralBoundary
@@ -110,7 +110,7 @@ Layer {
 Layer {
 	id: "CP_Cadastr"
 	registry-id:"http://inspire.ec.europa.eu/layer/CP.CadastralParcel"
-	tags: inspire
+	tags: production inspire
 	Name: "CP.CadastralParcel.BoundariesOnly"
 	Title: en "Cadastral Parcel (Boundary only)"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/cp/4.0:CadastralParcel
@@ -119,7 +119,7 @@ Layer {
 Layer {
 	id: "CP_CadastralParcel"
 	registry-id:"http://inspire.ec.europa.eu/layer/CP.CadastralParcel"
-	tags: inspire
+	tags: production inspire
 	Name: "CP.CadastralParcel"
 	Title: en "Cadastral Parcel", de "Flurstück"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/cp/4.0:CadastralParcel
@@ -128,7 +128,7 @@ Layer {
 Layer {
 	id: "CP_Cadastr_1"
 	registry-id:"http://inspire.ec.europa.eu/layer/CP.CadastralParcel"
-	tags: inspire
+	tags: production inspire
 	Name: "CP.CadastralParcel.LabelOnReferencePoint"
 	Title: en "Cadastral Parcel (LabelOnReferencePoint)"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/cp/4.0:CadastralParcel
@@ -137,7 +137,7 @@ Layer {
 Layer {
 	id: "CP_Cadastr_2"
 	registry-id:"http://inspire.ec.europa.eu/layer/CP.CadastralParcel"
-	tags: inspire
+	tags: production inspire
 	Name: "CP.CadastralParcel.ReferencePointOnly"
 	Title: en "Cadastral Parcel (ReferencePointOnly)"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/cp/4.0:CadastralParcel
@@ -146,7 +146,7 @@ Layer {
 Layer {
 	id: "CP_CadastralZoning"
 	registry-id:"http://inspire.ec.europa.eu/layer/CP.CadastralZoning"
-	tags: inspire
+	tags: production inspire
 	Name: "CP.CadastralZoning"
 	Title: en "Cadastral Zoning", de "Katasterbezirk"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/cp/4.0:CadastralZoning

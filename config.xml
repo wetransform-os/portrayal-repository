@@ -58,29 +58,29 @@
     <title text="Küstenmeer"/>
     <objectType>mu_3.0:TerritorialSea</objectType>
   </layerConfig>
-  <layerConfig name="CP_CadastralBoundary" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralBoundary" tags="//@tags.0" layerName="CP.CadastralBoundary" styleConfig="//@styleConfig.48">
+  <layerConfig name="CP_CadastralBoundary" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralBoundary" tags="//@tags.2 //@tags.0" layerName="CP.CadastralBoundary" styleConfig="//@styleConfig.48">
     <title lang="en" text="Cadastral Boundary"/>
     <title text="Flurstücksgrenze"/>
     <objectType>cp_4.0:CadastralBoundary</objectType>
   </layerConfig>
-  <layerConfig name="CP_Cadastr" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralParcel" tags="//@tags.0" layerName="CP.CadastralParcel.BoundariesOnly" styleConfig="//@styleConfig.49">
+  <layerConfig name="CP_Cadastr" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralParcel" tags="//@tags.2 //@tags.0" layerName="CP.CadastralParcel.BoundariesOnly" styleConfig="//@styleConfig.49">
     <title lang="en" text="Cadastral Parcel (Boundary only)"/>
     <objectType>cp_4.0:CadastralParcel</objectType>
   </layerConfig>
-  <layerConfig name="CP_CadastralParcel" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralParcel" tags="//@tags.0" layerName="CP.CadastralParcel" styleConfig="//@styleConfig.50">
+  <layerConfig name="CP_CadastralParcel" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralParcel" tags="//@tags.2 //@tags.0" layerName="CP.CadastralParcel" styleConfig="//@styleConfig.50">
     <title lang="en" text="Cadastral Parcel"/>
     <title text="Flurstück"/>
     <objectType>cp_4.0:CadastralParcel</objectType>
   </layerConfig>
-  <layerConfig name="CP_Cadastr_1" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralParcel" tags="//@tags.0" layerName="CP.CadastralParcel.LabelOnReferencePoint" styleConfig="//@styleConfig.51">
+  <layerConfig name="CP_Cadastr_1" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralParcel" tags="//@tags.2 //@tags.0" layerName="CP.CadastralParcel.LabelOnReferencePoint" styleConfig="//@styleConfig.51">
     <title lang="en" text="Cadastral Parcel (LabelOnReferencePoint)"/>
     <objectType>cp_4.0:CadastralParcel</objectType>
   </layerConfig>
-  <layerConfig name="CP_Cadastr_2" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralParcel" tags="//@tags.0" layerName="CP.CadastralParcel.ReferencePointOnly" styleConfig="//@styleConfig.52">
+  <layerConfig name="CP_Cadastr_2" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralParcel" tags="//@tags.2 //@tags.0" layerName="CP.CadastralParcel.ReferencePointOnly" styleConfig="//@styleConfig.52">
     <title lang="en" text="Cadastral Parcel (ReferencePointOnly)"/>
     <objectType>cp_4.0:CadastralParcel</objectType>
   </layerConfig>
-  <layerConfig name="CP_CadastralZoning" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralZoning" tags="//@tags.0" layerName="CP.CadastralZoning" styleConfig="//@styleConfig.53">
+  <layerConfig name="CP_CadastralZoning" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralZoning" tags="//@tags.2 //@tags.0" layerName="CP.CadastralZoning" styleConfig="//@styleConfig.53">
     <title lang="en" text="Cadastral Zoning"/>
     <title text="Katasterbezirk"/>
     <objectType>cp_4.0:CadastralZoning</objectType>
