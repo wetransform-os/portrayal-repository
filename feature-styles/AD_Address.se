@@ -120,12 +120,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
     <se:Description>
       <se:Title>otherwise: The lowest accuracy - others or unknown level - 25% gray</se:Title>
     </se:Description>
-    <ogc:Filter>
-      <ogc:PropertyIsEqualTo>
-        <ogc:PropertyName>ad:position/ad:GeographicPosition/ad:specification/@xlink:href</ogc:PropertyName>
-        <ogc:Literal>http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/otherwise</ogc:Literal>
-      </ogc:PropertyIsEqualTo>
-    </ogc:Filter>
     <se:PointSymbolizer>
       <se:Geometry>
         <ogc:PropertyName>ad:position/ad:GeographicPosition/ad:geometry</ogc:PropertyName>

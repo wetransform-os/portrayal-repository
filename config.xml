@@ -3,7 +3,7 @@
   <tags name="inspire"/>
   <tags name="inspire_wetransform"/>
   <tags name="production"/>
-  <layerConfig name="AD_Address" registryId="http://inspire.ec.europa.eu/layer/AD.Address" layerName="AD.Address" styleConfig="//@styleConfig.37">
+  <layerConfig name="AD_Address" registryId="http://inspire.ec.europa.eu/layer/AD.Address" tags="//@tags.0" layerName="AD.Address" styleConfig="//@styleConfig.37">
     <title lang="en" text="Addresses"/>
     <title text="Addressen"/>
     <objectType>ad_4.0:Address</objectType>
