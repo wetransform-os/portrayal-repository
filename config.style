@@ -2,7 +2,7 @@ tags: 'inspire' 'inspire_wetransform' 'production'
 Layer {
 	id: "AD_Address"
 	registry-id: "http://inspire.ec.europa.eu/layer/AD.Address"
-	tags: inspire
+	tags: inspire production
 	Name: "AD.Address"
 	Title: en "Addresses", de "Addressen"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/ad/4.0:Address
