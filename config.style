@@ -818,6 +818,102 @@ Layer{
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/4.0:TrafficSeparationSchemeSeparator
 	Styles: TN_W_TrafficSeparationSchemeSeparator
 }
+Layer{
+	id: "PF_EconomicActivityValue"
+	registry-id:"http://inspire.ec.europa.eu/layer/PF._EconomicActivityValue_"
+	tags: inspire
+	Name: "PF.EconomicActivityValue"
+	Title: en "Economic Activity Value", de ""
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionFacility
+	Styles: PF_EconomicActivityValue
+}
+Layer{
+	id: "PF_ProductionBuilding"
+	registry-id: "http://inspire.ec.europa.eu/layer/PF.ProductionBuilding"
+	tags: inspire
+	Name: "PF.ProductionBuilding"
+	Title: en "Production and industrial building", de "Produktions- und Industriegebäude"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionBuilding 
+	Styles: PF_ProductionBuilding
+}
+Layer{
+	id: "PF_ProductionInstallation"
+	registry-id:"http://inspire.ec.europa.eu/layer/PF.ProductionInstallation"
+	tags: inspire
+	Name: "PF.ProductionInstallation"
+	Title: en "Production and industrial installation", de "Produktions- und Industrieanlage"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionInstallation
+	Styles: PF_ProductionInstallation
+}
+Layer{
+	id: "PF_ProductionInstallationPart"
+	registry-id: "http://inspire.ec.europa.eu/layer/PF.ProductionInstallationPart"
+	tags: inspire
+	Name: "PF.ProductionInstallationPart"
+	Title: en "Production and industrial installation part", de "Produktions- und Industrieanlagenteil"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionInstallationPart 
+	Styles: PF_ProductionInstallationPart
+}
+Layer{
+	id: "PF_ProductionPlot"
+	registry-id:"http://inspire.ec.europa.eu/layer/PF.ProductionPlot"
+	tags: inspire
+	Name: "PF.ProductionPlot"
+	Title: en "Production and industrial parcel", de "Produktions- und Industriegelände"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionPlot
+	Styles: PF_ProductionPlot
+}
+Layer{
+	id: "PF_ProductionSite"
+	registry-id:"http://inspire.ec.europa.eu/layer/PF.ProductionSite"
+	tags: inspire
+	Name: "PF.ProductionSite"
+	Title: en "Production and industrial site", de "Produktions- und Industriestandort"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionSite
+	Styles: PF_ProductionSite
+}
+Style{
+	id: "PF_ProductionSite"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionSite
+		URL: "feature-styles/PF_ProductionSite.se"
+	}
+}
+Style{
+	id: "PF_ProductionPlot"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionPlot
+		URL: "feature-styles/PF_ProductionPlot.se"
+	}
+}
+Style{
+	id: "PF_ProductionInstallationPart"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionInstallationPart
+		URL: "feature-styles/PF_ProductionInstallationPart.se"
+	}
+}
+Style{
+	id: "PF_ProductionInstallation"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionInstallation
+		URL: "feature-styles/PF_ProductionInstallation.se"
+	}
+}
+Style{
+	id: "PF_ProductionBuilding"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionBuilding
+		URL: "feature-styles/PF_ProductionBuilding.se"
+	}
+}
+Style{
+	id: "PF_EconomicActivityValue"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionFacility
+		URL: "feature-styles/PF_EconomicActivityValue.se"
+	}
+}
 Style{
 	id:"TN_W_TrafficSeparationSchemeSeparator"
 	Remote{
