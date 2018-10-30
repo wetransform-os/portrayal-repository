@@ -155,7 +155,7 @@ Layer {
 Layer {
 	id: "GN_GeographicalNames"
 	registry-id:"http://inspire.ec.europa.eu/layer/GN.GeographicalNames"
-	tags: inspire
+	tags: inspire production
 	Name: "GN.GeographicalNames"
 	Title: en "Geographical Names", de "Geografische Bezeichnungen"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/gn/4.0:NamedPlace
