@@ -85,7 +85,7 @@
     <title text="Katasterbezirk"/>
     <objectType>cp_4.0:CadastralZoning</objectType>
   </layerConfig>
-  <layerConfig name="GN_GeographicalNames" registryId="http://inspire.ec.europa.eu/layer/GN.GeographicalNames" layerName="GN.GeographicalNames" styleConfig="//@styleConfig.54">
+  <layerConfig name="GN_GeographicalNames" registryId="http://inspire.ec.europa.eu/layer/GN.GeographicalNames" tags="//@tags.0" layerName="GN.GeographicalNames" styleConfig="//@styleConfig.54">
     <title lang="en" text="Geographical Names"/>
     <title text="Geografische Bezeichnungen"/>
     <objectType>gn_4.0:NamedPlace</objectType>

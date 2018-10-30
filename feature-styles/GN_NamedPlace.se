@@ -13,14 +13,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
     <se:Description>
       <se:Title>label: geographical names</se:Title>
     </se:Description>
-    <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
-    <se:MaxScaleDenominator>22000.0</se:MaxScaleDenominator>
+    <se:MinScaleDenominator>1</se:MinScaleDenominator>
+    <se:MaxScaleDenominator>35000</se:MaxScaleDenominator>
     <se:TextSymbolizer>
       <se:Geometry>
-        <ogc:PropertyName>gn:geometry</ogc:PropertyName>
+      	<ogc:Function name="Centroid">
+        	<ogc:PropertyName>gn:geometry</ogc:PropertyName>
+        </ogc:Function>
       </se:Geometry>
       <se:Label>
-              <ogc:PropertyName>gn:name/gn:GeographicalName/gn:spelling/gn:SpellingOfName/gn:text</ogc:PropertyName>
+              <ogc:PropertyName>gn:name/gn:GeographicalName/gn:spelling/gn:SpellingOfName/gn:text/text()</ogc:PropertyName>
             </se:Label>
       <se:Font>
         <se:SvgParameter name="font-family">Arial</se:SvgParameter>
@@ -32,3 +34,4 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
     </se:TextSymbolizer>
   </se:Rule>
 </se:FeatureTypeStyle>
+
