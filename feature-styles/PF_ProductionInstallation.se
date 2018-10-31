@@ -14,19 +14,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
     <se:Description>
       <se:Title>Production Installation Default Style</se:Title>
     </se:Description>
-    <ogc:Filter>
-    	<ogc:PropertyIsEqualTo>
-        	<ogc:Function name="IsPoint">
-        		<ogc:PropertyName>pf:geometry</ogc:PropertyName>
-       		</ogc:Function>
-       		<ogc:Literal>true</ogc:Literal>
-       	</ogc:PropertyIsEqualTo>
-   	</ogc:Filter>
     <se:MinScaleDenominator>1</se:MinScaleDenominator>
     <se:MaxScaleDenominator>35000</se:MaxScaleDenominator>
     <se:PointSymbolizer>
       <se:Geometry>
-        <ogc:PropertyName>pf:geometry</ogc:PropertyName>
+        <ogc:PropertyName>pf:pointGeometry</ogc:PropertyName>
       </se:Geometry>
       <se:Graphic>
         <se:Mark>
