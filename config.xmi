@@ -489,7 +489,7 @@
     <title text="Produktions- und Industriegelände"/>
     <objectType>pf_4.0:ProductionPlot</objectType>
   </layerConfig>
-  <layerConfig name="PF_ProductionSite" registryId="http://inspire.ec.europa.eu/layer/PF.ProductionSite" tags="//@tags.0" layerName="PF.ProductionSite" styleConfig="//@styleConfig.0">
+  <layerConfig name="PF_ProductionSite" registryId="http://inspire.ec.europa.eu/layer/PF.ProductionSite" tags="//@tags.0 //@tags.2" layerName="PF.ProductionSite" styleConfig="//@styleConfig.0">
     <title lang="en" text="Production and industrial site"/>
     <title text="Produktions- und Industriestandort"/>
     <objectType>pf_4.0:ProductionSite</objectType>

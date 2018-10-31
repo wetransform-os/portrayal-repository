@@ -866,7 +866,7 @@ Layer{
 Layer{
 	id: "PF_ProductionSite"
 	registry-id:"http://inspire.ec.europa.eu/layer/PF.ProductionSite"
-	tags: inspire
+	tags: inspire production
 	Name: "PF.ProductionSite"
 	Title: en "Production and industrial site", de "Produktions- und Industriestandort"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionSite
