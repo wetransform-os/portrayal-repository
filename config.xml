@@ -469,22 +469,22 @@
     <title text=""/>
     <objectType>pf_4.0:ProductionFacility</objectType>
   </layerConfig>
-  <layerConfig name="PF_ProductionBuilding" registryId="http://inspire.ec.europa.eu/layer/PF.ProductionBuilding" tags="//@tags.0" layerName="PF.ProductionBuilding" styleConfig="//@styleConfig.4">
+  <layerConfig name="PF_ProductionBuilding" registryId="http://inspire.ec.europa.eu/layer/PF.ProductionBuilding" tags="//@tags.0 //@tags.2" layerName="PF.ProductionBuilding" styleConfig="//@styleConfig.4">
     <title lang="en" text="Production and industrial building"/>
     <title text="Produktions- und Industriegebäude"/>
     <objectType>pf_4.0:ProductionBuilding</objectType>
   </layerConfig>
-  <layerConfig name="PF_ProductionInstallation" registryId="http://inspire.ec.europa.eu/layer/PF.ProductionInstallation" tags="//@tags.0" layerName="PF.ProductionInstallation" styleConfig="//@styleConfig.3">
+  <layerConfig name="PF_ProductionInstallation" registryId="http://inspire.ec.europa.eu/layer/PF.ProductionInstallation" tags="//@tags.0 //@tags.2" layerName="PF.ProductionInstallation" styleConfig="//@styleConfig.3">
     <title lang="en" text="Production and industrial installation"/>
     <title text="Produktions- und Industrieanlage"/>
     <objectType>pf_4.0:ProductionInstallation</objectType>
   </layerConfig>
-  <layerConfig name="PF_ProductionInstallationPart" registryId="http://inspire.ec.europa.eu/layer/PF.ProductionInstallationPart" tags="//@tags.0" layerName="PF.ProductionInstallationPart" styleConfig="//@styleConfig.2">
+  <layerConfig name="PF_ProductionInstallationPart" registryId="http://inspire.ec.europa.eu/layer/PF.ProductionInstallationPart" tags="//@tags.0 //@tags.2" layerName="PF.ProductionInstallationPart" styleConfig="//@styleConfig.2">
     <title lang="en" text="Production and industrial installation part"/>
     <title text="Produktions- und Industrieanlagenteil"/>
     <objectType>pf_4.0:ProductionInstallationPart</objectType>
   </layerConfig>
-  <layerConfig name="PF_ProductionPlot" registryId="http://inspire.ec.europa.eu/layer/PF.ProductionPlot" tags="//@tags.0" layerName="PF.ProductionPlot" styleConfig="//@styleConfig.1">
+  <layerConfig name="PF_ProductionPlot" registryId="http://inspire.ec.europa.eu/layer/PF.ProductionPlot" tags="//@tags.0 //@tags.2" layerName="PF.ProductionPlot" styleConfig="//@styleConfig.1">
     <title lang="en" text="Production and industrial parcel"/>
     <title text="Produktions- und Industriegelände"/>
     <objectType>pf_4.0:ProductionPlot</objectType>

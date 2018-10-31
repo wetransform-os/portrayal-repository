@@ -830,7 +830,7 @@ Layer{
 Layer{
 	id: "PF_ProductionBuilding"
 	registry-id: "http://inspire.ec.europa.eu/layer/PF.ProductionBuilding"
-	tags: inspire
+	tags: inspire production
 	Name: "PF.ProductionBuilding"
 	Title: en "Production and industrial building", de "Produktions- und Industriegebäude"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionBuilding 
@@ -839,7 +839,7 @@ Layer{
 Layer{
 	id: "PF_ProductionInstallation"
 	registry-id:"http://inspire.ec.europa.eu/layer/PF.ProductionInstallation"
-	tags: inspire
+	tags: inspire production
 	Name: "PF.ProductionInstallation"
 	Title: en "Production and industrial installation", de "Produktions- und Industrieanlage"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionInstallation
@@ -848,7 +848,7 @@ Layer{
 Layer{
 	id: "PF_ProductionInstallationPart"
 	registry-id: "http://inspire.ec.europa.eu/layer/PF.ProductionInstallationPart"
-	tags: inspire
+	tags: inspire production
 	Name: "PF.ProductionInstallationPart"
 	Title: en "Production and industrial installation part", de "Produktions- und Industrieanlagenteil"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionInstallationPart 
@@ -857,7 +857,7 @@ Layer{
 Layer{
 	id: "PF_ProductionPlot"
 	registry-id:"http://inspire.ec.europa.eu/layer/PF.ProductionPlot"
-	tags: inspire
+	tags: inspire production
 	Name: "PF.ProductionPlot"
 	Title: en "Production and industrial parcel", de "Produktions- und Industriegelände"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionPlot
