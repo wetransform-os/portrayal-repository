@@ -1,821 +1,837 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<styleconfig:StyleModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ad_4.0="http://inspire.ec.europa.eu/schemas/ad/4.0" xmlns:am_4.0="http://inspire.ec.europa.eu/schemas/am/4.0" xmlns:au_4.0="http://inspire.ec.europa.eu/schemas/au/4.0" xmlns:bu-core2d_4.0="http://inspire.ec.europa.eu/schemas/bu-core2d/4.0" xmlns:cp_4.0="http://inspire.ec.europa.eu/schemas/cp/4.0" xmlns:ef_4.0="http://inspire.ec.europa.eu/schemas/ef/4.0" xmlns:elu_4.0="http://inspire.ec.europa.eu/schemas/elu/4.0" xmlns:gn_4.0="http://inspire.ec.europa.eu/schemas/gn/4.0" xmlns:hb_4.0="http://inspire.ec.europa.eu/schemas/hb/4.0" xmlns:hy-n_4.0="http://inspire.ec.europa.eu/schemas/hy-n/4.0" xmlns:hy-p_4.0="http://inspire.ec.europa.eu/schemas/hy-p/4.0" xmlns:lcv_4.0="http://inspire.ec.europa.eu/schemas/lcv/4.0" xmlns:mu_3.0="http://inspire.ec.europa.eu/schemas/mu/3.0" xmlns:nz-core_4.0="http://inspire.ec.europa.eu/schemas/nz-core/4.0" xmlns:pf_4.0="http://inspire.ec.europa.eu/schemas/pf/4.0" xmlns:plu_4.0="http://inspire.ec.europa.eu/schemas/plu/4.0" xmlns:ps_4.0="http://inspire.ec.europa.eu/schemas/ps/4.0" xmlns:styleconfig="http://to.wetf.styling.models/model/styles" xmlns:tn-a_4.0="http://inspire.ec.europa.eu/schemas/tn-a/4.0" xmlns:tn-c_4.0="http://inspire.ec.europa.eu/schemas/tn-c/4.0" xmlns:tn-ra_4.0="http://inspire.ec.europa.eu/schemas/tn-ra/4.0" xmlns:tn-ro_4.0="http://inspire.ec.europa.eu/schemas/tn-ro/4.0" xmlns:tn-w_4.0="http://inspire.ec.europa.eu/schemas/tn-w/4.0" xmlns:tn_4.0="http://inspire.ec.europa.eu/schemas/tn/4.0" xmlns:us-govserv_4.0="http://inspire.ec.europa.eu/schemas/us-govserv/4.0">
+<styleconfig:StyleModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:styleconfig="http://to.wetf.styling.models/model/styles">
   <tags name="inspire"/>
   <tags name="inspire_wetransform"/>
   <tags name="production"/>
-  <layerConfig name="AD_Address" registryId="http://inspire.ec.europa.eu/layer/AD.Address" tags="//@tags.0 //@tags.2" layerName="AD.Address" styleConfig="//@styleConfig.43">
+  <layerConfig name="AD_Address" registryId="http://inspire.ec.europa.eu/layer/AD.Address" tags="//@tags.0 //@tags.2" layerName="AD.Address" styleConfig="//@styleConfig.46">
     <title lang="en" text="Addresses"/>
     <title text="Addressen"/>
-    <objectType>ad_4.0:Address</objectType>
+    <objectType>Address</objectType>
   </layerConfig>
-  <layerConfig name="AU_AdministrativeBoundary" registryId="http://inspire.ec.europa.eu/layer/AU.AdministrativeBoundary" tags="//@tags.2 //@tags.0" layerName="AU.AdministrativeBoundary" styleConfig="//@styleConfig.44">
+  <layerConfig name="AU_AdministrativeBoundary" registryId="http://inspire.ec.europa.eu/layer/AU.AdministrativeBoundary" tags="//@tags.2 //@tags.0" layerName="AU.AdministrativeBoundary" styleConfig="//@styleConfig.47">
     <title lang="en" text="Administrative boundary"/>
     <title text="Verwaltungsgrenze"/>
-    <objectType>au_4.0:AdministrativeBoundary</objectType>
+    <objectType>AdministrativeBoundary</objectType>
   </layerConfig>
-  <layerConfig name="AU_AdministrativeUnit" registryId="http://inspire.ec.europa.eu/layer/AU.AdministrativeUnit" tags="//@tags.2 //@tags.0" layerName="AU.AdministrativeUnit" styleConfig="//@styleConfig.45">
+  <layerConfig name="AU_AdministrativeUnit" registryId="http://inspire.ec.europa.eu/layer/AU.AdministrativeUnit" tags="//@tags.2 //@tags.0" layerName="AU.AdministrativeUnit" styleConfig="//@styleConfig.48">
     <title lang="en" text="Administrative unit"/>
     <title text="Verwaltungseinheit"/>
-    <objectType>au_4.0:AdministrativeUnit</objectType>
+    <objectType>AdministrativeUnit</objectType>
   </layerConfig>
-  <layerConfig name="AU_Baseline" registryId="http://inspire.ec.europa.eu/layer/AU.Baseline" layerName="AU.Baseline" styleConfig="//@styleConfig.46">
+  <layerConfig name="AU_Baseline" registryId="http://inspire.ec.europa.eu/layer/AU.Baseline" layerName="AU.Baseline" styleConfig="//@styleConfig.49">
     <title lang="en" text="Baseline"/>
     <title text="Basislinie"/>
-    <objectType>mu_3.0:Baseline</objectType>
+    <objectType>Baseline</objectType>
   </layerConfig>
-  <layerConfig name="AU_Condominium" registryId="http://inspire.ec.europa.eu/layer/AU.Condominium" layerName="AU.Condominium" styleConfig="//@styleConfig.47">
+  <layerConfig name="AU_Condominium" registryId="http://inspire.ec.europa.eu/layer/AU.Condominium" layerName="AU.Condominium" styleConfig="//@styleConfig.50">
     <title lang="en" text="Condominium"/>
     <title text="Kondominium"/>
-    <objectType>au_4.0:Condominium</objectType>
+    <objectType>Condominium</objectType>
   </layerConfig>
-  <layerConfig name="AU_ContiguousZone" registryId="http://inspire.ec.europa.eu/layer/AU.ContiguousZone" layerName="AU.ContiguousZone" styleConfig="//@styleConfig.48">
+  <layerConfig name="AU_ContiguousZone" registryId="http://inspire.ec.europa.eu/layer/AU.ContiguousZone" layerName="AU.ContiguousZone" styleConfig="//@styleConfig.51">
     <title lang="en" text="Contiguous zone"/>
     <title text="Anschlusszone"/>
-    <objectType>mu_3.0:ContiguousZone</objectType>
+    <objectType>ContiguousZone</objectType>
   </layerConfig>
-  <layerConfig name="AU_ContinentalShelf" registryId="http://inspire.ec.europa.eu/layer/AU.ContinentalShelf" layerName="AU.ContinentalShelf" styleConfig="//@styleConfig.49">
+  <layerConfig name="AU_ContinentalShelf" registryId="http://inspire.ec.europa.eu/layer/AU.ContinentalShelf" layerName="AU.ContinentalShelf" styleConfig="//@styleConfig.52">
     <title lang="en" text="Continental shelf"/>
     <title text="Festlandsockel"/>
-    <objectType>mu_3.0:ContinentalShelf</objectType>
+    <objectType>ContinentalShelf</objectType>
   </layerConfig>
-  <layerConfig name="AU_ExclusiveEconomicZone" registryId="http://inspire.ec.europa.eu/layer/AU.ExclusiveEconomicZone" layerName="AU.ExclusiveEconomicZone" styleConfig="//@styleConfig.50">
+  <layerConfig name="AU_ExclusiveEconomicZone" registryId="http://inspire.ec.europa.eu/layer/AU.ExclusiveEconomicZone" layerName="AU.ExclusiveEconomicZone" styleConfig="//@styleConfig.53">
     <title lang="en" text="Exclusive economic zone"/>
     <title text="Ausschließliche Wirtschaftszone"/>
-    <objectType>mu_3.0:ExclusiveEconomicZone</objectType>
+    <objectType>ExclusiveEconomicZone</objectType>
   </layerConfig>
-  <layerConfig name="AU_InternalWaters" registryId="http://inspire.ec.europa.eu/layer/AU.InternalWaters" layerName="AU.InternalWaters" styleConfig="//@styleConfig.51">
+  <layerConfig name="AU_InternalWaters" registryId="http://inspire.ec.europa.eu/layer/AU.InternalWaters" layerName="AU.InternalWaters" styleConfig="//@styleConfig.54">
     <title lang="en" text="Internal waters"/>
     <title text="Innere Gewässer"/>
-    <objectType>mu_3.0:InternalWaters</objectType>
+    <objectType>InternalWaters</objectType>
   </layerConfig>
-  <layerConfig name="AU_MaritimeBoundary" registryId="http://inspire.ec.europa.eu/layer/AU.MaritimeBoundary" layerName="AU.MaritimeBoundary" styleConfig="//@styleConfig.52">
+  <layerConfig name="AU_MaritimeBoundary" registryId="http://inspire.ec.europa.eu/layer/AU.MaritimeBoundary" layerName="AU.MaritimeBoundary" styleConfig="//@styleConfig.55">
     <title lang="en" text="Maritime boundary"/>
     <title text="Seegrenze"/>
-    <objectType>mu_3.0:MaritimeBoundary</objectType>
+    <objectType>MaritimeBoundary</objectType>
   </layerConfig>
-  <layerConfig name="AU_TerritorialSea" registryId="http://inspire.ec.europa.eu/layer/AU.TerritorialSea" layerName="AU.TerritorialSea" styleConfig="//@styleConfig.53">
+  <layerConfig name="AU_TerritorialSea" registryId="http://inspire.ec.europa.eu/layer/AU.TerritorialSea" layerName="AU.TerritorialSea" styleConfig="//@styleConfig.56">
     <title lang="en" text="Territorial sea"/>
     <title text="Küstenmeer"/>
-    <objectType>mu_3.0:TerritorialSea</objectType>
+    <objectType>TerritorialSea</objectType>
   </layerConfig>
-  <layerConfig name="CP_CadastralBoundary" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralBoundary" tags="//@tags.2 //@tags.0" layerName="CP.CadastralBoundary" styleConfig="//@styleConfig.54">
+  <layerConfig name="CP_CadastralBoundary" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralBoundary" tags="//@tags.2 //@tags.0" layerName="CP.CadastralBoundary" styleConfig="//@styleConfig.57">
     <title lang="en" text="Cadastral Boundary"/>
     <title text="Flurstücksgrenze"/>
-    <objectType>cp_4.0:CadastralBoundary</objectType>
+    <objectType>CadastralBoundary</objectType>
   </layerConfig>
-  <layerConfig name="CP_Cadastr" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralParcel" tags="//@tags.2 //@tags.0" layerName="CP.CadastralParcel.BoundariesOnly" styleConfig="//@styleConfig.55">
+  <layerConfig name="CP_Cadastr" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralParcel" tags="//@tags.2 //@tags.0" layerName="CP.CadastralParcel.BoundariesOnly" styleConfig="//@styleConfig.58">
     <title lang="en" text="Cadastral Parcel (Boundary only)"/>
-    <objectType>cp_4.0:CadastralParcel</objectType>
+    <objectType>CadastralParcel</objectType>
   </layerConfig>
-  <layerConfig name="CP_CadastralParcel" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralParcel" tags="//@tags.2 //@tags.0" layerName="CP.CadastralParcel" styleConfig="//@styleConfig.56">
+  <layerConfig name="CP_CadastralParcel" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralParcel" tags="//@tags.2 //@tags.0" layerName="CP.CadastralParcel" styleConfig="//@styleConfig.59">
     <title lang="en" text="Cadastral Parcel"/>
     <title text="Flurstück"/>
-    <objectType>cp_4.0:CadastralParcel</objectType>
+    <objectType>CadastralParcel</objectType>
   </layerConfig>
-  <layerConfig name="CP_Cadastr_1" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralParcel" tags="//@tags.2 //@tags.0" layerName="CP.CadastralParcel.LabelOnReferencePoint" styleConfig="//@styleConfig.57">
+  <layerConfig name="CP_Cadastr_1" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralParcel" tags="//@tags.2 //@tags.0" layerName="CP.CadastralParcel.LabelOnReferencePoint" styleConfig="//@styleConfig.60">
     <title lang="en" text="Cadastral Parcel (LabelOnReferencePoint)"/>
-    <objectType>cp_4.0:CadastralParcel</objectType>
+    <objectType>CadastralParcel</objectType>
   </layerConfig>
-  <layerConfig name="CP_Cadastr_2" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralParcel" tags="//@tags.2 //@tags.0" layerName="CP.CadastralParcel.ReferencePointOnly" styleConfig="//@styleConfig.58">
+  <layerConfig name="CP_Cadastr_2" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralParcel" tags="//@tags.2 //@tags.0" layerName="CP.CadastralParcel.ReferencePointOnly" styleConfig="//@styleConfig.61">
     <title lang="en" text="Cadastral Parcel (ReferencePointOnly)"/>
-    <objectType>cp_4.0:CadastralParcel</objectType>
+    <objectType>CadastralParcel</objectType>
   </layerConfig>
-  <layerConfig name="CP_CadastralZoning" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralZoning" tags="//@tags.2 //@tags.0" layerName="CP.CadastralZoning" styleConfig="//@styleConfig.59">
+  <layerConfig name="CP_CadastralZoning" registryId="http://inspire.ec.europa.eu/layer/CP.CadastralZoning" tags="//@tags.2 //@tags.0" layerName="CP.CadastralZoning" styleConfig="//@styleConfig.62">
     <title lang="en" text="Cadastral Zoning"/>
     <title text="Katasterbezirk"/>
-    <objectType>cp_4.0:CadastralZoning</objectType>
+    <objectType>CadastralZoning</objectType>
   </layerConfig>
-  <layerConfig name="GN_GeographicalNames" registryId="http://inspire.ec.europa.eu/layer/GN.GeographicalNames" tags="//@tags.0 //@tags.2" layerName="GN.GeographicalNames" styleConfig="//@styleConfig.60">
+  <layerConfig name="GN_GeographicalNames" registryId="http://inspire.ec.europa.eu/layer/GN.GeographicalNames" tags="//@tags.0 //@tags.2" layerName="GN.GeographicalNames" styleConfig="//@styleConfig.63">
     <title lang="en" text="Geographical Names"/>
     <title text="Geografische Bezeichnungen"/>
-    <objectType>gn_4.0:NamedPlace</objectType>
+    <objectType>NamedPlace</objectType>
   </layerConfig>
-  <layerConfig name="HY_Network" registryId="http://inspire.ec.europa.eu/layer/HY.Network" tags="//@tags.0 //@tags.2" layerName="HY.Network" styleConfig="//@styleConfig.61 //@styleConfig.62">
+  <layerConfig name="HY_Network" registryId="http://inspire.ec.europa.eu/layer/HY.Network" tags="//@tags.0 //@tags.2" layerName="HY.Network" styleConfig="//@styleConfig.64 //@styleConfig.65">
     <title lang="en" text="Hydrographic network"/>
     <title text="Hydrografisches Netzwerk"/>
-    <objectType>hy-n_4.0:WatercourseLink</objectType>
-    <objectType>hy-n_4.0:HydroNode</objectType>
+    <objectType>WatercourseLink</objectType>
+    <objectType>HydroNode</objectType>
   </layerConfig>
-  <layerConfig name="HY_Physica" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Catchments" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.Catchments" styleConfig="//@styleConfig.63 //@styleConfig.64">
+  <layerConfig name="HY_Physica" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Catchments" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.Catchments" styleConfig="//@styleConfig.66 //@styleConfig.67">
     <title lang="en" text="Catchment"/>
     <title text="Einzugsgebiete"/>
-    <objectType>hy-p_4.0:DrainageBasin</objectType>
-    <objectType>hy-p_4.0:RiverBasin</objectType>
+    <objectType>DrainageBasin</objectType>
+    <objectType>RiverBasin</objectType>
   </layerConfig>
-  <layerConfig name="HY_Physica_1" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.HydroPointOfInterest" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.HydroPointOfInterest" styleConfig="//@styleConfig.65 //@styleConfig.66">
+  <layerConfig name="HY_Physica_1" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.HydroPointOfInterest" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.HydroPointOfInterest" styleConfig="//@styleConfig.68 //@styleConfig.69">
     <title lang="en" text="Hydro Point of Interest"/>
     <title text="Interessante hydrologische Punkte"/>
-    <objectType>hy-p_4.0:Rapids</objectType>
-    <objectType>hy-p_4.0:Falls</objectType>
+    <objectType>Rapids</objectType>
+    <objectType>Falls</objectType>
   </layerConfig>
-  <layerConfig name="HY_Physica_2" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.LandWaterBoundary" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.LandWaterBoundary" styleConfig="//@styleConfig.67">
+  <layerConfig name="HY_Physica_2" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.LandWaterBoundary" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.LandWaterBoundary" styleConfig="//@styleConfig.70">
     <title lang="en" text="Land water boundary"/>
     <title text="Uferlinien"/>
-    <objectType>hy-p_4.0:LandWaterBoundary</objectType>
+    <objectType>LandWaterBoundary</objectType>
   </layerConfig>
-  <layerConfig name="HY_Physica_4" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.ManMadeObject" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.ManMadeObject" styleConfig="//@styleConfig.68 //@styleConfig.69 //@styleConfig.70 //@styleConfig.71 //@styleConfig.72">
+  <layerConfig name="HY_Physica_4" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.ManMadeObject" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.ManMadeObject" styleConfig="//@styleConfig.71 //@styleConfig.72 //@styleConfig.73 //@styleConfig.74 //@styleConfig.75">
     <title lang="en" text="Man-made Object"/>
     <title text="Bauwerke an Gewässern"/>
-    <objectType>hy-p_4.0:Crossing</objectType>
-    <objectType>hy-p_4.0:DamOrWeir</objectType>
-    <objectType>hy-p_4.0:ShorelineConstruction</objectType>
-    <objectType>hy-p_4.0:Ford</objectType>
-    <objectType>hy-p_4.0:Lock</objectType>
+    <objectType>Crossing</objectType>
+    <objectType>DamOrWeir</objectType>
+    <objectType>ShorelineConstruction</objectType>
+    <objectType>Ford</objectType>
+    <objectType>Lock</objectType>
   </layerConfig>
-  <layerConfig name="HY_PhysicalWaters_Shore" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Shore" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.Shore" styleConfig="//@styleConfig.73">
+  <layerConfig name="HY_PhysicalWaters_Shore" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Shore" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.Shore" styleConfig="//@styleConfig.76">
     <title lang="en" text="Shores"/>
     <title text="Küsten"/>
-    <objectType>hy-p_4.0:Shore</objectType>
+    <objectType>Shore</objectType>
   </layerConfig>
-  <layerConfig name="HY_Physica_5" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Waterbodies" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.Waterbodies" styleConfig="//@styleConfig.74 //@styleConfig.75">
+  <layerConfig name="HY_Physica_5" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Waterbodies" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.Waterbodies" styleConfig="//@styleConfig.77 //@styleConfig.78">
     <title lang="en" text="Waterbody"/>
     <title text="Wasserkörper"/>
-    <objectType>hy-p_4.0:Watercourse</objectType>
-    <objectType>hy-p_4.0:StandingWater</objectType>
+    <objectType>Watercourse</objectType>
+    <objectType>StandingWater</objectType>
   </layerConfig>
-  <layerConfig name="HY_Physica_6" registryId="" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.Waterbodies.Man.Made.Natural" styleConfig="//@styleConfig.76 //@styleConfig.77">
+  <layerConfig name="HY_Physica_6" registryId="" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.Waterbodies.Man.Made.Natural" styleConfig="//@styleConfig.79 //@styleConfig.80">
     <title lang="en" text="Man-made Object (Natural)"/>
-    <objectType>hy-p_4.0:Watercourse</objectType>
-    <objectType>hy-p_4.0:StandingWater</objectType>
+    <objectType>Watercourse</objectType>
+    <objectType>StandingWater</objectType>
   </layerConfig>
-  <layerConfig name="HY_Physica_7" registryId="" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.Waterbodies.Persistence" styleConfig="//@styleConfig.78 //@styleConfig.79">
+  <layerConfig name="HY_Physica_7" registryId="" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.Waterbodies.Persistence" styleConfig="//@styleConfig.81 //@styleConfig.82">
     <title lang="en" text="Waterbody (Persistence)"/>
-    <objectType>hy-p_4.0:Watercourse</objectType>
-    <objectType>hy-p_4.0:StandingWater</objectType>
+    <objectType>Watercourse</objectType>
+    <objectType>StandingWater</objectType>
   </layerConfig>
-  <layerConfig name="HY_PhysicalWaters_Wetland" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Wetland" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.Wetland" styleConfig="//@styleConfig.80">
+  <layerConfig name="HY_PhysicalWaters_Wetland" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Wetland" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.Wetland" styleConfig="//@styleConfig.83">
     <title lang="en" text="Wetlands"/>
     <title text="Feuchtgebiete"/>
-    <objectType>hy-p_4.0:Wetland</objectType>
+    <objectType>Wetland</objectType>
   </layerConfig>
-  <layerConfig name="PS_ProtectedSite" registryId="http://inspire.ec.europa.eu/layer/PS.ProtectedSite" tags="//@tags.0 //@tags.2" layerName="PS.ProtectedSite" styleConfig="//@styleConfig.81">
+  <layerConfig name="PS_ProtectedSite" registryId="http://inspire.ec.europa.eu/layer/PS.ProtectedSite" tags="//@tags.0 //@tags.2" layerName="PS.ProtectedSite" styleConfig="//@styleConfig.84">
     <title lang="en" text="Protected Sites"/>
     <title text="Schutzgebiete"/>
-    <objectType>ps_4.0:ProtectedSite</objectType>
+    <objectType>ProtectedSite</objectType>
   </layerConfig>
-  <layerConfig name="TN_AirTran" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AerodromeArea" layerName="TN.AirTransportNetwork.AerodromeArea" styleConfig="//@styleConfig.82">
+  <layerConfig name="TN_AirTran" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AerodromeArea" layerName="TN.AirTransportNetwork.AerodromeArea" styleConfig="//@styleConfig.85">
     <title lang="en" text="Aerodrome Area"/>
     <title text="Flugplatzgelände"/>
-    <objectType>tn-a_4.0:AerodromeArea</objectType>
+    <objectType>AerodromeArea</objectType>
   </layerConfig>
-  <layerConfig name="TN_AirTran_1" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AirLink" layerName="TN.AirTransportNetwork.AirLink" styleConfig="//@styleConfig.83 //@styleConfig.84">
+  <layerConfig name="TN_AirTran_1" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AirLink" layerName="TN.AirTransportNetwork.AirLink" styleConfig="//@styleConfig.86 //@styleConfig.87">
     <title lang="en" text="Air Link"/>
     <title text="Luftverbindung"/>
-    <objectType>tn-a_4.0:ProcedureLink</objectType>
-    <objectType>tn-a_4.0:AirRouteLink</objectType>
+    <objectType>ProcedureLink</objectType>
+    <objectType>AirRouteLink</objectType>
   </layerConfig>
-  <layerConfig name="TN_AirTran_2" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AirspaceArea" layerName="TN.AirTransportNetwork.AirSpaceArea" styleConfig="//@styleConfig.85">
+  <layerConfig name="TN_AirTran_2" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AirspaceArea" layerName="TN.AirTransportNetwork.AirSpaceArea" styleConfig="//@styleConfig.88">
     <title lang="en" text="Air Space Area"/>
     <title text="Luftraumbereich"/>
-    <objectType>tn-a_4.0:AirspaceArea</objectType>
+    <objectType>AirspaceArea</objectType>
   </layerConfig>
-  <layerConfig name="TN_AirTran_3" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.ApronArea" layerName="TN.AirTransportNetwork.ApronArea" styleConfig="//@styleConfig.86">
+  <layerConfig name="TN_AirTran_3" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.ApronArea" layerName="TN.AirTransportNetwork.ApronArea" styleConfig="//@styleConfig.89">
     <title lang="en" text="Apron Area"/>
     <title text="Vorfeldgelände"/>
-    <objectType>tn-a_4.0:ApronArea</objectType>
+    <objectType>ApronArea</objectType>
   </layerConfig>
-  <layerConfig name="TN_AirTran_4" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.RunwayArea" layerName="TN.AirTransportNetwork.RunwayArea" styleConfig="//@styleConfig.87">
+  <layerConfig name="TN_AirTran_4" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.RunwayArea" layerName="TN.AirTransportNetwork.RunwayArea" styleConfig="//@styleConfig.90">
     <title lang="en" text="Runway Area"/>
     <title text="Landebahngelände"/>
-    <objectType>tn-a_4.0:RunwayArea</objectType>
+    <objectType>RunwayArea</objectType>
   </layerConfig>
-  <layerConfig name="TN_AirTran_5" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.TaxiwayArea" layerName="TN.AirTransportNetwork.TaxiwayArea" styleConfig="//@styleConfig.88">
+  <layerConfig name="TN_AirTran_5" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.TaxiwayArea" layerName="TN.AirTransportNetwork.TaxiwayArea" styleConfig="//@styleConfig.91">
     <title lang="en" text="Taxiway Area"/>
     <title text="Rollfeld"/>
-    <objectType>tn-a_4.0:TaxiwayArea</objectType>
+    <objectType>TaxiwayArea</objectType>
   </layerConfig>
-  <layerConfig name="TN_CableTr" registryId="http://inspire.ec.europa.eu/layer/TN.CableTransportNetwork.CablewayLink" layerName="TN.CableTransportNetwork.CablewayLink" styleConfig="//@styleConfig.89">
+  <layerConfig name="TN_CableTr" registryId="http://inspire.ec.europa.eu/layer/TN.CableTransportNetwork.CablewayLink" layerName="TN.CableTransportNetwork.CablewayLink" styleConfig="//@styleConfig.92">
     <title lang="en" text="Cableway Link"/>
     <title text="Seilbahnverbindung"/>
-    <objectType>tn-c_4.0:CablewayLink</objectType>
+    <objectType>CablewayLink</objectType>
   </layerConfig>
-  <layerConfig name="TN_CommonT" registryId="http://inspire.ec.europa.eu/layer/TN.CommonTransportElements.TransportArea" layerName="TN.CommonTransportElements.TransportArea" styleConfig="//@styleConfig.90">
+  <layerConfig name="TN_CommonT" registryId="http://inspire.ec.europa.eu/layer/TN.CommonTransportElements.TransportArea" layerName="TN.CommonTransportElements.TransportArea" styleConfig="//@styleConfig.93">
     <title lang="en" text="Generic Transport Area"/>
     <title text="Generischer Verkehrsbereich"/>
-    <objectType>tn_4.0:TransportArea</objectType>
+    <objectType>TransportArea</objectType>
   </layerConfig>
-  <layerConfig name="TN_CommonT_1" registryId="http://inspire.ec.europa.eu/layer/TN.CommonTransportElements.TransportLink" layerName="TN.CommonTransportElements.TransportLink" styleConfig="//@styleConfig.91">
+  <layerConfig name="TN_CommonT_1" registryId="http://inspire.ec.europa.eu/layer/TN.CommonTransportElements.TransportLink" layerName="TN.CommonTransportElements.TransportLink" styleConfig="//@styleConfig.94">
     <title lang="en" text="Generic Transport Link"/>
     <title text="Generisches Verkehrssegment"/>
-    <objectType>tn_4.0:TransportLink</objectType>
+    <objectType>TransportLink</objectType>
   </layerConfig>
-  <layerConfig name="TN_CommonT_2" registryId="http://inspire.ec.europa.eu/layer/TN.CommonTransportElements.TransportNode" layerName="TN.CommonTransportElements.TransportNode" styleConfig="//@styleConfig.92">
+  <layerConfig name="TN_CommonT_2" registryId="http://inspire.ec.europa.eu/layer/TN.CommonTransportElements.TransportNode" layerName="TN.CommonTransportElements.TransportNode" styleConfig="//@styleConfig.95">
     <title lang="en" text="Generic Transport Node"/>
     <title text="Generischer Verkehrsknotenpunkt"/>
-    <objectType>tn_4.0:TransportNode</objectType>
+    <objectType>TransportNode</objectType>
   </layerConfig>
-  <layerConfig name="TN_RailTra" registryId="http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayArea" tags="//@tags.0 //@tags.2" layerName="TN.RailTransportNetwork.RailwayArea" styleConfig="//@styleConfig.93">
+  <layerConfig name="TN_RailTra" registryId="http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayArea" tags="//@tags.0 //@tags.2" layerName="TN.RailTransportNetwork.RailwayArea" styleConfig="//@styleConfig.96">
     <title lang="en" text="Railway Area"/>
     <title text="Bahngelände"/>
-    <objectType>tn-ra_4.0:RailwayArea</objectType>
+    <objectType>RailwayArea</objectType>
   </layerConfig>
-  <layerConfig name="TN_RailTra_1" registryId="http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayLink" tags="//@tags.0 //@tags.2" layerName="TN.RailTransportNetwork.RailwayLink" styleConfig="//@styleConfig.94">
+  <layerConfig name="TN_RailTra_1" registryId="http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayLink" tags="//@tags.0 //@tags.2" layerName="TN.RailTransportNetwork.RailwayLink" styleConfig="//@styleConfig.97">
     <title lang="en" text="Railway Link"/>
     <title text="Eisenbahnverbindung"/>
-    <objectType>tn-ra_4.0:RailwayLink</objectType>
+    <objectType>RailwayLink</objectType>
   </layerConfig>
-  <layerConfig name="TN_RailTra_2" registryId="http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayStationArea" tags="//@tags.0 //@tags.2" layerName="TN.RailTransportNetwork.RailwayStationArea" styleConfig="//@styleConfig.95">
+  <layerConfig name="TN_RailTra_2" registryId="http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayStationArea" tags="//@tags.0 //@tags.2" layerName="TN.RailTransportNetwork.RailwayStationArea" styleConfig="//@styleConfig.98">
     <title lang="en" text="Railway Station Area"/>
     <title text="Bahnhofsgelände"/>
-    <objectType>tn-ra_4.0:RailwayStationArea</objectType>
+    <objectType>RailwayStationArea</objectType>
   </layerConfig>
-  <layerConfig name="TN_RailTra_3" registryId="http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayYardArea" tags="//@tags.0 //@tags.2" layerName="TN.RailTransportNetwork.RailwayYardArea" styleConfig="//@styleConfig.96">
+  <layerConfig name="TN_RailTra_3" registryId="http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayYardArea" tags="//@tags.0 //@tags.2" layerName="TN.RailTransportNetwork.RailwayYardArea" styleConfig="//@styleConfig.99">
     <title lang="en" text="Railway Yard Area"/>
     <title text="Rangierbahnhofsgelände"/>
-    <objectType>tn-ra_4.0:RailwayYardArea</objectType>
+    <objectType>RailwayYardArea</objectType>
   </layerConfig>
-  <layerConfig name="TN_RoadTra" registryId="http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadArea" tags="//@tags.0 //@tags.2" layerName="TN.RoadTransportNetwork.RoadArea" styleConfig="//@styleConfig.97">
+  <layerConfig name="TN_RoadTra" registryId="http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadArea" tags="//@tags.0 //@tags.2" layerName="TN.RoadTransportNetwork.RoadArea" styleConfig="//@styleConfig.100">
     <title lang="en" text="Road Area"/>
     <title text="Straßenfläche"/>
-    <objectType>tn-ro_4.0:RoadArea</objectType>
+    <objectType>RoadArea</objectType>
   </layerConfig>
-  <layerConfig name="TN_RoadTra_1" registryId="http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadLink" tags="//@tags.0 //@tags.2" layerName="TN.RoadTransportNetwork.RoadLink" styleConfig="//@styleConfig.98">
+  <layerConfig name="TN_RoadTra_1" registryId="http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadLink" tags="//@tags.0 //@tags.2" layerName="TN.RoadTransportNetwork.RoadLink" styleConfig="//@styleConfig.101">
     <title lang="en" text="Road Link"/>
     <title text="Straßensegment"/>
-    <objectType>tn-ro_4.0:RoadLink</objectType>
+    <objectType>RoadLink</objectType>
   </layerConfig>
-  <layerConfig name="TN_RoadTra_2" registryId="http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadServiceArea" tags="//@tags.0 //@tags.2" layerName="TN.RoadTransportNetwork.RoadServiceArea" styleConfig="//@styleConfig.99">
+  <layerConfig name="TN_RoadTra_2" registryId="http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadServiceArea" tags="//@tags.0 //@tags.2" layerName="TN.RoadTransportNetwork.RoadServiceArea" styleConfig="//@styleConfig.102">
     <title lang="en" text="Road Service Area"/>
     <title text="Servicebereich"/>
-    <objectType>tn-ro_4.0:RoadServiceArea</objectType>
+    <objectType>RoadServiceArea</objectType>
   </layerConfig>
-  <layerConfig name="TN_RoadTra_3" registryId="http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.VehicleTrafficArea" tags="//@tags.0 //@tags.2" layerName="TN.RoadTransportNetwork.VehicleTrafficArea" styleConfig="//@styleConfig.100">
+  <layerConfig name="TN_RoadTra_3" registryId="http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.VehicleTrafficArea" tags="//@tags.0 //@tags.2" layerName="TN.RoadTransportNetwork.VehicleTrafficArea" styleConfig="//@styleConfig.103">
     <title lang="en" text="Vehicle traffic Area"/>
     <title text="Verkehrsfläche"/>
-    <objectType>tn-ro_4.0:VehicleTrafficArea</objectType>
+    <objectType>VehicleTrafficArea</objectType>
   </layerConfig>
-  <layerConfig name="TN_WaterTr" registryId="http://inspire.ec.europa.eu/layer/TN.WaterTransportNetwork.FairwayArea" tags="//@tags.0 //@tags.2" layerName="TN.WaterTransportNetwork.FairwayArea" styleConfig="//@styleConfig.101">
+  <layerConfig name="TN_WaterTr" registryId="http://inspire.ec.europa.eu/layer/TN.WaterTransportNetwork.FairwayArea" tags="//@tags.0 //@tags.2" layerName="TN.WaterTransportNetwork.FairwayArea" styleConfig="//@styleConfig.104">
     <title lang="en" text="Fairway Area"/>
     <title text="Fahrrinnenbereich"/>
-    <objectType>tn-w_4.0:FairwayArea</objectType>
+    <objectType>FairwayArea</objectType>
   </layerConfig>
-  <layerConfig name="TN_WaterTr_1" registryId="http://inspire.ec.europa.eu/layer/TN.WaterTransportNetwork.PortArea" tags="//@tags.0 //@tags.2" layerName="TN.WaterTransportNetwork.PortArea" styleConfig="//@styleConfig.102">
+  <layerConfig name="TN_WaterTr_1" registryId="http://inspire.ec.europa.eu/layer/TN.WaterTransportNetwork.PortArea" tags="//@tags.0 //@tags.2" layerName="TN.WaterTransportNetwork.PortArea" styleConfig="//@styleConfig.105">
     <title lang="en" text="Port Area"/>
     <title text="Hafengelände"/>
-    <objectType>tn-w_4.0:PortArea</objectType>
+    <objectType>PortArea</objectType>
   </layerConfig>
-  <layerConfig name="TN_WaterTr_2" registryId="http://inspire.ec.europa.eu/layer/TN.WaterTransportNetwork.WaterwayLink" tags="//@tags.0 //@tags.2" layerName="TN.WaterTransportNetwork.WaterwayLink" styleConfig="//@styleConfig.103">
+  <layerConfig name="TN_WaterTr_2" registryId="http://inspire.ec.europa.eu/layer/TN.WaterTransportNetwork.WaterwayLink" tags="//@tags.0 //@tags.2" layerName="TN.WaterTransportNetwork.WaterwayLink" styleConfig="//@styleConfig.106">
     <title lang="en" text="Waterway Link"/>
     <title text="Wasserstraßenverbindung"/>
-    <objectType>tn-w_4.0:WaterwayLink</objectType>
+    <objectType>WaterwayLink</objectType>
   </layerConfig>
-  <layerConfig name="LC_LandCoverPoints" registryId="http://inspire.ec.europa.eu/layer/LC.LandCoverPoints" tags="//@tags.2 //@tags.0" layerName="LC.LandCoverPoints" styleConfig="//@styleConfig.104">
-    <title lang="en" text="Land Cover Points"/>
-    <title text="Bodenbedeckungspunkte"/>
-    <objectType>lcv_4.0:LandCoverUnit</objectType>
-  </layerConfig>
-  <layerConfig name="LC_LandCoverSurfaces" registryId="http://inspire.ec.europa.eu/layer/LC.LandCoverSurfaces" tags="//@tags.2 //@tags.0" layerName="LC.LandCoverSurfaces" styleConfig="//@styleConfig.105">
+  <layerConfig name="LC_LandCoverSurfaces" registryId="http://inspire.ec.europa.eu/layer/LC.LandCoverSurfaces" tags="//@tags.2 //@tags.0" layerName="LC.LandCoverSurfaces" styleConfig="//@styleConfig.107">
     <title lang="en" text="Land Cover Surfaces"/>
     <title text="Bodenbedeckungsflächen"/>
-    <objectType>lcv_4.0:LandCoverUnit</objectType>
+    <objectType>LandCoverUnit</objectType>
   </layerConfig>
-  <layerConfig name="BU_Building" registryId="http://inspire.ec.europa.eu/layer/BU.Building" tags="//@tags.0" layerName="BU.Building" styleConfig="//@styleConfig.106">
+  <layerConfig name="BU_Building" registryId="http://inspire.ec.europa.eu/layer/BU.Building" tags="//@tags.0" layerName="BU.Building" styleConfig="//@styleConfig.108">
     <title lang="en" text="Buildings"/>
     <title text="Gebäude"/>
-    <objectType>bu-core2d_4.0:Building</objectType>
+    <objectType>Building</objectType>
   </layerConfig>
-  <layerConfig name="BU_BuildingPart" registryId="http://inspire.ec.europa.eu/layer/BU.BuildingPart" tags="//@tags.0" layerName="BU.BuildingPart" styleConfig="//@styleConfig.107">
+  <layerConfig name="BU_BuildingPart" registryId="http://inspire.ec.europa.eu/layer/BU.BuildingPart" tags="//@tags.0" layerName="BU.BuildingPart" styleConfig="//@styleConfig.109">
     <title lang="en" text="Building Parts"/>
     <title text="Gebäudeteile"/>
-    <objectType>bu-core2d_4.0:BuildingPart</objectType>
+    <objectType>BuildingPart</objectType>
   </layerConfig>
-  <layerConfig name="LU_ExistingLandUse" registryId="http://inspire.ec.europa.eu/layer/LU.ExistingLandUse" tags="//@tags.2 //@tags.0" layerName="LU.ExistingLandUse" styleConfig="//@styleConfig.42">
+  <layerConfig name="LU_ExistingLandUse" registryId="http://inspire.ec.europa.eu/layer/LU.ExistingLandUse" tags="//@tags.2 //@tags.0" layerName="LU.ExistingLandUse" styleConfig="//@styleConfig.45">
     <title lang="en" text="Existing Land Use"/>
     <title text="Existierende Bodennutzung"/>
-    <objectType>elu_4.0:ExistingLandUseObject</objectType>
+    <objectType>ExistingLandUseObject</objectType>
   </layerConfig>
-  <layerConfig name="LU_SpatialPlan" registryId="http://inspire.ec.europa.eu/layer/LU.SpatialPlan" tags="//@tags.2 //@tags.0" layerName="LU.SpatialPlan" styleConfig="//@styleConfig.41">
+  <layerConfig name="LU_SpatialPlan" registryId="http://inspire.ec.europa.eu/layer/LU.SpatialPlan" tags="//@tags.2 //@tags.0" layerName="LU.SpatialPlan" styleConfig="//@styleConfig.44">
     <title lang="en" text="Spatial Plan"/>
     <title text="Räumlicher Plan"/>
-    <objectType>plu_4.0:SpatialPlan</objectType>
+    <objectType>SpatialPlan</objectType>
   </layerConfig>
-  <layerConfig name="LU_ZoningElement" registryId="http://inspire.ec.europa.eu/layer/LU.ZoningElement" tags="//@tags.2 //@tags.0" layerName="LU.ZoningElement" styleConfig="//@styleConfig.40">
+  <layerConfig name="LU_ZoningElement" registryId="http://inspire.ec.europa.eu/layer/LU.ZoningElement" tags="//@tags.2 //@tags.0" layerName="LU.ZoningElement" styleConfig="//@styleConfig.43">
     <title lang="en" text="Zoning Element"/>
     <title text="Zonierungselement"/>
-    <objectType>plu_4.0:ZoningElement</objectType>
+    <objectType>ZoningElement</objectType>
   </layerConfig>
-  <layerConfig name="LU_SupplementaryRegulation" registryId="http://inspire.ec.europa.eu/layer/LU.SupplementaryRegulation" tags="//@tags.2 //@tags.0" layerName="LU.SupplementaryRegulation" styleConfig="//@styleConfig.39">
+  <layerConfig name="LU_SupplementaryRegulation" registryId="http://inspire.ec.europa.eu/layer/LU.SupplementaryRegulation" tags="//@tags.2 //@tags.0" layerName="LU.SupplementaryRegulation" styleConfig="//@styleConfig.42">
     <title lang="en" text="Supplementary Regulation"/>
     <title text="Ergänzende Vorschrift"/>
-    <objectType>plu_4.0:SupplementaryRegulation</objectType>
+    <objectType>SupplementaryRegulation</objectType>
   </layerConfig>
-  <layerConfig name="US_GovernmentalService" registryId="" tags="//@tags.0" layerName="US.GovernmentalService" styleConfig="//@styleConfig.38">
+  <layerConfig name="US_GovernmentalService" registryId="" tags="//@tags.0" layerName="US.GovernmentalService" styleConfig="//@styleConfig.41">
     <title lang="en" text="Governmental Service"/>
     <title text="Stätlicher Dienst"/>
-    <objectType>us-govserv_4.0:GovernmentalService</objectType>
+    <objectType>GovernmentalService</objectType>
   </layerConfig>
-  <layerConfig name="HB_Habitat" registryId="http://inspire.ec.europa.eu/layer/HB.Habitat" tags="//@tags.0" layerName="HB.Habitat" styleConfig="//@styleConfig.37">
+  <layerConfig name="HB_Habitat" registryId="http://inspire.ec.europa.eu/layer/HB.Habitat" tags="//@tags.0" layerName="HB.Habitat" styleConfig="//@styleConfig.40">
     <title lang="en" text="Habitat"/>
     <title text="Lebensraum"/>
-    <objectType>hb_4.0:Habitat</objectType>
+    <objectType>Habitat</objectType>
   </layerConfig>
-  <layerConfig name="AM_AirQualityManagementZone" registryId="http://inspire.ec.europa.eu/layer/AM.AirQualityManagementZone" tags="//@tags.0 //@tags.2" layerName="AM.AirQualityManagementZone" styleConfig="//@styleConfig.35">
+  <layerConfig name="AM_AirQualityManagementZone" registryId="http://inspire.ec.europa.eu/layer/AM.AirQualityManagementZone" tags="//@tags.0 //@tags.2" layerName="AM.AirQualityManagementZone" styleConfig="//@styleConfig.38">
     <title lang="en" text="Air Quality Management Zone"/>
     <title text="Luftqualitäts-Kontrollgebiet"/>
-    <objectType>am_4.0:ManagementRestrictionOrRegulationZone</objectType>
+    <objectType>ManagementRestrictionOrRegulationZone</objectType>
   </layerConfig>
-  <layerConfig name="AM_AnimalHealthRestrictionZone" registryId="http://inspire.ec.europa.eu/layer/AM.AnimalHealthRestrictionZone" tags="//@tags.0 //@tags.2" layerName="AM.AnimalHealthRestrictionZone" styleConfig="//@styleConfig.36">
+  <layerConfig name="AM_AnimalHealthRestrictionZone" registryId="http://inspire.ec.europa.eu/layer/AM.AnimalHealthRestrictionZone" tags="//@tags.0 //@tags.2" layerName="AM.AnimalHealthRestrictionZone" styleConfig="//@styleConfig.39">
     <title lang="en" text="Animal Health Restriction Zone"/>
     <title text="Tiergesundheits-Schutzgebiet"/>
-    <objectType>am_4.0:ManagementRestrictionOrRegulationZone</objectType>
+    <objectType>ManagementRestrictionOrRegulationZone</objectType>
   </layerConfig>
-  <layerConfig name="AM_AreaForDisposalOfWaste" registryId="http://inspire.ec.europa.eu/layer/AM.AreaForDisposalOfWaste" tags="//@tags.0 //@tags.2" layerName="AM.AreaForDisposalOfWaste" styleConfig="//@styleConfig.34">
+  <layerConfig name="AM_AreaForDisposalOfWaste" registryId="http://inspire.ec.europa.eu/layer/AM.AreaForDisposalOfWaste" tags="//@tags.0 //@tags.2" layerName="AM.AreaForDisposalOfWaste" styleConfig="//@styleConfig.37">
     <title lang="en" text="Area For Disposal Of Waste"/>
     <title text="Abfallentsorgungsgebiet"/>
-    <objectType>am_4.0:ManagementRestrictionOrRegulationZone</objectType>
+    <objectType>ManagementRestrictionOrRegulationZone</objectType>
   </layerConfig>
-  <layerConfig name="AM_BathingWaters" registryId="http://inspire.ec.europa.eu/layer/AM.BathingWaters" tags="//@tags.0 //@tags.2" layerName="AM.BathingWaters" styleConfig="//@styleConfig.33">
+  <layerConfig name="AM_BathingWaters" registryId="http://inspire.ec.europa.eu/layer/AM.BathingWaters" tags="//@tags.0 //@tags.2" layerName="AM.BathingWaters" styleConfig="//@styleConfig.36">
     <title lang="en" text="Bathing Waters"/>
     <title text="Badegewässer"/>
-    <objectType>am_4.0:ManagementRestrictionOrRegulationZone</objectType>
+    <objectType>ManagementRestrictionOrRegulationZone</objectType>
   </layerConfig>
-  <layerConfig name="AM_CoastalZoneManagementArea" registryId="http://inspire.ec.europa.eu/layer/AM.CoastalZoneManagementArea" tags="//@tags.0 //@tags.2" layerName="AM.CoastalZoneManagementArea" styleConfig="//@styleConfig.32">
+  <layerConfig name="AM_CoastalZoneManagementArea" registryId="http://inspire.ec.europa.eu/layer/AM.CoastalZoneManagementArea" tags="//@tags.0 //@tags.2" layerName="AM.CoastalZoneManagementArea" styleConfig="//@styleConfig.35">
     <title lang="en" text="Coastal Zone Management Area"/>
     <title text="Gebiete des Küstenzonenmanagements"/>
-    <objectType>am_4.0:ManagementRestrictionOrRegulationZone</objectType>
+    <objectType>ManagementRestrictionOrRegulationZone</objectType>
   </layerConfig>
-  <layerConfig name="AM_DesignatedWaters" registryId="http://inspire.ec.europa.eu/layer/AM.DesignatedWaters" tags="//@tags.0 //@tags.2" layerName="AM.DesignatedWaters" styleConfig="//@styleConfig.31">
+  <layerConfig name="AM_DesignatedWaters" registryId="http://inspire.ec.europa.eu/layer/AM.DesignatedWaters" tags="//@tags.0 //@tags.2" layerName="AM.DesignatedWaters" styleConfig="//@styleConfig.34">
     <title lang="en" text="Designated Waters"/>
     <title text="Bezeichnetes Gewässer"/>
-    <objectType>am_4.0:ManagementRestrictionOrRegulationZone</objectType>
+    <objectType>ManagementRestrictionOrRegulationZone</objectType>
   </layerConfig>
-  <layerConfig name="AM_DrinkingWaterProtectionArea" registryId="http://inspire.ec.europa.eu/layer/AM.DrinkingWaterProtectionArea" tags="//@tags.0 //@tags.2" layerName="AM.DrinkingWaterProtectionArea" styleConfig="//@styleConfig.30">
+  <layerConfig name="AM_DrinkingWaterProtectionArea" registryId="http://inspire.ec.europa.eu/layer/AM.DrinkingWaterProtectionArea" tags="//@tags.0 //@tags.2" layerName="AM.DrinkingWaterProtectionArea" styleConfig="//@styleConfig.33">
     <title lang="en" text="Drinking Water Protection Area"/>
     <title text="Trinkwasserschutzgebiet"/>
-    <objectType>am_4.0:ManagementRestrictionOrRegulationZone</objectType>
+    <objectType>ManagementRestrictionOrRegulationZone</objectType>
   </layerConfig>
-  <layerConfig name="AM_FloodUnitOfManagement" registryId="http://inspire.ec.europa.eu/layer/AM.FloodUnitOfManagement" tags="//@tags.0 //@tags.2" layerName="AM.FloodUnitOfManagement" styleConfig="//@styleConfig.29">
+  <layerConfig name="AM_FloodUnitOfManagement" registryId="http://inspire.ec.europa.eu/layer/AM.FloodUnitOfManagement" tags="//@tags.0 //@tags.2" layerName="AM.FloodUnitOfManagement" styleConfig="//@styleConfig.32">
     <title lang="en" text="Flood Unit Of Management"/>
     <title text="Bewirtschaftungseinheit für Hochwasserrisiken"/>
-    <objectType>am_4.0:ManagementRestrictionOrRegulationZone</objectType>
+    <objectType>ManagementRestrictionOrRegulationZone</objectType>
   </layerConfig>
-  <layerConfig name="AM_ForestManagementArea" registryId="http://inspire.ec.europa.eu/layer/AM.ForestManagementArea" tags="//@tags.0 //@tags.2" layerName="AM.Forest Management Area" styleConfig="//@styleConfig.28">
+  <layerConfig name="AM_ForestManagementArea" registryId="http://inspire.ec.europa.eu/layer/AM.ForestManagementArea" tags="//@tags.0 //@tags.2" layerName="AM.Forest Management Area" styleConfig="//@styleConfig.31">
     <title lang="en" text="Forest Management Area"/>
     <title text="Waldbewirtschaftungsgebiet"/>
-    <objectType>am_4.0:ManagementRestrictionOrRegulationZone</objectType>
+    <objectType>ManagementRestrictionOrRegulationZone</objectType>
   </layerConfig>
-  <layerConfig name="AM_MarineRegion" registryId="http://inspire.ec.europa.eu/layer/AM.MarineRegion" tags="//@tags.0 //@tags.2" layerName="AM.MarineRegion" styleConfig="//@styleConfig.27">
+  <layerConfig name="AM_MarineRegion" registryId="http://inspire.ec.europa.eu/layer/AM.MarineRegion" tags="//@tags.0 //@tags.2" layerName="AM.MarineRegion" styleConfig="//@styleConfig.30">
     <title lang="en" text="Marine Region"/>
     <title text="Meeresregion"/>
-    <objectType>am_4.0:ManagementRestrictionOrRegulationZone</objectType>
+    <objectType>ManagementRestrictionOrRegulationZone</objectType>
   </layerConfig>
-  <layerConfig name="AM_NitrateVulnerableZone" registryId="http://inspire.ec.europa.eu/layer/AM.NitrateVulnerableZone" tags="//@tags.0 //@tags.2" layerName="AM.NitrateVulnerableZone" styleConfig="//@styleConfig.26">
+  <layerConfig name="AM_NitrateVulnerableZone" registryId="http://inspire.ec.europa.eu/layer/AM.NitrateVulnerableZone" tags="//@tags.0 //@tags.2" layerName="AM.NitrateVulnerableZone" styleConfig="//@styleConfig.29">
     <title lang="en" text="Nitrate Vulnerable Zone"/>
     <title text="Nitratgefährdetes Gebiet"/>
-    <objectType>am_4.0:ManagementRestrictionOrRegulationZone</objectType>
+    <objectType>ManagementRestrictionOrRegulationZone</objectType>
   </layerConfig>
-  <layerConfig name="AM_NoiseRestrictionZone" registryId="http://inspire.ec.europa.eu/layer/AM.NoiseRestrictionZone" tags="//@tags.0 //@tags.2" layerName="AM.NoiseRestrictionZone" styleConfig="//@styleConfig.25">
+  <layerConfig name="AM_NoiseRestrictionZone" registryId="http://inspire.ec.europa.eu/layer/AM.NoiseRestrictionZone" tags="//@tags.0 //@tags.2" layerName="AM.NoiseRestrictionZone" styleConfig="//@styleConfig.28">
     <title lang="en" text="Noise Restriction Zone"/>
     <title text="Lärmschutzgebiet"/>
-    <objectType>am_4.0:ManagementRestrictionOrRegulationZone</objectType>
+    <objectType>ManagementRestrictionOrRegulationZone</objectType>
   </layerConfig>
-  <layerConfig name="AM_PlantHealthProtectionZone" registryId="http://inspire.ec.europa.eu/layer/AM.PlantHealthProtectionZone" tags="//@tags.0 //@tags.2" layerName="AM.PlantHealthProtectionZone" styleConfig="//@styleConfig.24">
+  <layerConfig name="AM_PlantHealthProtectionZone" registryId="http://inspire.ec.europa.eu/layer/AM.PlantHealthProtectionZone" tags="//@tags.0 //@tags.2" layerName="AM.PlantHealthProtectionZone" styleConfig="//@styleConfig.27">
     <title lang="en" text="Plant Health Protection Zone"/>
     <title text="Pflanzengesundheitliches Schutzgebiet"/>
-    <objectType>am_4.0:ManagementRestrictionOrRegulationZone</objectType>
+    <objectType>ManagementRestrictionOrRegulationZone</objectType>
   </layerConfig>
-  <layerConfig name="AM_ProspectingAndMiningPermitArea" registryId="http://inspire.ec.europa.eu/layer/AM.ProspectingAndMiningPermitArea" tags="//@tags.0 //@tags.2" layerName="AM.ProspectingAndMiningPermitArea" styleConfig="//@styleConfig.23">
+  <layerConfig name="AM_ProspectingAndMiningPermitArea" registryId="http://inspire.ec.europa.eu/layer/AM.ProspectingAndMiningPermitArea" tags="//@tags.0 //@tags.2" layerName="AM.ProspectingAndMiningPermitArea" styleConfig="//@styleConfig.26">
     <title lang="en" text="Prospecting And Mining Permit Area"/>
     <title text="Für Prospektion und Bergbau ausgewiesenes Gebiet"/>
-    <objectType>am_4.0:ManagementRestrictionOrRegulationZone</objectType>
+    <objectType>ManagementRestrictionOrRegulationZone</objectType>
   </layerConfig>
-  <layerConfig name="AM_RegulatedFairwayAtSeaOrLargeInlandWater" registryId="http://inspire.ec.europa.eu/layer/AM.RegulatedFairwayAtSeaOrLargeInlandWater" tags="//@tags.0 //@tags.2" layerName="AM.RegulatedFairwayAtSeaOrLargeInlandWater" styleConfig="//@styleConfig.22">
+  <layerConfig name="AM_RegulatedFairwayAtSeaOrLargeInlandWater" registryId="http://inspire.ec.europa.eu/layer/AM.RegulatedFairwayAtSeaOrLargeInlandWater" tags="//@tags.0 //@tags.2" layerName="AM.RegulatedFairwayAtSeaOrLargeInlandWater" styleConfig="//@styleConfig.25">
     <title lang="en" text="Regulated Fairway At Sea Or Large Inland Water"/>
     <title text="Geregeltes Fahrwasser auf See oder auf großen Binnengewässern"/>
-    <objectType>am_4.0:ManagementRestrictionOrRegulationZone</objectType>
+    <objectType>ManagementRestrictionOrRegulationZone</objectType>
   </layerConfig>
-  <layerConfig name="AM_RestrictedZonesAroundContaminatedSites" registryId="http://inspire.ec.europa.eu/layer/AM.RestrictedZonesAroundContaminatedSites" tags="//@tags.0 //@tags.2" layerName="AM.RestrictedZonesAroundContaminatedSites" styleConfig="//@styleConfig.21">
+  <layerConfig name="AM_RestrictedZonesAroundContaminatedSites" registryId="http://inspire.ec.europa.eu/layer/AM.RestrictedZonesAroundContaminatedSites" tags="//@tags.0 //@tags.2" layerName="AM.RestrictedZonesAroundContaminatedSites" styleConfig="//@styleConfig.24">
     <title lang="en" text="Restricted Zones Around Contaminated Sites"/>
     <title text="Schutzgebiete um kontaminierte Standorte (Altlasten)"/>
-    <objectType>am_4.0:ManagementRestrictionOrRegulationZone</objectType>
+    <objectType>ManagementRestrictionOrRegulationZone</objectType>
   </layerConfig>
-  <layerConfig name="AM_RiverBasinDistrict" registryId="http://inspire.ec.europa.eu/layer/AM.RiverBasinDistrict" tags="//@tags.0 //@tags.2" layerName="AM.RiverBasinDistrict" styleConfig="//@styleConfig.20">
+  <layerConfig name="AM_RiverBasinDistrict" registryId="http://inspire.ec.europa.eu/layer/AM.RiverBasinDistrict" tags="//@tags.0 //@tags.2" layerName="AM.RiverBasinDistrict" styleConfig="//@styleConfig.23">
     <title lang="en" text="River Basin District"/>
     <title text="Flussgebietseinheit"/>
-    <objectType>am_4.0:ManagementRestrictionOrRegulationZone</objectType>
+    <objectType>ManagementRestrictionOrRegulationZone</objectType>
   </layerConfig>
-  <layerConfig name="AM_SensitiveArea" registryId="http://inspire.ec.europa.eu/layer/AM.SensitiveArea" tags="//@tags.0 //@tags.2" layerName="AM.SensitiveArea" styleConfig="//@styleConfig.19">
+  <layerConfig name="AM_SensitiveArea" registryId="http://inspire.ec.europa.eu/layer/AM.SensitiveArea" tags="//@tags.0 //@tags.2" layerName="AM.SensitiveArea" styleConfig="//@styleConfig.22">
     <title lang="en" text="Sensitive Area"/>
     <title text="Empfindliches Gebiet"/>
-    <objectType>am_4.0:ManagementRestrictionOrRegulationZone</objectType>
+    <objectType>ManagementRestrictionOrRegulationZone</objectType>
   </layerConfig>
-  <layerConfig name="AM_WaterBodyForWFD" registryId="http://inspire.ec.europa.eu/layer/AM.WaterBodyForWFD" tags="//@tags.0 //@tags.2" layerName="AM.WaterBodyForWFD" styleConfig="//@styleConfig.18">
+  <layerConfig name="AM_WaterBodyForWFD" registryId="http://inspire.ec.europa.eu/layer/AM.WaterBodyForWFD" tags="//@tags.0 //@tags.2" layerName="AM.WaterBodyForWFD" styleConfig="//@styleConfig.21">
     <title lang="en" text="WaterBodyForWFD"/>
     <title text="Wasserkörper gemäß der Wasserrahmenrichtlinie (2000/60/EG)"/>
-    <objectType>am_4.0:ManagementRestrictionOrRegulationZone</objectType>
+    <objectType>ManagementRestrictionOrRegulationZone</objectType>
   </layerConfig>
-  <layerConfig name="EF_EnvironmentalMonitoringFacilities" registryId="http://inspire.ec.europa.eu/layer/EF.EnvironmentalMonitoringFacilities" tags="//@tags.0 //@tags.2" layerName="EF.EnvironmentalMonitoringFacilities" styleConfig="//@styleConfig.17">
+  <layerConfig name="EF_EnvironmentalMonitoringFacilities" registryId="http://inspire.ec.europa.eu/layer/EF.EnvironmentalMonitoringFacilities" tags="//@tags.0 //@tags.2" layerName="EF.EnvironmentalMonitoringFacilities" styleConfig="//@styleConfig.20">
     <title lang="en" text="Environmental Monitoring Facilities"/>
     <title text="Umweltüberwachungseinrichtungen"/>
-    <objectType>ef_4.0:EnvironmentalMonitoringFacility</objectType>
+    <objectType>EnvironmentalMonitoringFacility</objectType>
   </layerConfig>
-  <layerConfig name="EF_EnvironmentalMonitoringNetworks" registryId="http://inspire.ec.europa.eu/layer/EF.EnvironmentalMonitoringNetworks" tags="//@tags.0 //@tags.2" layerName="EF.EnvironmentalMonitoringNetworks" styleConfig="//@styleConfig.16">
+  <layerConfig name="EF_EnvironmentalMonitoringNetworks" registryId="http://inspire.ec.europa.eu/layer/EF.EnvironmentalMonitoringNetworks" tags="//@tags.0 //@tags.2" layerName="EF.EnvironmentalMonitoringNetworks" styleConfig="//@styleConfig.19">
     <title lang="en" text="Environmental Monitoring Networks"/>
     <title text="Umweltüberwachungsnetzwerke"/>
-    <objectType>ef_4.0:EnvironmentalMonitoringNetwork</objectType>
+    <objectType>EnvironmentalMonitoringNetwork</objectType>
   </layerConfig>
-  <layerConfig name="EF_EnvironmentalMonitoringProgrammes" registryId="http://inspire.ec.europa.eu/layer/EF.EnvironmentalMonitoringProgrammes" tags="//@tags.0 //@tags.2" layerName="EF.EnvironmentalMonitoringProgrammes" styleConfig="//@styleConfig.15">
+  <layerConfig name="EF_EnvironmentalMonitoringProgrammes" registryId="http://inspire.ec.europa.eu/layer/EF.EnvironmentalMonitoringProgrammes" tags="//@tags.0 //@tags.2" layerName="EF.EnvironmentalMonitoringProgrammes" styleConfig="//@styleConfig.18">
     <title lang="en" text="Environmental Monitoring Programmes"/>
     <title text="Umweltüberwachungsprogramme"/>
-    <objectType>ef_4.0:EnvironmentalMonitoringProgramme</objectType>
+    <objectType>EnvironmentalMonitoringProgramme</objectType>
   </layerConfig>
-  <layerConfig name="NZ_RiskZone" registryId="" tags="//@tags.0 //@tags.2" layerName="NZ.RiskZone" styleConfig="//@styleConfig.14">
+  <layerConfig name="NZ_RiskZone" registryId="" tags="//@tags.0 //@tags.2" layerName="NZ.RiskZone" styleConfig="//@styleConfig.17">
     <title lang="en" text="Risk Zone"/>
     <title text="Risikogebiet"/>
-    <objectType>nz-core_4.0:RiskZone</objectType>
+    <objectType>RiskZone</objectType>
   </layerConfig>
-  <layerConfig name="NZ_HazardArea" registryId="" tags="//@tags.0 //@tags.2" layerName="NZ.HazardArea" styleConfig="//@styleConfig.13">
+  <layerConfig name="NZ_HazardArea" registryId="" tags="//@tags.0 //@tags.2" layerName="NZ.HazardArea" styleConfig="//@styleConfig.16">
     <title lang="en" text="Hazard Area"/>
     <title text="Gefahrengebiet"/>
-    <objectType>nz-core_4.0:HazardArea</objectType>
+    <objectType>HazardArea</objectType>
   </layerConfig>
-  <layerConfig name="NZ_ExposedElement" registryId="http://inspire.ec.europa.eu/layer/NZ.ExposedElement" tags="//@tags.0 //@tags.2" layerName="NZ.ExposedElement" styleConfig="//@styleConfig.12">
+  <layerConfig name="NZ_ExposedElement" registryId="http://inspire.ec.europa.eu/layer/NZ.ExposedElement" tags="//@tags.0 //@tags.2" layerName="NZ.ExposedElement" styleConfig="//@styleConfig.15">
     <title lang="en" text="Exposed Element"/>
     <title text="Gefährdetes Element"/>
-    <objectType>nz-core_4.0:ExposedElement</objectType>
+    <objectType>ExposedElement</objectType>
   </layerConfig>
-  <layerConfig name="NZ_ObservedEvent" registryId="" tags="//@tags.0" layerName="NZ.ObservedEvent" styleConfig="//@styleConfig.11">
+  <layerConfig name="NZ_ObservedEvent" registryId="" tags="//@tags.0" layerName="NZ.ObservedEvent" styleConfig="//@styleConfig.14">
     <title lang="en" text="Observed Event"/>
     <title text="Beobachtetes Ereignis"/>
-    <objectType>nz-core_4.0:ObservedEvent</objectType>
+    <objectType>ObservedEvent</objectType>
   </layerConfig>
-  <layerConfig name="TN_MarkerPost" registryId="" tags="//@tags.0 //@tags.2" layerName="TN.CommonTransportElements.MarkerPost" styleConfig="//@styleConfig.10">
+  <layerConfig name="TN_MarkerPost" registryId="" tags="//@tags.0 //@tags.2" layerName="TN.CommonTransportElements.MarkerPost" styleConfig="//@styleConfig.13">
     <title lang="en" text="Marker Post"/>
     <title text="Stationszeichen"/>
-    <objectType>tn_4.0:MarkerPost</objectType>
+    <objectType>MarkerPost</objectType>
   </layerConfig>
-  <layerConfig name="TN_W_Beacon" registryId="" tags="//@tags.0 //@tags.2" layerName="TN.WaterTransportNetwork.Beacon" styleConfig="//@styleConfig.9">
+  <layerConfig name="TN_W_Beacon" registryId="" tags="//@tags.0 //@tags.2" layerName="TN.WaterTransportNetwork.Beacon" styleConfig="//@styleConfig.12">
     <title lang="en" text="Beacon"/>
     <title text="Leuchtfeuer"/>
-    <objectType>tn-w_4.0:Beacon</objectType>
+    <objectType>Beacon</objectType>
   </layerConfig>
-  <layerConfig name="TN_W_Buoy" registryId="" tags="//@tags.0 //@tags.2" layerName="TN.WaterTransportNetwork.Buoy" styleConfig="//@styleConfig.8">
+  <layerConfig name="TN_W_Buoy" registryId="" tags="//@tags.0 //@tags.2" layerName="TN.WaterTransportNetwork.Buoy" styleConfig="//@styleConfig.11">
     <title lang="en" text="Buoy"/>
     <title text="Tonne"/>
-    <objectType>tn-w_4.0:Buoy</objectType>
+    <objectType>Buoy</objectType>
   </layerConfig>
-  <layerConfig name="TN_W_TrafficSeparationSchemeCrossing" registryId="" tags="//@tags.0 //@tags.2" layerName="TN.WaterTransportNetwork.TrafficSeparationSchemeCrossing" styleConfig="//@styleConfig.7">
+  <layerConfig name="TN_W_TrafficSeparationSchemeCrossing" registryId="" tags="//@tags.0 //@tags.2" layerName="TN.WaterTransportNetwork.TrafficSeparationSchemeCrossing" styleConfig="//@styleConfig.10">
     <title lang="en" text="Traffic Separation Scheme Crossing"/>
     <title text="Kreuzung eines Verkehrstrennungsgebiets"/>
-    <objectType>tn-w_4.0:TrafficSeparationSchemeCrossing</objectType>
+    <objectType>TrafficSeparationSchemeCrossing</objectType>
   </layerConfig>
-  <layerConfig name="TN_W_TrafficSeparationSchemeSeparator" registryId="" tags="//@tags.0 //@tags.2" layerName="TN.WaterTransportNetwork.TrafficSeparationSchemeSeparator" styleConfig="//@styleConfig.6">
+  <layerConfig name="TN_W_TrafficSeparationSchemeSeparator" registryId="" tags="//@tags.0 //@tags.2" layerName="TN.WaterTransportNetwork.TrafficSeparationSchemeSeparator" styleConfig="//@styleConfig.9">
     <title lang="en" text="Traffic Separation Scheme Separator"/>
     <title text="Übergangszone eines Verkehrstrennungsgebiets"/>
-    <objectType>tn-w_4.0:TrafficSeparationSchemeSeparator</objectType>
+    <objectType>TrafficSeparationSchemeSeparator</objectType>
   </layerConfig>
-  <layerConfig name="PF_EconomicActivityValue" registryId="http://inspire.ec.europa.eu/layer/PF._EconomicActivityValue_" tags="//@tags.0" layerName="PF.EconomicActivityValue" styleConfig="//@styleConfig.5">
+  <layerConfig name="PF_EconomicActivityValue" registryId="http://inspire.ec.europa.eu/layer/PF._EconomicActivityValue_" tags="//@tags.0" layerName="PF.EconomicActivityValue" styleConfig="//@styleConfig.8">
     <title lang="en" text="Economic Activity Value"/>
     <title text=""/>
-    <objectType>pf_4.0:ProductionFacility</objectType>
+    <objectType>ProductionFacility</objectType>
   </layerConfig>
-  <layerConfig name="PF_ProductionBuilding" registryId="http://inspire.ec.europa.eu/layer/PF.ProductionBuilding" tags="//@tags.0 //@tags.2" layerName="PF.ProductionBuilding" styleConfig="//@styleConfig.4">
+  <layerConfig name="PF_ProductionBuilding" registryId="http://inspire.ec.europa.eu/layer/PF.ProductionBuilding" tags="//@tags.0 //@tags.2" layerName="PF.ProductionBuilding" styleConfig="//@styleConfig.7">
     <title lang="en" text="Production and industrial building"/>
     <title text="Produktions- und Industriegebäude"/>
-    <objectType>pf_4.0:ProductionBuilding</objectType>
+    <objectType>ProductionBuilding</objectType>
   </layerConfig>
-  <layerConfig name="PF_ProductionInstallation" registryId="http://inspire.ec.europa.eu/layer/PF.ProductionInstallation" tags="//@tags.0 //@tags.2" layerName="PF.ProductionInstallation" styleConfig="//@styleConfig.3">
+  <layerConfig name="PF_ProductionInstallation" registryId="http://inspire.ec.europa.eu/layer/PF.ProductionInstallation" tags="//@tags.0 //@tags.2" layerName="PF.ProductionInstallation" styleConfig="//@styleConfig.6">
     <title lang="en" text="Production and industrial installation"/>
     <title text="Produktions- und Industrieanlage"/>
-    <objectType>pf_4.0:ProductionInstallation</objectType>
+    <objectType>ProductionInstallation</objectType>
   </layerConfig>
-  <layerConfig name="PF_ProductionInstallationPart" registryId="http://inspire.ec.europa.eu/layer/PF.ProductionInstallationPart" tags="//@tags.0 //@tags.2" layerName="PF.ProductionInstallationPart" styleConfig="//@styleConfig.2">
+  <layerConfig name="PF_ProductionInstallationPart" registryId="http://inspire.ec.europa.eu/layer/PF.ProductionInstallationPart" tags="//@tags.0 //@tags.2" layerName="PF.ProductionInstallationPart" styleConfig="//@styleConfig.5">
     <title lang="en" text="Production and industrial installation part"/>
     <title text="Produktions- und Industrieanlagenteil"/>
-    <objectType>pf_4.0:ProductionInstallationPart</objectType>
+    <objectType>ProductionInstallationPart</objectType>
   </layerConfig>
-  <layerConfig name="PF_ProductionPlot" registryId="http://inspire.ec.europa.eu/layer/PF.ProductionPlot" tags="//@tags.0 //@tags.2" layerName="PF.ProductionPlot" styleConfig="//@styleConfig.1">
+  <layerConfig name="PF_ProductionPlot" registryId="http://inspire.ec.europa.eu/layer/PF.ProductionPlot" tags="//@tags.0 //@tags.2" layerName="PF.ProductionPlot" styleConfig="//@styleConfig.4">
     <title lang="en" text="Production and industrial parcel"/>
     <title text="Produktions- und Industriegelände"/>
-    <objectType>pf_4.0:ProductionPlot</objectType>
+    <objectType>ProductionPlot</objectType>
   </layerConfig>
-  <layerConfig name="PF_ProductionSite" registryId="http://inspire.ec.europa.eu/layer/PF.ProductionSite" tags="//@tags.0 //@tags.2" layerName="PF.ProductionSite" styleConfig="//@styleConfig.0">
+  <layerConfig name="PF_ProductionSite" registryId="http://inspire.ec.europa.eu/layer/PF.ProductionSite" tags="//@tags.0 //@tags.2" layerName="PF.ProductionSite" styleConfig="//@styleConfig.3">
     <title lang="en" text="Production and industrial site"/>
     <title text="Produktions- und Industriestandort"/>
-    <objectType>pf_4.0:ProductionSite</objectType>
+    <objectType>ProductionSite</objectType>
   </layerConfig>
+  <layerConfig name="ER_EnergyStatisticalUnit" registryId="" tags="//@tags.0" layerName="ER.EnergyStatisticalUnit" styleConfig="//@styleConfig.2">
+    <title lang="en" text="Energy statistical unit"/>
+    <title text=""/>
+    <objectType>EnergyStatisticalUnit</objectType>
+  </layerConfig>
+  <layerConfig name="ER_FossilFuelResource" registryId="http://inspire.ec.europa.eu/layer/ER.FossilFuelResource" tags="//@tags.0" layerName="ER.FossilFuelResource" styleConfig="//@styleConfig.1">
+    <title lang="en" text="Fossil Fuel Resource"/>
+    <title text="Fossile Brennstoffressourcen"/>
+    <objectType>FossilFuelResource</objectType>
+  </layerConfig>
+  <layerConfig name="ER_RenewableAndWasteResource" registryId="http://inspire.ec.europa.eu/layer/ER.RenewableAndWasteResource" tags="//@tags.0" layerName="ER.RenewableAndWasteResource" styleConfig="//@styleConfig.0">
+    <title lang="en" text="Renewable and waste resources"/>
+    <title text="Ressourcen erneuerbarer Energien und Abfallressourcen"/>
+    <objectType>RenewableAndWasteResource</objectType>
+  </layerConfig>
+  <styleConfig name="ER_RenewableAndWasteResource">
+    <remoteStyle featureTypeName="RenewableAndWasteResource" url="feature-styles/ER_RenewableAndWasteResource.se"/>
+  </styleConfig>
+  <styleConfig name="ER_FossilFuelResource">
+    <remoteStyle featureTypeName="FossilFuelResource" url="feature-styles/ER_FossilFuelResource.se"/>
+  </styleConfig>
+  <styleConfig name="ER_EnergyStatisticalUnit">
+    <remoteStyle featureTypeName="EnergyStatisticalUnit" url="feature-styles/ER_EnergyStatisticalUnit.se"/>
+  </styleConfig>
   <styleConfig name="PF_ProductionSite">
-    <remoteStyle featureTypeName="pf_4.0:ProductionSite" url="feature-styles/PF_ProductionSite.se"/>
+    <remoteStyle featureTypeName="ProductionSite" url="feature-styles/PF_ProductionSite.se"/>
   </styleConfig>
   <styleConfig name="PF_ProductionPlot">
-    <remoteStyle featureTypeName="pf_4.0:ProductionPlot" url="feature-styles/PF_ProductionPlot.se"/>
+    <remoteStyle featureTypeName="ProductionPlot" url="feature-styles/PF_ProductionPlot.se"/>
   </styleConfig>
   <styleConfig name="PF_ProductionInstallationPart">
-    <remoteStyle featureTypeName="pf_4.0:ProductionInstallationPart" url="feature-styles/PF_ProductionInstallationPart.se"/>
+    <remoteStyle featureTypeName="ProductionInstallationPart" url="feature-styles/PF_ProductionInstallationPart.se"/>
   </styleConfig>
   <styleConfig name="PF_ProductionInstallation">
-    <remoteStyle featureTypeName="pf_4.0:ProductionInstallation" url="feature-styles/PF_ProductionInstallation.se"/>
+    <remoteStyle featureTypeName="ProductionInstallation" url="feature-styles/PF_ProductionInstallation.se"/>
   </styleConfig>
   <styleConfig name="PF_ProductionBuilding">
-    <remoteStyle featureTypeName="pf_4.0:ProductionBuilding" url="feature-styles/PF_ProductionBuilding.se"/>
+    <remoteStyle featureTypeName="ProductionBuilding" url="feature-styles/PF_ProductionBuilding.se"/>
   </styleConfig>
   <styleConfig name="PF_EconomicActivityValue">
-    <remoteStyle featureTypeName="pf_4.0:ProductionFacility" url="feature-styles/PF_EconomicActivityValue.se"/>
+    <remoteStyle featureTypeName="ProductionFacility" url="feature-styles/PF_EconomicActivityValue.se"/>
   </styleConfig>
   <styleConfig name="TN_W_TrafficSeparationSchemeSeparator">
-    <remoteStyle featureTypeName="tn-w_4.0:TrafficSeparationSchemeSeparator" url="feature-styles/TN_W_TrafficSeparationSchemeSeparator.se"/>
+    <remoteStyle featureTypeName="TrafficSeparationSchemeSeparator" url="feature-styles/TN_W_TrafficSeparationSchemeSeparator.se"/>
   </styleConfig>
   <styleConfig name="TN_W_TrafficSeparationSchemeCrossing">
-    <remoteStyle featureTypeName="tn-w_4.0:TrafficSeparationSchemeCrossing" url="feature-styles/TN_W_TrafficSeparationSchemeCrossing.se"/>
+    <remoteStyle featureTypeName="TrafficSeparationSchemeCrossing" url="feature-styles/TN_W_TrafficSeparationSchemeCrossing.se"/>
   </styleConfig>
   <styleConfig name="TN_W_Buoy">
-    <remoteStyle featureTypeName="tn-w_4.0:Buoy" url="feature-styles/TN_W_Buoy.se"/>
+    <remoteStyle featureTypeName="Buoy" url="feature-styles/TN_W_Buoy.se"/>
   </styleConfig>
   <styleConfig name="TN_W_Beacon">
-    <remoteStyle featureTypeName="tn-w_4.0:Beacon" url="feature-styles/TN_W_Beacon.se"/>
+    <remoteStyle featureTypeName="Beacon" url="feature-styles/TN_W_Beacon.se"/>
   </styleConfig>
   <styleConfig name="TN_MarkerPost">
-    <remoteStyle featureTypeName="tn_4.0:MarkerPost" url="feature-styles/TN_MarkerPost.se"/>
+    <remoteStyle featureTypeName="MarkerPost" url="feature-styles/TN_MarkerPost.se"/>
   </styleConfig>
   <styleConfig name="NZ_ObservedEvent">
-    <remoteStyle featureTypeName="nz-core_4.0:ObservedEvent" url="feature-styles/NZ_ObservedEvent.se"/>
+    <remoteStyle featureTypeName="ObservedEvent" url="feature-styles/NZ_ObservedEvent.se"/>
   </styleConfig>
   <styleConfig name="NZ_ExposedElement">
-    <remoteStyle featureTypeName="nz-core_4.0:ExposedElement" url="feature-styles/NZ_ExposedElement.se"/>
+    <remoteStyle featureTypeName="ExposedElement" url="feature-styles/NZ_ExposedElement.se"/>
   </styleConfig>
   <styleConfig name="NZ_HazardArea">
-    <remoteStyle featureTypeName="nz-core_4.0:HazardArea" url="feature-styles/NZ_HazardArea.se"/>
+    <remoteStyle featureTypeName="HazardArea" url="feature-styles/NZ_HazardArea.se"/>
   </styleConfig>
   <styleConfig name="NZ_RiskZone">
-    <remoteStyle featureTypeName="nz-core_4.0:RiskZone" url="feature-styles/NZ_RiskZone.se"/>
+    <remoteStyle featureTypeName="RiskZone" url="feature-styles/NZ_RiskZone.se"/>
   </styleConfig>
   <styleConfig name="EF_EnvironmentalMonitoringProgrammes">
-    <remoteStyle featureTypeName="ef_4.0:EnvironmentalMonitoringProgramme" url="feature-styles/EF_EnvironmentalMonitoringProgrammes.se"/>
+    <remoteStyle featureTypeName="EnvironmentalMonitoringProgramme" url="feature-styles/EF_EnvironmentalMonitoringProgrammes.se"/>
   </styleConfig>
   <styleConfig name="EF_EnvironmentalMonitoringNetworks">
-    <remoteStyle featureTypeName="ef_4.0:EnvironmentalMonitoringNetwork" url="feature-styles/EF_EnvironmentalMonitoringNetworks.se"/>
+    <remoteStyle featureTypeName="EnvironmentalMonitoringNetwork" url="feature-styles/EF_EnvironmentalMonitoringNetworks.se"/>
   </styleConfig>
   <styleConfig name="EF_EnvironmentalMonitoringFacilities">
-    <remoteStyle featureTypeName="ef_4.0:EnvironmentalMonitoringFacility" url="feature-styles/EF_EnvironmentalMonitoringFacilities.se"/>
+    <remoteStyle featureTypeName="EnvironmentalMonitoringFacility" url="feature-styles/EF_EnvironmentalMonitoringFacilities.se"/>
   </styleConfig>
   <styleConfig name="AM_WaterBodyForWFD">
-    <remoteStyle featureTypeName="am_4.0:ManagementRestrictionOrRegulationZone" url="feature-styles/AM_WaterBodyForWFD.se"/>
+    <remoteStyle featureTypeName="ManagementRestrictionOrRegulationZone" url="feature-styles/AM_WaterBodyForWFD.se"/>
   </styleConfig>
   <styleConfig name="AM_SensitiveArea">
-    <remoteStyle featureTypeName="am_4.0:ManagementRestrictionOrRegulationZone" url="feature-styles/AM_SensitiveArea.se"/>
+    <remoteStyle featureTypeName="ManagementRestrictionOrRegulationZone" url="feature-styles/AM_SensitiveArea.se"/>
   </styleConfig>
   <styleConfig name="AM_RiverBasinDistrict">
-    <remoteStyle featureTypeName="am_4.0:ManagementRestrictionOrRegulationZone" url="feature-styles/AM_RiverBasinDistrict.se"/>
+    <remoteStyle featureTypeName="ManagementRestrictionOrRegulationZone" url="feature-styles/AM_RiverBasinDistrict.se"/>
   </styleConfig>
   <styleConfig name="AM_RestrictedZonesAroundContaminatedSites">
-    <remoteStyle featureTypeName="am_4.0:ManagementRestrictionOrRegulationZone" url="feature-styles/AM_RestrictedZonesAroundContaminatedSites.se"/>
+    <remoteStyle featureTypeName="ManagementRestrictionOrRegulationZone" url="feature-styles/AM_RestrictedZonesAroundContaminatedSites.se"/>
   </styleConfig>
   <styleConfig name="AM_RegulatedFairwayAtSeaOrLargeInlandWater">
-    <remoteStyle featureTypeName="am_4.0:ManagementRestrictionOrRegulationZone" url="feature-styles/AM_RegulatedFairwayAtSeaOrLargeInlandWater.se"/>
+    <remoteStyle featureTypeName="ManagementRestrictionOrRegulationZone" url="feature-styles/AM_RegulatedFairwayAtSeaOrLargeInlandWater.se"/>
   </styleConfig>
   <styleConfig name="AM_ProspectingAndMiningPermitArea">
-    <remoteStyle featureTypeName="am_4.0:ManagementRestrictionOrRegulationZone" url="feature-styles/AM_ProspectingAndMiningPermitArea.se"/>
+    <remoteStyle featureTypeName="ManagementRestrictionOrRegulationZone" url="feature-styles/AM_ProspectingAndMiningPermitArea.se"/>
   </styleConfig>
   <styleConfig name="AM_PlantHealthProtectionZone">
-    <remoteStyle featureTypeName="am_4.0:ManagementRestrictionOrRegulationZone" url="feature-styles/AM_PlantHealthProtectionZone.se"/>
+    <remoteStyle featureTypeName="ManagementRestrictionOrRegulationZone" url="feature-styles/AM_PlantHealthProtectionZone.se"/>
   </styleConfig>
   <styleConfig name="AM_NoiseRestrictionZone">
-    <remoteStyle featureTypeName="am_4.0:ManagementRestrictionOrRegulationZone" url="feature-styles/AM_NoiseRestrictionZone.se"/>
+    <remoteStyle featureTypeName="ManagementRestrictionOrRegulationZone" url="feature-styles/AM_NoiseRestrictionZone.se"/>
   </styleConfig>
   <styleConfig name="AM_NitrateVulnerableZone">
-    <remoteStyle featureTypeName="am_4.0:ManagementRestrictionOrRegulationZone" url="feature-styles/AM_NitrateVulnerableZone.se"/>
+    <remoteStyle featureTypeName="ManagementRestrictionOrRegulationZone" url="feature-styles/AM_NitrateVulnerableZone.se"/>
   </styleConfig>
   <styleConfig name="AM_MarineRegion">
-    <remoteStyle featureTypeName="am_4.0:ManagementRestrictionOrRegulationZone" url="feature-styles/AM_MarineRegion.se"/>
+    <remoteStyle featureTypeName="ManagementRestrictionOrRegulationZone" url="feature-styles/AM_MarineRegion.se"/>
   </styleConfig>
   <styleConfig name="AM_ForestManagementArea">
-    <remoteStyle featureTypeName="am_4.0:ManagementRestrictionOrRegulationZone" url="feature-styles/AM_ForestManagementArea.se"/>
+    <remoteStyle featureTypeName="ManagementRestrictionOrRegulationZone" url="feature-styles/AM_ForestManagementArea.se"/>
   </styleConfig>
   <styleConfig name="AM_FloodUnitOfManagement">
-    <remoteStyle featureTypeName="am_4.0:ManagementRestrictionOrRegulationZone" url="feature-styles/AM_FloodUnitOfManagement.se"/>
+    <remoteStyle featureTypeName="ManagementRestrictionOrRegulationZone" url="feature-styles/AM_FloodUnitOfManagement.se"/>
   </styleConfig>
   <styleConfig name="AM_DrinkingWaterProtectionArea">
-    <remoteStyle featureTypeName="am_4.0:ManagementRestrictionOrRegulationZone" url="feature-styles/AM_DrinkingWaterProtectionArea.se"/>
+    <remoteStyle featureTypeName="ManagementRestrictionOrRegulationZone" url="feature-styles/AM_DrinkingWaterProtectionArea.se"/>
   </styleConfig>
   <styleConfig name="AM_DesignatedWaters">
-    <remoteStyle featureTypeName="am_4.0:ManagementRestrictionOrRegulationZone" url="feature-styles/AM_DesignatedWaters.se"/>
+    <remoteStyle featureTypeName="ManagementRestrictionOrRegulationZone" url="feature-styles/AM_DesignatedWaters.se"/>
   </styleConfig>
   <styleConfig name="AM_CoastalZoneManagementArea">
-    <remoteStyle featureTypeName="am_4.0:ManagementRestrictionOrRegulationZone" url="feature-styles/AM_CoastalZoneManagementArea.se"/>
+    <remoteStyle featureTypeName="ManagementRestrictionOrRegulationZone" url="feature-styles/AM_CoastalZoneManagementArea.se"/>
   </styleConfig>
   <styleConfig name="AM_BathingWaters">
-    <remoteStyle featureTypeName="am_4.0:ManagementRestrictionOrRegulationZone" url="feature-styles/AM_BathingWaters.se"/>
+    <remoteStyle featureTypeName="ManagementRestrictionOrRegulationZone" url="feature-styles/AM_BathingWaters.se"/>
   </styleConfig>
   <styleConfig name="AM_AreaForDisposalOfWaste">
-    <remoteStyle featureTypeName="am_4.0:ManagementRestrictionOrRegulationZone" url="feature-styles/AM_AreaForDisposalOfWaste.se"/>
+    <remoteStyle featureTypeName="ManagementRestrictionOrRegulationZone" url="feature-styles/AM_AreaForDisposalOfWaste.se"/>
   </styleConfig>
   <styleConfig name="AM_AirQualityManagementZone">
-    <remoteStyle featureTypeName="am_4.0:ManagementRestrictionOrRegulationZone" url="feature-styles/AM_AirQualityManagementZone.se"/>
+    <remoteStyle featureTypeName="ManagementRestrictionOrRegulationZone" url="feature-styles/AM_AirQualityManagementZone.se"/>
   </styleConfig>
   <styleConfig name="AM_AnimalHealthRestrictionZone">
-    <remoteStyle featureTypeName="am_4.0:ManagementRestrictionOrRegulationZone" url="feature-styles/AM_AnimalHealthRestrictionZone.se"/>
+    <remoteStyle featureTypeName="ManagementRestrictionOrRegulationZone" url="feature-styles/AM_AnimalHealthRestrictionZone.se"/>
   </styleConfig>
   <styleConfig name="HB_Habitat">
-    <remoteStyle featureTypeName="hb_4.0:Habitat" url="feature-styles/HB_Habitat.se"/>
+    <remoteStyle featureTypeName="Habitat" url="feature-styles/HB_Habitat.se"/>
   </styleConfig>
   <styleConfig name="US_GovernmentalService">
-    <remoteStyle featureTypeName="us-govserv_4.0:GovernmentalService" url="feature-styles/US_GovernmentalService.se"/>
+    <remoteStyle featureTypeName="GovernmentalService" url="feature-styles/US_GovernmentalService.se"/>
   </styleConfig>
   <styleConfig name="LU_SupplementaryRegulation">
-    <remoteStyle featureTypeName="plu_4.0:SupplementaryRegulation" url="feature-styles/LU_SupplementaryRegulation.se"/>
+    <remoteStyle featureTypeName="SupplementaryRegulation" url="feature-styles/LU_SupplementaryRegulation.se"/>
   </styleConfig>
   <styleConfig name="LU_ZoningElement">
-    <remoteStyle featureTypeName="plu_4.0:ZoningElement" url="feature-styles/LU_ZoningElement.se"/>
+    <remoteStyle featureTypeName="ZoningElement" url="feature-styles/LU_ZoningElement.se"/>
   </styleConfig>
   <styleConfig name="LU_SpatialPlan">
-    <remoteStyle featureTypeName="plu_4.0:SpatialPlan" url="feature-styles/LU_SpatialPlan.se"/>
+    <remoteStyle featureTypeName="SpatialPlan" url="feature-styles/LU_SpatialPlan.se"/>
   </styleConfig>
   <styleConfig name="LU_ExistingLandUse">
-    <remoteStyle featureTypeName="elu_4.0:ExistingLandUseObject" url="feature-styles/LU_ExistingLandUse.se"/>
+    <remoteStyle featureTypeName="ExistingLandUseObject" url="feature-styles/LU_ExistingLandUse.se"/>
   </styleConfig>
   <styleConfig name="AD_Address">
-    <remoteStyle featureTypeName="ad_4.0:Address" url="feature-styles/AD_Address.se"/>
+    <remoteStyle featureTypeName="Address" url="feature-styles/AD_Address.se"/>
   </styleConfig>
   <styleConfig name="AU_AdministrativeBoundary">
-    <remoteStyle featureTypeName="au_4.0:AdministrativeBoundary" url="feature-styles/AU_AdministrativeBoundary.se"/>
+    <remoteStyle featureTypeName="AdministrativeBoundary" url="feature-styles/AU_AdministrativeBoundary.se"/>
   </styleConfig>
   <styleConfig name="AU_AdministrativeUnit">
-    <remoteStyle featureTypeName="au_4.0:AdministrativeUnit" url="feature-styles/AU_AdministrativeUnit.se"/>
+    <remoteStyle featureTypeName="AdministrativeUnit" url="feature-styles/AU_AdministrativeUnit.se"/>
   </styleConfig>
   <styleConfig name="MU_Baseline">
-    <remoteStyle featureTypeName="mu_3.0:Baseline" url="feature-styles/MU_Baseline.se"/>
+    <remoteStyle featureTypeName="Baseline" url="feature-styles/MU_Baseline.se"/>
   </styleConfig>
   <styleConfig name="AU_Condominium">
-    <remoteStyle featureTypeName="au_4.0:Condominium" url="feature-styles/AU_Condominium.se"/>
+    <remoteStyle featureTypeName="Condominium" url="feature-styles/AU_Condominium.se"/>
   </styleConfig>
   <styleConfig name="MU_ContiguousZone">
-    <remoteStyle featureTypeName="mu_3.0:ContiguousZone" url="feature-styles/MU_ContiguousZone.se"/>
+    <remoteStyle featureTypeName="ContiguousZone" url="feature-styles/MU_ContiguousZone.se"/>
   </styleConfig>
   <styleConfig name="MU_ContinentalShelf">
-    <remoteStyle featureTypeName="mu_3.0:ContinentalShelf" url="feature-styles/MU_ContinentalShelf.se"/>
+    <remoteStyle featureTypeName="ContinentalShelf" url="feature-styles/MU_ContinentalShelf.se"/>
   </styleConfig>
   <styleConfig name="MU_ExclusiveEconomicZone">
-    <remoteStyle featureTypeName="mu_3.0:ExclusiveEconomicZone" url="feature-styles/MU_ExclusiveEconomicZone.se"/>
+    <remoteStyle featureTypeName="ExclusiveEconomicZone" url="feature-styles/MU_ExclusiveEconomicZone.se"/>
   </styleConfig>
   <styleConfig name="MU_InternalWaters">
-    <remoteStyle featureTypeName="mu_3.0:InternalWaters" url="feature-styles/MU_InternalWaters.se"/>
+    <remoteStyle featureTypeName="InternalWaters" url="feature-styles/MU_InternalWaters.se"/>
   </styleConfig>
   <styleConfig name="MU_MaritimeBoundary">
-    <remoteStyle featureTypeName="mu_3.0:MaritimeBoundary" url="feature-styles/MU_MaritimeBoundary.se"/>
+    <remoteStyle featureTypeName="MaritimeBoundary" url="feature-styles/MU_MaritimeBoundary.se"/>
   </styleConfig>
   <styleConfig name="MU_TerritorialSea">
-    <remoteStyle featureTypeName="mu_3.0:TerritorialSea" url="feature-styles/MU_TerritorialSea.se"/>
+    <remoteStyle featureTypeName="TerritorialSea" url="feature-styles/MU_TerritorialSea.se"/>
   </styleConfig>
   <styleConfig name="CP_CadastralBoundary">
-    <remoteStyle featureTypeName="cp_4.0:CadastralBoundary" url="feature-styles/CP_CadastralBoundary.se"/>
+    <remoteStyle featureTypeName="CadastralBoundary" url="feature-styles/CP_CadastralBoundary.se"/>
   </styleConfig>
   <styleConfig name="CP_CadastralParcel">
-    <remoteStyle featureTypeName="cp_4.0:CadastralParcel" url="feature-styles/CP_CadastralParcel.se"/>
+    <remoteStyle featureTypeName="CadastralParcel" url="feature-styles/CP_CadastralParcel.se"/>
   </styleConfig>
   <styleConfig name="CP_CadastralParcel_1">
-    <remoteStyle featureTypeName="cp_4.0:CadastralParcel" url="feature-styles/CP_CadastralParcel_1.se"/>
+    <remoteStyle featureTypeName="CadastralParcel" url="feature-styles/CP_CadastralParcel_1.se"/>
   </styleConfig>
   <styleConfig name="CP_CadastralParcel_2">
-    <remoteStyle featureTypeName="cp_4.0:CadastralParcel" url="feature-styles/CP_CadastralParcel_2.se"/>
+    <remoteStyle featureTypeName="CadastralParcel" url="feature-styles/CP_CadastralParcel_2.se"/>
   </styleConfig>
   <styleConfig name="CP_CadastralParcel_3">
-    <remoteStyle featureTypeName="cp_4.0:CadastralParcel" url="feature-styles/CP_CadastralParcel_3.se"/>
+    <remoteStyle featureTypeName="CadastralParcel" url="feature-styles/CP_CadastralParcel_3.se"/>
   </styleConfig>
   <styleConfig name="CP_CadastralZoning">
-    <remoteStyle featureTypeName="cp_4.0:CadastralZoning" url="feature-styles/CP_CadastralZoning.se"/>
+    <remoteStyle featureTypeName="CadastralZoning" url="feature-styles/CP_CadastralZoning.se"/>
   </styleConfig>
   <styleConfig name="GN_NamedPlace">
-    <remoteStyle featureTypeName="gn_4.0:NamedPlace" url="feature-styles/GN_NamedPlace.se"/>
+    <remoteStyle featureTypeName="NamedPlace" url="feature-styles/GN_NamedPlace.se"/>
   </styleConfig>
   <styleConfig name="HY_N_WatercourseLink">
-    <remoteStyle featureTypeName="hy-n_4.0:WatercourseLink" url="feature-styles/HY_N_WatercourseLink.se"/>
+    <remoteStyle featureTypeName="WatercourseLink" url="feature-styles/HY_N_WatercourseLink.se"/>
   </styleConfig>
   <styleConfig name="HY_N_HydroNode">
-    <remoteStyle featureTypeName="hy-n_4.0:HydroNode" url="feature-styles/HY_N_HydroNode.se"/>
+    <remoteStyle featureTypeName="HydroNode" url="feature-styles/HY_N_HydroNode.se"/>
   </styleConfig>
   <styleConfig name="HY_P_DrainageBasin">
-    <remoteStyle featureTypeName="hy-p_4.0:DrainageBasin" url="feature-styles/HY_P_DrainageBasin.se"/>
+    <remoteStyle featureTypeName="DrainageBasin" url="feature-styles/HY_P_DrainageBasin.se"/>
   </styleConfig>
   <styleConfig name="HY_P_RiverBasin">
-    <remoteStyle featureTypeName="hy-p_4.0:RiverBasin" url="feature-styles/HY_P_RiverBasin.se"/>
+    <remoteStyle featureTypeName="RiverBasin" url="feature-styles/HY_P_RiverBasin.se"/>
   </styleConfig>
   <styleConfig name="HY_P_Rapids">
-    <remoteStyle featureTypeName="hy-p_4.0:Rapids" url="feature-styles/HY_P_Rapids.se"/>
+    <remoteStyle featureTypeName="Rapids" url="feature-styles/HY_P_Rapids.se"/>
   </styleConfig>
   <styleConfig name="HY_P_Falls">
-    <remoteStyle featureTypeName="hy-p_4.0:Falls" url="feature-styles/HY_P_Falls.se"/>
+    <remoteStyle featureTypeName="Falls" url="feature-styles/HY_P_Falls.se"/>
   </styleConfig>
   <styleConfig name="HY_P_LandWaterBoundary">
-    <remoteStyle featureTypeName="hy-p_4.0:LandWaterBoundary" url="feature-styles/HY_P_LandWaterBoundary.se"/>
+    <remoteStyle featureTypeName="LandWaterBoundary" url="feature-styles/HY_P_LandWaterBoundary.se"/>
   </styleConfig>
   <styleConfig name="HY_P_Crossing">
-    <remoteStyle featureTypeName="hy-p_4.0:Crossing" url="feature-styles/HY_P_Crossing.se"/>
+    <remoteStyle featureTypeName="Crossing" url="feature-styles/HY_P_Crossing.se"/>
   </styleConfig>
   <styleConfig name="HY_P_DamOrWeir">
-    <remoteStyle featureTypeName="hy-p_4.0:DamOrWeir" url="feature-styles/HY_P_DamOrWeir.se"/>
+    <remoteStyle featureTypeName="DamOrWeir" url="feature-styles/HY_P_DamOrWeir.se"/>
   </styleConfig>
   <styleConfig name="HY_P_Shore">
-    <remoteStyle featureTypeName="hy-p_4.0:ShorelineConstruction" url="feature-styles/HY_P_Shore.se"/>
+    <remoteStyle featureTypeName="ShorelineConstruction" url="feature-styles/HY_P_Shore.se"/>
   </styleConfig>
   <styleConfig name="HY_P_Ford">
-    <remoteStyle featureTypeName="hy-p_4.0:Ford" url="feature-styles/HY_P_Ford.se"/>
+    <remoteStyle featureTypeName="Ford" url="feature-styles/HY_P_Ford.se"/>
   </styleConfig>
   <styleConfig name="HY_P_Lock">
-    <remoteStyle featureTypeName="hy-p_4.0:Lock" url="feature-styles/HY_P_Lock.se"/>
+    <remoteStyle featureTypeName="Lock" url="feature-styles/HY_P_Lock.se"/>
   </styleConfig>
   <styleConfig name="HY_P_Shore_1">
-    <remoteStyle featureTypeName="hy-p_4.0:Shore" url="feature-styles/HY_P_Shore_1.se"/>
+    <remoteStyle featureTypeName="Shore" url="feature-styles/HY_P_Shore_1.se"/>
   </styleConfig>
   <styleConfig name="HY_P_Watercourse">
-    <remoteStyle featureTypeName="hy-p_4.0:Watercourse" url="feature-styles/HY_P_Watercourse.se"/>
+    <remoteStyle featureTypeName="Watercourse" url="feature-styles/HY_P_Watercourse.se"/>
   </styleConfig>
   <styleConfig name="HY_P_StandingWater">
-    <remoteStyle featureTypeName="hy-p_4.0:StandingWater" url="feature-styles/HY_P_StandingWater.se"/>
+    <remoteStyle featureTypeName="StandingWater" url="feature-styles/HY_P_StandingWater.se"/>
   </styleConfig>
   <styleConfig name="HY_P_Watercourse_1">
-    <remoteStyle featureTypeName="hy-p_4.0:Watercourse" url="feature-styles/HY_P_Watercourse_1.se"/>
+    <remoteStyle featureTypeName="Watercourse" url="feature-styles/HY_P_Watercourse_1.se"/>
   </styleConfig>
   <styleConfig name="HY_P_StandingWater_1">
-    <remoteStyle featureTypeName="hy-p_4.0:StandingWater" url="feature-styles/HY_P_StandingWater_1.se"/>
+    <remoteStyle featureTypeName="StandingWater" url="feature-styles/HY_P_StandingWater_1.se"/>
   </styleConfig>
   <styleConfig name="HY_P_Watercourse_2">
-    <remoteStyle featureTypeName="hy-p_4.0:Watercourse" url="feature-styles/HY_P_Watercourse_2.se"/>
+    <remoteStyle featureTypeName="Watercourse" url="feature-styles/HY_P_Watercourse_2.se"/>
   </styleConfig>
   <styleConfig name="HY_P_StandingWater_2">
-    <remoteStyle featureTypeName="hy-p_4.0:StandingWater" url="feature-styles/HY_P_StandingWater_2.se"/>
+    <remoteStyle featureTypeName="StandingWater" url="feature-styles/HY_P_StandingWater_2.se"/>
   </styleConfig>
   <styleConfig name="HY_P_Wetland">
-    <remoteStyle featureTypeName="hy-p_4.0:Wetland" url="feature-styles/HY_P_Wetland.se"/>
+    <remoteStyle featureTypeName="Wetland" url="feature-styles/HY_P_Wetland.se"/>
   </styleConfig>
   <styleConfig name="PS_ProtectedSite">
-    <remoteStyle featureTypeName="ps_4.0:ProtectedSite" url="feature-styles/PS_ProtectedSites.se"/>
+    <remoteStyle featureTypeName="ProtectedSite" url="feature-styles/PS_ProtectedSites.se"/>
   </styleConfig>
   <styleConfig name="TN_A_AerodromeArea">
-    <remoteStyle featureTypeName="tn-a_4.0:AerodromeArea" url="feature-styles/TN_A_AerodromeArea.se"/>
+    <remoteStyle featureTypeName="AerodromeArea" url="feature-styles/TN_A_AerodromeArea.se"/>
   </styleConfig>
   <styleConfig name="TN_A_ProcedureLink">
-    <remoteStyle featureTypeName="tn-a_4.0:ProcedureLink" url="feature-styles/TN_A_ProcedureLink.se"/>
+    <remoteStyle featureTypeName="ProcedureLink" url="feature-styles/TN_A_ProcedureLink.se"/>
   </styleConfig>
   <styleConfig name="TN_A_AirRouteLink">
-    <remoteStyle featureTypeName="tn-a_4.0:AirRouteLink" url="feature-styles/TN_A_AirRouteLink.se"/>
+    <remoteStyle featureTypeName="AirRouteLink" url="feature-styles/TN_A_AirRouteLink.se"/>
   </styleConfig>
   <styleConfig name="TN_A_AirspaceArea">
-    <remoteStyle featureTypeName="tn-a_4.0:AirspaceArea" url="feature-styles/TN_A_AirspaceArea.se"/>
+    <remoteStyle featureTypeName="AirspaceArea" url="feature-styles/TN_A_AirspaceArea.se"/>
   </styleConfig>
   <styleConfig name="TN_A_ApronArea">
-    <remoteStyle featureTypeName="tn-a_4.0:ApronArea" url="feature-styles/TN_A_ApronArea.se"/>
+    <remoteStyle featureTypeName="ApronArea" url="feature-styles/TN_A_ApronArea.se"/>
   </styleConfig>
   <styleConfig name="TN_A_RunwayArea">
-    <remoteStyle featureTypeName="tn-a_4.0:RunwayArea" url="feature-styles/TN_A_RunwayArea.se"/>
+    <remoteStyle featureTypeName="RunwayArea" url="feature-styles/TN_A_RunwayArea.se"/>
   </styleConfig>
   <styleConfig name="TN_A_TaxiwayArea">
-    <remoteStyle featureTypeName="tn-a_4.0:TaxiwayArea" url="feature-styles/TN_A_TaxiwayArea.se"/>
+    <remoteStyle featureTypeName="TaxiwayArea" url="feature-styles/TN_A_TaxiwayArea.se"/>
   </styleConfig>
   <styleConfig name="TN_C_CablewayLink">
-    <remoteStyle featureTypeName="tn-c_4.0:CablewayLink" url="feature-styles/TN_C_CablewayLink.se"/>
+    <remoteStyle featureTypeName="CablewayLink" url="feature-styles/TN_C_CablewayLink.se"/>
   </styleConfig>
   <styleConfig name="TN_TransportArea">
-    <remoteStyle featureTypeName="tn_4.0:TransportArea" url="feature-styles/TN_TransportArea.se"/>
+    <remoteStyle featureTypeName="TransportArea" url="feature-styles/TN_TransportArea.se"/>
   </styleConfig>
   <styleConfig name="TN_TransportLink">
-    <remoteStyle featureTypeName="tn_4.0:TransportLink" url="feature-styles/TN_TransportLink.se"/>
+    <remoteStyle featureTypeName="TransportLink" url="feature-styles/TN_TransportLink.se"/>
   </styleConfig>
   <styleConfig name="TN_TransportNode">
-    <remoteStyle featureTypeName="tn_4.0:TransportNode" url="feature-styles/TN_TransportNode.se"/>
+    <remoteStyle featureTypeName="TransportNode" url="feature-styles/TN_TransportNode.se"/>
   </styleConfig>
   <styleConfig name="TN_RA_RailwayArea">
-    <remoteStyle featureTypeName="tn-ra_4.0:RailwayArea" url="feature-styles/TN_RA_RailwayArea.se"/>
+    <remoteStyle featureTypeName="RailwayArea" url="feature-styles/TN_RA_RailwayArea.se"/>
   </styleConfig>
   <styleConfig name="TN_RA_RailwayLink">
-    <remoteStyle featureTypeName="tn-ra_4.0:RailwayLink" url="feature-styles/TN_RA_RailwayLink.se"/>
+    <remoteStyle featureTypeName="RailwayLink" url="feature-styles/TN_RA_RailwayLink.se"/>
   </styleConfig>
   <styleConfig name="TN_RA_RailwayStationArea">
-    <remoteStyle featureTypeName="tn-ra_4.0:RailwayStationArea" url="feature-styles/TN_RA_RailwayStationArea.se"/>
+    <remoteStyle featureTypeName="RailwayStationArea" url="feature-styles/TN_RA_RailwayStationArea.se"/>
   </styleConfig>
   <styleConfig name="TN_RA_RailwayYardArea">
-    <remoteStyle featureTypeName="tn-ra_4.0:RailwayYardArea" url="feature-styles/TN_RA_RailwayYardArea.se"/>
+    <remoteStyle featureTypeName="RailwayYardArea" url="feature-styles/TN_RA_RailwayYardArea.se"/>
   </styleConfig>
   <styleConfig name="TN_RO_RoadArea">
-    <remoteStyle featureTypeName="tn-ro_4.0:RoadArea" url="feature-styles/TN_RO_RoadArea.se"/>
+    <remoteStyle featureTypeName="RoadArea" url="feature-styles/TN_RO_RoadArea.se"/>
   </styleConfig>
   <styleConfig name="TN_RO_RoadLink">
-    <remoteStyle featureTypeName="tn-ro_4.0:RoadLink" url="feature-styles/TN_RO_RoadLink.se"/>
+    <remoteStyle featureTypeName="RoadLink" url="feature-styles/TN_RO_RoadLink.se"/>
   </styleConfig>
   <styleConfig name="TN_RO_RoadServiceArea">
-    <remoteStyle featureTypeName="tn-ro_4.0:RoadServiceArea" url="feature-styles/TN_RO_RoadServiceArea.se"/>
+    <remoteStyle featureTypeName="RoadServiceArea" url="feature-styles/TN_RO_RoadServiceArea.se"/>
   </styleConfig>
   <styleConfig name="TN_RO_VehicleTrafficArea">
-    <remoteStyle featureTypeName="tn-ro_4.0:VehicleTrafficArea" url="feature-styles/TN_RO_VehicleTrafficArea.se"/>
+    <remoteStyle featureTypeName="VehicleTrafficArea" url="feature-styles/TN_RO_VehicleTrafficArea.se"/>
   </styleConfig>
   <styleConfig name="TN_W_FairwayArea">
-    <remoteStyle featureTypeName="tn-w_4.0:FairwayArea" url="feature-styles/TN_W_FairwayArea.se"/>
+    <remoteStyle featureTypeName="FairwayArea" url="feature-styles/TN_W_FairwayArea.se"/>
   </styleConfig>
   <styleConfig name="TN_W_PortArea">
-    <remoteStyle featureTypeName="tn-w_4.0:PortArea" url="feature-styles/TN_W_PortArea.se"/>
+    <remoteStyle featureTypeName="PortArea" url="feature-styles/TN_W_PortArea.se"/>
   </styleConfig>
   <styleConfig name="TN_W_WaterwayLink">
-    <remoteStyle featureTypeName="tn-w_4.0:WaterwayLink" url="feature-styles/TN_W_WaterwayLink.se"/>
-  </styleConfig>
-  <styleConfig name="LC_LandCoverPoints">
-    <remoteStyle featureTypeName="lcv_4.0:LandCoverUnit" url="feature-styles/LC_LandCoverPoints.se"/>
+    <remoteStyle featureTypeName="WaterwayLink" url="feature-styles/TN_W_WaterwayLink.se"/>
   </styleConfig>
   <styleConfig name="LC_LandCoverSurfaces">
-    <remoteStyle featureTypeName="lcv_4.0:LandCoverUnit" url="feature-styles/LC_LandCoverSurfaces.se"/>
+    <remoteStyle featureTypeName="LandCoverUnit" url="feature-styles/LC_LandCoverSurfaces.se"/>
   </styleConfig>
   <styleConfig name="BU_Building">
-    <remoteStyle featureTypeName="bu-core2d_4.0:Building" url="feature-styles/BU_Building.se"/>
+    <remoteStyle featureTypeName="Building" url="feature-styles/BU_Building.se"/>
   </styleConfig>
   <styleConfig name="BU_BuildingPart">
-    <remoteStyle featureTypeName="bu-core2d_4.0:BuildingPart" url="feature-styles/BU_BuildingPart.se"/>
+    <remoteStyle featureTypeName="BuildingPart" url="feature-styles/BU_BuildingPart.se"/>
   </styleConfig>
 </styleconfig:StyleModel>
