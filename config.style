@@ -1,12 +1,14 @@
 tags: 'inspire' 'inspire_wetransform' 'production'
 Layer {
+<foreach var="a" file="LithologyValue.csv">
 	id: "AD_Address"
 	registry-id: "http://inspire.ec.europa.eu/layer/AD.Address"
 	tags: inspire production
-	Name: "AD.Address"
+	Name: "AD.Address_${a.ID}"
 	Title: en "Addresses", de "Addressen"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/ad/4.0:Address
 	Styles: AD_Address
+</foreach>
 }
 Layer {
 	id: "AU_AdministrativeBoundary"
