@@ -37,23 +37,23 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
       <se:Title>postal delivery - utility service - thoroughfare access - entrance: The highest accuracy - Exact Level - white</se:Title>
     </se:Description>
     <ogc:Filter>
-      <ogc:Or>
-	       <ogc:PropertyIsEqualTo>
-	         <ogc:PropertyName>ad:position/ad:GeographicPosition/ad:specification/@xlink:href</ogc:PropertyName>
-	         <ogc:Literal>http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/postalDelivery</ogc:Literal>
-	       </ogc:PropertyIsEqualTo>
-	       <ogc:PropertyIsEqualTo>
-	         <ogc:PropertyName>ad:position/ad:GeographicPosition/ad:specification/@xlink:href</ogc:PropertyName>
-	         <ogc:Literal>http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/thoroughfareAccess</ogc:Literal>
-	       </ogc:PropertyIsEqualTo>
-	       <ogc:PropertyIsEqualTo>
-	         <ogc:PropertyName>ad:position/ad:GeographicPosition/ad:specification/@xlink:href</ogc:PropertyName>
-	         <ogc:Literal>http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/utilityService</ogc:Literal>
-	       </ogc:PropertyIsEqualTo>
-	       <ogc:PropertyIsEqualTo>
-	         <ogc:PropertyName>ad:position/ad:GeographicPosition/ad:specification/@xlink:href</ogc:PropertyName>
-	         <ogc:Literal>http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/entrance</ogc:Literal>
-	       </ogc:PropertyIsEqualTo>
+       <ogc:Or>
+        <ogc:PropertyIsEqualTo>
+          <ogc:PropertyName>ad:position/ad:GeographicPosition/ad:specification/@xlink:href</ogc:PropertyName>
+          <ogc:Literal>http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/postalDelivery</ogc:Literal>
+        </ogc:PropertyIsEqualTo>
+        <ogc:PropertyIsEqualTo>
+          <ogc:PropertyName>ad:position/ad:GeographicPosition/ad:specification/@xlink:href</ogc:PropertyName>
+          <ogc:Literal>http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/thoroughfareAccess</ogc:Literal>
+        </ogc:PropertyIsEqualTo>
+        <ogc:PropertyIsEqualTo>
+          <ogc:PropertyName>ad:position/ad:GeographicPosition/ad:specification/@xlink:href</ogc:PropertyName>
+          <ogc:Literal>http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/utilityService</ogc:Literal>
+        </ogc:PropertyIsEqualTo>
+        <ogc:PropertyIsEqualTo>
+          <ogc:PropertyName>ad:position/ad:GeographicPosition/ad:specification/@xlink:href</ogc:PropertyName>
+          <ogc:Literal>http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/entrance</ogc:Literal>
+        </ogc:PropertyIsEqualTo>
       </ogc:Or>
     </ogc:Filter>
     <se:PointSymbolizer>

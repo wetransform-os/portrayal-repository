@@ -1,15 +1,14 @@
 tags: 'inspire' 'inspire_wetransform' 'production'
 Layer {
-<foreach var="a" file="LithologyValue.csv">
 	id: "AD_Address"
 	registry-id: "http://inspire.ec.europa.eu/layer/AD.Address"
 	tags: inspire production
-	Name: "AD.Address_${a.ID}"
+	Name: "AD.Address"
 	Title: en "Addresses", de "Addressen"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/ad/4.0:Address
 	Styles: AD_Address
-</foreach>
 }
+
 Layer {
 	id: "AU_AdministrativeBoundary"
 	registry-id: "http://inspire.ec.europa.eu/layer/AU.AdministrativeBoundary"
@@ -1480,6 +1479,7 @@ Style {
 		URL: "feature-styles/HY_P_Wetland.se"
 	}
 }
+
 Style {
 	id: "PS_ProtectedSite"
 	Remote {
@@ -1494,6 +1494,7 @@ Style {
 		URL: "feature-styles/TN_A_AerodromeArea.se"
 	}
 }
+
 Style {
 	id: "TN_A_ProcedureLink"
 	Remote {

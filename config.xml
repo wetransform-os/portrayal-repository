@@ -3,6 +3,11 @@
   <tags name="inspire"/>
   <tags name="inspire_wetransform"/>
   <tags name="production"/>
+  <layerConfig name="AD_Address" registryId="http://inspire.ec.europa.eu/layer/AD.Address" tags="//@tags.0 //@tags.2" layerName="AD.Address" styleConfig="//@styleConfig.46">
+    <title lang="en" text="Addresses"/>
+    <title text="Addressen"/>
+    <objectType>Address</objectType>
+  </layerConfig>
   <layerConfig name="AU_AdministrativeBoundary" registryId="http://inspire.ec.europa.eu/layer/AU.AdministrativeBoundary" tags="//@tags.2 //@tags.0" layerName="AU.AdministrativeBoundary" styleConfig="//@styleConfig.47">
     <title lang="en" text="Administrative boundary"/>
     <title text="Verwaltungsgrenze"/>
@@ -499,13 +504,6 @@
     <title text="Ressourcen erneuerbarer Energien und Abfallressourcen"/>
     <objectType>RenewableAndWasteResource</objectType>
   </layerConfig>
-  <multiLayerConfig variable="a" csvFilePath="LithologyValue.csv">
-    <layerConfig name="AD_Address" registryId="http://inspire.ec.europa.eu/layer/AD.Address" tags="//@tags.0 //@tags.2" layerName="AD.Address_${a.ID}" styleConfig="//@styleConfig.46">
-      <title lang="en" text="Addresses"/>
-      <title text="Addressen"/>
-      <objectType>Address</objectType>
-    </layerConfig>
-  </multiLayerConfig>
   <styleConfig name="ER_RenewableAndWasteResource">
     <remoteStyle featureTypeName="RenewableAndWasteResource" url="feature-styles/ER_RenewableAndWasteResource.se"/>
   </styleConfig>
