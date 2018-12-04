@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle xmlns:hb="http://inspire.ec.europa.eu/schemas/hb/4.0" 
+xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" 
+xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" 
+xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0"
+version="1.1.0" 
+xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+  <se:Description>
+    <se:Title>Habitat Default Style</se:Title>
+    <se:Abstract>This Style defines habitat types identified in the Habitat Directive.</se:Abstract>
+  </se:Description>
+  <se:FeatureTypeName>hb:Habitat</se:FeatureTypeName> 
+   	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyName>hb:habitat/hb:HabitatTypeCoverType/hb:referenceHabitatTypeID</ogc:PropertyName>
+			xlink:href="http://inspire.ec.europa.eu/codelist/ReferenceHabitatTypeSchemeValue/habitatsDirective#9130"
+			<ogc:Literal>2310</ogc:Literal>
+		</ogc:Filter>
+		<se:PolygonSymbolizer>
+		<se:Geometry>
+			<ogc:PropertyName>hb:geometry</ogc:PropertyName>
+		</se:Geometry>
+		<se:Fill>
+        	<se:GraphicFill>
+            	<se:Graphic>
+                	<se:ExternalGraphic>
+                    	<se:OnlineResource xlink:type="simple" xlink:href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/800px-Flag_of_Germany.svg.png" />
+                    	<se:Format>image/png</se:Format>
+                	</se:ExternalGraphic>
+            	</se:Graphic>
+            </se:GraphicFill>
+       	</se:Fill>
+		</se:PolygonSymbolizer>
+	</se:Rule>
+</se:FeatureTypeStyle>
