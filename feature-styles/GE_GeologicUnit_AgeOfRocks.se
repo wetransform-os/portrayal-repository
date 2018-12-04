@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle  xmlns:ge="http://inspire.ec.europa.eu/schemas/ge-core/4.0" 
+xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0" 
+xmlns:ogc="http://www.opengis.net/ogc" 
+xmlns:se="http://www.opengis.net/se" 
+xmlns:sld="http://www.opengis.net/sld" 
+xmlns:gml="http://www.opengis.net/gml/3.2"
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+version="1.1.0" 
+xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+  <se:Description>
+    <se:Title>Geologic Units – Age of rocks</se:Title>
+    <se:Abstract>The colours and RGB codes according to the Geological Time Scale 2008, International Commission of Stratigraphy, with the addition of 27 newly defined colours for the proposed new European Proterozoic Epochs (by the OneGeology-Europe project). 
+    Please note, the defining age for the unit is the older age</se:Abstract>
+  </se:Description>
+  <se:FeatureTypeName>ge:MappedFeature</se:FeatureTypeName>
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/devonian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#CB8C37</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+</se:FeatureTypeStyle>
