@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle xmlns:mu="http://inspire.ec.europa.eu/schemas/mu/3.0" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
+  <se:Description>
+    <se:Title>Territorial Sea Default Style</se:Title>
+    <se:Abstract>The territorial sea is rendered using a blue (#B5B5FD) fill.</se:Abstract>
+  </se:Description>
+  <se:FeatureTypeName>mu:TerritorialSea</se:FeatureTypeName>
+  <se:Rule>
+    <se:Description>
+      <se:Title>territorial sea - maritimeZone: territorial sea </se:Title>
+    </se:Description>
+    <ogc:Filter>
+      <ogc:PropertyIsEqualTo>
+        <ogc:PropertyName>mu:zoneType</ogc:PropertyName>
+        <ogc:Literal>territorialSea</ogc:Literal>
+      </ogc:PropertyIsEqualTo>
+    </ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>mu:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Fill>
+        <se:SvgParameter name="fill">#B5B5FD</se:SvgParameter>
+      </se:Fill>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+</se:FeatureTypeStyle>

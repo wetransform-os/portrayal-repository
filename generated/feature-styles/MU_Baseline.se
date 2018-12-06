@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle xmlns:mu="http://inspire.ec.europa.eu/schemas/mu/3.0" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
+  <se:Description>
+    <se:Title>Baseline Default Style</se:Title>
+    <se:Abstract>The Baseline is rendered using a dashed red (#DC143C) line. The line has a 4 pixels width and is dashed 10 to 10.</se:Abstract>
+  </se:Description>
+  <se:FeatureTypeName>mu:Baseline</se:FeatureTypeName>
+  <se:Rule>
+    <se:Description>
+      <se:Title>baseline</se:Title>
+    </se:Description>
+    <se:LineSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>mu:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Stroke>
+        <se:SvgParameter name="stroke">#DC143C</se:SvgParameter>
+        <se:SvgParameter name="stroke-width">4</se:SvgParameter>
+        <se:SvgParameter name="stroke-dasharray">10 10</se:SvgParameter>
+      </se:Stroke>
+    </se:LineSymbolizer>
+  </se:Rule>
+</se:FeatureTypeStyle>

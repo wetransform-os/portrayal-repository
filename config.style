@@ -863,24 +863,24 @@ Layer{
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionSite
 	Styles: PF_ProductionSite
 }
-Layer{
-	id:"ER_EnergyStatisticalUnit"
-	registry-id: ""
-	tags: inspire
-	Name: "ER.EnergyStatisticalUnit"
-	Title: en "Energy statistical unit", de ""
-	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/su-vector/4.0:EnergyStatisticalUnit
-	Styles: ER_EnergyStatisticalUnit
-}
-Layer{
-	id:"ER_FossilFuelResource"
-	registry-id:"http://inspire.ec.europa.eu/layer/ER.FossilFuelResource"
-	tags: inspire
-	Name: "ER.FossilFuelResource"
-	Title: en "Fossil Fuel Resource", de "Fossile Brennstoffressourcen"
-	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/er-v/4.0:FossilFuelResource
-	Styles: ER_FossilFuelResource
-}
+//Layer{ 
+//	id:"ER_EnergyStatisticalUnit"
+//	registry-id: ""
+//	tags: inspire
+//	Name: "ER.EnergyStatisticalUnit"
+//	Title: en "Energy statistical unit", de ""
+//	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/su-vector/4.0:EnergyStatisticalUnit
+//	Styles: ER_EnergyStatisticalUnit
+//}
+//Layer{
+//	id:"ER_FossilFuelResource"
+//	registry-id:"http://inspire.ec.europa.eu/layer/ER.FossilFuelResource"
+//	tags: inspire
+//	Name: "ER.FossilFuelResource"
+//	Title: en "Fossil Fuel Resource", de "Fossile Brennstoffressourcen"
+//	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/er-v/4.0:FossilFuelResource
+//	Styles: ER_FossilFuelResource
+//}
 Layer{
 	id: "ER_RenewableAndWasteResource"
 	registry-id:"http://inspire.ec.europa.eu/layer/ER.RenewableAndWasteResource"
@@ -913,20 +913,20 @@ Style{
 		URL: "feature-styles/ER_RenewableAndWasteResource.se"
 	}
 }
-Style{
-	id: "ER_FossilFuelResource"
-	Remote{
-		FeatureType: http://inspire.ec.europa.eu/schemas/er-v/4.0:FossilFuelResource
-		URL: "feature-styles/ER_FossilFuelResource.se"
-	}
-}
-Style{
-	id: "ER_EnergyStatisticalUnit"
-	Remote{
-		FeatureType: http://inspire.ec.europa.eu/schemas/su-vector/4.0:EnergyStatisticalUnit
-		URL: "feature-styles/ER_EnergyStatisticalUnit.se"
-	}
-}
+//Style{
+//	id: "ER_FossilFuelResource"
+//	Remote{
+//		FeatureType: http://inspire.ec.europa.eu/schemas/er-v/4.0:FossilFuelResource
+//		URL: "feature-styles/ER_FossilFuelResource.se"
+//	}
+//}
+//Style{
+//	id: "ER_EnergyStatisticalUnit"
+//	Remote{
+//		FeatureType: http://inspire.ec.europa.eu/schemas/su-vector/4.0:EnergyStatisticalUnit
+//		URL: "feature-styles/ER_EnergyStatisticalUnit.se"
+//	}
+//}
 Style{
 	id: "PF_ProductionSite"
 	Remote{
