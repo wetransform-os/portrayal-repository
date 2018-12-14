@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle  xmlns:elu="http://inspire.ec.europa.eu/schemas/elu/4.0" 
+xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0" 
+xmlns:ogc="http://www.opengis.net/ogc" 
+xmlns:se="http://www.opengis.net/se" 
+xmlns:sld="http://www.opengis.net/sld" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+version="1.1.0" 
+xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+	<se:Description>
+    	<se:Title>Existing Land Use Default Style</se:Title>
+    	<se:Abstract>This Style defines the default INSPIRE style for existing land use objects. Existing Land Use objects are filled with a color depending on the value of the attribute from HILUCS level 1 nomenclature and their boundaries are black lines of 2 pixels.</se:Abstract> 
+    </se:Description>
+  	<se:FeatureTypeName>elu:ExistingLandUseObject</se:FeatureTypeName>
+  	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
+				<ogc:PropertyName>elu:hilucsLandUse/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/HILUCSValue/1_*</ogc:Literal>
+			</ogc:PropertyIsLike>
+		</ogc:Filter>
+		<se:PolygonSymbolizer>
+		<se:Geometry>
+			<ogc:PropertyName>elu:geometry</ogc:PropertyName>
+		</se:Geometry>
+		<se:Fill>
+			<se:SvgParameter name="fill">#B4E66E</se:SvgParameter>
+		</se:Fill>
+		<se:Stroke>
+			<se:SvgParameter name="stroke">#000000</se:SvgParameter>
+			<se:SvgParameter name="strokewidth">0.2</se:SvgParameter>
+		</se:Stroke>
+	</se:PolygonSymbolizer>
+	</se:Rule>
+	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
+				<ogc:PropertyName>elu:hilucsLandUse/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/HILUCSValue/2_*</ogc:Literal>
+			</ogc:PropertyIsLike>
+		</ogc:Filter>
+		<se:PolygonSymbolizer>
+		<se:Geometry>
+			<ogc:PropertyName>elu:geometry</ogc:PropertyName>
+		</se:Geometry>
+		<se:Fill>
+			<se:SvgParameter name="fill">#646464</se:SvgParameter>
+		</se:Fill>
+		<se:Stroke>
+			<se:SvgParameter name="stroke">#000000</se:SvgParameter>
+			<se:SvgParameter name="strokewidth">0.2</se:SvgParameter>
+		</se:Stroke>
+	</se:PolygonSymbolizer>
+	</se:Rule>
+	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
+				<ogc:PropertyName>elu:hilucsLandUse/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/HILUCSValue/3_*</ogc:Literal>
+			</ogc:PropertyIsLike>
+		</ogc:Filter>
+		<se:PolygonSymbolizer>
+		<se:Geometry>
+			<ogc:PropertyName>elu:geometry</ogc:PropertyName>
+		</se:Geometry>
+		<se:Fill>
+			<se:SvgParameter name="fill">#969696</se:SvgParameter>
+		</se:Fill>
+		<se:Stroke>
+			<se:SvgParameter name="stroke">#000000</se:SvgParameter>
+			<se:SvgParameter name="strokewidth">0.2</se:SvgParameter>
+		</se:Stroke>
+	</se:PolygonSymbolizer>
+	</se:Rule>
+	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
+				<ogc:PropertyName>elu:hilucsLandUse/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/HILUCSValue/4_*</ogc:Literal>
+			</ogc:PropertyIsLike>
+		</ogc:Filter>
+		<se:PolygonSymbolizer>
+		<se:Geometry>
+			<ogc:PropertyName>elu:geometry</ogc:PropertyName>
+		</se:Geometry>
+		<se:Fill>
+			<se:SvgParameter name="fill">#B478F0</se:SvgParameter>
+		</se:Fill>
+		<se:Stroke>
+			<se:SvgParameter name="stroke">#000000</se:SvgParameter>
+			<se:SvgParameter name="strokewidth">0.2</se:SvgParameter>
+		</se:Stroke>
+	</se:PolygonSymbolizer>
+	</se:Rule>
+	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
+				<ogc:PropertyName>elu:hilucsLandUse/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/HILUCSValue/5_*</ogc:Literal>
+			</ogc:PropertyIsLike>
+		</ogc:Filter>
+		<se:PolygonSymbolizer>
+		<se:Geometry>
+			<ogc:PropertyName>elu:geometry</ogc:PropertyName>
+		</se:Geometry>
+		<se:Fill>
+			<se:SvgParameter name="fill">#F07864</se:SvgParameter>
+		</se:Fill>
+		<se:Stroke>
+			<se:SvgParameter name="stroke">#000000</se:SvgParameter>
+			<se:SvgParameter name="strokewidth">0.2</se:SvgParameter>
+		</se:Stroke>
+	</se:PolygonSymbolizer>
+	</se:Rule>
+	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
+				<ogc:PropertyName>elu:hilucsLandUse/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/HILUCSValue/6_*</ogc:Literal>
+			</ogc:PropertyIsLike>
+		</ogc:Filter>
+		<se:PolygonSymbolizer>
+		<se:Geometry>
+			<ogc:PropertyName>elu:geometry</ogc:PropertyName>
+		</se:Geometry>
+		<se:Fill>
+			<se:SvgParameter name="fill">#DCDCDC</se:SvgParameter>
+		</se:Fill>
+		<se:Stroke>
+			<se:SvgParameter name="stroke">#000000</se:SvgParameter>
+			<se:SvgParameter name="strokewidth">0.2</se:SvgParameter>
+		</se:Stroke>
+	</se:PolygonSymbolizer>
+	</se:Rule>
+</se:FeatureTypeStyle>

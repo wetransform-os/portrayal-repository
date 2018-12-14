@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle xmlns:hy-p="http://inspire.ec.europa.eu/schemas/hy-p/4.0" xmlns:ogc="http://www.opengis.net/ogc" 
+xmlns:se="http://www.opengis.net/se" xmlns:sld="http://www.opengis.net/sld" 
+xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd"
+version="1.1.0">
+  <se:Description>
+    <se:Title>Shore Default Style</se:Title>
+    <se:Abstract>Shore areas are portrayed as pale yellow (#FFFFCC) surfaces.</se:Abstract>
+  </se:Description>
+  <se:FeatureTypeName>hy-p:Shore</se:FeatureTypeName>
+  <se:Rule>
+    <se:Description>
+      <se:Title>shore</se:Title>
+    </se:Description>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>hy-p:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Fill>
+        <se:SvgParameter name="fill">#FFFFCC</se:SvgParameter>
+      </se:Fill>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+</se:FeatureTypeStyle>

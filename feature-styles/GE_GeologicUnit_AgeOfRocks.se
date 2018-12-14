@@ -1,0 +1,5203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle  xmlns:ge="http://inspire.ec.europa.eu/schemas/ge-core/4.0" 
+xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0" 
+xmlns:ogc="http://www.opengis.net/ogc" 
+xmlns:se="http://www.opengis.net/se" 
+xmlns:sld="http://www.opengis.net/sld" 
+xmlns:gml="http://www.opengis.net/gml/3.2"
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+version="1.1.0" 
+xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+  <se:Description>
+    <se:Title>Geologic Units – Age of rocks</se:Title>
+    <se:Abstract>The colours and RGB codes according to the Geological Time Scale 2008, International Commission of Stratigraphy, with the addition of 27 newly defined colours for the proposed new European Proterozoic Epochs (by the OneGeology-Europe project). 
+    Please note, the defining age for the unit is the older age</se:Abstract>
+  </se:Description>
+  <se:FeatureTypeName>ge:MappedFeature</se:FeatureTypeName>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/phanerozoic</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#9AD9DD</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cenozoic</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F2F91D</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/quaternary</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F9F97F</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/holocene</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FEF2E0</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/pleistocene</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FFFFAE</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/weichselian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#000000</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/eemian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#000000</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/saalian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#000000</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/holsteinian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#000000</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/elsterian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#000000</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cromerian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#000000</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/bavelian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#000000</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/latePleistocene</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FFF2D3</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ionian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FFF2C7</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/calabrian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FFF2BA</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/gelasian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FFFFCC</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/neogene</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FFE619</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/pliocene</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FFFF99</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/piacenzian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FFFFBF</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/zanclean</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FFFFB3</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/miocene</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FFFF00</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/messinian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FFFF73</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/tortonian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FFFF66</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/serravallian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FFFF59</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/langhian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FFFF4D</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/burdigalian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FFFF41</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/aquitanian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FFFF33</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/paleogene</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FD9A52</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/oligocene</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FDC07A</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/chattian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FEE6AA</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/rupelian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FED99A</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/eocene</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FDB46C</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/priabonian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FDCDA1</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/bartonian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FDC091</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lutetian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FCB482</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ypresian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FCA773</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/paleocene</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FDA75F</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/thanetian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FDBF6F</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/selandian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FFBF65</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/danian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FDB462</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/mesozoic</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#67C5CA</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cretaceous</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#7FC64E</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lateCretaceous</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#A6D84A</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/maastrichtian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F2FA8C</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/campanian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#E6F47F</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/santonian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#D9EF74</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/coniacian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#CCE968</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/turonian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#BFE35D</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cenomanian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#B3DE53</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/earlyOrLowerCretaceous</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#8CCD57</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/albian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#CCEA97</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/aptian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#BFE48A</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/barremian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#B3DF7F</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/hauterivian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#A6D975</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/valanginian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#99D36A</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/berriasian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#8CCD60</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/jurassic</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#34C5CA</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lateJurassic</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#B3E3EE</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/tithonian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#D9F1F7</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/kimmeridgian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#CCECF4</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/oxfordian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#BFE7F1</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/middleJurassic</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#80CFD8</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/callovian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#BFE7E5</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/bathonian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#B3E2E3</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/bajocian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#A6DDE0</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/aalenian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#9AD9DD</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/earlyJurassic</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#42AED0</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/toarcian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#99CEE3</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/pliensbachian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#80C5DD</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/sinemurian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#67BCD8</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/hettangian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#4EB3D3</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/triassic</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#812B92</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lateTriassic</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#BD8CC3</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/rhaetian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#E3B9DB</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/norian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#D6AAD3</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/carnian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#C99BCB</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/middleTriassic</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#B168B1</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ladinian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#C983BF</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/anisian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#BC75B7</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/earlyTriassic</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#983999</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/olenekian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#B051A5</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/induan</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#A4469F</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/paleozoic</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#99C08D</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/permian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F04028</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lopingian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FBA794</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/changhsingian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FCC0B2</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/wuchiapingian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FCB4A2</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/guadalupian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FB745C</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/capitanian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FB9A85</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/wordian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FB8D76</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/roadian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FB8069</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cisuralian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#EF5845</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/kungurian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#E38776</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/artinskian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#E37B68</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/sakmarian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#E36F5C</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/asselian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#E36350</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/carboniferous</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#67A599</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/pennsylvanian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#99C2B5</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/latePennsylvanian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#BFD0BA</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/gzhelian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#CCD4C7</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/kasimovian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#BFD0C5</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/moscovian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#B3CBB9</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/bashkirian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#99C2B5</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/mississippian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#678F66</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/serpukhovian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#BFC26B</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/visean</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#A6B96C</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/tournaisian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#8CB06C</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/devonian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#CB8C37</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lateDevonian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#7FCA93</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/famennian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F2EDC5</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/frasnian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F2EDAD</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/middleDevonian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F1C868</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/givetian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F1E185</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/eifelian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F1D576</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/earlyDevonian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#E5AC4D</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/emsian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#E5D075</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/pragian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#E5C468</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lochkovian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#E5B75A</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/silurian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#B3E1B6</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/pridoli</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#E6F5E1</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ludlow</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#BFE6CF</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ludfordian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#D9F0DF</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/gorstian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#CCECDD</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/wenlock</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#B3E1C2</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/homerian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#CCEBC3</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/sheinwoodian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#BFE6C3</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/llandovery</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#99D7B3</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/telychian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#BFE6CF</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/aeronian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#B3E1C2</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/rhuddanian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#A6DCB5</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ordovician</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#009270</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lateOrdovician</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#7FCA93</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/hirnantian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#A6DBAB</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/katian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#99D69F</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/sandbian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#8CD094</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/middleOrdovician</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#4DB47E</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/darriwilian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#74C69C</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/dapingian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#66C092</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/earlyOrdovician</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#1A9D6F</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/floian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#41B087</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/tremadocian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#33A97E</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cambrian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#7FA056</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/furongian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#B3E095</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cambrianStage10</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#E6F5C9</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cambrianStage9</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#D9F0BB</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/paibian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#CCEBAE</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cambrianSeries3</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#A6CF86</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/guzhangian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#CCDFAA</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/drumian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#BFD99D</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cambrianSeries3Stage5</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#B3D492</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cambrianSeries2</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#99C078</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cambrianStage4</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#B3CA8E</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cambrianStage3</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#A6C583</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/terreneuvian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#8CB06C</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cambrianStage2</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#A6BA80</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/fortunian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#99B575</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/precambrian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F74370</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/proterozoic</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F73563</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/neoproterozoic</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FEB342</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ediacaran</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FED96A</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/cryogenian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FECC5C</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/tonian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FEBF4E</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/tonian2</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FFCC59</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/tonian1</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FEBF4E</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/mesoproterozoic</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FDB462</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/stenian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FED99A</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/stenian2</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FFE0B2</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/stenian1</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FED99A</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ectasian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FDCC8A</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ectasian4</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FAD1B8</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ectasian3</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F7C7AD</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ectasian2</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F5BDA3</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/ectasian1</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F2B299</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/calymmian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FDC07A</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/calymmian4</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#E8DE99</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/calymmian3</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#E3D48C</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/calymmian2</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#DEC980</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/calymmian1</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#D9BF73</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/paleoproterozoic</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F74370</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/statherian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F875A7</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/statherian4</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FFB2D4</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/statherian3</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FFA6C9</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/statherian2</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FF99BF</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/statherian1</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FF8CB2</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/orosirian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F76898</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/orosirian7</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FAB9E6</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/orosirian6</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FAAFE1</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/orosirian5</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F2A3DA</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/orosirian4</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F799D5</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/orosirian3</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F78FD0</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/orosirian2</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F584C9</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/orosirian1</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F57AC4</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/rhyacian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F75B89</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/siderian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F74F7C</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/siderian2</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FF5EBF</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/siderian1</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FF4DB2</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/archean</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F0047F</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/neoarchean</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F99BC1</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/neoarchean2</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F99BC1</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/neoarchean1</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F99BC1</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/mesoarchean</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F768A9</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/paleoarchean</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F4449F</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/eoarchean</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#DA037F</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/hadean</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#AE027E</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lowerCretaceous</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#8CCD57</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/upperPleistocene</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#FFF2D3</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/upperCretaceous</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#A6D84A</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/upperJurassic</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#B3E3EE</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lowerJurassic</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#42AED0</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/upperTriassic</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#BD8CC3</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lowerTriassic</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#983999</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/upperPennsylvanian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#BFD0BA</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/upperDevonian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#F1E19D</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lowerDevonian</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#E5AC4D</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/upperOrdovician</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#7FCA93</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+  <se:Rule>
+    <se:Description>
+      <se:Title>Geologic Units – Age of rocks</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>ge:specification/ge:GeologicUnit/ge:geologicHistory/ge:GeologicEvent/ge:olderNamedAge/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/lowerOrdovician</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>ge:shape</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#1A9D6F</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
+</se:FeatureTypeStyle>

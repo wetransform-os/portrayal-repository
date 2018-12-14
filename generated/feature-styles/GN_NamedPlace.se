@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle xmlns:gn="http://inspire.ec.europa.eu/schemas/gn/4.0" 
+xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" 
+xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" 
+xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
+  <se:Description>
+    <se:Title>Geographical Names Default Style</se:Title>
+    <se:Abstract>All names (i.e. all spellings of all names of the named place) are displayed in black (#000000), with font Arial 10pt, and located in order to touch the geometry of the named place, at its centre if possible. If a named place is referred by different names or different spellings of the same name, all texts are displayed on the same line. The order of displayed names does not indicate any preference order, as this is not possible to define precisely such an order without more information, e.g. on linguistic statuses in administrative units.</se:Abstract>
+  </se:Description>
+  <se:FeatureTypeName>gn:NamedPlace</se:FeatureTypeName>
+  <se:Rule>
+    <se:Description>
+      <se:Title>label: geographical names</se:Title>
+    </se:Description>
+    <se:MinScaleDenominator>1</se:MinScaleDenominator>
+    <se:MaxScaleDenominator>35000</se:MaxScaleDenominator>
+    <se:TextSymbolizer>
+      <se:Geometry>
+      	<ogc:Function name="Centroid">
+        	<ogc:PropertyName>gn:geometry</ogc:PropertyName>
+        </ogc:Function>
+      </se:Geometry>
+      <se:Label>
+              <ogc:PropertyName>gn:name/gn:GeographicalName/gn:spelling/gn:SpellingOfName/gn:text/text()</ogc:PropertyName>
+            </se:Label>
+      <se:Font>
+        <se:SvgParameter name="font-family">Arial</se:SvgParameter>
+        <se:SvgParameter name="font-size">10</se:SvgParameter>
+      </se:Font>
+      <se:Fill>
+        <se:SvgParameter name="fill">#000000</se:SvgParameter>
+      </se:Fill>
+    </se:TextSymbolizer>
+  </se:Rule>
+</se:FeatureTypeStyle>
+

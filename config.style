@@ -1,6 +1,6 @@
 tags: 'inspire' 'inspire_wetransform' 'production'
 Layer {
-	id: "AD_Address"
+	id: "AD_Address" 
 	registry-id: "http://inspire.ec.europa.eu/layer/AD.Address"
 	tags: inspire production
 	Name: "AD.Address"
@@ -855,6 +855,8 @@ Layer{
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionPlot
 	Styles: PF_ProductionPlot
 }
+
+
 Layer{
 	id: "PF_ProductionSite"
 	registry-id:"http://inspire.ec.europa.eu/layer/PF.ProductionSite"
@@ -864,24 +866,24 @@ Layer{
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionSite
 	Styles: PF_ProductionSite
 }
-Layer{
-	id:"ER_EnergyStatisticalUnit"
-	registry-id: ""
-	tags: inspire
-	Name: "ER.EnergyStatisticalUnit"
-	Title: en "Energy statistical unit", de ""
-	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/su-vector/4.0:EnergyStatisticalUnit
-	Styles: ER_EnergyStatisticalUnit
-}
-Layer{
-	id:"ER_FossilFuelResource"
-	registry-id:"http://inspire.ec.europa.eu/layer/ER.FossilFuelResource"
-	tags: inspire
-	Name: "ER.FossilFuelResource"
-	Title: en "Fossil Fuel Resource", de "Fossile Brennstoffressourcen"
-	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/er-v/4.0:FossilFuelResource
-	Styles: ER_FossilFuelResource
-}
+//Layer{ 
+//	id:"ER_EnergyStatisticalUnit"
+//	registry-id: ""
+//	tags: inspire
+//	Name: "ER.EnergyStatisticalUnit"
+//	Title: en "Energy statistical unit", de ""
+//	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/su-vector/4.0:EnergyStatisticalUnit
+//	Styles: ER_EnergyStatisticalUnit
+//}
+//Layer{
+//	id:"ER_FossilFuelResource"
+//	registry-id:"http://inspire.ec.europa.eu/layer/ER.FossilFuelResource"
+//	tags: inspire
+//	Name: "ER.FossilFuelResource"
+//	Title: en "Fossil Fuel Resource", de "Fossile Brennstoffressourcen"
+//	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/er-v/4.0:FossilFuelResource
+//	Styles: ER_FossilFuelResource
+//}
 Layer{
 	id: "ER_RenewableAndWasteResource"
 	registry-id:"http://inspire.ec.europa.eu/layer/ER.RenewableAndWasteResource"
@@ -891,6 +893,22 @@ Layer{
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/er-v/4.0:RenewableAndWasteResource
 	Styles: ER_RenewableAndWasteResource
 }
+Layer{
+	id: "GE_GeologicUnit_AgeOfRocks"
+	registry-id: "http://inspire.ec.europa.eu/layer/GE.GeologicUnit"
+	tags: inspire production
+	Name: "GE.GeologicUnit"
+	Title: en "Geologic Units", de "Geologische Einheiten"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/ge-core/4.0:MappedFeature
+	Styles: GE_GeologicUnit_AgeOfRocks
+}
+Style{
+	id:"GE_GeologicUnit_AgeOfRocks"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/ge-core/4.0:MappedFeature
+		URL: "feature-styles/GE_GeologicUnit_AgeOfRocks.se"
+	}
+}
 Style{
 	id: "ER_RenewableAndWasteResource"
 	Remote{
@@ -898,20 +916,20 @@ Style{
 		URL: "feature-styles/ER_RenewableAndWasteResource.se"
 	}
 }
-Style{
-	id: "ER_FossilFuelResource"
-	Remote{
-		FeatureType: http://inspire.ec.europa.eu/schemas/er-v/4.0:FossilFuelResource
-		URL: "feature-styles/ER_FossilFuelResource.se"
-	}
-}
-Style{
-	id: "ER_EnergyStatisticalUnit"
-	Remote{
-		FeatureType: http://inspire.ec.europa.eu/schemas/su-vector/4.0:EnergyStatisticalUnit
-		URL: "feature-styles/ER_EnergyStatisticalUnit.se"
-	}
-}
+//Style{
+//	id: "ER_FossilFuelResource"
+//	Remote{
+//		FeatureType: http://inspire.ec.europa.eu/schemas/er-v/4.0:FossilFuelResource
+//		URL: "feature-styles/ER_FossilFuelResource.se"
+//	}
+//}
+//Style{
+//	id: "ER_EnergyStatisticalUnit"
+//	Remote{
+//		FeatureType: http://inspire.ec.europa.eu/schemas/su-vector/4.0:EnergyStatisticalUnit
+//		URL: "feature-styles/ER_EnergyStatisticalUnit.se"
+//	}
+//}
 Style{
 	id: "PF_ProductionSite"
 	Remote{
@@ -1479,6 +1497,7 @@ Style {
 		URL: "feature-styles/HY_P_Wetland.se"
 	}
 }
+
 Style {
 	id: "PS_ProtectedSite"
 	Remote {
@@ -1493,6 +1512,7 @@ Style {
 		URL: "feature-styles/TN_A_AerodromeArea.se"
 	}
 }
+
 Style {
 	id: "TN_A_ProcedureLink"
 	Remote {

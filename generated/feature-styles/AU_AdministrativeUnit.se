@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle
+	xmlns:au="http://inspire.ec.europa.eu/schemas/au/4.0"
+	xmlns:ogc="http://www.opengis.net/ogc"
+	xmlns:se="http://www.opengis.net/se"
+	xmlns:sld="http://www.opengis.net/sld"
+	xmlns:gn="http://inspire.ec.europa.eu/schemas/gn/4.0"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0"
+	xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+	<se:Description>
+		<se:Title>Administrative Unit Default Style</se:Title>
+		<se:Abstract>The administrative unit is rendered using a yellow (#FFFF66) fill.</se:Abstract>
+	</se:Description>
+	<se:FeatureTypeName>au:AdministrativeUnit</se:FeatureTypeName>
+	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
+				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/2ndOrder</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:MinScaleDenominator>8500000</se:MinScaleDenominator>
+		<se:MaxScaleDenominator>30000000</se:MaxScaleDenominator>
+		<se:PolygonSymbolizer>
+			<se:Geometry>
+				<ogc:PropertyName>au:geometry</ogc:PropertyName>
+			</se:Geometry>
+			<se:Fill>
+				<se:SvgParameter name="fill">#FFFF66</se:SvgParameter>
+			</se:Fill>
+			<se:Stroke>
+				<se:SvgParameter name="stroke">#000000</se:SvgParameter>
+				<se:SvgParameter name="stroke-width">0.3</se:SvgParameter>
+			</se:Stroke>
+		</se:PolygonSymbolizer>
+		<se:TextSymbolizer>
+			<se:Geometry>
+				<ogc:Function name="Centroid">
+					<ogc:PropertyName>au:geometry</ogc:PropertyName>
+				</ogc:Function>
+			</se:Geometry>     
+			<se:Label>    
+				<ogc:PropertyName>au:name/gn:GeographicalName/gn:spelling/gn:SpellingOfName/gn:text/text()</ogc:PropertyName>   
+			</se:Label>   
+			<se:Font>     
+				<se:SvgParameter name="font-family">Arial</se:SvgParameter>         
+				<se:SvgParameter name="font-size">16</se:SvgParameter>   
+			</se:Font>  
+			<se:Halo>
+				<se:Radius>2</se:Radius>
+				<se:Fill>
+					<se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+				</se:Fill>
+			</se:Halo>
+			<se:Fill>     
+				<se:SvgParameter name="fill">#000000</se:SvgParameter>   
+			</se:Fill> 
+		</se:TextSymbolizer>
+	</se:Rule>
+	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
+				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/3rdOrder</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:MinScaleDenominator>2000000</se:MinScaleDenominator>
+		<se:MaxScaleDenominator>8500000</se:MaxScaleDenominator>
+		<se:PolygonSymbolizer>
+			<se:Geometry>
+				<ogc:PropertyName>au:geometry</ogc:PropertyName>
+			</se:Geometry>
+			<se:Fill>
+				<se:SvgParameter name="fill">#FFFF66</se:SvgParameter>
+			</se:Fill>
+			<se:Stroke>
+				<se:SvgParameter name="stroke">#000000</se:SvgParameter>
+				<se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+			</se:Stroke>
+		</se:PolygonSymbolizer>
+		<se:TextSymbolizer>
+			<se:Geometry>
+				<ogc:Function name="Centroid">
+					<ogc:PropertyName>au:geometry</ogc:PropertyName>
+				</ogc:Function>
+			</se:Geometry>     
+			<se:Label>    
+				<ogc:PropertyName>au:name/gn:GeographicalName/gn:spelling/gn:SpellingOfName/gn:text/text()</ogc:PropertyName>   
+			</se:Label>   
+			<se:Font>     
+				<se:SvgParameter name="font-family">Arial</se:SvgParameter>         
+				<se:SvgParameter name="font-size">16</se:SvgParameter>   
+			</se:Font>  
+			<se:Halo>
+				<se:Radius>2</se:Radius>
+				<se:Fill>
+					<se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+				</se:Fill>
+			</se:Halo>
+			<se:Fill>     
+				<se:SvgParameter name="fill">#000000</se:SvgParameter>   
+			</se:Fill> 
+		</se:TextSymbolizer>
+	</se:Rule>
+	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
+				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:MinScaleDenominator>500000</se:MinScaleDenominator>
+		<se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
+		<se:PolygonSymbolizer>
+			<se:Geometry>
+				<ogc:PropertyName>au:geometry</ogc:PropertyName>
+			</se:Geometry>
+			<se:Fill>
+				<se:SvgParameter name="fill">#FFFF66</se:SvgParameter>
+			</se:Fill>
+			<se:Stroke>
+				<se:SvgParameter name="stroke">#000000</se:SvgParameter>
+				<se:SvgParameter name="stroke-width">0.7</se:SvgParameter>
+			</se:Stroke>
+		</se:PolygonSymbolizer>
+		<se:TextSymbolizer>
+			<se:Geometry>
+				<ogc:Function name="Centroid">
+					<ogc:PropertyName>au:geometry</ogc:PropertyName>
+				</ogc:Function>
+			</se:Geometry>     
+			<se:Label>    
+				<ogc:PropertyName>au:name/gn:GeographicalName/gn:spelling/gn:SpellingOfName/gn:text/text()</ogc:PropertyName>   
+			</se:Label>   
+			<se:Font>     
+				<se:SvgParameter name="font-family">Arial</se:SvgParameter>         
+				<se:SvgParameter name="font-size">14</se:SvgParameter>   
+			</se:Font>  
+			<se:Halo>
+				<se:Radius>2</se:Radius>
+				<se:Fill>
+					<se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+				</se:Fill>
+			</se:Halo>
+			<se:Fill>     
+				<se:SvgParameter name="fill">#000000</se:SvgParameter>   
+			</se:Fill> 
+		</se:TextSymbolizer>
+	</se:Rule>
+	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
+				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/5thOrder</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:MinScaleDenominator>100000</se:MinScaleDenominator>
+		<se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
+		<se:PolygonSymbolizer>
+			<se:Geometry>
+				<ogc:PropertyName>au:geometry</ogc:PropertyName>
+			</se:Geometry>
+			<se:Fill>
+				<se:SvgParameter name="fill">#FFFF66</se:SvgParameter>
+			</se:Fill>
+			<se:Stroke>
+				<se:SvgParameter name="stroke">#000000</se:SvgParameter>
+				<se:SvgParameter name="stroke-width">1.0</se:SvgParameter>
+			</se:Stroke>
+		</se:PolygonSymbolizer>
+		<se:TextSymbolizer>
+			<se:Geometry>
+				<ogc:Function name="Centroid">
+					<ogc:PropertyName>au:geometry</ogc:PropertyName>
+				</ogc:Function>
+			</se:Geometry>     
+			<se:Label>    
+				<ogc:PropertyName>au:name/gn:GeographicalName/gn:spelling/gn:SpellingOfName/gn:text/text()</ogc:PropertyName>   
+			</se:Label>   
+			<se:Font>     
+				<se:SvgParameter name="font-family">Arial</se:SvgParameter>         
+				<se:SvgParameter name="font-size">12</se:SvgParameter>   
+			</se:Font>  
+			<se:Halo>
+				<se:Radius>2</se:Radius>
+				<se:Fill>
+					<se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+				</se:Fill>
+			</se:Halo>
+			<se:Fill>     
+				<se:SvgParameter name="fill">#000000</se:SvgParameter>   
+			</se:Fill> 
+		</se:TextSymbolizer>
+	</se:Rule>
+	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
+				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/6thOrder</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:MinScaleDenominator>0</se:MinScaleDenominator>
+		<se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
+		<se:PolygonSymbolizer>
+			<se:Geometry>
+				<ogc:PropertyName>au:geometry</ogc:PropertyName>
+			</se:Geometry>
+			<se:Fill>
+				<se:SvgParameter name="fill">#FFFF66</se:SvgParameter>
+			</se:Fill>
+			<se:Stroke>
+				<se:SvgParameter name="stroke">#000000</se:SvgParameter>
+				<se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
+			</se:Stroke>
+		</se:PolygonSymbolizer>
+		<se:TextSymbolizer>
+			<se:Geometry>
+				<ogc:Function name="Centroid">
+					<ogc:PropertyName>au:geometry</ogc:PropertyName>
+				</ogc:Function>
+			</se:Geometry>     
+			<se:Label>    
+				<ogc:PropertyName>au:name/gn:GeographicalName/gn:spelling/gn:SpellingOfName/gn:text/text()</ogc:PropertyName>   
+			</se:Label>   
+			<se:Font>     
+				<se:SvgParameter name="font-family">Arial</se:SvgParameter>         
+				<se:SvgParameter name="font-size">10</se:SvgParameter>   
+			</se:Font>  
+			<se:Halo>
+				<se:Radius>2</se:Radius>
+				<se:Fill>
+					<se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+				</se:Fill>
+			</se:Halo>
+			<se:Fill>     
+				<se:SvgParameter name="fill">#000000</se:SvgParameter>   
+			</se:Fill> 
+		</se:TextSymbolizer>
+	</se:Rule>
+	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
+				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/1stOrder</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:MinScaleDenominator>30000000</se:MinScaleDenominator>
+		<se:MaxScaleDenominator>10000000</se:MaxScaleDenominator>
+		<se:PolygonSymbolizer>
+			<se:Geometry>
+				<ogc:PropertyName>au:geometry</ogc:PropertyName>
+			</se:Geometry>
+			<se:Fill>
+				<se:SvgParameter name="fill">#FFFF66</se:SvgParameter>
+			</se:Fill>
+			<se:Stroke>
+				<se:SvgParameter name="stroke">#000000</se:SvgParameter>
+				<se:SvgParameter name="stroke-width">0.2</se:SvgParameter>
+			</se:Stroke>
+		</se:PolygonSymbolizer>
+		<se:TextSymbolizer>
+			<se:Geometry>
+				<ogc:Function name="Centroid">
+					<ogc:PropertyName>au:geometry</ogc:PropertyName>
+				</ogc:Function>
+			</se:Geometry>     
+			<se:Label>    
+				<ogc:PropertyName>au:name/gn:GeographicalName/gn:spelling/gn:SpellingOfName/gn:text/text()</ogc:PropertyName>   
+			</se:Label>   
+			<se:Font>     
+				<se:SvgParameter name="font-family">Arial</se:SvgParameter>         
+				<se:SvgParameter name="font-size">18</se:SvgParameter>   
+			</se:Font>  
+			<se:Halo>
+				<se:Radius>2</se:Radius>
+				<se:Fill>
+					<se:SvgParameter name="fill">#FFFFFF</se:SvgParameter>
+				</se:Fill>
+			</se:Halo>
+			<se:Fill>     
+				<se:SvgParameter name="fill">#000000</se:SvgParameter>   
+			</se:Fill> 
+		</se:TextSymbolizer>
+	</se:Rule>
+</se:FeatureTypeStyle>
+ 
+  

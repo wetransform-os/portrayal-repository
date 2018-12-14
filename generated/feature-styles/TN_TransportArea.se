@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xmlns:sld="http://www.opengis.net/sld" xmlns:tn="http://inspire.ec.europa.eu/schemas/tn/4.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
+  <se:Description>
+    <se:Title>Transport Area Default Style</se:Title>
+    <se:Abstract>The geometry is rendered using a grey (#A9A9A9) fill and a solid black (#000000) outline with a stroke width of 1 pixel.</se:Abstract>
+  </se:Description>
+  <se:FeatureTypeName>tn:TransportArea</se:FeatureTypeName>
+  <se:Rule>
+    <se:Description>
+      <se:Title>transport area</se:Title>
+    </se:Description>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>tn:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Fill>
+        <se:SvgParameter name="fill">#A9A9A9</se:SvgParameter>
+      </se:Fill>
+      <se:Stroke>
+        <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+        <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+      </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+</se:FeatureTypeStyle>
