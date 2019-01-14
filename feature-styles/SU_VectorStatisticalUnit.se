@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle xmlns:su="http://inspire.ec.europa.eu/schemas/su-vector/4.0" 
+xmlns:ogc="http://www.opengis.net/ogc" 
+xmlns:se="http://www.opengis.net/se" 
+xmlns:sld="http://www.opengis.net/sld" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+  <se:Description>
+    <se:Title>Vector statistical units default style</se:Title>
+    <se:Abstract>Point geometries are rendered as a circle with a size of 3 pixels, with a magenta fill. Line geometries are rendered as a solid magenta line with a stroke width of 3 pixels. Polygon geometries are rendered using a light yellow fill with a 0.2 transparency and a solid magenta outline with a stroke width of 3 pixels.</se:Abstract>
+  </se:Description>
+  <se:FeatureTypeName>su:VectorStatisticalUnit</se:FeatureTypeName>
+  <se:Rule>
+    <se:Description>
+      <se:Title>Vector statistical unit polygon</se:Title>
+    </se:Description>
+    <ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:Function name="IsSurface">
+        		<ogc:PropertyName>su:geometry/su:VectorStatisticalUnitGeometry/su:geometry</ogc:PropertyName>
+       		</ogc:Function>
+       		<ogc:Literal>true</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>su:geometry/su:VectorStatisticalUnitGeometry/su:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Fill>
+        <se:SvgParameter name="fill">#E4FF00</se:SvgParameter>
+        <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter> 
+      </se:Fill>
+      <se:Stroke>
+        <se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
+        <se:SvgParameter name="stroke-width">3</se:SvgParameter>
+      </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  <se:Rule>
+    <se:Description>
+      <se:Title>Vector statistical unit line</se:Title>
+    </se:Description>
+    <ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:Function name="IsCurve">
+        		<ogc:PropertyName>su:geometry/su:VectorStatisticalUnitGeometry/su:geometry</ogc:PropertyName>
+       		</ogc:Function>
+       		<ogc:Literal>true</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   	</ogc:Filter>
+    <se:LineSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>su:geometry/su:VectorStatisticalUnitGeometry/su:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Stroke>
+        <se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
+        <se:SvgParameter name="stroke-width">3</se:SvgParameter>
+      </se:Stroke>
+    </se:LineSymbolizer>
+  </se:Rule>
+  <se:Rule>
+    <se:Description>
+      <se:Title>Vector statistical unit point</se:Title>
+    </se:Description>
+    <ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:Function name="IsPoint">
+        		<ogc:PropertyName>su:geometry/su:VectorStatisticalUnitGeometry/su:geometry</ogc:PropertyName>
+       		</ogc:Function>
+       		<ogc:Literal>true</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   	</ogc:Filter>
+    <se:PointSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>su:geometry/su:VectorStatisticalUnitGeometry/su:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Graphic>
+        <se:Mark>
+          <se:WellKnownName>circle</se:WellKnownName>
+          <se:Fill>
+            <se:SvgParameter name="fill">#FF00FF</se:SvgParameter>
+          </se:Fill>
+        </se:Mark>
+        <se:Size>3</se:Size>
+      </se:Graphic>
+    </se:PointSymbolizer>
+  </se:Rule>
+</se:FeatureTypeStyle>
