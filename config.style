@@ -900,7 +900,7 @@ Layer{
 	Styles: GE_GeologicUnit_AgeOfRocks
 }
 Layer{
-	id: "BR_Bio_geographicalRegion"
+	id: "BR_BiogeographicalRegion"
 	registry-id:"http://inspire.ec.europa.eu/layer/BR.Bio-geographicalRegion"
 	tags: inspire
 	Name: "BR.Bio-geographicalRegion"
@@ -909,7 +909,7 @@ Layer{
 	Styles: BR_BiogeographicalRegion
 }
 Layer{
-	id: "BR_Natura2000andEmeraldBio_geographicalRegion"
+	id: "BR_Natura2000andEmeraldBiogeographicalRegion"
 	registry-id:""
 	tags: inspire
 	Name: "BR.Natura2000andEmeraldBio-geographicalRegion"
