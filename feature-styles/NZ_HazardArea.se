@@ -10,6 +10,20 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
 (coverage).</se:Abstract>
 	</se:Description>
 	<se:FeatureTypeName>nz:HazardArea</se:FeatureTypeName> 
+	<se:Rule>
+   	<se:PolygonSymbolizer>
+		<se:Geometry>
+	    	<ogc:PropertyName>nz:geometry</ogc:PropertyName>
+	    </se:Geometry>
+	    <se:Fill>
+	    	<se:SvgParameter name="fill">#FF0000</se:SvgParameter>
+	    </se:Fill>
+	    <se:Stroke>
+	    	<se:SvgParameter name="stroke">#CC0000</se:SvgParameter>
+	        <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	    </se:Stroke>
+	</se:PolygonSymbolizer>
+  	</se:Rule>
   	<se:Rule>
   	<ogc:Filter>
     	<ogc:PropertyIsNotEqualTo>
