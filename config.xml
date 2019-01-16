@@ -525,7 +525,7 @@
     <objectType>hh_4.0:EnvHealthDeterminantMeasure</objectType>
   </layerConfig>
   <styleConfig name="HH_HealthDeterminantMeasure">
-    <remoteStyle featureTypeName="hh_4.0:EnvHealthDeterminantMeasure" url="feature-styles/SU_VectorStatisticalUnit.se"/>
+    <remoteStyle featureTypeName="hh_4.0:EnvHealthDeterminantMeasure" url="feature-styles/HH_HealthDeterminantMeasure.se"/>
   </styleConfig>
   <styleConfig name="SU_VectorStatisticalUnit">
     <remoteStyle featureTypeName="su-vector_4.0:VectorStatisticalUnit" url="feature-styles/SU_VectorStatisticalUnit.se"/>
