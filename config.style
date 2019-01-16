@@ -902,7 +902,7 @@ Layer{
 Layer{
 	id: "BR_BiogeographicalRegion"
 	registry-id:"http://inspire.ec.europa.eu/layer/BR.Bio-geographicalRegion"
-	tags: inspire
+	tags: inspire production
 	Name: "BR.Bio-geographicalRegion"
 	Title: en "Bio-geographical regions", de "Biogeografische Regionen"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/br/4.0:Bio-geographicalRegion
@@ -911,7 +911,7 @@ Layer{
 Layer{
 	id: "BR_Natura2000andEmeraldBiogeographicalRegion"
 	registry-id:""
-	tags: inspire
+	tags: inspire production
 	Name: "BR.Natura2000andEmeraldBio-geographicalRegion"
 	Title: en "Bio-geographical regions", de "Biogeografische Regionen"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/br/4.0:Bio-geographicalRegion
@@ -920,21 +920,36 @@ Layer{
 Layer{
 	id: "SU_VectorStatisticalUnit"
 	registry-id:"http://inspire.ec.europa.eu/layer/SU.VectorStatisticalUnit"
-	tags: inspire
-	Name: "SU_VectorStatisticalUnit"
+	tags: inspire production
+	Name: "SU.VectorStatisticalUnit"
 	Title: en "Vector statistical units", de "Statistische Vektoreinheiten"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/su-vector/4.0:VectorStatisticalUnit
 	Styles: SU_VectorStatisticalUnit
 }
-
 Layer{
 	id: "SU_StatisticalGridCell"
 	registry-id:"http://inspire.ec.europa.eu/layer/SU.StatisticalGridCell"
-	tags: inspire
+	tags: inspire 
 	Name: "SU.StatisticalGridCell"
 	Title: en "Statistical grid cells", de "Statistische Vektoreinheiten"
 	SpatialObjectTypes: https://inspire.ec.europa.eu/schemas/su-grid/4.0:StatisticalGridCell 
 	Styles: SU_StatisticalGridCell
+}
+Layer{
+	id: "HH_HealthDeterminantMeasure"
+	registry-id: "http://inspire.ec.europa.eu/layer/HH.HealthDeterminantMeasure"
+	tags: inspire
+	Name: "HH.HealthDeterminantMeasure"
+	Title: en "Health determinant measure", de "Messwerte für Gesundheitsfaktoren"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hh/4.0:EnvHealthDeterminantMeasure 
+	Styles: HH_HealthDeterminantMeasure
+}
+Style{
+	id: "HH_HealthDeterminantMeasure"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/hh/4.0:EnvHealthDeterminantMeasure
+		URL: "feature-styles/HH_HealthDeterminantMeasure.se"
+	}
 }
 Style{
 	id: "SU_VectorStatisticalUnit"

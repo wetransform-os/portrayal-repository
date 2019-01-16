@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle xmlns:hh="http://inspire.ec.europa.eu/schemas/hh/4.0" 
+xmlns:ogc="http://www.opengis.net/ogc" 
+xmlns:se="http://www.opengis.net/se" 
+xmlns:sld="http://www.opengis.net/sld" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+  <se:Description>
+    <se:Title>Health Determinant Measure Default Style</se:Title>
+    <se:Abstract>Geometries are rendered in solid blue (#0000FF) outline with a stroke width of 1 pixel.</se:Abstract>
+  </se:Description>
+  <se:FeatureTypeName>hh:EnvHealthDeterminantMeasure</se:FeatureTypeName>
+  <se:Rule>
+    <se:Description>
+      <se:Title>human health: polygon</se:Title>
+    </se:Description>
+    <ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:Function name="IsSurface">
+        		<ogc:PropertyName>hh:location</ogc:PropertyName>
+       		</ogc:Function>
+       		<ogc:Literal>true</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>hh:location</ogc:PropertyName>
+      </se:Geometry>
+        <se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
+        <se:SvgParameter name="stroke-width">3</se:SvgParameter>
+      </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  <se:Rule>
+    <se:Description>
+      <se:Title>human health: line</se:Title>
+    </se:Description>
+    <ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:Function name="IsCurve">
+        		<ogc:PropertyName>hh:location</ogc:PropertyName>
+       		</ogc:Function>
+       		<ogc:Literal>true</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   	</ogc:Filter>
+    <se:LineSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>hh:location</ogc:PropertyName>
+      </se:Geometry>
+      <se:Stroke>
+        <se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
+        <se:SvgParameter name="stroke-width">3</se:SvgParameter>
+      </se:Stroke>
+    </se:LineSymbolizer>
+  </se:Rule>
+  <se:Rule>
+    <se:Description>
+      <se:Title>human health: point</se:Title>
+    </se:Description>
+    <ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:Function name="IsPoint">
+        		<ogc:PropertyName>hh:location</ogc:PropertyName>
+       		</ogc:Function>
+       		<ogc:Literal>true</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   	</ogc:Filter>
+    <se:PointSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>hh:location</ogc:PropertyName>
+      </se:Geometry>
+      <se:Graphic>
+        <se:Mark>
+          <se:WellKnownName>circle</se:WellKnownName>
+          <se:Fill>
+            <se:SvgParameter name="fill">#0000FF</se:SvgParameter>
+          </se:Fill>
+          <se:Stroke>
+            <se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
+            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+          </se:Stroke>
+        </se:Mark>
+        <se:Size>3</se:Size>
+      </se:Graphic>
+    </se:PointSymbolizer>
+  </se:Rule>
+</se:FeatureTypeStyle>
