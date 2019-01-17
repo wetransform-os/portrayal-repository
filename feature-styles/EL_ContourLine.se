@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle xmlns:el="http://inspire.ec.europa.eu/schemas/el-vec/4.0" 
+xmlns:ogc="http://www.opengis.net/ogc" 
+xmlns:se="http://www.opengis.net/se" 
+xmlns:sld="http://www.opengis.net/sld" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+  <se:Description>
+    <se:Title>Contour Line Default Style</se:Title>
+    <se:Abstract>Land Contour Line is a brown (#A47916) 1 pixel width line. Depth (Bathymetric) Contour line is a blue (#0A93FC) 1 pixel width line.</se:Abstract>
+  </se:Description>
+  <se:FeatureTypeName>el:ContourLine</se:FeatureTypeName>
+  <se:Rule>
+    <se:Description>
+      <se:Title>Contour Line Land</se:Title>
+    </se:Description>
+    <se:MinScaleDenominator>1</se:MinScaleDenominator>
+	<se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
+    <ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:PropertyName>el:propertyType</ogc:PropertyName>
+       		<ogc:Literal>height</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   	</ogc:Filter>
+    <se:LineSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>el:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Stroke>
+        <se:SvgParameter name="stroke">#A47916</se:SvgParameter>
+        <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+      </se:Stroke>
+    </se:LineSymbolizer>
+  </se:Rule>
+    <se:Rule>
+    <se:Description>
+      <se:Title>Contour Line Bathymetric</se:Title>
+    </se:Description>
+    <se:MinScaleDenominator>1</se:MinScaleDenominator>
+	<se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
+    <ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:PropertyName>el:propertyType</ogc:PropertyName>
+       		<ogc:Literal>depth</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   	</ogc:Filter>
+    <se:LineSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>el:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Stroke>
+        <se:SvgParameter name="stroke">#0A93FC</se:SvgParameter>
+        <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+      </se:Stroke>
+    </se:LineSymbolizer>
+  </se:Rule>
+</se:FeatureTypeStyle>
+

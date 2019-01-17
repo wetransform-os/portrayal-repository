@@ -29,10 +29,10 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:Rule>
   	<se:Rule>
 		<ogc:Filter>
-			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
+			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
 				<ogc:Literal>http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/alpine</ogc:Literal>
-			</ogc:PropertyIsLike>
+			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
 		<se:PolygonSymbolizer>
 		<se:Geometry>
@@ -49,10 +49,10 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:Rule>
 	<se:Rule>
 		<ogc:Filter>
-			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
+			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
 				<ogc:Literal>http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/atlantic</ogc:Literal>
-			</ogc:PropertyIsLike>
+			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
 		<se:PolygonSymbolizer>
 		<se:Geometry>
@@ -69,10 +69,10 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:Rule>  	
 	<se:Rule>
 		<ogc:Filter>
-			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
+			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
 				<ogc:Literal>http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/boreal</ogc:Literal>
-			</ogc:PropertyIsLike>
+			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
 		<se:PolygonSymbolizer>
 		<se:Geometry>
@@ -89,10 +89,10 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:Rule>  	
 	<se:Rule>
 		<ogc:Filter>
-			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
+			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
 				<ogc:Literal>http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/continental</ogc:Literal>
-			</ogc:PropertyIsLike>
+			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
 		<se:PolygonSymbolizer>
 		<se:Geometry>
@@ -109,10 +109,10 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:Rule>  	
 	<se:Rule>
 		<ogc:Filter>
-			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
+			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
 				<ogc:Literal>http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/macaronesian</ogc:Literal>
-			</ogc:PropertyIsLike>
+			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
 		<se:PolygonSymbolizer>
 		<se:Geometry>
@@ -129,10 +129,10 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:Rule>  	
 	<se:Rule>
 		<ogc:Filter>
-			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
+			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
 				<ogc:Literal>http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/mediterranean</ogc:Literal>
-			</ogc:PropertyIsLike>
+			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
 		<se:PolygonSymbolizer>
 		<se:Geometry>
@@ -149,10 +149,10 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:Rule>  	
 	<se:Rule>
 		<ogc:Filter>
-			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
+			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
 				<ogc:Literal>http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/arctic</ogc:Literal>
-			</ogc:PropertyIsLike>
+			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
 		<se:PolygonSymbolizer>
 		<se:Geometry>
@@ -169,10 +169,10 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:Rule>  	
 	<se:Rule>
 		<ogc:Filter>
-			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
+			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
 				<ogc:Literal>http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/pannonian</ogc:Literal>
-			</ogc:PropertyIsLike>
+			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
 		<se:PolygonSymbolizer>
 		<se:Geometry>
@@ -189,10 +189,10 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:Rule>  	
 	<se:Rule>
 		<ogc:Filter>
-			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
+			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
 				<ogc:Literal>http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/steppic</ogc:Literal>
-			</ogc:PropertyIsLike>
+			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
 		<se:PolygonSymbolizer>
 		<se:Geometry>
@@ -209,10 +209,10 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:Rule>  	
 	<se:Rule>
 		<ogc:Filter>
-			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
+			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
 				<ogc:Literal>http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/blackSea</ogc:Literal>
-			</ogc:PropertyIsLike>
+			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
 		<se:PolygonSymbolizer>
 		<se:Geometry>
@@ -229,10 +229,10 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:Rule>  	
 	<se:Rule>
 		<ogc:Filter>
-			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
+			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
 				<ogc:Literal>http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/anatolian</ogc:Literal>
-			</ogc:PropertyIsLike>
+			</ogc:PropertyIsEqualTo>
 		</ogc:Filter>
 		<se:PolygonSymbolizer>
 		<se:Geometry>

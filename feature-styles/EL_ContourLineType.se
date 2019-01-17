@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle xmlns:el="http://inspire.ec.europa.eu/schemas/el-vec/4.0" 
+xmlns:ogc="http://www.opengis.net/ogc" 
+xmlns:se="http://www.opengis.net/se" 
+xmlns:sld="http://www.opengis.net/sld" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+  <se:Description>
+    <se:Title>Contour Line Type Style</se:Title>
+    <se:Abstract>Master Contour Line is a brown (#A47916) 2 pixels width line. Ordinary Contour Line is a brown (#734C00) 1 pixel width line. Auxiliary Contour Line is a brown (#734C00) dashed 1 pixel width line.</se:Abstract>
+  </se:Description>
+  <se:FeatureTypeName>el:ContourLine</se:FeatureTypeName>
+  <se:Rule>
+    <se:Description>
+      <se:Title>Contour Line Master</se:Title>
+    </se:Description>
+    <se:MinScaleDenominator>1</se:MinScaleDenominator>
+	<se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
+    <ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:PropertyName>el:contourLineType</ogc:PropertyName>
+       		<ogc:Literal>master</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   	</ogc:Filter>
+    <se:LineSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>el:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Stroke>
+        <se:SvgParameter name="stroke">#A47916</se:SvgParameter>
+        <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+      </se:Stroke>
+    </se:LineSymbolizer>
+  </se:Rule>
+   <se:Rule>
+    <se:Description>
+      <se:Title>Contour Line Ordinary</se:Title>
+    </se:Description>
+    <se:MinScaleDenominator>1</se:MinScaleDenominator>
+	<se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
+    <ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:PropertyName>el:contourLineType</ogc:PropertyName>
+       		<ogc:Literal>ordinary</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   	</ogc:Filter>
+    <se:LineSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>el:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Stroke>
+        <se:SvgParameter name="stroke">#734C00</se:SvgParameter>
+        <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+      </se:Stroke>
+    </se:LineSymbolizer>
+  </se:Rule>
+   <se:Rule>
+    <se:Description>
+      <se:Title>Contour Line Auxiliary</se:Title>
+    </se:Description>
+    <se:MinScaleDenominator>1</se:MinScaleDenominator>
+	<se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
+    <ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:PropertyName>el:contourLineType</ogc:PropertyName>
+       		<ogc:Literal>auxiliary</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   	</ogc:Filter>
+    <se:LineSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>el:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Stroke>
+        <se:SvgParameter name="stroke">#734C00</se:SvgParameter>
+        <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+        <se:SvgParameter name="stroke-dasharray">6 2 6 2</se:SvgParameter>
+      </se:Stroke>
+    </se:LineSymbolizer>
+  </se:Rule>
+</se:FeatureTypeStyle>
+

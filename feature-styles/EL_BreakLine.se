@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle xmlns:el="http://inspire.ec.europa.eu/schemas/el-vec/4.0" 
+xmlns:ogc="http://www.opengis.net/ogc" 
+xmlns:se="http://www.opengis.net/se" 
+xmlns:sld="http://www.opengis.net/sld" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+  <se:Description>
+    <se:Title>Break Line Default Style</se:Title>
+    <se:Abstract>Break Line is a light brown (#CF7916) 2 pixels width line.</se:Abstract>
+  </se:Description>
+  <se:FeatureTypeName>el:BreakLine</se:FeatureTypeName>
+  <se:Rule>
+    <se:Description>
+      <se:Title>Break Line</se:Title>
+    </se:Description>
+    <se:MinScaleDenominator>1</se:MinScaleDenominator>
+	<se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
+    <ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:Function name="IsCurve">
+        		<ogc:PropertyName>el:geometry</ogc:PropertyName>
+       		</ogc:Function>
+       		<ogc:Literal>true</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   	</ogc:Filter>
+    <se:LineSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>el:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Stroke>
+        <se:SvgParameter name="stroke">#CF7916</se:SvgParameter>
+        <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+      </se:Stroke>
+    </se:LineSymbolizer>
+  </se:Rule>
+</se:FeatureTypeStyle>
