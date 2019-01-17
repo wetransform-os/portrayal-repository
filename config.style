@@ -998,6 +998,22 @@ Layer{
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/el-vec/4.0:ContourLine
 	Styles: EL_ContourLineType
 }
+Layer{
+	id: "EL_TIN"
+	registry-id:"http://inspire.ec.europa.eu/layer/EL.ElevationTIN"
+	tags: inspire
+	Name: "EL.ElevationTIN"
+	Title: en "Elevation TIN", de "Höhenlagenstruktur-TIN"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/el-tin/4.0:ElevationTIN
+	Styles: EL_TIN
+}
+Style{
+	id: "EL_TIN"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/el-tin/4.0:ElevationTIN
+		URL: "feature-styles/EL_TIN.se"
+	}
+}
 Style{
 	id: "EL_ContourLineType"
 	Remote{
