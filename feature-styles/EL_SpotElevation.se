@@ -43,12 +43,10 @@ version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.ope
     </se:PointSymbolizer>
     <se:TextSymbolizer>
 		<se:Geometry>
-			<ogc:Function name="Centroid">
-				<ogc:PropertyName>el:geometry</ogc:PropertyName>
-			</ogc:Function>
+			<ogc:PropertyName>el:geometry</ogc:PropertyName>
 		</se:Geometry>     
 		<se:Label>    
-			<ogc:PropertyName>el:propertyValue</ogc:PropertyName>   
+			<ogc:PropertyName>el:propertyValue()</ogc:PropertyName>   
 		</se:Label>   
 		<se:Font>     
 			<se:SvgParameter name="font-family">Arial</se:SvgParameter>         
@@ -91,9 +89,7 @@ version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.ope
     </se:PointSymbolizer>
     <se:TextSymbolizer>
 		<se:Geometry>
-			<ogc:Function name="Centroid">
-				<ogc:PropertyName>el:geometry</ogc:PropertyName>
-			</ogc:Function>
+			<ogc:PropertyName>el:geometry</ogc:PropertyName>
 		</se:Geometry>     
 		<se:Label>    
 			<ogc:PropertyName>el:propertyValue/text()</ogc:PropertyName>   
