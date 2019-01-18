@@ -48,7 +48,7 @@ version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.ope
 			</ogc:Function>
 		</se:Geometry>     
 		<se:Label>    
-			<ogc:PropertyName>el:propertyValue/text()</ogc:PropertyName>   
+			<ogc:PropertyName>el:propertyValue</ogc:PropertyName>   
 		</se:Label>   
 		<se:Font>     
 			<se:SvgParameter name="font-family">Arial</se:SvgParameter>         
