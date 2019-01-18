@@ -23,6 +23,21 @@ version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.ope
        		<ogc:Literal>height</ogc:Literal>
        	</ogc:PropertyIsEqualTo>
    	</ogc:Filter>
+   	<se:TextSymbolizer>
+		<se:Geometry>
+			<ogc:PropertyName>el:geometry</ogc:PropertyName>
+		</se:Geometry>     
+		<se:Label>    
+			<ogc:PropertyName>el:propertyValue()</ogc:PropertyName>   
+		</se:Label>   
+		<se:Font>     
+			<se:SvgParameter name="font-family">Arial</se:SvgParameter>         
+			<se:SvgParameter name="font-size">10</se:SvgParameter>   
+		</se:Font>  
+		<se:Fill>     
+			<se:SvgParameter name="fill">#000000</se:SvgParameter>   
+		</se:Fill> 
+	</se:TextSymbolizer>
     <se:PointSymbolizer>
       <se:Geometry>
         <ogc:PropertyName>el:geometry</ogc:PropertyName>
@@ -41,21 +56,6 @@ version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.ope
         <se:Size>10</se:Size>
       </se:Graphic>
     </se:PointSymbolizer>
-    <se:TextSymbolizer>
-		<se:Geometry>
-			<ogc:PropertyName>el:geometry</ogc:PropertyName>
-		</se:Geometry>     
-		<se:Label>    
-			<ogc:PropertyName>el:propertyValue()</ogc:PropertyName>   
-		</se:Label>   
-		<se:Font>     
-			<se:SvgParameter name="font-family">Arial</se:SvgParameter>         
-			<se:SvgParameter name="font-size">10</se:SvgParameter>   
-		</se:Font>  
-		<se:Fill>     
-			<se:SvgParameter name="fill">#000000</se:SvgParameter>   
-		</se:Fill> 
-	</se:TextSymbolizer>
   </se:Rule>
   <se:Rule>
     <se:Description>
@@ -69,6 +69,21 @@ version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.ope
        		<ogc:Literal>depth</ogc:Literal>
        	</ogc:PropertyIsEqualTo>
    	</ogc:Filter>
+   	<se:TextSymbolizer>
+		<se:Geometry>
+			<ogc:PropertyName>el:geometry</ogc:PropertyName>
+		</se:Geometry>     
+		<se:Label>    
+			<ogc:PropertyName>el:propertyValue/text()</ogc:PropertyName>   
+		</se:Label>   
+		<se:Font>     
+			<se:SvgParameter name="font-family">Arial</se:SvgParameter>         
+			<se:SvgParameter name="font-size">10</se:SvgParameter>   
+		</se:Font>  
+		<se:Fill>     
+			<se:SvgParameter name="fill">#0000FF</se:SvgParameter>   
+		</se:Fill> 
+	</se:TextSymbolizer>
     <se:PointSymbolizer>
       <se:Geometry>
         <ogc:PropertyName>el:geometry</ogc:PropertyName>
@@ -87,20 +102,5 @@ version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.ope
         <se:Size>10</se:Size>
       </se:Graphic>
     </se:PointSymbolizer>
-    <se:TextSymbolizer>
-		<se:Geometry>
-			<ogc:PropertyName>el:geometry</ogc:PropertyName>
-		</se:Geometry>     
-		<se:Label>    
-			<ogc:PropertyName>el:propertyValue/text()</ogc:PropertyName>   
-		</se:Label>   
-		<se:Font>     
-			<se:SvgParameter name="font-family">Arial</se:SvgParameter>         
-			<se:SvgParameter name="font-size">10</se:SvgParameter>   
-		</se:Font>  
-		<se:Fill>     
-			<se:SvgParameter name="fill">#0000FF</se:SvgParameter>   
-		</se:Fill> 
-	</se:TextSymbolizer>
   </se:Rule>
 </se:FeatureTypeStyle>

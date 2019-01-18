@@ -947,7 +947,7 @@ Layer{
 Layer{
 	id: "EL_BreakLine"
 	registry-id: "http://inspire.ec.europa.eu/layer/EL.BreakLine"
-	tags: inspire
+	tags: inspire production
 	Name: "EL.BreakLine"
 	Title: en "Break line", de "Bruchkante"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/el-vec/4.0:BreakLine
@@ -956,7 +956,7 @@ Layer{
 Layer{
 	id: "EL_ContourLine"
 	registry-id: "http://inspire.ec.europa.eu/layer/EL.ContourLine"
-	tags: inspire
+	tags: inspire production
 	Name: "EL.ContourLine"
 	Title: en "Contour line", de "Höhenlinie"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/el-vec/4.0:ContourLine
@@ -965,7 +965,7 @@ Layer{
 Layer{
 	id: "EL_IsolatedArea"
 	registry-id: "http://inspire.ec.europa.eu/layer/EL.IsolatedArea"
-	tags: inspire
+	tags: inspire production
 	Name: "EL.IsolatedArea"
 	Title: en "Isolated area", de "Abgesondertes Gebiet"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/el-vec/4.0:IsolatedArea
@@ -974,7 +974,7 @@ Layer{
 Layer{
 	id: "EL_SpotElevation"
 	registry-id: "http://inspire.ec.europa.eu/layer/EL.SpotElevation"
-	tags: inspire
+	tags: inspire production
 	Name: "EL.SpotElevation"
 	Title: en "Spot elevation", de "Höhenlagenpunkt"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/el-vec/4.0:SpotElevation
@@ -983,7 +983,7 @@ Layer{
 Layer{
 	id: "EL_VoidArea"
 	registry-id: "http://inspire.ec.europa.eu/layer/EL.VoidArea"
-	tags: inspire
+	tags: inspire production
 	Name: "EL.VoidArea"
 	Title: en "Void area", de "Leeres Gebiet"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/el-vec/4.0:VoidArea
@@ -992,7 +992,7 @@ Layer{
 Layer{
 	id: "EL_ContourLineType"
 	registry-id: ""
-	tags: inspire
+	tags: inspire production
 	Name: "EL.ContourLineType"
 	Title: en "Contour line", de "Höhenlinie"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/el-vec/4.0:ContourLine

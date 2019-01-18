@@ -524,32 +524,32 @@
     <title text="Messwerte für Gesundheitsfaktoren"/>
     <objectType>hh_4.0:EnvHealthDeterminantMeasure</objectType>
   </layerConfig>
-  <layerConfig name="EL_BreakLine" registryId="http://inspire.ec.europa.eu/layer/EL.BreakLine" tags="//@tags.0" layerName="EL.BreakLine" styleConfig="//@styleConfig.6">
+  <layerConfig name="EL_BreakLine" registryId="http://inspire.ec.europa.eu/layer/EL.BreakLine" tags="//@tags.0 //@tags.2" layerName="EL.BreakLine" styleConfig="//@styleConfig.6">
     <title lang="en" text="Break line"/>
     <title text="Bruchkante"/>
     <objectType>el-vec_4.0:BreakLine</objectType>
   </layerConfig>
-  <layerConfig name="EL_ContourLine" registryId="http://inspire.ec.europa.eu/layer/EL.ContourLine" tags="//@tags.0" layerName="EL.ContourLine" styleConfig="//@styleConfig.5">
+  <layerConfig name="EL_ContourLine" registryId="http://inspire.ec.europa.eu/layer/EL.ContourLine" tags="//@tags.0 //@tags.2" layerName="EL.ContourLine" styleConfig="//@styleConfig.5">
     <title lang="en" text="Contour line"/>
     <title text="Höhenlinie"/>
     <objectType>el-vec_4.0:ContourLine</objectType>
   </layerConfig>
-  <layerConfig name="EL_IsolatedArea" registryId="http://inspire.ec.europa.eu/layer/EL.IsolatedArea" tags="//@tags.0" layerName="EL.IsolatedArea" styleConfig="//@styleConfig.4">
+  <layerConfig name="EL_IsolatedArea" registryId="http://inspire.ec.europa.eu/layer/EL.IsolatedArea" tags="//@tags.0 //@tags.2" layerName="EL.IsolatedArea" styleConfig="//@styleConfig.4">
     <title lang="en" text="Isolated area"/>
     <title text="Abgesondertes Gebiet"/>
     <objectType>el-vec_4.0:IsolatedArea</objectType>
   </layerConfig>
-  <layerConfig name="EL_SpotElevation" registryId="http://inspire.ec.europa.eu/layer/EL.SpotElevation" tags="//@tags.0" layerName="EL.SpotElevation" styleConfig="//@styleConfig.3">
+  <layerConfig name="EL_SpotElevation" registryId="http://inspire.ec.europa.eu/layer/EL.SpotElevation" tags="//@tags.0 //@tags.2" layerName="EL.SpotElevation" styleConfig="//@styleConfig.3">
     <title lang="en" text="Spot elevation"/>
     <title text="Höhenlagenpunkt"/>
     <objectType>el-vec_4.0:SpotElevation</objectType>
   </layerConfig>
-  <layerConfig name="EL_VoidArea" registryId="http://inspire.ec.europa.eu/layer/EL.VoidArea" tags="//@tags.0" layerName="EL.VoidArea" styleConfig="//@styleConfig.2">
+  <layerConfig name="EL_VoidArea" registryId="http://inspire.ec.europa.eu/layer/EL.VoidArea" tags="//@tags.0 //@tags.2" layerName="EL.VoidArea" styleConfig="//@styleConfig.2">
     <title lang="en" text="Void area"/>
     <title text="Leeres Gebiet"/>
     <objectType>el-vec_4.0:VoidArea</objectType>
   </layerConfig>
-  <layerConfig name="EL_ContourLineType" registryId="" tags="//@tags.0" layerName="EL.ContourLineType" styleConfig="//@styleConfig.1">
+  <layerConfig name="EL_ContourLineType" registryId="" tags="//@tags.0 //@tags.2" layerName="EL.ContourLineType" styleConfig="//@styleConfig.1">
     <title lang="en" text="Contour line"/>
     <title text="Höhenlinie"/>
     <objectType>el-vec_4.0:ContourLine</objectType>
