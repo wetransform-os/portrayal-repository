@@ -34,7 +34,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
         <se:ExternalGraphic>
         	<se:OnlineResource xlink:type="simple"
         	xlink:href="https://wetransform.box.com/s/4wwic9yuphf8yxhinzatkqm6a2et3gg8"/>
-        	<se:Format>image/png</se:Format>
+        	<se:Format>image/svg</se:Format>
         </se:ExternalGraphic>
         <se:Size>20</se:Size>
       </se:Graphic>
