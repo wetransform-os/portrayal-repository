@@ -33,7 +33,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
       <se:Graphic>
         <se:ExternalGraphic>
         	<se:OnlineResource xlink:type="simple"
-        	xlink:href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/800px-Flag_of_Germany.svg.png"/>
+        	xlink:href="https://wetransform.box.com/s/4wwic9yuphf8yxhinzatkqm6a2et3gg8"/>
         	<se:Format>image/png</se:Format>
         </se:ExternalGraphic>
         <se:Size>20</se:Size>
