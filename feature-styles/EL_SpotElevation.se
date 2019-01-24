@@ -48,10 +48,14 @@ version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.ope
 		<se:Label>    
 			<ogc:PropertyName>el:propertyValue()</ogc:PropertyName>   
 		</se:Label>
-		<se:Displacement>
-			<se:DisplacementX>-100</se:DisplacementX>
-			<se:DisplacementY>0</se:DisplacementY>
-		</se:Displacement>
+		<se:LabelPlacement>
+			<se:PointPlacement>
+				<se:Displacement>
+					<se:DisplacementX>-20</se:DisplacementX>
+					<se:DisplacementY>0</se:DisplacementY>
+				</se:Displacement>
+			</se:PointPlacement>
+		</se:LabelPlacement>
 		<se:Font>     
 			<se:SvgParameter name="font-family">Arial</se:SvgParameter>         
 			<se:SvgParameter name="font-size">10</se:SvgParameter>   
@@ -98,10 +102,14 @@ version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.ope
 		<se:Label>    
 			<ogc:PropertyName>el:propertyValue/text()</ogc:PropertyName>   
 		</se:Label> 
-		<se:Displacement>
-			<se:DisplacementX>-100</se:DisplacementX>
-			<se:DisplacementY>0</se:DisplacementY>
-		</se:Displacement>   
+		<se:LabelPlacement>
+			<se:PointPlacement>
+				<se:Displacement>
+					<se:DisplacementX>-100</se:DisplacementX>
+					<se:DisplacementY>0</se:DisplacementY>
+				</se:Displacement>
+			</se:PointPlacement>
+		</se:LabelPlacement> 
 		<se:Font>     
 			<se:SvgParameter name="font-family">Arial</se:SvgParameter>         
 			<se:SvgParameter name="font-size">10</se:SvgParameter>   
