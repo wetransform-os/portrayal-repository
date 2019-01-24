@@ -49,7 +49,7 @@ version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.ope
 			<ogc:PropertyName>el:propertyValue()</ogc:PropertyName>   
 		</se:Label>
 		<se:Displacement>
-			<se:DisplacementX>-20</se:DisplacementX>
+			<se:DisplacementX>-100</se:DisplacementX>
 			<se:DisplacementY>0</se:DisplacementY>
 		</se:Displacement>
 		<se:Font>     
@@ -99,7 +99,7 @@ version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.ope
 			<ogc:PropertyName>el:propertyValue/text()</ogc:PropertyName>   
 		</se:Label> 
 		<se:Displacement>
-			<se:DisplacementX>-20</se:DisplacementX>
+			<se:DisplacementX>-100</se:DisplacementX>
 			<se:DisplacementY>0</se:DisplacementY>
 		</se:Displacement>   
 		<se:Font>     
