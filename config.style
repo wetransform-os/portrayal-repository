@@ -607,7 +607,7 @@ Layer{
 	id:"AM_ForestManagementArea"
 	registry-id:"http://inspire.ec.europa.eu/layer/AM.ForestManagementArea"
 	tags: inspire production
-	Name: "AM.Forest Management Area"
+	Name: "AM.ForestManagementArea"
 	Title: en "Forest Management Area", de"Waldbewirtschaftungsgebiet"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/am/4.0:ManagementRestrictionOrRegulationZone
 	Styles: AM_ForestManagementArea
@@ -855,8 +855,6 @@ Layer{
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionPlot
 	Styles: PF_ProductionPlot
 }
-
-
 Layer{
 	id: "PF_ProductionSite"
 	registry-id:"http://inspire.ec.europa.eu/layer/PF.ProductionSite"
@@ -901,6 +899,198 @@ Layer{
 	Title: en "Geologic Units", de "Geologische Einheiten"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/ge-core/4.0:MappedFeature
 	Styles: GE_GeologicUnit_AgeOfRocks
+}
+Layer{
+	id: "BR_BiogeographicalRegion"
+	registry-id:"http://inspire.ec.europa.eu/layer/BR.Bio-geographicalRegion"
+	tags: inspire production
+	Name: "BR.Bio-geographicalRegion"
+	Title: en "Bio-geographical regions", de "Biogeografische Regionen"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/br/4.0:Bio-geographicalRegion
+	Styles: BR_BiogeographicalRegion
+}
+Layer{
+	id: "BR_Natura2000andEmeraldBiogeographicalRegion"
+	registry-id:""
+	tags: inspire production
+	Name: "BR.Natura2000andEmeraldBio-geographicalRegion"
+	Title: en "Bio-geographical regions", de "Biogeografische Regionen"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/br/4.0:Bio-geographicalRegion
+	Styles: BR_Natura2000andEmeraldBiogeographicalRegion
+}
+Layer{
+	id: "SU_VectorStatisticalUnit"
+	registry-id:"http://inspire.ec.europa.eu/layer/SU.VectorStatisticalUnit"
+	tags: inspire production
+	Name: "SU.VectorStatisticalUnit"
+	Title: en "Vector statistical units", de "Statistische Vektoreinheiten"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/su-vector/4.0:VectorStatisticalUnit
+	Styles: SU_VectorStatisticalUnit
+}
+Layer{
+	id: "SU_StatisticalGridCell"
+	registry-id:"http://inspire.ec.europa.eu/layer/SU.StatisticalGridCell"
+	tags: inspire 
+	Name: "SU.StatisticalGridCell"
+	Title: en "Statistical grid cells", de "Statistische Vektoreinheiten"
+	SpatialObjectTypes: https://inspire.ec.europa.eu/schemas/su-grid/4.0:StatisticalGridCell 
+	Styles: SU_StatisticalGridCell
+}
+Layer{
+	id: "HH_HealthDeterminantMeasure"
+	registry-id: "http://inspire.ec.europa.eu/layer/HH.HealthDeterminantMeasure"
+	tags: inspire production
+	Name: "HH.HealthDeterminantMeasure"
+	Title: en "Health determinant measure", de "Messwerte für Gesundheitsfaktoren"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hh/4.0:EnvHealthDeterminantMeasure 
+	Styles: HH_HealthDeterminantMeasure
+}
+Layer{
+	id: "EL_BreakLine"
+	registry-id: "http://inspire.ec.europa.eu/layer/EL.BreakLine"
+	tags: inspire production
+	Name: "EL.BreakLine"
+	Title: en "Break line", de "Bruchkante"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/el-vec/4.0:BreakLine
+	Styles: EL_BreakLine
+}
+Layer{
+	id: "EL_ContourLine"
+	registry-id: "http://inspire.ec.europa.eu/layer/EL.ContourLine"
+	tags: inspire production
+	Name: "EL.ContourLine"
+	Title: en "Contour line", de "Höhenlinie"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/el-vec/4.0:ContourLine
+	Styles: EL_ContourLine
+}
+Layer{
+	id: "EL_IsolatedArea"
+	registry-id: "http://inspire.ec.europa.eu/layer/EL.IsolatedArea"
+	tags: inspire production
+	Name: "EL.IsolatedArea"
+	Title: en "Isolated area", de "Abgesondertes Gebiet"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/el-vec/4.0:IsolatedArea
+	Styles: EL_IsolatedArea
+}
+Layer{
+	id: "EL_SpotElevation"
+	registry-id: "http://inspire.ec.europa.eu/layer/EL.SpotElevation"
+	tags: inspire production
+	Name: "EL.SpotElevation"
+	Title: en "Spot elevation", de "Höhenlagenpunkt"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/el-vec/4.0:SpotElevation
+	Styles: EL_SpotElevation
+}
+Layer{
+	id: "EL_VoidArea"
+	registry-id: "http://inspire.ec.europa.eu/layer/EL.VoidArea"
+	tags: inspire production
+	Name: "EL.VoidArea"
+	Title: en "Void area", de "Leeres Gebiet"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/el-vec/4.0:VoidArea
+	Styles: EL_VoidArea
+}
+Layer{
+	id: "EL_ContourLineType"
+	registry-id: ""
+	tags: inspire production
+	Name: "EL.ContourLineType"
+	Title: en "Contour line", de "Höhenlinie"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/el-vec/4.0:ContourLine
+	Styles: EL_ContourLineType
+}
+Layer{
+	id: "EL_TIN"
+	registry-id:"http://inspire.ec.europa.eu/layer/EL.ElevationTIN"
+	tags: inspire
+	Name: "EL.ElevationTIN"
+	Title: en "Elevation TIN", de "Höhenlagenstruktur-TIN"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/el-tin/4.0:ElevationTIN
+	Styles: EL_TIN
+}
+Style{
+	id: "EL_TIN"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/el-tin/4.0:ElevationTIN
+		URL: "feature-styles/EL_TIN.se"
+	}
+}
+Style{
+	id: "EL_ContourLineType"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/el-vec/4.0:ContourLine
+		URL: "feature-styles/EL_ContourLineType.se"
+	}
+}
+Style{
+	id: "EL_VoidArea"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/el-vec/4.0:VoidArea
+		URL: "feature-styles/EL_VoidArea.se"
+	}
+}
+Style{
+	id: "EL_SpotElevation"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/el-vec/4.0:SpotElevation
+		URL: "feature-styles/EL_SpotElevation.se"
+	}
+}
+Style{
+	id: "EL_IsolatedArea"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/el-vec/4.0:IsolatedArea
+		URL: "feature-styles/EL_IsolatedArea.se"
+	}
+}
+Style{
+	id: "EL_ContourLine"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/el-vec/4.0:ContourLine
+		URL: "feature-styles/EL_ContourLine.se"
+	}
+}
+Style{
+	id: "EL_BreakLine"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/el-vec/4.0:BreakLine
+		URL: "feature-styles/EL_BreakLine.se"
+	}
+}
+Style{
+	id: "HH_HealthDeterminantMeasure"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/hh/4.0:EnvHealthDeterminantMeasure
+		URL: "feature-styles/HH_HealthDeterminantMeasure.se"
+	}
+}
+Style{
+	id: "SU_VectorStatisticalUnit"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/su-vector/4.0:VectorStatisticalUnit
+		URL: "feature-styles/SU_VectorStatisticalUnit.se"
+	}
+}
+Style{
+	id: "SU_StatisticalGridCell"
+	Remote{
+		FeatureType: https://inspire.ec.europa.eu/schemas/su-grid/4.0:StatisticalGridCell 
+		URL: "feature-styles/SU_StatisticalGridCell.se"
+	}
+}
+Style{
+	id: "BR_Natura2000andEmeraldBiogeographicalRegion"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/br/4.0:Bio-geographicalRegion
+		URL: "feature-styles/BR_Natura2000andEmeraldBiogeographicalRegion.se"
+	}
+}
+Style{
+	id: "BR_BiogeographicalRegion"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/br/4.0:Bio-geographicalRegion
+		URL: "feature-styles/BR_BiogeographicalRegion.se"
+	}
 }
 Style{
 	id:"GE_GeologicUnit_AgeOfRocks"

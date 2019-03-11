@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle xmlns:el-tin="http://inspire.ec.europa.eu/schemas/el-tin/4.0"
+xmlns:ogc="http://www.opengis.net/ogc" 
+xmlns:se="http://www.opengis.net/se" 
+xmlns:sld="http://www.opengis.net/sld" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+  <se:Description>
+    <se:Title>TIN Elevation Default Style</se:Title>
+    <se:Abstract>TIN Elevation default style is a complex style where the different geometry types forming part of an ElevationTIN are rendered: stopLines are (#7F8850) 2 pixel width lines; breakLines are (#CF7916) 2 pixel width lines; controlPoints are black(#000000) 1 pixel circles of size 10.</se:Abstract>
+  </se:Description>
+  <se:FeatureTypeName>el-tin:ElevationTIN</se:FeatureTypeName>
+  <se:Rule>
+    <se:Description>
+      <se:Title>TIN Elevation stoplines</se:Title>
+    </se:Description>
+    <se:MinScaleDenominator>1</se:MinScaleDenominator>
+	<se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
+    <se:LineSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>el-tin:geometries/el-tin:stopLines</ogc:PropertyName>
+      </se:Geometry>
+      <se:Stroke>
+        <se:SvgParameter name="stroke">#7F8850</se:SvgParameter>
+        <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+      </se:Stroke>
+    </se:LineSymbolizer>
+  </se:Rule>
+   <se:Rule>
+    <se:Description>
+      <se:Title>TIN Elevation breaklines</se:Title>
+    </se:Description>
+    <se:MinScaleDenominator>1</se:MinScaleDenominator>
+	<se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
+    <se:LineSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>el-tin:geometries/el-tin:breakLines</ogc:PropertyName>
+      </se:Geometry>
+      <se:Stroke>
+        <se:SvgParameter name="stroke">#CF7916</se:SvgParameter>
+        <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+      </se:Stroke>
+    </se:LineSymbolizer>
+  </se:Rule>
+   <se:Rule>
+    <se:Description>
+      <se:Title>TIN Elevation control points</se:Title>
+    </se:Description>
+    <se:MinScaleDenominator>1</se:MinScaleDenominator>
+	<se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
+    <se:PointSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>el-tin:geometries/el-tin:controlPoint</ogc:PropertyName>
+      </se:Geometry>
+      <se:Graphic>
+        <se:Mark>
+          <se:WellKnownName>circle</se:WellKnownName>
+          <se:Fill>
+            <se:SvgParameter name="fill">#000000</se:SvgParameter>
+          </se:Fill>
+          <se:Stroke>
+            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+          </se:Stroke>
+        </se:Mark>
+        <se:Size>10</se:Size>
+      </se:Graphic>
+    </se:PointSymbolizer>
+  </se:Rule>
+</se:FeatureTypeStyle>
+
