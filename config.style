@@ -606,7 +606,7 @@ Layer{
 	id:"AM_ForestManagementArea"
 	registry-id:"http://inspire.ec.europa.eu/layer/AM.ForestManagementArea"
 	tags: inspire production
-	Name: "AM.Forest Management Area"
+	Name: "AM.ForestManagementArea"
 	Title: en "Forest Management Area", de"Waldbewirtschaftungsgebiet"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/am/4.0:ManagementRestrictionOrRegulationZone
 	Styles: AM_ForestManagementArea

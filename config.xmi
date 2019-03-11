@@ -344,7 +344,7 @@
     <title text="Bewirtschaftungseinheit für Hochwasserrisiken"/>
     <objectType>am_4.0:ManagementRestrictionOrRegulationZone</objectType>
   </layerConfig>
-  <layerConfig name="AM_ForestManagementArea" registryId="http://inspire.ec.europa.eu/layer/AM.ForestManagementArea" tags="//@tags.0 //@tags.2" layerName="AM.Forest Management Area" styleConfig="//@styleConfig.42">
+  <layerConfig name="AM_ForestManagementArea" registryId="http://inspire.ec.europa.eu/layer/AM.ForestManagementArea" tags="//@tags.0 //@tags.2" layerName="AM.ForestManagementArea" styleConfig="//@styleConfig.42">
     <title lang="en" text="Forest Management Area"/>
     <title text="Waldbewirtschaftungsgebiet"/>
     <objectType>am_4.0:ManagementRestrictionOrRegulationZone</objectType>
