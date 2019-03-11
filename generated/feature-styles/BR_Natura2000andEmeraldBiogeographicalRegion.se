@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle  xmlns:br="http://inspire.ec.europa.eu/schemas/br/4.0" 
+xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0" 
+xmlns:ogc="http://www.opengis.net/ogc" 
+xmlns:se="http://www.opengis.net/se" 
+xmlns:sld="http://www.opengis.net/sld" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+version="1.1.0" 
+xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+	<se:Description>
+    	<se:Title>Natura 2000 and Emerald Bio-geographical regions style</se:Title>
+    	<se:Abstract>This style is to be used when visualising the Regions covered under the Natura2000 and Emerald biogeographical regions code lists. This style in inherited from the paper maps used by the Council of Europe and Habitats Committee for visualisg and adopting the Biogeographical regions outlined in the Habitats Directive and expanded by the Bern Convention under the Emerald network.</se:Abstract> 
+    </se:Description>
+  	<se:FeatureTypeName>br:Bio-geographicalRegion</se:FeatureTypeName>
+  	<se:Rule>
+	<se:PolygonSymbolizer>
+		<se:Geometry>
+			<ogc:PropertyName>br:geometry</ogc:PropertyName>
+		</se:Geometry>
+		<se:Fill>
+			<se:SvgParameter name="fill">#808080</se:SvgParameter>
+		</se:Fill>
+		<se:Stroke>
+			<se:SvgParameter name="stroke">#000000</se:SvgParameter>
+			<se:SvgParameter name="strokewidth">1</se:SvgParameter>
+		</se:Stroke>
+	</se:PolygonSymbolizer>
+	</se:Rule>
+  	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
+				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/alpine</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:PolygonSymbolizer>
+		<se:Geometry>
+			<ogc:PropertyName>br:geometry</ogc:PropertyName>
+		</se:Geometry>
+		<se:Fill>
+			<se:SvgParameter name="fill">#FF733DF</se:SvgParameter>
+		</se:Fill>
+		<se:Stroke>
+			<se:SvgParameter name="stroke">#FF73DF</se:SvgParameter>
+			<se:SvgParameter name="strokewidth">1</se:SvgParameter>
+		</se:Stroke>
+	</se:PolygonSymbolizer>
+	</se:Rule>
+	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
+				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/atlantic</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:PolygonSymbolizer>
+		<se:Geometry>
+			<ogc:PropertyName>br:geometry</ogc:PropertyName>
+		</se:Geometry>
+		<se:Fill>
+			<se:SvgParameter name="fill">#00C5FF</se:SvgParameter>
+		</se:Fill>
+		<se:Stroke>
+			<se:SvgParameter name="stroke">#00C5FF</se:SvgParameter>
+			<se:SvgParameter name="strokewidth">1</se:SvgParameter>
+		</se:Stroke>
+	</se:PolygonSymbolizer>
+	</se:Rule>  	
+	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
+				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/boreal</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:PolygonSymbolizer>
+		<se:Geometry>
+			<ogc:PropertyName>br:geometry</ogc:PropertyName>
+		</se:Geometry>
+		<se:Fill>
+			<se:SvgParameter name="fill">#0070FF</se:SvgParameter>
+		</se:Fill>
+		<se:Stroke>
+			<se:SvgParameter name="stroke">#0070FF</se:SvgParameter>
+			<se:SvgParameter name="strokewidth">1</se:SvgParameter>
+		</se:Stroke>
+	</se:PolygonSymbolizer>
+	</se:Rule>  	
+	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
+				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/continental</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:PolygonSymbolizer>
+		<se:Geometry>
+			<ogc:PropertyName>br:geometry</ogc:PropertyName>
+		</se:Geometry>
+		<se:Fill>
+			<se:SvgParameter name="fill">#4CE600</se:SvgParameter>
+		</se:Fill>
+		<se:Stroke>
+			<se:SvgParameter name="stroke">#4CE600</se:SvgParameter>
+			<se:SvgParameter name="strokewidth">1</se:SvgParameter>
+		</se:Stroke>
+	</se:PolygonSymbolizer>
+	</se:Rule>  	
+	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
+				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/macaronesian</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:PolygonSymbolizer>
+		<se:Geometry>
+			<ogc:PropertyName>br:geometry</ogc:PropertyName>
+		</se:Geometry>
+		<se:Fill>
+			<se:SvgParameter name="fill">#FFFF73</se:SvgParameter>
+		</se:Fill>
+		<se:Stroke>
+			<se:SvgParameter name="stroke">#FFFF73</se:SvgParameter>
+			<se:SvgParameter name="strokewidth">1</se:SvgParameter>
+		</se:Stroke>
+	</se:PolygonSymbolizer>
+	</se:Rule>  	
+	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
+				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/mediterranean</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:PolygonSymbolizer>
+		<se:Geometry>
+			<ogc:PropertyName>br:geometry</ogc:PropertyName>
+		</se:Geometry>
+		<se:Fill>
+			<se:SvgParameter name="fill">#FFAA00</se:SvgParameter>
+		</se:Fill>
+		<se:Stroke>
+			<se:SvgParameter name="stroke">#FFAA00</se:SvgParameter>
+			<se:SvgParameter name="strokewidth">1</se:SvgParameter>
+		</se:Stroke>
+	</se:PolygonSymbolizer>
+	</se:Rule>  	
+	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
+				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/arctic</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:PolygonSymbolizer>
+		<se:Geometry>
+			<ogc:PropertyName>br:geometry</ogc:PropertyName>
+		</se:Geometry>
+		<se:Fill>
+			<se:SvgParameter name="fill">#CAFCFD</se:SvgParameter>
+		</se:Fill>
+		<se:Stroke>
+			<se:SvgParameter name="stroke">#CAFCFD</se:SvgParameter>
+			<se:SvgParameter name="strokewidth">1</se:SvgParameter>
+		</se:Stroke>
+	</se:PolygonSymbolizer>
+	</se:Rule>  	
+	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
+				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/pannonian</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:PolygonSymbolizer>
+		<se:Geometry>
+			<ogc:PropertyName>br:geometry</ogc:PropertyName>
+		</se:Geometry>
+		<se:Fill>
+			<se:SvgParameter name="fill">#734C00</se:SvgParameter>
+		</se:Fill>
+		<se:Stroke>
+			<se:SvgParameter name="stroke">#734C00</se:SvgParameter>
+			<se:SvgParameter name="strokewidth">1</se:SvgParameter>
+		</se:Stroke>
+	</se:PolygonSymbolizer>
+	</se:Rule>  	
+	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
+				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/steppic</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:PolygonSymbolizer>
+		<se:Geometry>
+			<ogc:PropertyName>br:geometry</ogc:PropertyName>
+		</se:Geometry>
+		<se:Fill>
+			<se:SvgParameter name="fill">#FFCB94</se:SvgParameter>
+		</se:Fill>
+		<se:Stroke>
+			<se:SvgParameter name="stroke">#FFCB94</se:SvgParameter>
+			<se:SvgParameter name="strokewidth">1</se:SvgParameter>
+		</se:Stroke>
+	</se:PolygonSymbolizer>
+	</se:Rule>  	
+	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
+				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/blackSea</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:PolygonSymbolizer>
+		<se:Geometry>
+			<ogc:PropertyName>br:geometry</ogc:PropertyName>
+		</se:Geometry>
+		<se:Fill>
+			<se:SvgParameter name="fill">#FFAAC6</se:SvgParameter>
+		</se:Fill>
+		<se:Stroke>
+			<se:SvgParameter name="stroke">#FFAAC6</se:SvgParameter>
+			<se:SvgParameter name="strokewidth">1</se:SvgParameter>
+		</se:Stroke>
+	</se:PolygonSymbolizer>
+	</se:Rule>  	
+	<se:Rule>
+		<ogc:Filter>
+			<ogc:PropertyIsEqualTo>
+				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/anatolian</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		</ogc:Filter>
+		<se:PolygonSymbolizer>
+		<se:Geometry>
+			<ogc:PropertyName>br:geometry</ogc:PropertyName>
+		</se:Geometry>
+		<se:Fill>
+			<se:SvgParameter name="fill">#ED52B0</se:SvgParameter>
+		</se:Fill>
+		<se:Stroke>
+			<se:SvgParameter name="stroke">#ED52B0</se:SvgParameter>
+			<se:SvgParameter name="strokewidth">1</se:SvgParameter>
+		</se:Stroke>
+	</se:PolygonSymbolizer>
+	</se:Rule>  	 	
+</se:FeatureTypeStyle>

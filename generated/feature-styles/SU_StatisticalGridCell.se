@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle xmlns:su-grid="https://inspire.ec.europa.eu/schemas/su-grid/4.0" 
+xmlns:ogc="http://www.opengis.net/ogc" 
+xmlns:se="http://www.opengis.net/se" 
+xmlns:sld="http://www.opengis.net/sld" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+  <se:Description>
+    <se:Title>Statistical grid cell default style</se:Title>
+    <se:Abstract>Polygon geometries are rendered using a light yellow fill with a 0.2 transparency.</se:Abstract>
+  </se:Description>
+  <se:FeatureTypeName>su-grid:StatisticalGridCell</se:FeatureTypeName>
+  <se:Rule>
+    <se:Description>
+      <se:Title>Statistical grid cell polygon</se:Title>
+    </se:Description>
+    <ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:Function name="IsSurface">
+        		<ogc:PropertyName>su-grid:geometry</ogc:PropertyName>
+       		</ogc:Function>
+       		<ogc:Literal>true</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>su-grid:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Fill>
+        <se:SvgParameter name="fill">#E4FF00</se:SvgParameter>
+        <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter> 
+      </se:Fill>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+</se:FeatureTypeStyle>

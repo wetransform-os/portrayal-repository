@@ -16,7 +16,7 @@ version="1.1.0">
     </se:Description>
     <se:PointSymbolizer>
       <se:Geometry>
-        <ogc:PropertyName>hy-n:geometry</ogc:PropertyName>
+        <ogc:PropertyName>net:geometry/gml:Point</ogc:PropertyName>
       </se:Geometry>
       <se:Graphic>
         <se:Mark>
@@ -54,7 +54,7 @@ version="1.1.0">
     </ogc:Filter>
     <se:PointSymbolizer>
       <se:Geometry>
-        <ogc:PropertyName>hy-n:geometry</ogc:PropertyName>
+        <ogc:PropertyName>net:geometry/gml:Point</ogc:PropertyName>
       </se:Geometry>
       <se:Graphic>
         <se:Mark>
@@ -88,7 +88,7 @@ version="1.1.0">
     </ogc:Filter>
     <se:PointSymbolizer>
       <se:Geometry>
-        <ogc:PropertyName>hy-n:geometry</ogc:PropertyName>
+        <ogc:PropertyName>net:geometry/gml:Point</ogc:PropertyName>
       </se:Geometry>
       <se:Graphic>
         <se:Mark>
@@ -113,7 +113,7 @@ version="1.1.0">
     </ogc:Filter>
     <se:PointSymbolizer>
       <se:Geometry>
-        <ogc:PropertyName>hy-n:geometry</ogc:PropertyName>
+        <ogc:PropertyName>net:geometry/gml:Point</ogc:PropertyName>
       </se:Geometry>
       <se:Graphic>
         <se:Mark>
