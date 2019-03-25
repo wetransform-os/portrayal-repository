@@ -1062,6 +1062,54 @@ Layer{
 	SpatialObjectTypes: http://www.xplanung.de/xplangml/5/0:BP_WaldFlaeche
 	Styles: BP_WaldFlaeche
 }
+Layer{
+	id: "BP_GenerischesObjekt"
+	registry-id: ""
+	tags: bw
+	Name: "bp_genobj"
+	Title: de "GenerischesObjekt"
+	SpatialObjectTypes: http://www.xplanung.de/xplangml/5/0:BP_GenerischesObjekt
+	Styles: BP_GenerischesObjekt
+}
+Layer{
+	id: "BP_NebenanlagenAusschlussFlaeche"
+	registry-id: ""
+	tags: bw
+	Name: "bp_nebenanlausschlfl"
+	Title: de "NebenanlagenAusschlussFlaeche"
+	SpatialObjectTypes: http://www.xplanung.de/xplangml/5/0:BP_NebenanlagenAusschlussFlaeche
+	Styles: BP_NebenanlagenAusschlussFlaeche
+}
+Layer{
+	id: "BP_NutzungsartenGrenze"
+	registry-id: ""
+	tags: bw
+	Name: "bp_nutzartgr"
+	Title: de "NutzungsartenGrenze"
+	SpatialObjectTypes: http://www.xplanung.de/xplangml/5/0:BP_NutzungsartenGrenze
+	Styles: BP_NutzungsartenGrenze
+}
+Style{
+	id: "BP_NutzungsartenGrenze"
+	Remote{
+		FeatureType: http://www.xplanung.de/xplangml/5/0:BP_NutzungsartenGrenze
+		URL:"feature-styles/BP_NutzungsartenGrenze.se"
+	}
+}
+Style{
+	id: "BP_NebenanlagenAusschlussFlaeche"
+	Remote{
+		FeatureType: http://www.xplanung.de/xplangml/5/0:BP_NebenanlagenAusschlussFlaeche
+		URL:"feature-styles/BP_NebenanlagenAusschlussFlaeche.se"
+	}
+}
+Style{
+	id: "BP_GenerischesObjekt"
+	Remote{
+		FeatureType: http://www.xplanung.de/xplangml/5/0:BP_GenerischesObjekt
+		URL:"feature-styles/BP_NebenanlagenAusschlussFlaeche.se"
+	}
+}
 Style{
 	id: "BP_WaldFlaeche"
 	Remote{
