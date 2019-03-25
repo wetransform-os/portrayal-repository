@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle version="1.1.0"  
+xmlns="http://www.opengis.net/sld" 
+xmlns:ogc="http://www.opengis.net/ogc"
+xmlns:se="http://www.opengis.net/se" 
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:gml="http://www.opengis.net/gml/3.2" 
+xmlns:sld="http://www.opengis.net/sld" 
+xmlns:xplan="http://www.xplanung.de/xplangml/5/0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/sldAll.xsd http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+	<se:Description>
+		<se:Title>bp_plan</se:Title>
+		<se:Abstract>Bebauungsplan</se:Abstract>
+	</se:Description>
+	<se:FeatureTypeName>xplan:BP_Plan</se:FeatureTypeName>
+		<se:Rule>
+			<se:Description>
+				<se:Title>Bebauungsplan</se:Title>
+			</se:Description>
+			<se:PolygonSymbolizer uom="meter">
+				<se:Geometry>
+					<ogc:PropertyName>xplan:raeumlicherGeltungsbereich</ogc:PropertyName>
+				</se:Geometry>
+                      <se:Stroke>
+                              <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+						<se:SvgParameter name="stroke-opacity">1.0</se:SvgParameter>
+                              <se:SvgParameter name="stroke-width">1.0</se:SvgParameter>
+						<se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+                              <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+                      </se:Stroke> 
+				<se:PerpendicularOffset>-0.5</se:PerpendicularOffset>
+			</se:PolygonSymbolizer>
+			<se:PolygonSymbolizer uom="meter">
+				<se:Geometry>
+					<ogc:PropertyName>xplan:raeumlicherGeltungsbereich</ogc:PropertyName>
+				</se:Geometry>
+                      <se:Stroke>
+                              <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+						<se:SvgParameter name="stroke-opacity">1.0</se:SvgParameter>
+                              <se:SvgParameter name="stroke-width">5.0</se:SvgParameter>
+						<se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+                              <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+						<se:SvgParameter name="stroke-dasharray">7 2</se:SvgParameter>
+                      </se:Stroke> 
+				<se:PerpendicularOffset>-2.5</se:PerpendicularOffset>
+			</se:PolygonSymbolizer>
+		</se:Rule>
+		<se:Rule>
+			<se:Description>
+				<se:Title>Bebauungsplan - Rechtsstand 1000</se:Title>
+			</se:Description>
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>xplan:rechtsstand</ogc:PropertyName>
+					<ogc:Literal>1000</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+			</ogc:Filter>
+			<se:PolygonSymbolizer uom="meter">
+				<se:Geometry>
+					<ogc:PropertyName>xplan:raeumlicherGeltungsbereich</ogc:PropertyName>
+				</se:Geometry>
+				<se:Fill>
+                              <se:SvgParameter name="fill">#39FF14</se:SvgParameter>
+                              <se:SvgParameter name="fill-opacity">0.5</se:SvgParameter>
+                      </se:Fill>
+                      <se:Stroke>
+                              <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+						<se:SvgParameter name="stroke-opacity">1.0</se:SvgParameter>
+                              <se:SvgParameter name="stroke-width">1.0</se:SvgParameter>
+						<se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+                              <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+                      </se:Stroke> 
+				<se:PerpendicularOffset>-0.5</se:PerpendicularOffset>
+			</se:PolygonSymbolizer>
+			<se:PolygonSymbolizer uom="meter">
+				<se:Geometry>
+					<ogc:PropertyName>xplan:raeumlicherGeltungsbereich</ogc:PropertyName>
+				</se:Geometry>
+                      <se:Stroke>
+                              <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+						<se:SvgParameter name="stroke-opacity">1.0</se:SvgParameter>
+                              <se:SvgParameter name="stroke-width">5.0</se:SvgParameter>
+						<se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+                              <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+						<se:SvgParameter name="stroke-dasharray">7 2</se:SvgParameter>
+                      </se:Stroke> 
+				<se:PerpendicularOffset>-2.5</se:PerpendicularOffset>
+			</se:PolygonSymbolizer>
+		</se:Rule>
+		<se:Rule>
+			<se:Description>
+				<se:Title>Bebauungsplan - Rechtsstand 2000 - 2400 </se:Title>
+			</se:Description>
+			<ogc:Filter>
+				<ogc:PropertyIsBetween>
+					<ogc:PropertyName>xplan:rechtsstand</ogc:PropertyName>
+					<ogc:LowerBoundary>
+						<ogc:Literal>2000</ogc:Literal>
+					</ogc:LowerBoundary>
+					<ogc:UpperBoundary>
+						<ogc:Literal>2400</ogc:Literal>
+					</ogc:UpperBoundary>
+				</ogc:PropertyIsBetween>
+			</ogc:Filter>
+			<se:PolygonSymbolizer uom="meter">
+				<se:Geometry>
+					<ogc:PropertyName>xplan:raeumlicherGeltungsbereich</ogc:PropertyName>
+				</se:Geometry>
+				<se:Fill>
+                              <se:SvgParameter name="fill">#006400</se:SvgParameter>
+                              <se:SvgParameter name="fill-opacity">0.5</se:SvgParameter>
+                      </se:Fill>
+                      <se:Stroke>
+                              <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+						<se:SvgParameter name="stroke-opacity">1.0</se:SvgParameter>
+                              <se:SvgParameter name="stroke-width">1.0</se:SvgParameter>
+						<se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+                              <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+                      </se:Stroke> 
+				<se:PerpendicularOffset>-0.5</se:PerpendicularOffset>
+			</se:PolygonSymbolizer>
+			<se:PolygonSymbolizer uom="meter">
+				<se:Geometry>
+					<ogc:PropertyName>xplan:raeumlicherGeltungsbereich</ogc:PropertyName>
+				</se:Geometry>
+                      <se:Stroke>
+                              <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+						<se:SvgParameter name="stroke-opacity">1.0</se:SvgParameter>
+                              <se:SvgParameter name="stroke-width">5.0</se:SvgParameter>
+						<se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+                              <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+						<se:SvgParameter name="stroke-dasharray">7 2</se:SvgParameter>
+                      </se:Stroke> 
+				<se:PerpendicularOffset>-2.5</se:PerpendicularOffset>
+			</se:PolygonSymbolizer>
+		</se:Rule>
+		<se:Rule>
+			<se:Description>
+				<se:Title>Bebauungsplan - Rechtsstand 3000</se:Title>
+			</se:Description>
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>xplan:rechtsstand</ogc:PropertyName>
+					<ogc:Literal>3000</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+			</ogc:Filter>
+			<se:PolygonSymbolizer uom="meter">
+				<se:Geometry>
+					<ogc:PropertyName>xplan:raeumlicherGeltungsbereich</ogc:PropertyName>
+				</se:Geometry>
+				<se:Fill>
+                              <se:SvgParameter name="fill">#FFA500</se:SvgParameter>
+                              <se:SvgParameter name="fill-opacity">0.5</se:SvgParameter>
+                      </se:Fill>
+                      <se:Stroke>
+                              <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+						<se:SvgParameter name="stroke-opacity">1.0</se:SvgParameter>
+                              <se:SvgParameter name="stroke-width">1.0</se:SvgParameter>
+						<se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+                              <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+                      </se:Stroke> 
+				<se:PerpendicularOffset>-0.5</se:PerpendicularOffset>
+			</se:PolygonSymbolizer>
+			<se:PolygonSymbolizer uom="meter">
+				<se:Geometry>
+					<ogc:PropertyName>xplan:raeumlicherGeltungsbereich</ogc:PropertyName>
+				</se:Geometry>
+                      <se:Stroke>
+                              <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+						<se:SvgParameter name="stroke-opacity">1.0</se:SvgParameter>
+                              <se:SvgParameter name="stroke-width">5.0</se:SvgParameter>
+						<se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+                              <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+						<se:SvgParameter name="stroke-dasharray">7 2</se:SvgParameter>
+                      </se:Stroke> 
+				<se:PerpendicularOffset>-2.5</se:PerpendicularOffset>
+			</se:PolygonSymbolizer>
+		</se:Rule>
+		<se:Rule>
+			<se:Description>
+				<se:Title>Bebauungsplan - Rechtsstand 5000</se:Title>
+			</se:Description>
+			<ogc:Filter>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>xplan:rechtsstand</ogc:PropertyName>
+					<ogc:Literal>5000</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+			</ogc:Filter>
+			<se:PolygonSymbolizer uom="meter">
+				<se:Geometry>
+					<ogc:PropertyName>xplan:raeumlicherGeltungsbereich</ogc:PropertyName>
+				</se:Geometry>
+				<se:Fill>
+                              <se:SvgParameter name="fill">#808080</se:SvgParameter>
+                              <se:SvgParameter name="fill-opacity">0.5</se:SvgParameter>
+                      </se:Fill>
+                      <se:Stroke>
+                              <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+						<se:SvgParameter name="stroke-opacity">1.0</se:SvgParameter>
+                              <se:SvgParameter name="stroke-width">1.0</se:SvgParameter>
+						<se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+                              <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+                      </se:Stroke> 
+				<se:PerpendicularOffset>-0.5</se:PerpendicularOffset>
+			</se:PolygonSymbolizer>
+			<se:PolygonSymbolizer uom="meter">
+				<se:Geometry>
+					<ogc:PropertyName>xplan:raeumlicherGeltungsbereich</ogc:PropertyName>
+				</se:Geometry>
+                      <se:Stroke>
+                              <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+						<se:SvgParameter name="stroke-opacity">1.0</se:SvgParameter>
+                              <se:SvgParameter name="stroke-width">5.0</se:SvgParameter>
+						<se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+                              <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+						<se:SvgParameter name="stroke-dasharray">7 2</se:SvgParameter>
+                      </se:Stroke> 
+				<se:PerpendicularOffset>-2.5</se:PerpendicularOffset>
+			</se:PolygonSymbolizer>
+		</se:Rule>
+	</se:FeatureTypeStyle>

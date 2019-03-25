@@ -12,11 +12,11 @@ version="1.1.0">
   <se:FeatureTypeName>hy-n:HydroNode</se:FeatureTypeName>
     <se:Rule>
     <se:Description>
-      <se:Title>hydrographic network - hydro node: default</se:Title>
+      <se:Title>hydrographic network - hydro node default</se:Title>
     </se:Description>
     <se:PointSymbolizer>
       <se:Geometry>
-        <ogc:PropertyName>net:geometry/gml:Point</ogc:PropertyName>
+        <ogc:PropertyName>net:geometry</ogc:PropertyName>
       </se:Geometry>
       <se:Graphic>
         <se:Mark>
@@ -34,7 +34,7 @@ version="1.1.0">
   </se:Rule>
   <se:Rule>
     <se:Description>
-      <se:Title>hydrographic network - hydro node: outlet - junction - source</se:Title>
+      <se:Title>hydrographic network - hydro node outlet - junction - source</se:Title>
     </se:Description>
     <ogc:Filter>
       <ogc:Or>
@@ -54,7 +54,7 @@ version="1.1.0">
     </ogc:Filter>
     <se:PointSymbolizer>
       <se:Geometry>
-        <ogc:PropertyName>net:geometry/gml:Point</ogc:PropertyName>
+        <ogc:PropertyName>net:geometry</ogc:PropertyName>
       </se:Geometry>
       <se:Graphic>
         <se:Mark>
@@ -72,7 +72,7 @@ version="1.1.0">
   </se:Rule>
   <se:Rule>
     <se:Description>
-      <se:Title>hydrographic network - hydro node: flow constriction - regulation</se:Title>
+      <se:Title>hydrographic network - hydro node flow constriction - regulation</se:Title>
     </se:Description>
     <ogc:Filter>
       <ogc:Or>
@@ -88,7 +88,7 @@ version="1.1.0">
     </ogc:Filter>
     <se:PointSymbolizer>
       <se:Geometry>
-        <ogc:PropertyName>net:geometry/gml:Point</ogc:PropertyName>
+        <ogc:PropertyName>net:geometry</ogc:PropertyName>
       </se:Geometry>
       <se:Graphic>
         <se:Mark>
@@ -103,7 +103,7 @@ version="1.1.0">
   </se:Rule>
   <se:Rule>
     <se:Description>
-      <se:Title>hydrographic network - hydro node: boundary</se:Title>
+      <se:Title>hydrographic network - hydro node boundary</se:Title>
     </se:Description>
     <ogc:Filter>
       <ogc:PropertyIsEqualTo>
@@ -113,7 +113,7 @@ version="1.1.0">
     </ogc:Filter>
     <se:PointSymbolizer>
       <se:Geometry>
-        <ogc:PropertyName>net:geometry/gml:Point</ogc:PropertyName>
+        <ogc:PropertyName>net:geometry</ogc:PropertyName>
       </se:Geometry>
       <se:Graphic>
         <se:Mark>

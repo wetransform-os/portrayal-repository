@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <se:FeatureTypeStyle version="1.1.0"  
+xmlns="http://www.opengis.net/sld" 
+xmlns:ogc="http://www.opengis.net/ogc"
+xmlns:se="http://www.opengis.net/se" 
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:gml="http://www.opengis.net/gml/3.2" 
+xmlns:sld="http://www.opengis.net/sld" 
+xmlns:xplan="http://www.xplanung.de/xplangml/5/0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/sldAll.xsd http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+	<se:Description>
+		<se:Title>bp_baulin</se:Title>
+		<se:Abstract>Baulinie: Der Umring des Polygons, bestimmt durch das Attribut xplan:position, besteht aus einer hellblauen Linie, die aussen von einer schwarzen gestrichelten Linie eingegrenzt wird. Es gibt keine Füllung. Umring: hellblau (#0066FF) Umring gestrichelt: Schwarz (#000000)</se:Abstract>
+	</se:Description>
+	<se:FeatureTypeName>xplan:BP_BauLinie</se:FeatureTypeName>
+		<se:Rule>
+			<se:Description>
+				<se:Title>Baulinie</se:Title>
+			</se:Description>
+			<se:LineSymbolizer uom="meter">
+				<se:Geometry>
+					<ogc:PropertyName>xplan:position</ogc:PropertyName>
+				</se:Geometry>
+                      <se:Stroke>
+                              <se:SvgParameter name="stroke">#0066FF</se:SvgParameter>
+						<se:SvgParameter name="stroke-opacity">1.0</se:SvgParameter>
+                              <se:SvgParameter name="stroke-width">1.0</se:SvgParameter>
+						<se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
+                              <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+                      </se:Stroke> 
+				<se:PerpendicularOffset>0.5</se:PerpendicularOffset>
+			</se:LineSymbolizer>
+			<se:LineSymbolizer uom="meter">
+				<se:Geometry>
+					<ogc:PropertyName>xplan:position</ogc:PropertyName>
+				</se:Geometry>
+                      <se:Stroke>
+                              <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+						<se:SvgParameter name="stroke-opacity">1.0</se:SvgParameter>
+                              <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
+						<se:SvgParameter name="stroke-linejoin">mitre</se:SvgParameter>
+                      </se:Stroke> 
+			</se:LineSymbolizer>
+		</se:Rule>
+	</se:FeatureTypeStyle>

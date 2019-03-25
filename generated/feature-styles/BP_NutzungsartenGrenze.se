@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle version="1.1.0"  
+xmlns="http://www.opengis.net/sld" 
+xmlns:ogc="http://www.opengis.net/ogc"
+xmlns:se="http://www.opengis.net/se" 
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:gml="http://www.opengis.net/gml/3.2" 
+xmlns:sld="http://www.opengis.net/sld" 
+xmlns:xplan="http://www.xplanung.de/xplangml/5/0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/sldAll.xsd http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+	<se:Description>
+		<se:Title>bp_nutzartgr</se:Title>
+		<se:Abstract>Der Umring des Polygons, bestimmt durch das Attribut xplan:position besteht aus einer schwarzen Linie, auf der sich schwarze gefüllte Kreise befinden. Es gibt keine Füllung. Umring: Schwarz (#000000)</se:Abstract>
+	</se:Description>
+	<se:FeatureTypeName>xplan:BP_NutzungsartenGrenze</se:FeatureTypeName>
+		<se:Rule>
+			<se:Description>
+				<se:Title>NutzungsartenGrenze</se:Title>
+			</se:Description>
+			<se:MaxScaleDenominator>25000</se:MaxScaleDenominator>
+			<se:LineSymbolizer uom="meter">
+				<se:Geometry>
+					<ogc:PropertyName>xplan:position</ogc:PropertyName>
+				</se:Geometry>
+                <se:Stroke>
+                	<se:GraphicStroke>
+						<se:Graphic>
+							<se:Mark>
+								<se:WellKnownName>circle</se:WellKnownName>
+							<se:Fill>
+								<se:SvgParameter name="fill">#000000</se:SvgParameter>
+							</se:Fill>
+							</se:Mark>
+							<se:Size>2</se:Size>
+						</se:Graphic>
+					<se:Gap>8</se:Gap>
+					</se:GraphicStroke>
+                </se:Stroke> 
+			</se:LineSymbolizer>
+			<se:LineSymbolizer uom="meter">
+				<se:Geometry>
+					<ogc:PropertyName>xplan:position</ogc:PropertyName>
+				</se:Geometry>
+                      <se:Stroke>
+                              <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+							  <se:SvgParameter name="stroke-opacity">1.0</se:SvgParameter>
+                              <se:SvgParameter name="stroke-width">0.75</se:SvgParameter>
+                              <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
+							  <se:SvgParameter name="stroke-linejoin">mitre</se:SvgParameter>
+                      </se:Stroke> 
+			</se:LineSymbolizer>
+		</se:Rule>
+	</se:FeatureTypeStyle>
