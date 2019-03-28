@@ -16,11 +16,7 @@ version="1.1.0">
     </se:Description>
     <se:PointSymbolizer>
       <se:Geometry>
-<<<<<<< Upstream, based on origin/testing
-        <ogc:PropertyName>net:geometry/gml:Point</ogc:PropertyName>
-=======
         <ogc:PropertyName>net:geometry</ogc:PropertyName>
->>>>>>> f5ec802 Committing changes to generated folder so I can make a pr
       </se:Geometry>
       <se:Graphic>
         <se:Mark>
@@ -58,11 +54,7 @@ version="1.1.0">
     </ogc:Filter>
     <se:PointSymbolizer>
       <se:Geometry>
-<<<<<<< Upstream, based on origin/testing
-        <ogc:PropertyName>net:geometry/gml:Point</ogc:PropertyName>
-=======
         <ogc:PropertyName>net:geometry</ogc:PropertyName>
->>>>>>> f5ec802 Committing changes to generated folder so I can make a pr
       </se:Geometry>
       <se:Graphic>
         <se:Mark>
@@ -96,11 +88,7 @@ version="1.1.0">
     </ogc:Filter>
     <se:PointSymbolizer>
       <se:Geometry>
-<<<<<<< Upstream, based on origin/testing
-        <ogc:PropertyName>net:geometry/gml:Point</ogc:PropertyName>
-=======
         <ogc:PropertyName>net:geometry</ogc:PropertyName>
->>>>>>> f5ec802 Committing changes to generated folder so I can make a pr
       </se:Geometry>
       <se:Graphic>
         <se:Mark>
@@ -125,11 +113,7 @@ version="1.1.0">
     </ogc:Filter>
     <se:PointSymbolizer>
       <se:Geometry>
-<<<<<<< Upstream, based on origin/testing
-        <ogc:PropertyName>net:geometry/gml:Point</ogc:PropertyName>
-=======
         <ogc:PropertyName>net:geometry</ogc:PropertyName>
->>>>>>> f5ec802 Committing changes to generated folder so I can make a pr
       </se:Geometry>
       <se:Graphic>
         <se:Mark>

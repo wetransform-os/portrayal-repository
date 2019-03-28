@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle version="1.1.0"  
+xmlns="http://www.opengis.net/sld" 
+xmlns:ogc="http://www.opengis.net/ogc"
+xmlns:se="http://www.opengis.net/se" 
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:gml="http://www.opengis.net/gml/3.2" 
+xmlns:sld="http://www.opengis.net/sld" 
+xmlns:xplan="http://www.xplanung.de/xplangml/5/0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/sldAll.xsd http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+	<se:Description>
+		<se:Title>bp_kennzsfl</se:Title>
+		<se:Abstract>Naturgewalten, Abbaufläche, Äussereeinwirkung: Der Umring des Polygons, bestimmt durch das Attribut xplan:position besteht aus einer grauen Linie, an der sich nach innen zeigende graue Vierecke befinden. Es gibt keine
+Füllung. Umring: Grau (#808080). Schadstoffbelasteter Boden: Der Umring des Polygons, bestimmt durch das Attribut xplan:position besteht aus einer grauen Linie, an der sich nach innen zeigende graue Kreuze befinden. Es gibt keine Füllung.
+Umring: Grau (#808080). Lärmbelastung: Der Umring des Polygons, bestimmt durch das Attribut xplan:position besteht aus einer schwarzen Linie, an der sich nach innen zeigende schwarze Dreiecke befinden. Es gibt keine Füllung.
+Umring: Schwarz (#000000). Bergbau: Der Umring des Polygons, bestimmt durch das Attribut xplan:position besteht aus einer grauen Linie, an der sich nach innen zeigende kleine grauen Vierecke befinden. Es gibt keine Füllung.
+Umring: Grau (#808080). Bodenordnung, Andere gesetzliche Vorschriften: Der Umring des Polygons, bestimmt durch das Attribut xplan:position besteht aus einer grauen Linie. Es gibt keine Füllung.
+Umring: Grau (#808080).</se:Abstract>
+	</se:Description>
+	<se:FeatureTypeName>xplan:BP_KennzeichnungsFlaeche</se:FeatureTypeName>
+		<se:Rule>
+			<se:Description>
+				<se:Title>Naturgewalten</se:Title>
+			</se:Description>
+			<ogc:Filter>
+			<ogc:And>
+				<ogc:PropertyIsEqualTo>
+					<ogc:Function name="IsSurface">
+						<ogc:PropertyName>xplan:position</ogc:PropertyName>
+					</ogc:Function>
+					<ogc:Literal>true</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>xplan:zweckbestimmungCode</ogc:PropertyName>
+					<ogc:Literal>1000</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+			</ogc:And>
+			</ogc:Filter>
+			<se:MaxScaleDenominator>25000</se:MaxScaleDenominator>
+			<se:PolygonSymbolizer uom="meter">
+				<se:Geometry>
+					<ogc:PropertyName>xplan:position</ogc:PropertyName>
+				</se:Geometry>
+                      <se:Stroke>
+                        <se:SvgParameter name="stroke">#808080</se:SvgParameter>
+						<se:SvgParameter name="stroke-opacity">1.0</se:SvgParameter>
+                        <se:SvgParameter name="stroke-width">5.0</se:SvgParameter>
+						<se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+                        <se:SvgParameter name="stroke-dasharray">0 2.5 5 5</se:SvgParameter>
+                        <se:SvgParameter name="stroke-dashoffset">2.5</se:SvgParameter>
+                      </se:Stroke> 
+				<se:PerpendicularOffset>2.5</se:PerpendicularOffset>
+			</se:PolygonSymbolizer>
+			<se:PolygonSymbolizer uom="meter">
+				<se:Geometry>
+					<ogc:PropertyName>xplan:position</ogc:PropertyName>
+				</se:Geometry>
+                      <se:Stroke>
+                        <se:SvgParameter name="stroke">#808080</se:SvgParameter>
+						<se:SvgParameter name="stroke-opacity">1.0</se:SvgParameter>
+                        <se:SvgParameter name="stroke-width">2.5</se:SvgParameter>
+						<se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
+                        <se:SvgParameter name="stroke-linejoin">mitre</se:SvgParameter>
+                      </se:Stroke> 
+			</se:PolygonSymbolizer>
+		</se:Rule>
+		<se:Rule>
+			<se:Description>
+				<se:Title>Abbauflaeche</se:Title>
+			</se:Description>
+			<ogc:Filter>
+			<ogc:And>
+				<ogc:PropertyIsEqualTo>
+					<ogc:Function name="IsSurface">
+						<ogc:PropertyName>xplan:position</ogc:PropertyName>
+					</ogc:Function>
+					<ogc:Literal>true</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>xplan:zweckbestimmungCode</ogc:PropertyName>
+					<ogc:Literal>2000</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+			</ogc:And>
+			</ogc:Filter>
+			<se:MaxScaleDenominator>25000</se:MaxScaleDenominator>
+			<se:PolygonSymbolizer uom="meter">
+				<se:Geometry>
+					<ogc:PropertyName>xplan:position</ogc:PropertyName>
+				</se:Geometry>
+                      <se:Stroke>
+                        <se:SvgParameter name="stroke">#808080</se:SvgParameter>
+						<se:SvgParameter name="stroke-opacity">1.0</se:SvgParameter>
+                        <se:SvgParameter name="stroke-width">5.0</se:SvgParameter>
+						<se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+                        <se:SvgParameter name="stroke-dasharray">0 2.5 5 5</se:SvgParameter>
+                        <se:SvgParameter name="stroke-dashoffset">2.5</se:SvgParameter>
+                      </se:Stroke> 
+				<se:PerpendicularOffset>2.5</se:PerpendicularOffset>
+			</se:PolygonSymbolizer>
+			<se:PolygonSymbolizer uom="meter">
+				<se:Geometry>
+					<ogc:PropertyName>xplan:position</ogc:PropertyName>
+				</se:Geometry>
+                      <se:Stroke>
+                        <se:SvgParameter name="stroke">#808080</se:SvgParameter>
+						<se:SvgParameter name="stroke-opacity">1.0</se:SvgParameter>
+                        <se:SvgParameter name="stroke-width">2.5</se:SvgParameter>
+						<se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
+                        <se:SvgParameter name="stroke-linejoin">mitre</se:SvgParameter>
+                      </se:Stroke> 
+			</se:PolygonSymbolizer>
+		</se:Rule>
+		<se:Rule>
+			<se:Description>
+				<se:Title>AeussereEinwirkungen</se:Title>
+			</se:Description>
+			<ogc:Filter>
+			<ogc:And>
+				<ogc:PropertyIsEqualTo>
+					<ogc:Function name="IsSurface">
+						<ogc:PropertyName>xplan:position</ogc:PropertyName>
+					</ogc:Function>
+					<ogc:Literal>true</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>xplan:zweckbestimmungCode</ogc:PropertyName>
+					<ogc:Literal>3000</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+			</ogc:And>
+			</ogc:Filter>
+			<se:MaxScaleDenominator>25000</se:MaxScaleDenominator>
+			<se:PolygonSymbolizer uom="meter">
+				<se:Geometry>
+					<ogc:PropertyName>xplan:position</ogc:PropertyName>
+				</se:Geometry>
+                      <se:Stroke>
+                        <se:SvgParameter name="stroke">#808080</se:SvgParameter>
+						<se:SvgParameter name="stroke-opacity">1.0</se:SvgParameter>
+                        <se:SvgParameter name="stroke-width">5.0</se:SvgParameter>
+						<se:SvgParameter name="stroke-linecap">butt</se:SvgParameter>
+                        <se:SvgParameter name="stroke-dasharray">0 2.5 5 5</se:SvgParameter>
+                        <se:SvgParameter name="stroke-dashoffset">2.5</se:SvgParameter>
+                      </se:Stroke> 
+				<se:PerpendicularOffset>2.5</se:PerpendicularOffset>
+			</se:PolygonSymbolizer>
+			<se:PolygonSymbolizer uom="meter">
+				<se:Geometry>
+					<ogc:PropertyName>xplan:position</ogc:PropertyName>
+				</se:Geometry>
+                      <se:Stroke>
+                        <se:SvgParameter name="stroke">#808080</se:SvgParameter>
+						<se:SvgParameter name="stroke-opacity">1.0</se:SvgParameter>
+                        <se:SvgParameter name="stroke-width">2.5</se:SvgParameter>
+						<se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
+                        <se:SvgParameter name="stroke-linejoin">mitre</se:SvgParameter>
+                      </se:Stroke> 
+			</se:PolygonSymbolizer>
+		</se:Rule>
+		<se:Rule>
+			<se:Description>
+				<se:Title>SchadstoffBelastBoden</se:Title>
+			</se:Description>
+			<ogc:Filter>
+			<ogc:And>
+				<ogc:PropertyIsEqualTo>
+					<ogc:Function name="IsSurface">
+						<ogc:PropertyName>xplan:position</ogc:PropertyName>
+					</ogc:Function>
+					<ogc:Literal>true</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>xplan:zweckbestimmungCode</ogc:PropertyName>
+					<ogc:Literal>4000</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+			</ogc:And>
+			</ogc:Filter>
+			<se:MaxScaleDenominator>25000</se:MaxScaleDenominator>
+			<se:PolygonSymbolizer uom="meter">
+				<se:Geometry>
+					<ogc:PropertyName>xplan:position</ogc:PropertyName>
+				</se:Geometry>
+				<se:Stroke>
+                    <se:GraphicStroke>
+						<se:Graphic>
+							<se:Mark>
+								<se:WellKnownName>x</se:WellKnownName>
+							<se:Fill>
+								<se:SvgParameter name="fill">#808080</se:SvgParameter>
+							</se:Fill>
+							<se:Stroke>
+								<se:SvgParameter name="stroke">#808080</se:SvgParameter>
+								<se:SvgParameter name="stroke-width">0.2</se:SvgParameter>
+							</se:Stroke>
+							</se:Mark>
+							<se:Size>3</se:Size>
+						</se:Graphic>
+					<se:Gap>7.5</se:Gap>
+				  </se:GraphicStroke>
+				</se:Stroke>
+				<se:PerpendicularOffset>2.1</se:PerpendicularOffset>
+			</se:PolygonSymbolizer>
+			<se:PolygonSymbolizer uom="meter">
+				<se:Geometry>
+					<ogc:PropertyName>xplan:position</ogc:PropertyName>
+				</se:Geometry>
+                      <se:Stroke>
+                        <se:SvgParameter name="stroke">#808080</se:SvgParameter>
+						<se:SvgParameter name="stroke-opacity">1.0</se:SvgParameter>
+                        <se:SvgParameter name="stroke-width">1.25</se:SvgParameter>
+						<se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
+                        <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+                      </se:Stroke> 
+			</se:PolygonSymbolizer>
+		</se:Rule>
+		<se:Rule>
+			<se:Description>
+				<se:Title>LaermBelastung</se:Title>
+			</se:Description>
+			<ogc:Filter>
+			<ogc:And>
+				<ogc:PropertyIsEqualTo>
+					<ogc:Function name="IsSurface">
+						<ogc:PropertyName>xplan:position</ogc:PropertyName>
+					</ogc:Function>
+					<ogc:Literal>true</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+					<ogc:PropertyName>xplan:zweckbestimmungCode</ogc:PropertyName>
+					<ogc:Literal>5000</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+			</ogc:And>
+			</ogc:Filter>
+			<se:MaxScaleDenominator>25000</se:MaxScaleDenominator>
+			<se:PolygonSymbolizer uom="meter">
+				<se:Geometry>
+					<ogc:PropertyName>xplan:position</ogc:PropertyName>
+				</se:Geometry>
+				<se:Stroke>
+                    <se:GraphicStroke>
+						<se:Graphic>
+							<se:Mark>
+								<se:WellKnownName>triangle</se:WellKnownName>
+							<se:Fill>
+								<se:SvgParameter name="fill">#000000</se:SvgParameter>
+							</se:Fill>
+							</se:Mark>
+							<se:Size>5</se:Size>
+						</se:Graphic>
+					<se:Gap>2.5</se:Gap>
+				  </se:GraphicStroke>
+				</se:Stroke>
+				<se:PerpendicularOffset>2.5</se:PerpendicularOffset>
+			</se:PolygonSymbolizer>
+			<se:PolygonSymbolizer uom="meter">
+				<se:Geometry>
+					<ogc:PropertyName>xplan:position</ogc:PropertyName>
+				</se:Geometry>
+                      <se:Stroke>
+                        <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+						<se:SvgParameter name="stroke-opacity">1.0</se:SvgParameter>
+                        <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
+						<se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
+                        <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+                      </se:Stroke> 
+			</se:PolygonSymbolizer>
+		</se:Rule>
+	</se:FeatureTypeStyle>
