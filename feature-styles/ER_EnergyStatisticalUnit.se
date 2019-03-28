@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle  
+xmlns:ogc="http://www.opengis.net/ogc" 
+xmlns:su-vec="http://inspire.ec.europa.eu/schemas/su-vector/4.0" 
+xmlns:se="http://www.opengis.net/se" 
+xmlns:sld="http://www.opengis.net/sld" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0" 
+xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+  <se:Description>
+    <se:Title>Energy Statistical Unit Default Style</se:Title>
+    <se:Abstract>This layer type is for representation of Energy statistical data as surfaces. Fill colour: light yellow, transparency 0.2 (RGBA 228 255 0 51). Outline colour: solid, magenta (RGB 255 0 255). Outline width: 3pt</se:Abstract>
+  </se:Description>
+  <se:FeatureTypeName>su-vec:EnergyStatisticalUnit</se:FeatureTypeName>
+  <se:Rule>
+    <se:Description>
+      <se:Title>Energy Statistical Unit Default Style</se:Title>
+    </se:Description>
+    <ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:Function name="IsSurface">
+        		<ogc:PropertyName>su-vec:geometry/geometry</ogc:PropertyName>
+       		</ogc:Function>
+       		<ogc:Literal>true</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>su-vec:geometry/geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Fill>
+        <se:SvgParameter name="fill">#E4ff00</se:SvgParameter>
+        <se:SvgParameter name="fill-opacity">0.2</se:SvgParameter> 
+      </se:Fill>
+      <se:Stroke>
+        <se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
+        <se:SvgParameter name="stroke-width">3</se:SvgParameter>
+      </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+</se:FeatureTypeStyle>

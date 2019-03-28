@@ -1089,6 +1089,54 @@ Layer{
 	SpatialObjectTypes: http://www.xplanung.de/xplangml/5/0:BP_NutzungsartenGrenze
 	Styles: BP_NutzungsartenGrenze
 }
+Layer{
+	id: "BP_StrassenVerkehrsFlaeche"
+	registry-id: ""
+	tags: bw
+	Name: "bp_strverksfl"
+	Title: de "StrassenVerkehrsFlaeche"
+	SpatialObjectTypes: http://www.xplanung.de/xplangml/5/0:BP_StrassenVerkehrsFlaeche
+	Styles: BP_StrassenVerkehrsFlaeche
+}
+Layer{
+	id: "BP_UeberbaubareGrundstuecksFlaeche"
+	registry-id: ""
+	tags: bw
+	Name: "bp_ueberbaubgrundstsfl"
+	Title: de "UeberbaubareGrundstuecksFlaeche"
+	SpatialObjectTypes: http://www.xplanung.de/xplangml/5/0:BP_UeberbaubareGrundstuecksFlaeche
+	Styles: BP_UeberbaubareGrundstuecksFlaeche
+}
+Layer{
+	id: "BP_KennzeichnungsFlaeche"
+	registry-id: ""
+	tags: bw
+	Name: "bp_kennzsfl"
+	Title: de "KennzeichnungsFlaeche"
+	SpatialObjectTypes: http://www.xplanung.de/xplangml/5/0:BP_KennzeichnungsFlaeche
+	Styles: BP_KennzeichnungsFlaeche
+}
+Style{
+	id: "BP_KennzeichnungsFlaeche"
+	Remote{
+		FeatureType: http://www.xplanung.de/xplangml/5/0:BP_KennzeichnungsFlaeche
+		URL: "feature-styles/BP_KennzeichnungsFlaeche.se"
+	}
+}
+Style{
+	id: "BP_UeberbaubareGrundstuecksFlaeche"
+	Remote{
+		FeatureType: http://www.xplanung.de/xplangml/5/0:BP_UeberbaubareGrundstuecksFlaeche
+		URL: "feature-styles/BP_UeberbaubareGrundstuecksFlaeche.se"
+	}
+}
+Style{
+	id: "BP_StrassenVerkehrsFlaeche"
+	Remote{
+		FeatureType: http://www.xplanung.de/xplangml/5/0:BP_StrassenVerkehrsFlaeche
+		URL: "feature-styles/BP_StrassenVerkehrsFlaeche.se"
+	}
+}
 Style{
 	id: "BP_NutzungsartenGrenze"
 	Remote{
