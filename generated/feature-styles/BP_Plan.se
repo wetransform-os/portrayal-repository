@@ -16,7 +16,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
 	<se:FeatureTypeName>xplan:BP_Plan</se:FeatureTypeName>
 		<se:Rule>
 			<se:Description>
-				<se:Title>Bebauungsplan</se:Title>
+				<se:Title>Rechtskräftig</se:Title>
 			</se:Description>
 			<se:PolygonSymbolizer uom="meter">
 				<se:Geometry>
@@ -48,7 +48,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
 		</se:Rule>
 		<se:Rule>
 			<se:Description>
-				<se:Title>Bebauungsplan - Rechtsstand 1000</se:Title>
+				<se:Title>Aufstellungsbeschluss</se:Title>
 			</se:Description>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
@@ -90,7 +90,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
 		</se:Rule>
 		<se:Rule>
 			<se:Description>
-				<se:Title>Bebauungsplan - Rechtsstand 2000 - 2400 </se:Title>
+				<se:Title>Entwurf</se:Title>
 			</se:Description>
 			<ogc:Filter>
 				<ogc:PropertyIsBetween>
@@ -137,7 +137,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
 		</se:Rule>
 		<se:Rule>
 			<se:Description>
-				<se:Title>Bebauungsplan - Rechtsstand 3000</se:Title>
+				<se:Title>Satzung</se:Title>
 			</se:Description>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
@@ -179,7 +179,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
 		</se:Rule>
 		<se:Rule>
 			<se:Description>
-				<se:Title>Bebauungsplan - Rechtsstand 5000</se:Title>
+				<se:Title>Untergegangen</se:Title>
 			</se:Description>
 			<ogc:Filter>
 				<ogc:PropertyIsEqualTo>
