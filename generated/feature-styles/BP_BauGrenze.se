@@ -11,13 +11,13 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/sldAll.xsd http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
 	<se:Description>
 		<se:Title>bp_baugr</se:Title>
-		<se:Abstract>Baugrenze: Der Umring des Polygons, bestimmt durch das Attribut xplan:position, besteht aus einer orangenen Linie, die aussen von einer schwarzen gestrichelten Linie eingegrenzt wird. 
+		<se:Abstract>BauGrenze: Der Umring des Polygons, bestimmt durch das Attribut xplan:position, besteht aus einer orangenen Linie, die aussen von einer schwarzen gestrichelten Linie eingegrenzt wird. 
 		Es gibt keine Fuellung. Umring: Orange (#FF3300). Umring gestrichelt: Schwarz (#000000)</se:Abstract>
 	</se:Description>
 	<se:FeatureTypeName>xplan:BP_BauGrenze</se:FeatureTypeName>
 		<se:Rule>
 			<se:Description>
-				<se:Title>Baugrenze</se:Title>
+				<se:Title>BauGrenze</se:Title>
 			</se:Description>
 			<se:LineSymbolizer uom="meter">
 				<se:Geometry>

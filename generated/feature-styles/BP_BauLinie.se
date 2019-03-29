@@ -11,12 +11,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/sldAll.xsd http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
 	<se:Description>
 		<se:Title>bp_baulin</se:Title>
-		<se:Abstract>Baulinie: Der Umring des Polygons, bestimmt durch das Attribut xplan:position, besteht aus einer hellblauen Linie, die aussen von einer schwarzen gestrichelten Linie eingegrenzt wird. Es gibt keine Füllung. Umring: hellblau (#0066FF) Umring gestrichelt: Schwarz (#000000)</se:Abstract>
+		<se:Abstract>BauLinie: Der Umring des Polygons, bestimmt durch das Attribut xplan:position, besteht aus einer hellblauen Linie, die aussen von einer schwarzen gestrichelten Linie eingegrenzt wird. Es gibt keine Füllung. Umring: hellblau (#0066FF) Umring gestrichelt: Schwarz (#000000)</se:Abstract>
 	</se:Description>
 	<se:FeatureTypeName>xplan:BP_BauLinie</se:FeatureTypeName>
 		<se:Rule>
 			<se:Description>
-				<se:Title>Baulinie</se:Title>
+				<se:Title>BauLinie</se:Title>
 			</se:Description>
 			<se:LineSymbolizer uom="meter">
 				<se:Geometry>
