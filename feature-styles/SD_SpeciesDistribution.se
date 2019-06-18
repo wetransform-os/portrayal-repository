@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle 
+xmlns:sd="http://inspire.ec.europa.eu/schemas/sd/4.0" 
+xmlns:ogc="http://www.opengis.net/ogc" 
+xmlns:se="http://www.opengis.net/se" 
+xmlns:sld="http://www.opengis.net/sld" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+  <se:Description>
+    <se:Title>Species Distribution Default Style</se:Title>
+    <se:Abstract>This layer style is for representing presence information of species occurrences 
+    in grid cells or irregular shaped areas as analytical aggregation units without any further differentiation of additional attributes.</se:Abstract>
+  </se:Description>
+  <se:FeatureTypeName>sd:SpeciesDistributionUnit</se:FeatureTypeName>
+  <se:Rule>
+    <se:Description>
+      <se:Title>Species Distribution</se:Title>
+    </se:Description>
+    <ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:Function name="IsSurface">
+        		<ogc:PropertyName>sd:geometry</ogc:PropertyName>
+       		</ogc:Function>
+       		<ogc:Literal>true</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>sd:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Fill>
+        <se:SvgParameter name="fill">#808080</se:SvgParameter>
+        <se:SvgParameter name="fill-opacity">0.5</se:SvgParameter> 
+      </se:Fill>
+      <se:Stroke>
+        <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+        <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+      </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+</se:FeatureTypeStyle>

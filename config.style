@@ -1008,6 +1008,22 @@ Layer{
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/el-tin/4.0:ElevationTIN
 	Styles: EL_TIN
 }
+Layer{
+	id: "SD_SpeciesDistribution"
+	registry-id:""
+	tags: inspire
+	Name: "SD.SpeciesDistribution"
+	Title: en "Species Distribution", de "Verteilung der Arten"
+    SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/sd/4.0/:SpeciesDistributionUnit 
+    Styles: SD_SpeciesDistribution		
+}
+Style{
+	id:"SD_SpeciesDistribution"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/sd/4.0/:SpeciesDistributionUnit
+		URL: "feature-styles/SD_SpeciesDistribution.se"
+	}
+}
 Style{
 	id: "EL_TIN"
 	Remote{
