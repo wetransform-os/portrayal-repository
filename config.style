@@ -1022,7 +1022,7 @@ Layer{
 	registry-id:""
 	tags: inspire production
 	Name: "TN.RoadNode"
-	Title: en "Road Node", de "Strasseknotenpunkt"
+	Title: en "Road Node", de "Strassenknotenpunkt"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0/:RoadNode
 	Styles: TN_RO_RoadNode
 }
