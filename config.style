@@ -1011,11 +1011,27 @@ Layer{
 Layer{
 	id: "SD_SpeciesDistribution"
 	registry-id:""
-	tags: inspire
+	tags: inspire production
 	Name: "SD.SpeciesDistribution"
 	Title: en "Species Distribution", de "Verteilung der Arten"
     SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/sd/4.0/:SpeciesDistributionUnit 
     Styles: SD_SpeciesDistribution		
+}
+Layer{
+	id: "TN_RO_RoadNode"
+	registry-id:""
+	tags: inspire production
+	Name: "TN.RoadNode"
+	Title: en "Road Node", de "Strasseknotenpunkt"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0/:RoadNode
+	Styles: TN_RO_RoadNode
+}
+Style{
+	id:"TN_RO_RoadNode"
+	Remote{
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-ro/4.0/:RoadNode
+		URL: "feature-styles/TN_RO_RoadNode.se"
+	}
 }
 Style{
 	id:"SD_SpeciesDistribution"
