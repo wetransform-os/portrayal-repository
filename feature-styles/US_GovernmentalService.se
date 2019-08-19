@@ -15,6 +15,58 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
   </se:Description>
   <se:FeatureTypeName>us:GovernmentalService</se:FeatureTypeName>
   <se:Rule>
+  <se:Description>
+      <se:Title>Administrative and social governmental services default</se:Title>
+    </se:Description>
+    <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
+    <se:MaxScaleDenominator>500000.0</se:MaxScaleDenominator>
+    <se:PointSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>us:serviceLocation/us:ServiceLocationType/us:serviceLocationByGeometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Graphic>
+        <se:Mark>
+          <se:WellKnownName>circle</se:WellKnownName>
+          <se:Fill>
+            <se:SvgParameter name="fill">#FF0000</se:SvgParameter>
+          </se:Fill>
+          <se:Stroke>
+            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+            <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+          </se:Stroke>
+        </se:Mark>
+        <se:Size>6</se:Size>
+      </se:Graphic>
+    </se:PointSymbolizer>
+  </se:Rule> 
+<!--  
+  <se:Rule>
+  <se:Description>
+      <se:Title>Administrative and social governmental services - Education - point symbol</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>us:serviceType/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/administrationForEducation</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
+    <se:MaxScaleDenominator>500000.0</se:MaxScaleDenominator>
+    <se:PointSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>us:serviceLocation/us:ServiceLocationType/us:serviceLocationByGeometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Graphic>
+        <se:ExternalGraphic>
+        	<se:OnlineResource xlink:type="simple"
+        	xlink:href="https://wetransform.box.com/s/4wwic9yuphf8yxhinzatkqm6a2et3gg8"/>
+        	<se:Format>image/svg</se:Format>
+        </se:ExternalGraphic>
+        <se:Size>20</se:Size>
+      </se:Graphic>
+    </se:PointSymbolizer>
+  </se:Rule>
+ <se:Rule>
     <se:Description>
       <se:Title>Administrative and social governmental services - Education - point symbol</se:Title>
     </se:Description>
@@ -66,4 +118,5 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
       </se:Graphic>
     </se:PointSymbolizer>
   </se:Rule>
+  -->
 </se:FeatureTypeStyle>
