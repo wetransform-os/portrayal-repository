@@ -39,6 +39,61 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
       </se:Graphic>
     </se:PointSymbolizer>
   </se:Rule> 
+  <se:Rule>
+    <se:Description>
+      <se:Title>Administrative and social governmental services default</se:Title>
+    </se:Description>
+     <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
+    <se:MaxScaleDenominator>500000.0</se:MaxScaleDenominator>
+    <ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:Function name="IsSurface">
+        		<ogc:PropertyName>us:areaOfResponsibility/us:AreaOfResponsibilityType/us:areaOfResponsibilityByPolygon</ogc:PropertyName>
+       		</ogc:Function>
+       		<ogc:Literal>true</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>us:areaOfResponsibility/us:AreaOfResponsibilityType/us:areaOfResponsibilityByPolygon</ogc:PropertyName>
+      </se:Geometry>
+      <se:Fill>
+        <se:SvgParameter name="fill">#808080</se:SvgParameter>
+      </se:Fill>
+      <se:Stroke>
+        <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+        <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+      </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  <se:Rule>
+    <se:Description>
+      <se:Title>Administrative and social governmental services default</se:Title>
+    </se:Description>
+     <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
+    <se:MaxScaleDenominator>500000.0</se:MaxScaleDenominator>
+    <ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:Function name="IsSurface">
+        		<ogc:PropertyName>us:areaOfResponsibility/us:AreaOfResponsibilityType/us:areaOfResponsibilityByAdministrativeUnit/au:geometry</ogc:PropertyName>
+       		</ogc:Function>
+       		<ogc:Literal>true</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   	</ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>us:areaOfResponsibility/us:AreaOfResponsibilityType/us:areaOfResponsibilityByAdministrativeUnit/au:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Fill>
+        <se:SvgParameter name="fill">#000000</se:SvgParameter>
+      </se:Fill>
+      <se:Stroke>
+        <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+        <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+      </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  
 <!--  
   <se:Rule>
   <se:Description>

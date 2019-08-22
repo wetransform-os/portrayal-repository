@@ -539,13 +539,13 @@ tags: inspire production Name: "TN.WaterTransportNetwork.TrafficSeparationScheme
 Title: en "Traffic Separation Scheme Separator"
 , de "Übergangszone eines Verkehrstrennungsgebiets"
 SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/4.0:TrafficSeparationSchemeSeparator
-Styles: TN_W_TrafficSeparationSchemeSeparator } Layer { id: "PF_EconomicActivityValue"
-registry-id: "http://inspire.ec.europa.eu/layer/PF._EconomicActivityValue_"
-tags: inspire Name: "PF.EconomicActivityValue"
-Title: en "Economic Activity Value"
-, de ""
+Styles: TN_W_TrafficSeparationSchemeSeparator } Layer { id: "PF_ProductionFacility"
+registry-id: ""
+tags: inspire Name: "PF.ProductionFacility"
+Title: en "Production Facility"
+, de "Produktionsstätte"
 SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionFacility
-Styles: PF_EconomicActivityValue } Layer { id: "PF_ProductionBuilding"
+Styles: PF_ProductionFacility } Layer { id: "PF_ProductionBuilding"
 registry-id: "http://inspire.ec.europa.eu/layer/PF.ProductionBuilding"
 tags: inspire production Name: "PF.ProductionBuilding"
 Title: en "Production and industrial building"
@@ -819,10 +819,10 @@ Style {
 	}
 }
 Style {
-	id: "PF_EconomicActivityValue"
+	id: "PF_ProductionFacility"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionFacility
-		URL: "feature-styles/PF_EconomicActivityValue.se"
+		URL: "feature-styles/PF_ProductionFacility.se"
 	}
 }
 Style {

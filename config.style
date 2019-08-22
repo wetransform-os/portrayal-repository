@@ -811,13 +811,13 @@ Layer{
 	Styles: TN_W_TrafficSeparationSchemeSeparator
 }
 Layer{
-	id: "PF_EconomicActivityValue"
-	registry-id:"http://inspire.ec.europa.eu/layer/PF._EconomicActivityValue_"
+	id: "PF_ProductionFacility"
+	registry-id:""
 	tags: inspire
-	Name: "PF.EconomicActivityValue"
-	Title: en "Economic Activity Value", de ""
+	Name: "PF.ProductionFacility"
+	Title: en "Production Facility", de "Produktionsstätte"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionFacility
-	Styles: PF_EconomicActivityValue
+	Styles: PF_ProductionFacility
 }
 Layer{
 	id: "PF_ProductionBuilding"
@@ -1188,10 +1188,10 @@ Style{
 	}
 }
 Style{
-	id: "PF_EconomicActivityValue"
+	id: "PF_ProductionFacility"
 	Remote{
 		FeatureType: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionFacility
-		URL: "feature-styles/PF_EconomicActivityValue.se"
+		URL: "feature-styles/PF_ProductionFacility.se"
 	}
 }
 Style{
