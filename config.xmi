@@ -459,9 +459,9 @@
     <title text="Übergangszone eines Verkehrstrennungsgebiets"/>
     <objectType>tn-w_4.0:TrafficSeparationSchemeSeparator</objectType>
   </layerConfig>
-  <layerConfig name="PF_EconomicActivityValue" registryId="http://inspire.ec.europa.eu/layer/PF._EconomicActivityValue_" tags="//@tags.0" layerName="PF.EconomicActivityValue" styleConfig="//@styleConfig.21">
-    <title lang="en" text="Economic Activity Value"/>
-    <title text=""/>
+  <layerConfig name="PF_ProductionFacility" registryId="" tags="//@tags.0" layerName="PF.ProductionFacility" styleConfig="//@styleConfig.21">
+    <title lang="en" text="Production Facility"/>
+    <title text="Produktionsstätte"/>
     <objectType>pf_4.0:ProductionFacility</objectType>
   </layerConfig>
   <layerConfig name="PF_ProductionBuilding" registryId="http://inspire.ec.europa.eu/layer/PF.ProductionBuilding" tags="//@tags.0 //@tags.2" layerName="PF.ProductionBuilding" styleConfig="//@styleConfig.20">
@@ -632,8 +632,8 @@
   <styleConfig name="PF_ProductionBuilding">
     <remoteStyle featureTypeName="pf_4.0:ProductionBuilding" url="feature-styles/PF_ProductionBuilding.se"/>
   </styleConfig>
-  <styleConfig name="PF_EconomicActivityValue">
-    <remoteStyle featureTypeName="pf_4.0:ProductionFacility" url="feature-styles/PF_EconomicActivityValue.se"/>
+  <styleConfig name="PF_ProductionFacility">
+    <remoteStyle featureTypeName="pf_4.0:ProductionFacility" url="feature-styles/PF_ProductionFacility.se"/>
   </styleConfig>
   <styleConfig name="TN_W_TrafficSeparationSchemeSeparator">
     <remoteStyle featureTypeName="tn-w_4.0:TrafficSeparationSchemeSeparator" url="feature-styles/TN_W_TrafficSeparationSchemeSeparator.se"/>
