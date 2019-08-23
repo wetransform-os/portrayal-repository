@@ -11,31 +11,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
     <se:Abstract>The geometry is rendered as a circle with a size of 3 pixels, with a red (#FF0000) fill and a black outline (#000000).</se:Abstract>
   </se:Description>
   <se:FeatureTypeName>pf:ProductionFacility</se:FeatureTypeName>
-  <se:Rule>
-    <se:Description>
-      <se:Title>Production Facility Default Style</se:Title>
-    </se:Description>
-    <se:MinScaleDenominator>1</se:MinScaleDenominator>
-    <se:MaxScaleDenominator>35000</se:MaxScaleDenominator>
-    <se:PointSymbolizer>
-      <se:Geometry>
-        <ogc:PropertyName>act-core:geometry</ogc:PropertyName>
-      </se:Geometry>
-      <se:Graphic>
-        <se:Mark>
-          <se:WellKnownName>circle</se:WellKnownName>
-          <se:Fill>
-            <se:SvgParameter name="fill">#FF0000</se:SvgParameter>
-          </se:Fill>
-          <se:Stroke>
-            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
-            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
-          </se:Stroke>
-        </se:Mark>
-        <se:Size>6</se:Size>
-      </se:Graphic>
-    </se:PointSymbolizer>
-    </se:Rule>
+ 
     <se:Rule>
     <se:Description>
       <se:Title>Production Facility Default Style</se:Title>
@@ -90,4 +66,29 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
       </se:Stroke>
     </se:PolygonSymbolizer>
   </se:Rule>
+   <se:Rule>
+    <se:Description>
+      <se:Title>Production Facility Default Style</se:Title>
+    </se:Description>
+    <se:MinScaleDenominator>1</se:MinScaleDenominator>
+    <se:MaxScaleDenominator>35000</se:MaxScaleDenominator>
+    <se:PointSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>act-core:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Graphic>
+        <se:Mark>
+          <se:WellKnownName>circle</se:WellKnownName>
+          <se:Fill>
+            <se:SvgParameter name="fill">#FF0000</se:SvgParameter>
+          </se:Fill>
+          <se:Stroke>
+            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+          </se:Stroke>
+        </se:Mark>
+        <se:Size>6</se:Size>
+      </se:Graphic>
+    </se:PointSymbolizer>
+    </se:Rule>
 </se:FeatureTypeStyle>
