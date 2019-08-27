@@ -24,14 +24,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
        		<ogc:Literal>true</ogc:Literal>
        	</ogc:PropertyIsEqualTo>
    	</ogc:Filter>
-    <se:MinScaleDenominator>1</se:MinScaleDenominator>
-    <se:MaxScaleDenominator>35000</se:MaxScaleDenominator>
     <se:PolygonSymbolizer>
       <se:Geometry>
         <ogc:PropertyName>pf:geometry</ogc:PropertyName>
       </se:Geometry>
       <se:Fill>
-           <se:SvgParameter name="fill">##808080</se:SvgParameter>
+           <se:SvgParameter name="fill">#808080</se:SvgParameter>
       </se:Fill>
       <se:Stroke>
         <se:SvgParameter name="stroke">#000000</se:SvgParameter>
@@ -51,14 +49,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
        		<ogc:Literal>true</ogc:Literal>
        	</ogc:PropertyIsEqualTo>
    	</ogc:Filter>
-    <se:MinScaleDenominator>1</se:MinScaleDenominator>
-    <se:MaxScaleDenominator>35000</se:MaxScaleDenominator>
     <se:PolygonSymbolizer>
       <se:Geometry>
         <ogc:PropertyName>act-core:geometry</ogc:PropertyName>
       </se:Geometry>
       <se:Fill>
-           <se:SvgParameter name="fill">##808080</se:SvgParameter>
+           <se:SvgParameter name="fill">#808080</se:SvgParameter>
       </se:Fill>
       <se:Stroke>
         <se:SvgParameter name="stroke">#000000</se:SvgParameter>
@@ -70,8 +66,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
     <se:Description>
       <se:Title>Production Facility Default Style</se:Title>
     </se:Description>
-    <se:MinScaleDenominator>1</se:MinScaleDenominator>
-    <se:MaxScaleDenominator>35000</se:MaxScaleDenominator>
     <se:PointSymbolizer>
       <se:Geometry>
         <ogc:PropertyName>act-core:geometry</ogc:PropertyName>
