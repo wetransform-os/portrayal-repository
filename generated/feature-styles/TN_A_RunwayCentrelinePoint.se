@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" 
+xmlns:sld="http://www.opengis.net/sld" xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0" 
+xmlns:tn-a="http://inspire.ec.europa.eu/schemas/tn-a/4.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd" version="1.1.0">
+  <se:Description>
+    <se:Title>Runway Centreline Point Default Style</se:Title>
+    <se:Abstract>The geometry is rendered using a red (#FF0000) fill.</se:Abstract>
+  </se:Description>
+  <se:FeatureTypeName>tn-a:RunwayCentrelinePoint</se:FeatureTypeName>
+  <se:Rule>
+    <se:PointSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>net:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Graphic>
+        <se:Mark>
+          <se:WellKnownName>triangle</se:WellKnownName>
+          <se:Fill>
+            <se:SvgParameter name="fill">#FF0000</se:SvgParameter>
+          </se:Fill>
+          <se:Stroke>
+            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+          </se:Stroke>
+        </se:Mark>
+        <se:Size>3</se:Size>
+      </se:Graphic>
+    </se:PointSymbolizer>
+  </se:Rule>
+</se:FeatureTypeStyle>
