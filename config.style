@@ -316,6 +316,51 @@ Layer {
 	Styles: TN_A_TaxiwayArea
 }
 Layer {
+	id: "TN_AirTran_6"
+	registry-id:""
+	tags:
+	Name: "TN.AirTransportNetwork.DesignatedPoint"
+	Title: en "Designated Point", de "Designierter Punkt"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:DesignatedPoint
+	Styles: TN_A_DesignatedPoint
+}
+Layer {
+	id: "TN_AirTran_7"
+	registry-id:""
+	tags:
+	Name: "TN.AirTransportNetwork.AerodromeNode"
+	Title: en "Aerodrome Node", de "Flugplatzknotenpunkt"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:AerodromeNode
+	Styles: TN_A_AerodromeNode
+}
+Layer {
+	id: "TN_AirTran_8"
+	registry-id:""
+	tags:
+	Name: "TN.AirTransportNetwork.TouchDownLiftOff"
+	Title: en "Touch Down Lift Off Area", de "Start- und Landebereich für Hubschrauber"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:TouchDownLiftOff
+	Styles: TN_A_TouchDownLiftOff
+}
+Layer {
+	id: "TN_AirTran_9"
+	registry-id:""
+	tags:
+	Name: "TN.AirTransportNetwork.Navaid"
+	Title: en "Navaid", de "Navigationshilfe"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:Navaid
+	Styles: TN_A_Navaid
+}
+Layer {
+	id: "TN_AirTran_10"
+	registry-id:""
+	tags:
+	Name: "TN.AirTransportNetwork.RunwayCentrelinePoint"
+	Title: en "Runway Centreline Point", de "Mittellinienpunkt der Landebahn"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:RunwayCentrelinePoint
+	Styles: TN_A_RunwayCentrelinePoint
+}
+Layer {
 	id: "TN_CableTr"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.CableTransportNetwork.CablewayLink"
 	tags:
@@ -1025,6 +1070,41 @@ Layer{
 	Title: en "Road Node", de "Strassenknotenpunkt"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0/:RoadNode
 	Styles: TN_RO_RoadNode
+}
+Style {
+	id: "TN_A_DesignatedPoint"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/4.0:DesignatedPoint
+		URL: "feature-styles/TN_A_DesignatedPoint.se"
+	}
+}
+Style {
+	id: "TN_A_Navaid"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/4.0:Navaid
+		URL: "feature-styles/TN_A_Navaid.se"
+	}
+}
+Style {
+	id: "TN_A_RunwayCentrelinePoint"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/4.0:RunwayCentrelinePoint
+		URL: "feature-styles/TN_A_RunwayCentrelinePoint.se"
+	}
+}
+Style {
+	id: "TN_A_AerodromeNode"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/4.0:AerodromeNode
+		URL: "feature-styles/TN_A_AerodromeNode.se"
+	}
+}
+Style {
+	id: "TN_A_TouchDownLiftOff"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/4.0:TouchDownLiftOff
+		URL: "feature-styles/TN_A_TouchDownLiftOff.se"
+	}
 }
 Style{
 	id:"TN_RO_RoadNode"
