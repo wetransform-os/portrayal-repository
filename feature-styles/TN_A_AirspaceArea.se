@@ -17,10 +17,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http:/
       </se:Geometry>
       <se:Fill>
         <se:SvgParameter name="fill">#8B008B</se:SvgParameter>
-        <se:SvgParameter name="fill-opacity">0.75</se:SvgParameter>
+        <se:SvgParameter name="fill-opacity">0.25</se:SvgParameter>
       </se:Fill>
       <se:Stroke>
-        <se:SvgParameter name="stroke">#8B008B</se:SvgParameter>
+        <se:SvgParameter name="stroke">#808080</se:SvgParameter>
         <se:SvgParameter name="stroke-width">2</se:SvgParameter>
       </se:Stroke>
     </se:PolygonSymbolizer>
