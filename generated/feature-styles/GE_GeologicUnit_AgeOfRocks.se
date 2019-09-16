@@ -16,7 +16,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
     Please note, the defining age for the unit is the older age</se:Abstract>
   </se:Description>
   <se:FeatureTypeName>ge:MappedFeature</se:FeatureTypeName>
-  
+<!-- 
    <se:Rule>
     <se:Description>
       <se:Title>Geologic Units – Default</se:Title>
@@ -34,7 +34,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	   </se:Stroke>
     </se:PolygonSymbolizer>
   </se:Rule>
-  
+ -->  
   <se:Rule>
     <se:Description>
       <se:Title>Geologic Units – NW</se:Title>
@@ -42,7 +42,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
     <ogc:Filter>
 		<ogc:PropertyIsEqualTo> 
 			<ogc:PropertyName>mr-core:MineralOccurrence/mr-core:commodityDescription/mr-core:Commodity/mr-core:commodity/@xlink:href</ogc:PropertyName>
-			<ogc:Literal>http://inspire.ec.europa.eu/codelist/CommodityCodeValue/sand</ogc:Literal>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/CommodityCodeValue/peat</ogc:Literal>
 		</ogc:PropertyIsEqualTo>
 	</ogc:Filter>
     <se:PolygonSymbolizer>
