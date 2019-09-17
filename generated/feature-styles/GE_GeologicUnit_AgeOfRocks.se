@@ -41,7 +41,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
     </se:Description>
     <ogc:Filter>
 		<ogc:PropertyIsEqualTo> 
-			<ogc:PropertyName>mr-core:MineralOccurrence/mr-core:commodityDescription/mr-core:Commodity/mr-core:commodity/@xlink:href</ogc:PropertyName>
+			<ogc:PropertyName>ge:specification/mr-core:MineralOccurrence/mr-core:commodityDescription/mr-core:Commodity/mr-core:commodity/@xlink:href</ogc:PropertyName>
 			<ogc:Literal>http://inspire.ec.europa.eu/codelist/CommodityCodeValue/peat</ogc:Literal>
 		</ogc:PropertyIsEqualTo>
 	</ogc:Filter>
