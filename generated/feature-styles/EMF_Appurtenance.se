@@ -25,7 +25,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
             <se:SvgParameter name="stroke-width">1</se:SvgParameter>
           </se:Stroke>
         </se:Mark>
-        <se:Size>6</se:Size>
+        <se:Size>10</se:Size>
       </se:Graphic>
     </se:PointSymbolizer>
   </se:Rule>

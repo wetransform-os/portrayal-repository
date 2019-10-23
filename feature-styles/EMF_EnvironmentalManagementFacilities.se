@@ -59,7 +59,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
 	            <se:SvgParameter name="stroke-width">1</se:SvgParameter> 
 	          </se:Stroke>
 	        </se:Mark>
-	        <se:Size>6</se:Size>
+	        <se:Size>10</se:Size>
 	      </se:Graphic>
 	    </se:PointSymbolizer>    
 	</se:Rule>
