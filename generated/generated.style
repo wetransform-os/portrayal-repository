@@ -497,7 +497,25 @@ tags: inspire production Name: "AM.WaterBodyForWFD"
 Title: en "WaterBodyForWFD"
 , de "Wasserkörper gemäß der Wasserrahmenrichtlinie (2000/60/EG)"
 SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/am/4.0:ManagementRestrictionOrRegulationZone
-Styles: AM_WaterBodyForWFD } Layer { id: "EF_EnvironmentalMonitoringFacilities"
+Styles: AM_WaterBodyForWFD } Layer { id: "EMF_EnvironmentalManagementFacilities"
+registry-id: ""
+tags: inspire production Name: "EMF.EnvironmentalManagementFacilities"
+Title: en "Environmental Management Facilities"
+, de "Umweltmanagementeinrichtungen"
+SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/us-emf/4.0:EnvironmentalManagementFacility
+Styles: EMF_EnvironmentalManagementFacilities } Layer { id: "EMF_Appurtenance"
+registry-id: ""
+tags: inspire production Name: "EMF.Appurtenance"
+Title: en "Appurtenance"
+, de "Zubehörteil"
+SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/us-net-common/4.0:Appurtenance
+Styles: EMF_Appurtenance } Layer { id: "EMF_UtilityLink"
+registry-id: ""
+tags: inspire production Name: "EMF.UtilityLink"
+Title: en "Utility Link"
+, de "Versorgungsverbindung"
+SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/us-net-common/4.0:UtilityLink
+Styles: EMF_UtilityLink } Layer { id: "EF_EnvironmentalMonitoringFacilities"
 registry-id: "http://inspire.ec.europa.eu/layer/EF.EnvironmentalMonitoringFacilities"
 tags: inspire production Name: "EF.EnvironmentalMonitoringFacilities"
 Title: en "Environmental Monitoring Facilities"
@@ -702,6 +720,27 @@ Title: en "Road Node"
 , de "Strassenknotenpunkt"
 SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0/:RoadNode
 Styles: TN_RO_RoadNode } Style {
+	id: "EMF_Appurtenance"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/us-net-common/4.0:Appurtenance
+		URL: "feature-styles/EMF_Appurtenance.se"
+	}
+}
+Style {
+	id: "EMF_UtilityLink"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/us-net-common/4.0:UtilityLink
+		URL: "feature-styles/EMF_UtilityLink.se"
+	}
+}
+Style {
+	id: "EMF_EnvironmentalManagementFacilities"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/ef/4.0:EnvironmentalMonitoringFacility
+		URL: "feature-styles/EMF_EnvironmentalManagementFacilities.se"
+	}
+}
+Style {
 	id: "TN_A_DesignatedPoint"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/4.0:DesignatedPoint
