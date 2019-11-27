@@ -163,13 +163,22 @@ Layer {
 	Styles: GN_NamedPlace
 }
 Layer {
-	id: "HY_Network"
-	registry-id:"http://inspire.ec.europa.eu/layer/HY.Network"
+	id: "HY_Network_WatercourseLink"
+	registry-id:""
 	tags: inspire production
-	Name: "HY.Network"
-	Title: en "Hydrographic network", de "Hydrografisches Netzwerk"
+	Name: "HY.Network.WatercourseLink"
+	Title: en "Hydrographic network - WatercourseLink", de "Hydrografisches Netzwerk- WatercourseLink"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-n/4.0:WatercourseLink
-	, http://inspire.ec.europa.eu/schemas/hy-n/4.0:HydroNode Styles: HY_N_WatercourseLink , HY_N_HydroNode
+	Styles: HY_N_WatercourseLink
+}
+Layer {
+	id: "HY_Network_HydroNode"
+	registry-id:""
+	tags: inspire production
+	Name: "HY.Network.HydroNode"
+	Title: en "Hydrographic network - HydroNode", de "Hydrografisches Netzwerk- HydroNode"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-n/4.0:HydroNode 
+	Styles: HY_N_HydroNode
 }
 Layer {
 	id: "HY_Physica"
