@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <se:FeatureTypeStyle  xmlns:ge="http://inspire.ec.europa.eu/schemas/ge-core/4.0" 
+xmlns:mr-core="http://inspire.ec.europa.eu/schemas/mr-core/4.0"
 xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0" 
 xmlns:ogc="http://www.opengis.net/ogc" 
 xmlns:se="http://www.opengis.net/se" 
@@ -15,7 +16,6 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
     Please note, the defining age for the unit is the older age</se:Abstract>
   </se:Description>
   <se:FeatureTypeName>ge:MappedFeature</se:FeatureTypeName>
-  
    <se:Rule>
     <se:Description>
       <se:Title>Geologic Units – Default</se:Title>
@@ -33,7 +33,6 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	   </se:Stroke>
     </se:PolygonSymbolizer>
   </se:Rule>
-  
   <se:Rule>
     <se:Description>
       <se:Title>Geologic Units – Age of rocks</se:Title>

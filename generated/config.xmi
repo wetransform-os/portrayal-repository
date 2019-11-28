@@ -90,10 +90,14 @@
     <title text="Geografische Bezeichnungen"/>
     <objectType>gn_4.0:NamedPlace</objectType>
   </layerConfig>
-  <layerConfig name="HY_Network" registryId="http://inspire.ec.europa.eu/layer/HY.Network" tags="//@tags.0 //@tags.2" layerName="HY.Network" styleConfig="//@styleConfig.85 //@styleConfig.86">
-    <title lang="en" text="Hydrographic network"/>
-    <title text="Hydrografisches Netzwerk"/>
+  <layerConfig name="HY_Network_WatercourseLink" registryId="" tags="//@tags.0 //@tags.2" layerName="HY.Network.WatercourseLink" styleConfig="//@styleConfig.85">
+    <title lang="en" text="Hydrographic network - WatercourseLink"/>
+    <title text="Hydrografisches Netzwerk- WatercourseLink"/>
     <objectType>hy-n_4.0:WatercourseLink</objectType>
+  </layerConfig>
+  <layerConfig name="HY_Network_HydroNode" registryId="" tags="//@tags.0 //@tags.2" layerName="HY.Network.HydroNode" styleConfig="//@styleConfig.86">
+    <title lang="en" text="Hydrographic network - HydroNode"/>
+    <title text="Hydrografisches Netzwerk- HydroNode"/>
     <objectType>hy-n_4.0:HydroNode</objectType>
   </layerConfig>
   <layerConfig name="HY_Physica" registryId="http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Catchments" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.Catchments" styleConfig="//@styleConfig.87 //@styleConfig.88">
