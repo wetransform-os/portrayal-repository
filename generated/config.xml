@@ -157,58 +157,58 @@
     <title text="Schutzgebiete"/>
     <objectType>ps_4.0:ProtectedSite</objectType>
   </layerConfig>
-  <layerConfig name="TN_AirTran" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AerodromeArea" layerName="TN.AirTransportNetwork.AerodromeArea" styleConfig="//@styleConfig.106">
+  <layerConfig name="TN_AirTran" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AerodromeArea" tags="//@tags.0 //@tags.2" layerName="TN.AirTransportNetwork.AerodromeArea" styleConfig="//@styleConfig.106">
     <title lang="en" text="Aerodrome Area"/>
     <title text="Flugplatzgelände"/>
     <objectType>tn-a_4.0:AerodromeArea</objectType>
   </layerConfig>
-  <layerConfig name="TN_AirTran_1" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AirLink" layerName="TN.AirTransportNetwork.AirLink" styleConfig="//@styleConfig.107 //@styleConfig.108">
+  <layerConfig name="TN_AirTran_1" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AirLink" tags="//@tags.0 //@tags.2" layerName="TN.AirTransportNetwork.AirLink" styleConfig="//@styleConfig.107 //@styleConfig.108">
     <title lang="en" text="Air Link"/>
     <title text="Luftverbindung"/>
     <objectType>tn-a_4.0:ProcedureLink</objectType>
     <objectType>tn-a_4.0:AirRouteLink</objectType>
   </layerConfig>
-  <layerConfig name="TN_AirTran_2" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AirspaceArea" layerName="TN.AirTransportNetwork.AirSpaceArea" styleConfig="//@styleConfig.109">
+  <layerConfig name="TN_AirTran_2" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AirspaceArea" tags="//@tags.0 //@tags.2" layerName="TN.AirTransportNetwork.AirSpaceArea" styleConfig="//@styleConfig.109">
     <title lang="en" text="Air Space Area"/>
     <title text="Luftraumbereich"/>
     <objectType>tn-a_4.0:AirspaceArea</objectType>
   </layerConfig>
-  <layerConfig name="TN_AirTran_3" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.ApronArea" layerName="TN.AirTransportNetwork.ApronArea" styleConfig="//@styleConfig.110">
+  <layerConfig name="TN_AirTran_3" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.ApronArea" tags="//@tags.0 //@tags.2" layerName="TN.AirTransportNetwork.ApronArea" styleConfig="//@styleConfig.110">
     <title lang="en" text="Apron Area"/>
     <title text="Vorfeldgelände"/>
     <objectType>tn-a_4.0:ApronArea</objectType>
   </layerConfig>
-  <layerConfig name="TN_AirTran_4" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.RunwayArea" layerName="TN.AirTransportNetwork.RunwayArea" styleConfig="//@styleConfig.111">
+  <layerConfig name="TN_AirTran_4" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.RunwayArea" tags="//@tags.0 //@tags.2" layerName="TN.AirTransportNetwork.RunwayArea" styleConfig="//@styleConfig.111">
     <title lang="en" text="Runway Area"/>
     <title text="Landebahngelände"/>
     <objectType>tn-a_4.0:RunwayArea</objectType>
   </layerConfig>
-  <layerConfig name="TN_AirTran_5" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.TaxiwayArea" layerName="TN.AirTransportNetwork.TaxiwayArea" styleConfig="//@styleConfig.112">
+  <layerConfig name="TN_AirTran_5" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.TaxiwayArea" tags="//@tags.0 //@tags.2" layerName="TN.AirTransportNetwork.TaxiwayArea" styleConfig="//@styleConfig.112">
     <title lang="en" text="Taxiway Area"/>
     <title text="Rollfeld"/>
     <objectType>tn-a_4.0:TaxiwayArea</objectType>
   </layerConfig>
-  <layerConfig name="TN_AirTran_6" registryId="" layerName="TN.AirTransportNetwork.DesignatedPoint" styleConfig="//@styleConfig.3">
+  <layerConfig name="TN_AirTran_6" registryId="" tags="//@tags.0 //@tags.2" layerName="TN.AirTransportNetwork.DesignatedPoint" styleConfig="//@styleConfig.3">
     <title lang="en" text="Designated Point"/>
     <title text="Designierter Punkt"/>
     <objectType>tn-a_4.0:DesignatedPoint</objectType>
   </layerConfig>
-  <layerConfig name="TN_AirTran_7" registryId="" layerName="TN.AirTransportNetwork.AerodromeNode" styleConfig="//@styleConfig.6">
+  <layerConfig name="TN_AirTran_7" registryId="" tags="//@tags.0 //@tags.2" layerName="TN.AirTransportNetwork.AerodromeNode" styleConfig="//@styleConfig.6">
     <title lang="en" text="Aerodrome Node"/>
     <title text="Flugplatzknotenpunkt"/>
     <objectType>tn-a_4.0:AerodromeNode</objectType>
   </layerConfig>
-  <layerConfig name="TN_AirTran_8" registryId="" layerName="TN.AirTransportNetwork.TouchDownLiftOff" styleConfig="//@styleConfig.7">
+  <layerConfig name="TN_AirTran_8" registryId="" tags="//@tags.0 //@tags.2" layerName="TN.AirTransportNetwork.TouchDownLiftOff" styleConfig="//@styleConfig.7">
     <title lang="en" text="Touch Down Lift Off Area"/>
     <title text="Start- und Landebereich für Hubschrauber"/>
     <objectType>tn-a_4.0:TouchDownLiftOff</objectType>
   </layerConfig>
-  <layerConfig name="TN_AirTran_9" registryId="" layerName="TN.AirTransportNetwork.Navaid" styleConfig="//@styleConfig.4">
+  <layerConfig name="TN_AirTran_9" registryId="" tags="//@tags.0 //@tags.2" layerName="TN.AirTransportNetwork.Navaid" styleConfig="//@styleConfig.4">
     <title lang="en" text="Navaid"/>
     <title text="Navigationshilfe"/>
     <objectType>tn-a_4.0:Navaid</objectType>
   </layerConfig>
-  <layerConfig name="TN_AirTran_10" registryId="" layerName="TN.AirTransportNetwork.RunwayCentrelinePoint" styleConfig="//@styleConfig.5">
+  <layerConfig name="TN_AirTran_10" registryId="" tags="//@tags.0 //@tags.2" layerName="TN.AirTransportNetwork.RunwayCentrelinePoint" styleConfig="//@styleConfig.5">
     <title lang="en" text="Runway Centreline Point"/>
     <title text="Mittellinienpunkt der Landebahn"/>
     <objectType>tn-a_4.0:RunwayCentrelinePoint</objectType>
