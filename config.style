@@ -273,7 +273,7 @@ Layer {
 Layer {
 	id: "TN_AirTran"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AerodromeArea"
-	tags:
+	tags: inspire production
 	Name: "TN.AirTransportNetwork.AerodromeArea"
 	Title: en "Aerodrome Area", de "Flugplatzgelände"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:AerodromeArea
@@ -282,7 +282,7 @@ Layer {
 Layer {
 	id: "TN_AirTran_1"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AirLink"
-	tags:
+	tags: inspire production
 	Name: "TN.AirTransportNetwork.AirLink"
 	Title: en "Air Link", de "Luftverbindung"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:ProcedureLink
@@ -291,7 +291,7 @@ Layer {
 Layer {
 	id: "TN_AirTran_2"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AirspaceArea"
-	tags:
+	tags: inspire production
 	Name: "TN.AirTransportNetwork.AirSpaceArea"
 	Title: en "Air Space Area", de "Luftraumbereich"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:AirspaceArea
@@ -300,7 +300,7 @@ Layer {
 Layer {
 	id: "TN_AirTran_3"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.ApronArea"
-	tags:
+	tags: inspire production
 	Name: "TN.AirTransportNetwork.ApronArea"
 	Title: en "Apron Area", de "Vorfeldgelände"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:ApronArea
@@ -309,7 +309,7 @@ Layer {
 Layer {
 	id: "TN_AirTran_4"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.RunwayArea"
-	tags:
+	tags: inspire production
 	Name: "TN.AirTransportNetwork.RunwayArea"
 	Title: en "Runway Area", de "Landebahngelände"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:RunwayArea
@@ -318,7 +318,7 @@ Layer {
 Layer {
 	id: "TN_AirTran_5"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.TaxiwayArea"
-	tags:
+	tags: inspire production
 	Name: "TN.AirTransportNetwork.TaxiwayArea"
 	Title: en "Taxiway Area", de "Rollfeld"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:TaxiwayArea
@@ -327,7 +327,7 @@ Layer {
 Layer {
 	id: "TN_AirTran_6"
 	registry-id:""
-	tags:
+	tags: inspire production
 	Name: "TN.AirTransportNetwork.DesignatedPoint"
 	Title: en "Designated Point", de "Designierter Punkt"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:DesignatedPoint
@@ -336,7 +336,7 @@ Layer {
 Layer {
 	id: "TN_AirTran_7"
 	registry-id:""
-	tags:
+	tags: inspire production
 	Name: "TN.AirTransportNetwork.AerodromeNode"
 	Title: en "Aerodrome Node", de "Flugplatzknotenpunkt"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:AerodromeNode
@@ -345,7 +345,7 @@ Layer {
 Layer {
 	id: "TN_AirTran_8"
 	registry-id:""
-	tags:
+	tags: inspire production
 	Name: "TN.AirTransportNetwork.TouchDownLiftOff"
 	Title: en "Touch Down Lift Off Area", de "Start- und Landebereich für Hubschrauber"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:TouchDownLiftOff
@@ -354,7 +354,7 @@ Layer {
 Layer {
 	id: "TN_AirTran_9"
 	registry-id:""
-	tags:
+	tags: inspire production
 	Name: "TN.AirTransportNetwork.Navaid"
 	Title: en "Navaid", de "Navigationshilfe"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:Navaid
@@ -363,7 +363,7 @@ Layer {
 Layer {
 	id: "TN_AirTran_10"
 	registry-id:""
-	tags:
+	tags: inspire production
 	Name: "TN.AirTransportNetwork.RunwayCentrelinePoint"
 	Title: en "Runway Centreline Point", de "Mittellinienpunkt der Landebahn"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:RunwayCentrelinePoint
