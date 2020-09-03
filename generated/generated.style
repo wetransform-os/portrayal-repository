@@ -725,72 +725,7 @@ tags: inspire production Name: "TN.RoadNode"
 Title: en "Road Node"
 , de "Strassenknotenpunkt"
 SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0/:RoadNode
-Styles: TN_RO_RoadNode } Layer { id: "SO_ObservedSoilProfile"
-registry-id: "http://inspire.ec.europa.eu/layer/SO.ObservedSoilProfile"
-tags: inspire production Name: "SO.ObservedSoilProfile"
-Title: en "Soil Plot"
-, de "Bodenplot"
-SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/so/4.0:SoilPlot
-Styles: SO_ObservedSoilProfile } Layer { id: "SO_AX_Bodenschaetzung"
-registry-id: ""
-tags: inspire production Name: "SO.AX_Bodenschaetzung"
-Title: en "Soil Derived Object"
-, de "Abgeleitetes Bodenobjekt"
-SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/so/4.0:SoilDerivedObject
-Styles: SO_AX_Bodenschaetzung } Layer { id: "SO_AX_GrablochDerBodenschaetzung"
-registry-id: ""
-tags: inspire production Name: "SO.AX_GrablochDerBodenschaetzung"
-Title: en "Soil Derived Object"
-, de "Abgeleitetes Bodenobjekt"
-SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/so/4.0:SoilDerivedObject
-Styles: AX_GrablochDerBodenschaetzung } Layer { id: "SO_AX_MusterLandesmusterUndVergleichsstueck"
-registry-id: ""
-tags: inspire production Name: "SO.AX_MusterLandesmusterUndVergleichsstueck"
-Title: en "Soil Derived Object"
-, de "Abgeleitetes Bodenobjekt"
-SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/so/4.0:SoilDerivedObject
-Styles: AX_MusterLandesmusterUndVergleichsstueck } Layer { id: "SO_AX_Tagesabschnitt"
-registry-id: ""
-tags: inspire production Name: "SO.AX_Tagesabschnitt"
-Title: en "Soil Derived Object"
-, de "Abgeleitetes Bodenobjekt"
-SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/so/4.0:SoilDerivedObject
-Styles: AX_Tagesabschnitt } Style {
-	id: "AX_Tagesabschnitt"
-	Remote {
-		FeatureType: http://inspire.ec.europa.eu/schemas/so/4.0:SoilDerivedObject
-		URL: "feature-styles/SO_AX_Tagesabschnitt.se"
-	}
-}
-Style {
-	id: "AX_MusterLandesmusterUndVergleichsstueck"
-	Remote {
-		FeatureType: http://inspire.ec.europa.eu/schemas/so/4.0:SoilDerivedObject
-		URL: "feature-styles/SO_AX_MusterLandesmusterUndVergleichsstueck.se"
-	}
-}
-Style {
-	id: "AX_GrablochDerBodenschaetzung"
-	Remote {
-		FeatureType: http://inspire.ec.europa.eu/schemas/so/4.0:SoilDerivedObject
-		URL: "feature-styles/SO_AX_GrablochDerBodenschaetzung.se"
-	}
-}
-Style {
-	id: "SO_AX_Bodenschaetzung"
-	Remote {
-		FeatureType: http://inspire.ec.europa.eu/schemas/so/4.0:SoilDerivedObject
-		URL: "feature-styles/SO_AX_Bodenschaetzung.se"
-	}
-}
-Style {
-	id: "SO_ObservedSoilProfile"
-	Remote {
-		FeatureType: http://inspire.ec.europa.eu/schemas/so/4.0:SoilPlot
-		URL: "feature-styles/SO_ObservedSoilProfile.se"
-	}
-}
-Style {
+Styles: TN_RO_RoadNode } Style {
 	id: "EMF_Appurtenance"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/us-net-common/4.0:Appurtenance
