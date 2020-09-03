@@ -4,6 +4,7 @@ xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se"
 xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" 
 xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
+  <se:Name>AM.NoiseRestrictionZone.Default</se:Name>
   <se:Description>
     <se:Title>Noise Restriction Zone Default Style</se:Title>
     <se:Abstract>The geometry is rendered for points as a square with a size of 6 pixels, with a mango (#FFD37F) fill 
