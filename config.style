@@ -1095,7 +1095,7 @@ Layer{
 	tags: inspire production
 	Name: "SD.SpeciesDistribution"
 	Title: en "Species Distribution", de "Verteilung der Arten"
-    SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/sd/4.0/:SpeciesDistributionUnit 
+    SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/sd/4.0/:SpeciesDistributionUnit
     Styles: SD_SpeciesDistribution		
 }
 Layer{
