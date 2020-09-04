@@ -3,6 +3,7 @@
 xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" 
 xmlns:sld="http://www.opengis.net/sld" xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/4.0" 
 xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
+  <se:Name>US.UtilityNetworkLink.Default</se:Name>
   <se:Description>
     <se:Title>Utility Link Default Style</se:Title>
     <se:Abstract>The geometry is rendered as a solid maroon (#800000)line with a stroke width of 3 pixel. Ends are rounded and have a 2 pixel black (#000000) casing.</se:Abstract>

@@ -4,6 +4,7 @@ xmlns:se="http://www.opengis.net/se" xmlns:sld="http://www.opengis.net/sld" xmln
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd"
 version="1.1.0">
+  <se:Name>HY.PhysicalWaters.Catchments.Default</se:Name>
   <se:Description>
     <se:Title>Catchments Default Style</se:Title>
     <se:Abstract>Drainage Basin areas are portrayed by no filled polygons with a solid blue (#0066FF) border with stroke width of 4 pixel the RiverBasin features and with stroke width of 2 pixel the DrainageBasin ones.</se:Abstract>

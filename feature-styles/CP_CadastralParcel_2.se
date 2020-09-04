@@ -4,6 +4,7 @@ xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se"
 xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" 
 xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
+  <se:Name>CP.CadastralParcel.LabelOnReferencePoint</se:Name>
   <se:Description>
     <se:Title>Cadastral Parcel with label on reference point</se:Title>
     <se:Abstract>Parcel outline is rendered as a black (#000000 line an a 1 pixel width. Labels are rendered in Arial, font-size 10 and in black (#000000).</se:Abstract>

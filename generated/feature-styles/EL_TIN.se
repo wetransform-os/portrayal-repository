@@ -6,6 +6,7 @@ xmlns:sld="http://www.opengis.net/sld"
 xmlns:xlink="http://www.w3.org/1999/xlink" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+  <se:Name>EL.TIN.Default</se:Name>
   <se:Description>
     <se:Title>TIN Elevation Default Style</se:Title>
     <se:Abstract>TIN Elevation default style is a complex style where the different geometry types forming part of an ElevationTIN are rendered: stopLines are (#7F8850) 2 pixel width lines; breakLines are (#CF7916) 2 pixel width lines; controlPoints are black(#000000) 1 pixel circles of size 10.</se:Abstract>

@@ -137,7 +137,7 @@
     <objectType>hy-p_4.0:Watercourse</objectType>
     <objectType>hy-p_4.0:StandingWater</objectType>
   </layerConfig>
-  <layerConfig name="HY_Physica_6" registryId="" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.Waterbodies.Man.Made.Natural" styleConfig="//@styleConfig.100 //@styleConfig.101">
+  <layerConfig name="HY_Physica_6" registryId="" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.Waterbodies.Man.Made" styleConfig="//@styleConfig.100 //@styleConfig.101">
     <title lang="en" text="Man-made Object (Natural)"/>
     <objectType>hy-p_4.0:Watercourse</objectType>
     <objectType>hy-p_4.0:StandingWater</objectType>
@@ -433,12 +433,12 @@
     <title text="Umweltmanagementeinrichtungen"/>
     <objectType>us-emf_4.0:EnvironmentalManagementFacility</objectType>
   </layerConfig>
-  <layerConfig name="EMF_Appurtenance" registryId="" tags="//@tags.0 //@tags.2" layerName="EMF.Appurtenance" styleConfig="//@styleConfig.0">
+  <layerConfig name="US_UtilityNetworkAppurtenance" registryId="" tags="//@tags.0 //@tags.2" layerName="US.UtilityNetworkAppurtenance" styleConfig="//@styleConfig.0">
     <title lang="en" text="Appurtenance"/>
     <title text="Zubehörteil"/>
     <objectType>us-net-common_4.0:Appurtenance</objectType>
   </layerConfig>
-  <layerConfig name="EMF_UtilityLink" registryId="" tags="//@tags.0 //@tags.2" layerName="EMF.UtilityLink" styleConfig="//@styleConfig.1">
+  <layerConfig name="US_UtilityNetworkLink" registryId="" tags="//@tags.0 //@tags.2" layerName="US.UtilityNetworkLink" styleConfig="//@styleConfig.1">
     <title lang="en" text="Utility Link"/>
     <title text="Versorgungsverbindung"/>
     <objectType>us-net-common_4.0:UtilityLink</objectType>
@@ -613,11 +613,11 @@
     <title text="Strassenknotenpunkt"/>
     <objectType>tn-ro_4.0_1:RoadNode</objectType>
   </layerConfig>
-  <styleConfig name="EMF_Appurtenance">
-    <remoteStyle featureTypeName="us-net-common_4.0:Appurtenance" url="feature-styles/EMF_Appurtenance.se"/>
+  <styleConfig name="US_UtilityNetworkAppurtenance">
+    <remoteStyle featureTypeName="us-net-common_4.0:Appurtenance" url="feature-styles/US_UtilityNetworkAppurtenance.se"/>
   </styleConfig>
-  <styleConfig name="EMF_UtilityLink">
-    <remoteStyle featureTypeName="us-net-common_4.0:UtilityLink" url="feature-styles/EMF_UtilityLink.se"/>
+  <styleConfig name="US_UtilityNetworkLink">
+    <remoteStyle featureTypeName="us-net-common_4.0:UtilityLink" url="feature-styles/US_UtilityNetworkLink.se"/>
   </styleConfig>
   <styleConfig name="EMF_EnvironmentalManagementFacilities">
     <remoteStyle featureTypeName="ef_4.0:EnvironmentalMonitoringFacility" url="feature-styles/EMF_EnvironmentalManagementFacilities.se"/>
@@ -865,8 +865,8 @@
   <styleConfig name="CP_CadastralZoning">
     <remoteStyle featureTypeName="cp_4.0:CadastralZoning" url="feature-styles/CP_CadastralZoning.se"/>
   </styleConfig>
-  <styleConfig name="GN_NamedPlace">
-    <remoteStyle featureTypeName="gn_4.0:NamedPlace" url="feature-styles/GN_NamedPlace.se"/>
+  <styleConfig name="GN_GeographicalNames">
+    <remoteStyle featureTypeName="gn_4.0:NamedPlace" url="feature-styles/GN_GeographicalNames.se"/>
   </styleConfig>
   <styleConfig name="HY_N_WatercourseLink">
     <remoteStyle featureTypeName="hy-n_4.0:WatercourseLink" url="feature-styles/HY_N_WatercourseLink.se"/>
@@ -895,8 +895,8 @@
   <styleConfig name="HY_P_DamOrWeir">
     <remoteStyle featureTypeName="hy-p_4.0:DamOrWeir" url="feature-styles/HY_P_DamOrWeir.se"/>
   </styleConfig>
-  <styleConfig name="HY_P_Shore">
-    <remoteStyle featureTypeName="hy-p_4.0:ShorelineConstruction" url="feature-styles/HY_P_Shore.se"/>
+  <styleConfig name="HY_P_ShoreLineConstruction">
+    <remoteStyle featureTypeName="hy-p_4.0:ShorelineConstruction" url="feature-styles/HY_P_ShoreLineConstruction.se"/>
   </styleConfig>
   <styleConfig name="HY_P_Ford">
     <remoteStyle featureTypeName="hy-p_4.0:Ford" url="feature-styles/HY_P_Ford.se"/>
@@ -904,8 +904,8 @@
   <styleConfig name="HY_P_Lock">
     <remoteStyle featureTypeName="hy-p_4.0:Lock" url="feature-styles/HY_P_Lock.se"/>
   </styleConfig>
-  <styleConfig name="HY_P_Shore_1">
-    <remoteStyle featureTypeName="hy-p_4.0:Shore" url="feature-styles/HY_P_Shore_1.se"/>
+  <styleConfig name="HY_P_Shore">
+    <remoteStyle featureTypeName="hy-p_4.0:Shore" url="feature-styles/HY_P_Shore.se"/>
   </styleConfig>
   <styleConfig name="HY_P_Watercourse">
     <remoteStyle featureTypeName="hy-p_4.0:Watercourse" url="feature-styles/HY_P_Watercourse.se"/>
@@ -913,17 +913,17 @@
   <styleConfig name="HY_P_StandingWater">
     <remoteStyle featureTypeName="hy-p_4.0:StandingWater" url="feature-styles/HY_P_StandingWater.se"/>
   </styleConfig>
-  <styleConfig name="HY_P_Watercourse_1">
-    <remoteStyle featureTypeName="hy-p_4.0:Watercourse" url="feature-styles/HY_P_Watercourse_1.se"/>
+  <styleConfig name="HY_P_Watercourse_ManMade">
+    <remoteStyle featureTypeName="hy-p_4.0:Watercourse" url="feature-styles/HY_P_Watercourse_ManMade.se"/>
   </styleConfig>
-  <styleConfig name="HY_P_StandingWater_1">
-    <remoteStyle featureTypeName="hy-p_4.0:StandingWater" url="feature-styles/HY_P_StandingWater_1.se"/>
+  <styleConfig name="HY_P_StandingWater_ManMade">
+    <remoteStyle featureTypeName="hy-p_4.0:StandingWater" url="feature-styles/HY_P_StandingWater_ManMade.se"/>
   </styleConfig>
-  <styleConfig name="HY_P_Watercourse_2">
-    <remoteStyle featureTypeName="hy-p_4.0:Watercourse" url="feature-styles/HY_P_Watercourse_2.se"/>
+  <styleConfig name="HY_P_WatercoursePersistence">
+    <remoteStyle featureTypeName="hy-p_4.0:Watercourse" url="feature-styles/HY_P_WatercoursePersistence.se"/>
   </styleConfig>
-  <styleConfig name="HY_P_StandingWater_2">
-    <remoteStyle featureTypeName="hy-p_4.0:StandingWater" url="feature-styles/HY_P_StandingWater_2.se"/>
+  <styleConfig name="HY_P_WaterbodiesPersistence">
+    <remoteStyle featureTypeName="hy-p_4.0:StandingWater" url="feature-styles/HY_P_WaterbodiesPersistence.se"/>
   </styleConfig>
   <styleConfig name="HY_P_Wetland">
     <remoteStyle featureTypeName="hy-p_4.0:Wetland" url="feature-styles/HY_P_Wetland.se"/>

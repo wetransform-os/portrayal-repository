@@ -6,6 +6,7 @@ xmlns:sld="http://www.opengis.net/sld"
 xmlns:xlink="http://www.w3.org/1999/xlink" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+  <se:Name>EL.ContourLine.Master</se:Name>
   <se:Description>
     <se:Title>Contour Line Type Style</se:Title>
     <se:Abstract>Master Contour Line is a brown (#A47916) 2 pixels width line. Ordinary Contour Line is a brown (#734C00) 1 pixel width line. Auxiliary Contour Line is a brown (#734C00) dashed 1 pixel width line.</se:Abstract>

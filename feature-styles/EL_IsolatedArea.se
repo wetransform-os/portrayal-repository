@@ -6,6 +6,7 @@ xmlns:sld="http://www.opengis.net/sld"
 xmlns:xlink="http://www.w3.org/1999/xlink" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+  <se:Name>EL.IsolatedArea.Default</se:Name>
   <se:Description>
     <se:Title>Isolated Area Default Style</se:Title>
     <se:Abstract>Isolated Area is a light pink (#FFE6FF) filled polygon with 1 pixel width outline.</se:Abstract>

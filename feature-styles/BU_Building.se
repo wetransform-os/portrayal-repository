@@ -9,6 +9,7 @@ xmlns:xlink="http://www.w3.org/1999/xlink"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 version="1.1.0" 
 xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+	<se:Name>BU.Building.default</se:Name>
 	<se:Description>
     	<se:Title>Building Default Style</se:Title>
     	<se:Abstract>This Style defines the default INSPIRE style for building reference geometry. The style for surface geometries is a polygon with a grey (#808080) fill, black (#000000) outline and an outline width of 0.4. The style for point geometries is a circle with a dark grey (#525252) fill and a size of 10.</se:Abstract>

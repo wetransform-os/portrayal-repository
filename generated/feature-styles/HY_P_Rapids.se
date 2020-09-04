@@ -4,6 +4,7 @@ xmlns:se="http://www.opengis.net/se" xmlns:sld="http://www.opengis.net/sld" xmln
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd"
 version="1.1.0">
+  <se:Name>HY.PhysicalWaters.HydroPointOfInterest.Default</se:Name>
   <se:Description>
     <se:Title>Hydrographic Points Of Interest Default Style</se:Title>
     <se:Abstract>Fluvial points as rapids or falls are depicted with symbols; if the geometry is a curve they are depicted in aligned blue (#0066FF) 

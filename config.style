@@ -160,7 +160,7 @@ Layer {
 	Name: "GN.GeographicalNames"
 	Title: en "Geographical Names", de "Geografische Bezeichnungen"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/gn/4.0:NamedPlace
-	Styles: GN_NamedPlace
+	Styles: GN_GeographicalNames
 }
 Layer {
 	id: "HY_Network_WatercourseLink"
@@ -214,7 +214,7 @@ Layer {
 	Name: "HY.PhysicalWaters.ManMadeObject"
 	Title: en "Man-made Object", de "Bauwerke an Gewässern"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Crossing
-	, http://inspire.ec.europa.eu/schemas/hy-p/4.0:DamOrWeir , http://inspire.ec.europa.eu/schemas/hy-p/4.0:ShorelineConstruction , http://inspire.ec.europa.eu/schemas/hy-p/4.0:Ford , http://inspire.ec.europa.eu/schemas/hy-p/4.0:Lock Styles: HY_P_Crossing , HY_P_DamOrWeir , HY_P_Shore , HY_P_Ford , HY_P_Lock
+	, http://inspire.ec.europa.eu/schemas/hy-p/4.0:DamOrWeir , http://inspire.ec.europa.eu/schemas/hy-p/4.0:ShorelineConstruction , http://inspire.ec.europa.eu/schemas/hy-p/4.0:Ford , http://inspire.ec.europa.eu/schemas/hy-p/4.0:Lock Styles: HY_P_Crossing , HY_P_DamOrWeir , HY_P_ShoreLineConstruction , HY_P_Ford , HY_P_Lock
 }
 Layer {
 	id: "HY_PhysicalWaters_Shore"
@@ -223,7 +223,7 @@ Layer {
 	Name: "HY.PhysicalWaters.Shore"
 	Title: en "Shores", de "Küsten"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Shore
-	Styles: HY_P_Shore_1
+	Styles: HY_P_Shore
 }
 Layer {
 	id: "HY_Physica_5"
@@ -238,10 +238,10 @@ Layer {
 	id: "HY_Physica_6"
 	registry-id:""
 	tags: inspire production
-	Name: "HY.PhysicalWaters.Waterbodies.Man.Made.Natural"
+	Name: "HY.PhysicalWaters.Waterbodies.Man.Made"
 	Title: en "Man-made Object (Natural)"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Watercourse
-	, http://inspire.ec.europa.eu/schemas/hy-p/4.0:StandingWater Styles: HY_P_Watercourse_1 , HY_P_StandingWater_1
+	, http://inspire.ec.europa.eu/schemas/hy-p/4.0:StandingWater Styles: HY_P_Watercourse_ManMade , HY_P_StandingWater_ManMade
 }
 Layer {
 	id: "HY_Physica_7"
@@ -250,7 +250,7 @@ Layer {
 	Name: "HY.PhysicalWaters.Waterbodies.Persistence"
 	Title: en "Waterbody (Persistence)"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Watercourse
-	, http://inspire.ec.europa.eu/schemas/hy-p/4.0:StandingWater Styles: HY_P_Watercourse_2 , HY_P_StandingWater_2
+	, http://inspire.ec.europa.eu/schemas/hy-p/4.0:StandingWater Styles: HY_P_WatercoursePersistence , HY_P_WaterbodiesPersistence
 }
 Layer {
 	id: "HY_PhysicalWaters_Wetland"
@@ -766,22 +766,22 @@ Layer{
 	Styles: EMF_EnvironmentalManagementFacilities
 }
 Layer{
-	id: "EMF_Appurtenance"
+	id: "US_UtilityNetworkAppurtenance"
 	registry-id: ""
 	tags: inspire production
-	Name: "EMF.Appurtenance"
+	Name: "US.UtilityNetworkAppurtenance"
 	Title: en "Appurtenance", de "Zubehörteil"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/us-net-common/4.0:Appurtenance
-	Styles: EMF_Appurtenance
+	Styles: US_UtilityNetworkAppurtenance
 }
 Layer{
-	id: "EMF_UtilityLink"
+	id: "US_UtilityNetworkLink"
 	registry-id: ""
 	tags: inspire production
-	Name: "EMF.UtilityLink"
+	Name: "US.UtilityNetworkLink"
 	Title: en "Utility Link", de "Versorgungsverbindung"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/us-net-common/4.0:UtilityLink
-	Styles: EMF_UtilityLink
+	Styles: US_UtilityNetworkLink
 }
 Layer{
 	id: "EF_EnvironmentalMonitoringFacilities"
@@ -1108,17 +1108,17 @@ Layer{
 	Styles: TN_RO_RoadNode
 }
 Style {
-	id: "EMF_Appurtenance"
+	id: "US_UtilityNetworkAppurtenance"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/us-net-common/4.0:Appurtenance
-		URL: "feature-styles/EMF_Appurtenance.se"
+		URL: "feature-styles/US_UtilityNetworkAppurtenance.se"
 	}
 }
 Style {
-	id: "EMF_UtilityLink"
+	id: "US_UtilityNetworkLink"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/us-net-common/4.0:UtilityLink
-		URL: "feature-styles/EMF_UtilityLink.se"
+		URL: "feature-styles/US_UtilityNetworkLink.se"
 	}
 }
 Style {
@@ -1710,10 +1710,10 @@ Style {
 	}
 }
 Style {
-	id: "GN_NamedPlace"
+	id: "GN_GeographicalNames"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/gn/4.0:NamedPlace
-		URL: "feature-styles/GN_NamedPlace.se"
+		URL: "feature-styles/GN_GeographicalNames.se"
 	}
 }
 Style {
@@ -1780,10 +1780,10 @@ Style {
 	}
 }
 Style {
-	id: "HY_P_Shore"
+	id: "HY_P_ShoreLineConstruction"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:ShorelineConstruction
-		URL: "feature-styles/HY_P_Shore.se"
+		URL: "feature-styles/HY_P_ShoreLineConstruction.se"
 	}
 }
 Style {
@@ -1801,10 +1801,10 @@ Style {
 	}
 }
 Style {
-	id: "HY_P_Shore_1"
+	id: "HY_P_Shore"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Shore
-		URL: "feature-styles/HY_P_Shore_1.se"
+		URL: "feature-styles/HY_P_Shore.se"
 	}
 }
 Style {
@@ -1822,31 +1822,31 @@ Style {
 	}
 }
 Style {
-	id: "HY_P_Watercourse_1"
+	id: "HY_P_Watercourse_ManMade"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Watercourse
-		URL: "feature-styles/HY_P_Watercourse_1.se"
+		URL: "feature-styles/HY_P_Watercourse_ManMade.se"
 	}
 }
 Style {
-	id: "HY_P_StandingWater_1"
+	id: "HY_P_StandingWater_ManMade"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:StandingWater
-		URL: "feature-styles/HY_P_StandingWater_1.se"
+		URL: "feature-styles/HY_P_StandingWater_ManMade.se"
 	}
 }
 Style {
-	id: "HY_P_Watercourse_2"
+	id: "HY_P_WatercoursePersistence"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Watercourse
-		URL: "feature-styles/HY_P_Watercourse_2.se"
+		URL: "feature-styles/HY_P_WatercoursePersistence.se"
 	}
 }
 Style {
-	id: "HY_P_StandingWater_2"
+	id: "HY_P_WaterbodiesPersistence"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:StandingWater
-		URL: "feature-styles/HY_P_StandingWater_2.se"
+		URL: "feature-styles/HY_P_WaterbodiesPersistence.se"
 	}
 }
 Style {

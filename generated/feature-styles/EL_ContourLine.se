@@ -6,6 +6,7 @@ xmlns:sld="http://www.opengis.net/sld"
 xmlns:xlink="http://www.w3.org/1999/xlink" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+  <se:Name>EL.ContourLine.Default</se:Name>
   <se:Description>
     <se:Title>Contour Line Default Style</se:Title>
     <se:Abstract>Land Contour Line is a brown (#A47916) 1 pixel width line. Depth (Bathymetric) Contour line is a blue (#0A93FC) 1 pixel width line.</se:Abstract>
