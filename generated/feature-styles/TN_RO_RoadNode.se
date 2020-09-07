@@ -8,6 +8,7 @@ xmlns:sld="http://www.opengis.net/sld"
 xmlns:tn-ro="http://inspire.ec.europa.eu/schemas/tn-ro/4.0" 
 xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+      <se:Name>TN.RoadTransportNetwork.RoadNode.Default</se:Name>
 	  <se:Description>
 		<se:Title>Road Node Default Style</se:Title>
 		<se:Abstract>The geometry is rendered using a red (#FF0000) fill and a solid black (#000000) outline with a stroke width of 1 pixel.</se:Abstract>

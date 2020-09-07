@@ -34,7 +34,7 @@ Layer {
 	Name: "AU.Baseline"
 	Title: en "Baseline", de "Basislinie"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/mu/3.0:Baseline
-	Styles: MU_Baseline
+	Styles: AU_Baseline
 }
 Layer {
 	id: "AU_Condominium"
@@ -52,7 +52,7 @@ Layer {
 	Name: "AU.ContiguousZone"
 	Title: en "Contiguous zone", de "Anschlusszone"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/mu/3.0:ContiguousZone
-	Styles: MU_ContiguousZone
+	Styles: AU_ContiguousZone
 }
 Layer {
 	id: "AU_ContinentalShelf"
@@ -61,7 +61,7 @@ Layer {
 	Name: "AU.ContinentalShelf"
 	Title: en "Continental shelf", de "Festlandsockel"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/mu/3.0:ContinentalShelf
-	Styles: MU_ContinentalShelf
+	Styles: AU_ContinentalShelf
 }
 Layer {
 	id: "AU_ExclusiveEconomicZone" 
@@ -70,7 +70,7 @@ Layer {
 	Name: "AU.ExclusiveEconomicZone"
 	Title: en "Exclusive economic zone", de "Ausschließliche Wirtschaftszone"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/mu/3.0:ExclusiveEconomicZone
-	Styles: MU_ExclusiveEconomicZone
+	Styles: AU_ExclusiveEconomicZone
 }
 Layer {
 	id: "AU_InternalWaters"
@@ -79,7 +79,7 @@ Layer {
 	Name: "AU.InternalWaters"
 	Title: en "Internal waters", de "Innere Gewässer"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/mu/3.0:InternalWaters
-	Styles: MU_InternalWaters
+	Styles: AU_InternalWaters
 }
 Layer {
 	id: "AU_MaritimeBoundary"
@@ -88,7 +88,7 @@ Layer {
 	Name: "AU.MaritimeBoundary"
 	Title: en "Maritime boundary", de "Seegrenze"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/mu/3.0:MaritimeBoundary
-	Styles: MU_MaritimeBoundary
+	Styles: AU_MaritimeBoundary
 }
 Layer {
 	id: "AU_TerritorialSea"
@@ -97,7 +97,7 @@ Layer {
 	Name: "AU.TerritorialSea"
 	Title: en "Territorial sea", de "Küstenmeer"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/mu/3.0:TerritorialSea
-	Styles: MU_TerritorialSea
+	Styles: AU_TerritorialSea
 }
 Layer {
 	id: "CP_CadastralBoundary"
@@ -372,7 +372,7 @@ Layer {
 Layer {
 	id: "TN_CableTr"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.CableTransportNetwork.CablewayLink"
-	tags:
+	tags: inspire production
 	Name: "TN.CableTransportNetwork.CablewayLink"
 	Title: en "Cableway Link", de "Seilbahnverbindung"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-c/4.0:CablewayLink
@@ -381,7 +381,7 @@ Layer {
 Layer {
 	id: "TN_CommonT"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.CommonTransportElements.TransportArea"
-	tags:
+	tags: inspire production
 	Name: "TN.CommonTransportElements.TransportArea"
 	Title: en "Generic Transport Area", de "Generischer Verkehrsbereich"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn/4.0:TransportArea
@@ -390,7 +390,7 @@ Layer {
 Layer {
 	id: "TN_CommonT_1"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.CommonTransportElements.TransportLink"
-	tags:
+	tags: inspire production
 	Name: "TN.CommonTransportElements.TransportLink"
 	Title: en "Generic Transport Link", de "Generisches Verkehrssegment"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn/4.0:TransportLink
@@ -399,7 +399,7 @@ Layer {
 Layer {
 	id: "TN_CommonT_2"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.CommonTransportElements.TransportNode"
-	tags:
+	tags: inspire production
 	Name: "TN.CommonTransportElements.TransportNode"
 	Title: en "Generic Transport Node", de "Generischer Verkehrsknotenpunkt"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn/4.0:TransportNode
@@ -512,6 +512,15 @@ Layer {
 	Title: en "Land Cover Surfaces", de "Bodenbedeckungsflächen"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/lcv/4.0:LandCoverUnit
 	Styles: LC_LandCoverSurfaces
+}
+Layer {
+	id:"LC_LandCoverPoints"
+	registry-id:"http://inspire.ec.europa.eu/layer/LC.LandCoverPoints"
+	tags: production inspire
+	Name: "LC.LandCoverPoints"
+	Title: en "Land Cover Points", de "Bodenbedeckungspunkte"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/lcv/4.0:LandCoverUnit
+	Styles: LC_LandCoverPoints
 }
 Layer {
 	id: "BU_Building"
@@ -757,13 +766,13 @@ Layer{
 	Styles: AM_WaterBodyForWFD
 }
 Layer{
-	id: "EMF_EnvironmentalManagementFacilities"
-	registry-id: ""
+	id: "US_EnvironmentalManagementFacility"
+	registry-id: "https://inspire.ec.europa.eu/layer/US.EnvironmentalManagementFacility"
 	tags: inspire production
-	Name: "EMF.EnvironmentalManagementFacilities"
+	Name: "US.EnvironmentalManagementFacility"
 	Title: en "Environmental Management Facilities", de "Umweltmanagementeinrichtungen"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/us-emf/4.0:EnvironmentalManagementFacility
-	Styles: EMF_EnvironmentalManagementFacilities
+	Styles: US_EnvironmentalManagementFacility
 }
 Layer{
 	id: "US_UtilityNetworkAppurtenance"
@@ -1122,10 +1131,10 @@ Style {
 	}
 }
 Style {
-	id: "EMF_EnvironmentalManagementFacilities"
+	id: "US_EnvironmentalManagementFacility"
 	Remote {
-		FeatureType: http://inspire.ec.europa.eu/schemas/ef/4.0:EnvironmentalMonitoringFacility
-		URL: "feature-styles/EMF_EnvironmentalManagementFacilities.se"
+		FeatureType: http://inspire.ec.europa.eu/schemas/us-emf/4.0:EnvironmentalManagementFacility
+		URL: "feature-styles/US_EnvironmentalManagementFacility.se"
 	}
 }
 Style {
@@ -1612,10 +1621,10 @@ Style {
 	}
 }
 Style {
-	id: "MU_Baseline"
+	id: "AU_Baseline"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/mu/3.0:Baseline
-		URL: "feature-styles/MU_Baseline.se"
+		URL: "feature-styles/AU_Baseline.se"
 	}
 }
 Style {
@@ -1626,45 +1635,45 @@ Style {
 	}
 }
 Style {
-	id: "MU_ContiguousZone"
+	id: "AU_ContiguousZone"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/mu/3.0:ContiguousZone
-		URL: "feature-styles/MU_ContiguousZone.se"
+		URL: "feature-styles/AU_ContiguousZone.se"
 	}
 }
 Style {
-	id: "MU_ContinentalShelf"
+	id: "AU_ContinentalShelf"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/mu/3.0:ContinentalShelf
-		URL: "feature-styles/MU_ContinentalShelf.se"
+		URL: "feature-styles/AU_ContinentalShelf.se"
 	}
 }
 Style {
-	id: "MU_ExclusiveEconomicZone"
+	id: "AU_ExclusiveEconomicZone"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/mu/3.0:ExclusiveEconomicZone
-		URL: "feature-styles/MU_ExclusiveEconomicZone.se"
+		URL: "feature-styles/AU_ExclusiveEconomicZone.se"
 	}
 }
 Style {
-	id: "MU_InternalWaters"
+	id: "AU_InternalWaters"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/mu/3.0:InternalWaters
-		URL: "feature-styles/MU_InternalWaters.se"
+		URL: "feature-styles/AU_InternalWaters.se"
 	}
 }
 Style {
-	id: "MU_MaritimeBoundary"
+	id: "AU_MaritimeBoundary"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/mu/3.0:MaritimeBoundary
-		URL: "feature-styles/MU_MaritimeBoundary.se"
+		URL: "feature-styles/AU_MaritimeBoundary.se"
 	}
 }
 Style {
-	id: "MU_TerritorialSea"
+	id: "AU_TerritorialSea"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/mu/3.0:TerritorialSea
-		URL: "feature-styles/MU_TerritorialSea.se"
+		URL: "feature-styles/AU_TerritorialSea.se"
 	}
 }
 Style {
@@ -2024,6 +2033,13 @@ Style {
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/lcv/4.0:LandCoverUnit
 		URL: "feature-styles/LC_LandCoverSurfaces.se"
+	}
+}
+Style {
+	id: "LC_LandCoverPoints"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/lcv/4.0:LandCoverUnit
+		URL: "feature-styles/LC_LandCoverPoints.se"
 	}
 }
 Style {

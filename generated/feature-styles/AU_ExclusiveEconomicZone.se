@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle xmlns:mu="http://inspire.ec.europa.eu/schemas/mu/3.0" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
+  <se:Name>AU.ExclusiveEconomicZone.Default</se:Name>
+  <se:Description>
+    <se:Title>Exclusive Economic Zone Default Style</se:Title>
+    <se:Abstract>The exclusive economic zone is rendered using a pink (#E4B2DD) fill.</se:Abstract>
+  </se:Description>
+  <se:FeatureTypeName>mu:ExclusiveEconomicZone</se:FeatureTypeName>
+  <se:Rule>
+    <se:Description>
+      <se:Title>maritime zone: exclusive economic zone</se:Title>
+    </se:Description>
+    <ogc:Filter>
+      <ogc:PropertyIsEqualTo>
+        <ogc:PropertyName>mu:zoneType</ogc:PropertyName>
+        <ogc:Literal>exclusiveEconomicZone</ogc:Literal>
+      </ogc:PropertyIsEqualTo>
+    </ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>mu:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Fill>
+        <se:SvgParameter name="fill">#E4B2DD</se:SvgParameter>
+      </se:Fill>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+</se:FeatureTypeStyle>

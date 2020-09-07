@@ -24,7 +24,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 		</se:Fill>
 		<se:Stroke>
 			<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-			<se:SvgParameter name="strokewidth">1</se:SvgParameter>
+			<se:SvgParameter name="stroke-width">1</se:SvgParameter>
 		</se:Stroke>
 	</se:PolygonSymbolizer>
 	</se:Rule>
@@ -44,7 +44,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 		</se:Fill>
 		<se:Stroke>
 			<se:SvgParameter name="stroke">#FF73DF</se:SvgParameter>
-			<se:SvgParameter name="strokewidth">1</se:SvgParameter>
+			<se:SvgParameter name="stroke-width">1</se:SvgParameter>
 		</se:Stroke>
 	</se:PolygonSymbolizer>
 	</se:Rule>
@@ -64,7 +64,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 		</se:Fill>
 		<se:Stroke>
 			<se:SvgParameter name="stroke">#00C5FF</se:SvgParameter>
-			<se:SvgParameter name="strokewidth">1</se:SvgParameter>
+			<se:SvgParameter name="stroke-width">1</se:SvgParameter>
 		</se:Stroke>
 	</se:PolygonSymbolizer>
 	</se:Rule>  	
@@ -84,7 +84,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 		</se:Fill>
 		<se:Stroke>
 			<se:SvgParameter name="stroke">#0070FF</se:SvgParameter>
-			<se:SvgParameter name="strokewidth">1</se:SvgParameter>
+			<se:SvgParameter name="stroke-width">1</se:SvgParameter>
 		</se:Stroke>
 	</se:PolygonSymbolizer>
 	</se:Rule>  	
@@ -104,7 +104,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 		</se:Fill>
 		<se:Stroke>
 			<se:SvgParameter name="stroke">#4CE600</se:SvgParameter>
-			<se:SvgParameter name="strokewidth">1</se:SvgParameter>
+			<se:SvgParameter name="stroke-width">1</se:SvgParameter>
 		</se:Stroke>
 	</se:PolygonSymbolizer>
 	</se:Rule>  	
@@ -124,7 +124,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 		</se:Fill>
 		<se:Stroke>
 			<se:SvgParameter name="stroke">#FFFF73</se:SvgParameter>
-			<se:SvgParameter name="strokewidth">1</se:SvgParameter>
+			<se:SvgParameter name="stroke-width">1</se:SvgParameter>
 		</se:Stroke>
 	</se:PolygonSymbolizer>
 	</se:Rule>  	
@@ -144,7 +144,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 		</se:Fill>
 		<se:Stroke>
 			<se:SvgParameter name="stroke">#FFAA00</se:SvgParameter>
-			<se:SvgParameter name="strokewidth">1</se:SvgParameter>
+			<se:SvgParameter name="stroke-width">1</se:SvgParameter>
 		</se:Stroke>
 	</se:PolygonSymbolizer>
 	</se:Rule>  	
@@ -164,7 +164,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 		</se:Fill>
 		<se:Stroke>
 			<se:SvgParameter name="stroke">#CAFCFD</se:SvgParameter>
-			<se:SvgParameter name="strokewidth">1</se:SvgParameter>
+			<se:SvgParameter name="stroke-width">1</se:SvgParameter>
 		</se:Stroke>
 	</se:PolygonSymbolizer>
 	</se:Rule>  	
@@ -184,7 +184,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 		</se:Fill>
 		<se:Stroke>
 			<se:SvgParameter name="stroke">#734C00</se:SvgParameter>
-			<se:SvgParameter name="strokewidth">1</se:SvgParameter>
+			<se:SvgParameter name="stroke-width">1</se:SvgParameter>
 		</se:Stroke>
 	</se:PolygonSymbolizer>
 	</se:Rule>  	
@@ -204,7 +204,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 		</se:Fill>
 		<se:Stroke>
 			<se:SvgParameter name="stroke">#FFCB94</se:SvgParameter>
-			<se:SvgParameter name="strokewidth">1</se:SvgParameter>
+			<se:SvgParameter name="stroke-width">1</se:SvgParameter>
 		</se:Stroke>
 	</se:PolygonSymbolizer>
 	</se:Rule>  	
@@ -224,7 +224,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 		</se:Fill>
 		<se:Stroke>
 			<se:SvgParameter name="stroke">#FFAAC6</se:SvgParameter>
-			<se:SvgParameter name="strokewidth">1</se:SvgParameter>
+			<se:SvgParameter name="stroke-width">1</se:SvgParameter>
 		</se:Stroke>
 	</se:PolygonSymbolizer>
 	</se:Rule>  	
@@ -244,7 +244,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 		</se:Fill>
 		<se:Stroke>
 			<se:SvgParameter name="stroke">#ED52B0</se:SvgParameter>
-			<se:SvgParameter name="strokewidth">1</se:SvgParameter>
+			<se:SvgParameter name="stroke-width">1</se:SvgParameter>
 		</se:Stroke>
 	</se:PolygonSymbolizer>
 	</se:Rule>  	 	
