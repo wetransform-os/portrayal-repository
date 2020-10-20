@@ -8,6 +8,7 @@ xmlns:xlink="http://www.w3.org/1999/xlink"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 version="1.1.0" 
 xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+	<se:Name>BR.Bio-geographicalRegions.Default</se:Name>
 	<se:Description>
     	<se:Title>Bio-geographical Regions Default Style</se:Title>
     	<se:Abstract>This style is the generic style for visualising the boundaries of the biogeographical regions. Polygon geometries are rendered using a 50% grey (#808080) fill and a solid black outline with a stroke width of 1 pixel. Where a RegionClass has a colour scheme defined it should be used as the default colour scheme. This default scheme is generic and is superceded when an established colour scheme exists.</se:Abstract> 
@@ -23,7 +24,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 		</se:Fill>
 		<se:Stroke>
 			<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-			<se:SvgParameter name="strokewidth">1</se:SvgParameter>
+			<se:SvgParameter name="stroke-width">1</se:SvgParameter>
 		</se:Stroke>
 	</se:PolygonSymbolizer>
 	</se:Rule>

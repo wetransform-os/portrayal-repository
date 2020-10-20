@@ -8,6 +8,7 @@ xmlns:xlink="http://www.w3.org/1999/xlink"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 version="1.1.0" 
 xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+    <se:Name>LandUse.SpatialPlan.Default</se:Name>
 	<se:Description>
     	<se:Title>Planned Land Use Default Style</se:Title>
     	<se:Abstract>This Style defines the default INSPIRE style for spatial plans. Spatial plan extents are represented by black (#000000) lines of 2 pixels.</se:Abstract> 

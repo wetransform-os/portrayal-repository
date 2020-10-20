@@ -3,6 +3,7 @@
 xmlns:se="http://www.opengis.net/se" xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink"
 xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
+  <se:Name>CP.CadastralZoning.Default</se:Name>
   <se:Description>
     <se:Title>Cadastral Zoning Default Style</se:Title>
     <se:Abstract>Cadastral zoning outline carried by the attribute geometry + text with attribute label carried by the attribute geometry. Cadastral zoning outline : black (#000000) line 2 pixels. Labels: in Arial 20 black (#000000). </se:Abstract>

@@ -5,6 +5,7 @@ xmlns:se="http://www.opengis.net/se" xmlns:sld="http://www.opengis.net/sld"
 xmlns:xlink="http://www.w3.org/1999/xlink" 
 xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
+  <se:Name>PF.ProductionInstallation</se:Name>
   <se:Description>
     <se:Title>Production Installation Default Style</se:Title>
     <se:Abstract>The geometry is rendered as a circle with a size of 3 pixels, with a grey (#808080) fill and a black outline (#000000).</se:Abstract>

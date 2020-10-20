@@ -4,6 +4,7 @@ xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se"
 xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" 
 xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
+  <se:Name>CP.CadastralParcel.ReferencePointOnly</se:Name>
   <se:Description>
     <se:Title>Reference Point Only Default Style</se:Title>
     <se:Abstract>Point geometries are rendered as a circle with a size of 10 pixels, with a magenta (#FF00FF) fill and a 2 pixel black outline.</se:Abstract>

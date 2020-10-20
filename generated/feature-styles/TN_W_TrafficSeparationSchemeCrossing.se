@@ -3,6 +3,7 @@
 xmlns:tn-w="http://inspire.ec.europa.eu/schemas/tn-w/4.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
 xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
+  <se:Name>TN.WaterTransportNetwork.TrafficSeparationSchemeCrossing.Default</se:Name>
   <se:Description>
     <se:Title>Traffic Separation Scheme Crossing Default Style</se:Title>
     <se:Abstract>The geometry is rendered using an opaque yellow (#FFCC00) fill and a solid yellow (#FFCC00) outline with a stroke width of 1 pixel.</se:Abstract>

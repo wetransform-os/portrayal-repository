@@ -137,7 +137,7 @@
     <objectType>hy-p_4.0:Watercourse</objectType>
     <objectType>hy-p_4.0:StandingWater</objectType>
   </layerConfig>
-  <layerConfig name="HY_Physica_6" registryId="" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.Waterbodies.Man.Made.Natural" styleConfig="//@styleConfig.100 //@styleConfig.101">
+  <layerConfig name="HY_Physica_6" registryId="" tags="//@tags.0 //@tags.2" layerName="HY.PhysicalWaters.Waterbodies.Man.Made" styleConfig="//@styleConfig.100 //@styleConfig.101">
     <title lang="en" text="Man-made Object (Natural)"/>
     <objectType>hy-p_4.0:Watercourse</objectType>
     <objectType>hy-p_4.0:StandingWater</objectType>
@@ -213,22 +213,22 @@
     <title text="Mittellinienpunkt der Landebahn"/>
     <objectType>tn-a_4.0:RunwayCentrelinePoint</objectType>
   </layerConfig>
-  <layerConfig name="TN_CableTr" registryId="http://inspire.ec.europa.eu/layer/TN.CableTransportNetwork.CablewayLink" layerName="TN.CableTransportNetwork.CablewayLink" styleConfig="//@styleConfig.113">
+  <layerConfig name="TN_CableTr" registryId="http://inspire.ec.europa.eu/layer/TN.CableTransportNetwork.CablewayLink" tags="//@tags.0 //@tags.2" layerName="TN.CableTransportNetwork.CablewayLink" styleConfig="//@styleConfig.113">
     <title lang="en" text="Cableway Link"/>
     <title text="Seilbahnverbindung"/>
     <objectType>tn-c_4.0:CablewayLink</objectType>
   </layerConfig>
-  <layerConfig name="TN_CommonT" registryId="http://inspire.ec.europa.eu/layer/TN.CommonTransportElements.TransportArea" layerName="TN.CommonTransportElements.TransportArea" styleConfig="//@styleConfig.114">
+  <layerConfig name="TN_CommonT" registryId="http://inspire.ec.europa.eu/layer/TN.CommonTransportElements.TransportArea" tags="//@tags.0 //@tags.2" layerName="TN.CommonTransportElements.TransportArea" styleConfig="//@styleConfig.114">
     <title lang="en" text="Generic Transport Area"/>
     <title text="Generischer Verkehrsbereich"/>
     <objectType>tn_4.0:TransportArea</objectType>
   </layerConfig>
-  <layerConfig name="TN_CommonT_1" registryId="http://inspire.ec.europa.eu/layer/TN.CommonTransportElements.TransportLink" layerName="TN.CommonTransportElements.TransportLink" styleConfig="//@styleConfig.115">
+  <layerConfig name="TN_CommonT_1" registryId="http://inspire.ec.europa.eu/layer/TN.CommonTransportElements.TransportLink" tags="//@tags.0 //@tags.2" layerName="TN.CommonTransportElements.TransportLink" styleConfig="//@styleConfig.115">
     <title lang="en" text="Generic Transport Link"/>
     <title text="Generisches Verkehrssegment"/>
     <objectType>tn_4.0:TransportLink</objectType>
   </layerConfig>
-  <layerConfig name="TN_CommonT_2" registryId="http://inspire.ec.europa.eu/layer/TN.CommonTransportElements.TransportNode" layerName="TN.CommonTransportElements.TransportNode" styleConfig="//@styleConfig.116">
+  <layerConfig name="TN_CommonT_2" registryId="http://inspire.ec.europa.eu/layer/TN.CommonTransportElements.TransportNode" tags="//@tags.0 //@tags.2" layerName="TN.CommonTransportElements.TransportNode" styleConfig="//@styleConfig.116">
     <title lang="en" text="Generic Transport Node"/>
     <title text="Generischer Verkehrsknotenpunkt"/>
     <objectType>tn_4.0:TransportNode</objectType>
@@ -293,12 +293,17 @@
     <title text="Bodenbedeckungsflächen"/>
     <objectType>lcv_4.0:LandCoverUnit</objectType>
   </layerConfig>
-  <layerConfig name="BU_Building" registryId="http://inspire.ec.europa.eu/layer/BU.Building" tags="//@tags.0" layerName="BU.Building" styleConfig="//@styleConfig.129">
+  <layerConfig name="LC_LandCoverPoints" registryId="http://inspire.ec.europa.eu/layer/LC.LandCoverPoints" tags="//@tags.2 //@tags.0" layerName="LC.LandCoverPoints" styleConfig="//@styleConfig.129">
+    <title lang="en" text="Land Cover Points"/>
+    <title text="Bodenbedeckungspunkte"/>
+    <objectType>lcv_4.0:LandCoverUnit</objectType>
+  </layerConfig>
+  <layerConfig name="BU_Building" registryId="http://inspire.ec.europa.eu/layer/BU.Building" tags="//@tags.0" layerName="BU.Building" styleConfig="//@styleConfig.130">
     <title lang="en" text="Buildings"/>
     <title text="Gebäude"/>
     <objectType>bu-core2d_4.0:Building</objectType>
   </layerConfig>
-  <layerConfig name="BU_BuildingPart" registryId="http://inspire.ec.europa.eu/layer/BU.BuildingPart" tags="//@tags.0" layerName="BU.BuildingPart" styleConfig="//@styleConfig.130">
+  <layerConfig name="BU_BuildingPart" registryId="http://inspire.ec.europa.eu/layer/BU.BuildingPart" tags="//@tags.0" layerName="BU.BuildingPart" styleConfig="//@styleConfig.131">
     <title lang="en" text="Building Parts"/>
     <title text="Gebäudeteile"/>
     <objectType>bu-core2d_4.0:BuildingPart</objectType>
@@ -428,17 +433,17 @@
     <title text="Wasserkörper gemäß der Wasserrahmenrichtlinie (2000/60/EG)"/>
     <objectType>am_4.0:ManagementRestrictionOrRegulationZone</objectType>
   </layerConfig>
-  <layerConfig name="EMF_EnvironmentalManagementFacilities" registryId="" tags="//@tags.0 //@tags.2" layerName="EMF.EnvironmentalManagementFacilities" styleConfig="//@styleConfig.2">
+  <layerConfig name="US_EnvironmentalManagementFacility" registryId="https://inspire.ec.europa.eu/layer/US.EnvironmentalManagementFacility" tags="//@tags.0 //@tags.2" layerName="US.EnvironmentalManagementFacility" styleConfig="//@styleConfig.2">
     <title lang="en" text="Environmental Management Facilities"/>
     <title text="Umweltmanagementeinrichtungen"/>
     <objectType>us-emf_4.0:EnvironmentalManagementFacility</objectType>
   </layerConfig>
-  <layerConfig name="EMF_Appurtenance" registryId="" tags="//@tags.0 //@tags.2" layerName="EMF.Appurtenance" styleConfig="//@styleConfig.0">
+  <layerConfig name="US_UtilityNetworkAppurtenance" registryId="" tags="//@tags.0 //@tags.2" layerName="US.UtilityNetworkAppurtenance" styleConfig="//@styleConfig.0">
     <title lang="en" text="Appurtenance"/>
     <title text="Zubehörteil"/>
     <objectType>us-net-common_4.0:Appurtenance</objectType>
   </layerConfig>
-  <layerConfig name="EMF_UtilityLink" registryId="" tags="//@tags.0 //@tags.2" layerName="EMF.UtilityLink" styleConfig="//@styleConfig.1">
+  <layerConfig name="US_UtilityNetworkLink" registryId="" tags="//@tags.0 //@tags.2" layerName="US.UtilityNetworkLink" styleConfig="//@styleConfig.1">
     <title lang="en" text="Utility Link"/>
     <title text="Versorgungsverbindung"/>
     <objectType>us-net-common_4.0:UtilityLink</objectType>
@@ -613,14 +618,14 @@
     <title text="Strassenknotenpunkt"/>
     <objectType>tn-ro_4.0_1:RoadNode</objectType>
   </layerConfig>
-  <styleConfig name="EMF_Appurtenance">
-    <remoteStyle featureTypeName="us-net-common_4.0:Appurtenance" url="feature-styles/EMF_Appurtenance.se"/>
+  <styleConfig name="US_UtilityNetworkAppurtenance">
+    <remoteStyle featureTypeName="us-net-common_4.0:Appurtenance" url="feature-styles/US_UtilityNetworkAppurtenance.se"/>
   </styleConfig>
-  <styleConfig name="EMF_UtilityLink">
-    <remoteStyle featureTypeName="us-net-common_4.0:UtilityLink" url="feature-styles/EMF_UtilityLink.se"/>
+  <styleConfig name="US_UtilityNetworkLink">
+    <remoteStyle featureTypeName="us-net-common_4.0:UtilityLink" url="feature-styles/US_UtilityNetworkLink.se"/>
   </styleConfig>
-  <styleConfig name="EMF_EnvironmentalManagementFacilities">
-    <remoteStyle featureTypeName="ef_4.0:EnvironmentalMonitoringFacility" url="feature-styles/EMF_EnvironmentalManagementFacilities.se"/>
+  <styleConfig name="US_EnvironmentalManagementFacility">
+    <remoteStyle featureTypeName="us-emf_4.0:EnvironmentalManagementFacility" url="feature-styles/US_EnvironmentalManagementFacility.se"/>
   </styleConfig>
   <styleConfig name="TN_A_DesignatedPoint">
     <remoteStyle featureTypeName="tn-a_4.0:DesignatedPoint" url="feature-styles/TN_A_DesignatedPoint.se"/>
@@ -680,7 +685,7 @@
     <remoteStyle featureTypeName="br_4.0:Bio-geographicalRegion" url="feature-styles/BR_BiogeographicalRegion.se"/>
   </styleConfig>
   <styleConfig name="GE_GeologicUnit_AgeOfRocks">
-    <remoteStyle featureTypeName="ge-core_4.0:MappedFeature" url="feature-styles/GE_GeologicUnit_AgeOfRocks.se"/>
+    <remoteStyle featureTypeName="ge-core_4.0:MappedFeature" url="feature-styles/GE_GeologicUnit_AgeOfRocks2.se"/>
   </styleConfig>
   <styleConfig name="ER_RenewableAndWasteResource">
     <remoteStyle featureTypeName="er-v_4.0:RenewableAndWasteResource" url="feature-styles/ER_RenewableAndWasteResource.se"/>
@@ -823,29 +828,29 @@
   <styleConfig name="AU_AdministrativeUnit">
     <remoteStyle featureTypeName="au_4.0:AdministrativeUnit" url="feature-styles/AU_AdministrativeUnit.se"/>
   </styleConfig>
-  <styleConfig name="MU_Baseline">
-    <remoteStyle featureTypeName="mu_3.0:Baseline" url="feature-styles/MU_Baseline.se"/>
+  <styleConfig name="AU_Baseline">
+    <remoteStyle featureTypeName="mu_3.0:Baseline" url="feature-styles/AU_Baseline.se"/>
   </styleConfig>
   <styleConfig name="AU_Condominium">
     <remoteStyle featureTypeName="au_4.0:Condominium" url="feature-styles/AU_Condominium.se"/>
   </styleConfig>
-  <styleConfig name="MU_ContiguousZone">
-    <remoteStyle featureTypeName="mu_3.0:ContiguousZone" url="feature-styles/MU_ContiguousZone.se"/>
+  <styleConfig name="AU_ContiguousZone">
+    <remoteStyle featureTypeName="mu_3.0:ContiguousZone" url="feature-styles/AU_ContiguousZone.se"/>
   </styleConfig>
-  <styleConfig name="MU_ContinentalShelf">
-    <remoteStyle featureTypeName="mu_3.0:ContinentalShelf" url="feature-styles/MU_ContinentalShelf.se"/>
+  <styleConfig name="AU_ContinentalShelf">
+    <remoteStyle featureTypeName="mu_3.0:ContinentalShelf" url="feature-styles/AU_ContinentalShelf.se"/>
   </styleConfig>
-  <styleConfig name="MU_ExclusiveEconomicZone">
-    <remoteStyle featureTypeName="mu_3.0:ExclusiveEconomicZone" url="feature-styles/MU_ExclusiveEconomicZone.se"/>
+  <styleConfig name="AU_ExclusiveEconomicZone">
+    <remoteStyle featureTypeName="mu_3.0:ExclusiveEconomicZone" url="feature-styles/AU_ExclusiveEconomicZone.se"/>
   </styleConfig>
-  <styleConfig name="MU_InternalWaters">
-    <remoteStyle featureTypeName="mu_3.0:InternalWaters" url="feature-styles/MU_InternalWaters.se"/>
+  <styleConfig name="AU_InternalWaters">
+    <remoteStyle featureTypeName="mu_3.0:InternalWaters" url="feature-styles/AU_InternalWaters.se"/>
   </styleConfig>
-  <styleConfig name="MU_MaritimeBoundary">
-    <remoteStyle featureTypeName="mu_3.0:MaritimeBoundary" url="feature-styles/MU_MaritimeBoundary.se"/>
+  <styleConfig name="AU_MaritimeBoundary">
+    <remoteStyle featureTypeName="mu_3.0:MaritimeBoundary" url="feature-styles/AU_MaritimeBoundary.se"/>
   </styleConfig>
-  <styleConfig name="MU_TerritorialSea">
-    <remoteStyle featureTypeName="mu_3.0:TerritorialSea" url="feature-styles/MU_TerritorialSea.se"/>
+  <styleConfig name="AU_TerritorialSea">
+    <remoteStyle featureTypeName="mu_3.0:TerritorialSea" url="feature-styles/AU_TerritorialSea.se"/>
   </styleConfig>
   <styleConfig name="CP_CadastralBoundary">
     <remoteStyle featureTypeName="cp_4.0:CadastralBoundary" url="feature-styles/CP_CadastralBoundary.se"/>
@@ -865,8 +870,8 @@
   <styleConfig name="CP_CadastralZoning">
     <remoteStyle featureTypeName="cp_4.0:CadastralZoning" url="feature-styles/CP_CadastralZoning.se"/>
   </styleConfig>
-  <styleConfig name="GN_NamedPlace">
-    <remoteStyle featureTypeName="gn_4.0:NamedPlace" url="feature-styles/GN_NamedPlace.se"/>
+  <styleConfig name="GN_GeographicalNames">
+    <remoteStyle featureTypeName="gn_4.0:NamedPlace" url="feature-styles/GN_GeographicalNames.se"/>
   </styleConfig>
   <styleConfig name="HY_N_WatercourseLink">
     <remoteStyle featureTypeName="hy-n_4.0:WatercourseLink" url="feature-styles/HY_N_WatercourseLink.se"/>
@@ -895,8 +900,8 @@
   <styleConfig name="HY_P_DamOrWeir">
     <remoteStyle featureTypeName="hy-p_4.0:DamOrWeir" url="feature-styles/HY_P_DamOrWeir.se"/>
   </styleConfig>
-  <styleConfig name="HY_P_Shore">
-    <remoteStyle featureTypeName="hy-p_4.0:ShorelineConstruction" url="feature-styles/HY_P_Shore.se"/>
+  <styleConfig name="HY_P_ShoreLineConstruction">
+    <remoteStyle featureTypeName="hy-p_4.0:ShorelineConstruction" url="feature-styles/HY_P_ShoreLineConstruction.se"/>
   </styleConfig>
   <styleConfig name="HY_P_Ford">
     <remoteStyle featureTypeName="hy-p_4.0:Ford" url="feature-styles/HY_P_Ford.se"/>
@@ -904,8 +909,8 @@
   <styleConfig name="HY_P_Lock">
     <remoteStyle featureTypeName="hy-p_4.0:Lock" url="feature-styles/HY_P_Lock.se"/>
   </styleConfig>
-  <styleConfig name="HY_P_Shore_1">
-    <remoteStyle featureTypeName="hy-p_4.0:Shore" url="feature-styles/HY_P_Shore_1.se"/>
+  <styleConfig name="HY_P_Shore">
+    <remoteStyle featureTypeName="hy-p_4.0:Shore" url="feature-styles/HY_P_Shore.se"/>
   </styleConfig>
   <styleConfig name="HY_P_Watercourse">
     <remoteStyle featureTypeName="hy-p_4.0:Watercourse" url="feature-styles/HY_P_Watercourse.se"/>
@@ -913,17 +918,17 @@
   <styleConfig name="HY_P_StandingWater">
     <remoteStyle featureTypeName="hy-p_4.0:StandingWater" url="feature-styles/HY_P_StandingWater.se"/>
   </styleConfig>
-  <styleConfig name="HY_P_Watercourse_1">
-    <remoteStyle featureTypeName="hy-p_4.0:Watercourse" url="feature-styles/HY_P_Watercourse_1.se"/>
+  <styleConfig name="HY_P_Watercourse_ManMade">
+    <remoteStyle featureTypeName="hy-p_4.0:Watercourse" url="feature-styles/HY_P_Watercourse_ManMade.se"/>
   </styleConfig>
-  <styleConfig name="HY_P_StandingWater_1">
-    <remoteStyle featureTypeName="hy-p_4.0:StandingWater" url="feature-styles/HY_P_StandingWater_1.se"/>
+  <styleConfig name="HY_P_StandingWater_ManMade">
+    <remoteStyle featureTypeName="hy-p_4.0:StandingWater" url="feature-styles/HY_P_StandingWater_ManMade.se"/>
   </styleConfig>
-  <styleConfig name="HY_P_Watercourse_2">
-    <remoteStyle featureTypeName="hy-p_4.0:Watercourse" url="feature-styles/HY_P_Watercourse_2.se"/>
+  <styleConfig name="HY_P_WatercoursePersistence">
+    <remoteStyle featureTypeName="hy-p_4.0:Watercourse" url="feature-styles/HY_P_WatercoursePersistence.se"/>
   </styleConfig>
-  <styleConfig name="HY_P_StandingWater_2">
-    <remoteStyle featureTypeName="hy-p_4.0:StandingWater" url="feature-styles/HY_P_StandingWater_2.se"/>
+  <styleConfig name="HY_P_WaterbodiesPersistence">
+    <remoteStyle featureTypeName="hy-p_4.0:StandingWater" url="feature-styles/HY_P_WaterbodiesPersistence.se"/>
   </styleConfig>
   <styleConfig name="HY_P_Wetland">
     <remoteStyle featureTypeName="hy-p_4.0:Wetland" url="feature-styles/HY_P_Wetland.se"/>
@@ -999,6 +1004,9 @@
   </styleConfig>
   <styleConfig name="LC_LandCoverSurfaces">
     <remoteStyle featureTypeName="lcv_4.0:LandCoverUnit" url="feature-styles/LC_LandCoverSurfaces.se"/>
+  </styleConfig>
+  <styleConfig name="LC_LandCoverPoints">
+    <remoteStyle featureTypeName="lcv_4.0:LandCoverUnit" url="feature-styles/LC_LandCoverPoints.se"/>
   </styleConfig>
   <styleConfig name="BU_Building">
     <remoteStyle featureTypeName="bu-core2d_4.0:Building" url="feature-styles/BU_Building.se"/>
