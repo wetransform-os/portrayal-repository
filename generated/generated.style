@@ -889,7 +889,7 @@ Style {
 	id: "GE_GeologicUnit_AgeOfRocks"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/ge-core/4.0:MappedFeature
-		URL: "feature-styles/GE_GeologicUnit_AgeOfRocks.se"
+		URL: "feature-styles/GE_GeologicUnit_AgeOfRocks2.se"
 	}
 }
 Style {

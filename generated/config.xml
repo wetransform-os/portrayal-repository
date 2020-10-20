@@ -685,7 +685,7 @@
     <remoteStyle featureTypeName="br_4.0:Bio-geographicalRegion" url="feature-styles/BR_BiogeographicalRegion.se"/>
   </styleConfig>
   <styleConfig name="GE_GeologicUnit_AgeOfRocks">
-    <remoteStyle featureTypeName="ge-core_4.0:MappedFeature" url="feature-styles/GE_GeologicUnit_AgeOfRocks.se"/>
+    <remoteStyle featureTypeName="ge-core_4.0:MappedFeature" url="feature-styles/GE_GeologicUnit_AgeOfRocks2.se"/>
   </styleConfig>
   <styleConfig name="ER_RenewableAndWasteResource">
     <remoteStyle featureTypeName="er-v_4.0:RenewableAndWasteResource" url="feature-styles/ER_RenewableAndWasteResource.se"/>
