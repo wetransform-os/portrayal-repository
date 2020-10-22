@@ -11,6 +11,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
     </se:Description>
  	<se:FeatureTypeName>au:AdministrativeBoundary</se:FeatureTypeName>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Administrative boundary 2nd order</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
@@ -30,6 +33,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	    </se:LineSymbolizer>
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Administrative boundary 3rd order</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
@@ -49,6 +55,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	    </se:LineSymbolizer>
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Administrative boundary 4th order</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
@@ -68,6 +77,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	    </se:LineSymbolizer>
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Administrative boundary 5th order</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
@@ -87,6 +99,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	    </se:LineSymbolizer>
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Administrative boundary 6th order</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
@@ -106,6 +121,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	    </se:LineSymbolizer>
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Administrative boundary 1st order</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>

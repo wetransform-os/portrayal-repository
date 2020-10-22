@@ -8,7 +8,7 @@
   <se:FeatureTypeName>mu:ContiguousZone</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>maritime zone: contiguous zone</se:Title>
+      <se:Title>Maritime zone: contiguous zone</se:Title>
     </se:Description>
     <ogc:Filter>
       <ogc:PropertyIsEqualTo>

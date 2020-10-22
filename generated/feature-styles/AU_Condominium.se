@@ -12,7 +12,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
   <se:FeatureTypeName>au:Condominium</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>condominium</se:Title>
+      <se:Title>Condominium</se:Title>
     </se:Description>
     <se:PolygonSymbolizer>
       <se:Geometry>

@@ -12,7 +12,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
   <se:FeatureTypeName>ad:Address</se:FeatureTypeName>
    <se:Rule>
     <se:Description>
-      <se:Title>otherwise: The lowest accuracy - others or unknown level - 25% gray</se:Title>
+      <se:Title>Other or unknown level</se:Title>
     </se:Description>
     <se:PointSymbolizer>
       <se:Geometry>
@@ -35,7 +35,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
   </se:Rule>
   <se:Rule>
     <se:Description>
-      <se:Title>postal delivery - utility service - thoroughfare access - entrance: The highest accuracy - Exact Level - white</se:Title>
+      <se:Title>Exact Level</se:Title>
     </se:Description>
     <ogc:Filter>
        <ogc:Or>
@@ -78,7 +78,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
   </se:Rule>
   <se:Rule>
     <se:Description>
-      <se:Title>building - parcel: The highest accuracy - Locator Level - 75% gray</se:Title>
+      <se:Title>Locator Level</se:Title>
     </se:Description>
     <ogc:Filter>
       <ogc:Or>
@@ -113,7 +113,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
   </se:Rule>
   <se:Rule>
     <se:Description>
-      <se:Title>related segment of a thoroughfare: The middle accuracy - Thoroughfare level - 50% gray</se:Title>
+      <se:Title>Thoroughfare level</se:Title>
     </se:Description>
     <ogc:Filter>
       <ogc:PropertyIsEqualTo>

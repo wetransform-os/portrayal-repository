@@ -15,6 +15,9 @@
 	</se:Description>
 	<se:FeatureTypeName>au:AdministrativeUnit</se:FeatureTypeName>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Administrative unit 2nd order</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
@@ -60,6 +63,9 @@
 		</se:TextSymbolizer>
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Administrative unit 3rd order</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
@@ -105,6 +111,9 @@
 		</se:TextSymbolizer>
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Administrative unit 4th order</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
@@ -150,6 +159,9 @@
 		</se:TextSymbolizer>
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Administrative unit 5th order</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
@@ -195,6 +207,9 @@
 		</se:TextSymbolizer>
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Administrative unit 6th order</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
@@ -240,6 +255,9 @@
 		</se:TextSymbolizer>
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Administrative unit 1st order</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>au:nationalLevel/@xlink:href</ogc:PropertyName>
