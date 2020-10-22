@@ -543,7 +543,7 @@
     <title text="Ressourcen erneuerbarer Energien und Abfallressourcen"/>
     <objectType>er-v_4.0:RenewableAndWasteResource</objectType>
   </layerConfig>
-  <layerConfig name="GE_GeologicUnit_AgeOfRocks" registryId="http://inspire.ec.europa.eu/layer/GE.GeologicUnit" tags="//@tags.0 //@tags.2" layerName="GE.GeologicUnit" styleConfig="//@styleConfig.22">
+  <layerConfig name="GE_GeologicUnit_AgeOfRocks" registryId="http://inspire.ec.europa.eu/layer/GE.GeologicUnit" tags="//@tags.0 //@tags.2" layerName="GE.GeologicUnit.AgeOfRocks" styleConfig="//@styleConfig.22">
     <title lang="en" text="Geologic Units"/>
     <title text="Geologische Einheiten"/>
     <objectType>ge-core_4.0:MappedFeature</objectType>
