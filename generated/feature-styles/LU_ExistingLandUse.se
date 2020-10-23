@@ -15,6 +15,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
     </se:Description>
   	<se:FeatureTypeName>elu:ExistingLandUseObject</se:FeatureTypeName>
   	<se:Rule>
+  	<se:Description>
+      <se:Title>Primary production</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
 				<ogc:PropertyName>elu:hilucsLandUse/@xlink:href</ogc:PropertyName>
@@ -35,6 +38,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:PolygonSymbolizer>
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Secondary production</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
 				<ogc:PropertyName>elu:hilucsLandUse/@xlink:href</ogc:PropertyName>
@@ -55,6 +61,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:PolygonSymbolizer>
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Tertiary production</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
 				<ogc:PropertyName>elu:hilucsLandUse/@xlink:href</ogc:PropertyName>
@@ -75,6 +84,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:PolygonSymbolizer>
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Transport network logistics and utilities</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
 				<ogc:PropertyName>elu:hilucsLandUse/@xlink:href</ogc:PropertyName>
@@ -95,6 +107,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:PolygonSymbolizer>
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Residential use</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
 				<ogc:PropertyName>elu:hilucsLandUse/@xlink:href</ogc:PropertyName>
@@ -115,6 +130,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:PolygonSymbolizer>
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Other uses</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
 				<ogc:PropertyName>elu:hilucsLandUse/@xlink:href</ogc:PropertyName>

@@ -158,133 +158,133 @@
     <objectType>ps_4.0:ProtectedSite</objectType>
   </layerConfig>
   <layerConfig name="TN_AirTran" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AerodromeArea" tags="//@tags.0 //@tags.2" layerName="TN.AirTransportNetwork.AerodromeArea" styleConfig="//@styleConfig.106">
-    <title lang="en" text="Aerodrome Area"/>
+    <title lang="en" text="Aerodrome Area Default Style"/>
     <title text="Flugplatzgelände"/>
     <objectType>tn-a_4.0:AerodromeArea</objectType>
   </layerConfig>
   <layerConfig name="TN_AirTran_1" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AirLink" tags="//@tags.0 //@tags.2" layerName="TN.AirTransportNetwork.AirLink" styleConfig="//@styleConfig.107 //@styleConfig.108">
-    <title lang="en" text="Air Link"/>
+    <title lang="en" text="Air Link Default Style"/>
     <title text="Luftverbindung"/>
     <objectType>tn-a_4.0:ProcedureLink</objectType>
     <objectType>tn-a_4.0:AirRouteLink</objectType>
   </layerConfig>
   <layerConfig name="TN_AirTran_2" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AirspaceArea" tags="//@tags.0 //@tags.2" layerName="TN.AirTransportNetwork.AirSpaceArea" styleConfig="//@styleConfig.109">
-    <title lang="en" text="Air Space Area"/>
+    <title lang="en" text="Air Space Area Default Style"/>
     <title text="Luftraumbereich"/>
     <objectType>tn-a_4.0:AirspaceArea</objectType>
   </layerConfig>
   <layerConfig name="TN_AirTran_3" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.ApronArea" tags="//@tags.0 //@tags.2" layerName="TN.AirTransportNetwork.ApronArea" styleConfig="//@styleConfig.110">
-    <title lang="en" text="Apron Area"/>
+    <title lang="en" text="Apron Area Default Style"/>
     <title text="Vorfeldgelände"/>
     <objectType>tn-a_4.0:ApronArea</objectType>
   </layerConfig>
   <layerConfig name="TN_AirTran_4" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.RunwayArea" tags="//@tags.0 //@tags.2" layerName="TN.AirTransportNetwork.RunwayArea" styleConfig="//@styleConfig.111">
-    <title lang="en" text="Runway Area"/>
+    <title lang="en" text="Runway Area Default Style"/>
     <title text="Landebahngelände"/>
     <objectType>tn-a_4.0:RunwayArea</objectType>
   </layerConfig>
   <layerConfig name="TN_AirTran_5" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.TaxiwayArea" tags="//@tags.0 //@tags.2" layerName="TN.AirTransportNetwork.TaxiwayArea" styleConfig="//@styleConfig.112">
-    <title lang="en" text="Taxiway Area"/>
+    <title lang="en" text="Taxiway Area Default Style"/>
     <title text="Rollfeld"/>
     <objectType>tn-a_4.0:TaxiwayArea</objectType>
   </layerConfig>
   <layerConfig name="TN_AirTran_6" registryId="" tags="//@tags.0 //@tags.2" layerName="TN.AirTransportNetwork.DesignatedPoint" styleConfig="//@styleConfig.3">
-    <title lang="en" text="Designated Point"/>
+    <title lang="en" text="Designated Point Default Style"/>
     <title text="Designierter Punkt"/>
     <objectType>tn-a_4.0:DesignatedPoint</objectType>
   </layerConfig>
   <layerConfig name="TN_AirTran_7" registryId="" tags="//@tags.0 //@tags.2" layerName="TN.AirTransportNetwork.AerodromeNode" styleConfig="//@styleConfig.6">
-    <title lang="en" text="Aerodrome Node"/>
+    <title lang="en" text="Aerodrome Node Default Style"/>
     <title text="Flugplatzknotenpunkt"/>
     <objectType>tn-a_4.0:AerodromeNode</objectType>
   </layerConfig>
   <layerConfig name="TN_AirTran_8" registryId="" tags="//@tags.0 //@tags.2" layerName="TN.AirTransportNetwork.TouchDownLiftOff" styleConfig="//@styleConfig.7">
-    <title lang="en" text="Touch Down Lift Off Area"/>
+    <title lang="en" text="Touch Down Lift Off Area Default Style"/>
     <title text="Start- und Landebereich für Hubschrauber"/>
     <objectType>tn-a_4.0:TouchDownLiftOff</objectType>
   </layerConfig>
   <layerConfig name="TN_AirTran_9" registryId="" tags="//@tags.0 //@tags.2" layerName="TN.AirTransportNetwork.Navaid" styleConfig="//@styleConfig.4">
-    <title lang="en" text="Navaid"/>
+    <title lang="en" text="Navaid Default Style"/>
     <title text="Navigationshilfe"/>
     <objectType>tn-a_4.0:Navaid</objectType>
   </layerConfig>
   <layerConfig name="TN_AirTran_10" registryId="" tags="//@tags.0 //@tags.2" layerName="TN.AirTransportNetwork.RunwayCentrelinePoint" styleConfig="//@styleConfig.5">
-    <title lang="en" text="Runway Centreline Point"/>
+    <title lang="en" text="Runway Centreline Point Default Style"/>
     <title text="Mittellinienpunkt der Landebahn"/>
     <objectType>tn-a_4.0:RunwayCentrelinePoint</objectType>
   </layerConfig>
   <layerConfig name="TN_CableTr" registryId="http://inspire.ec.europa.eu/layer/TN.CableTransportNetwork.CablewayLink" tags="//@tags.0 //@tags.2" layerName="TN.CableTransportNetwork.CablewayLink" styleConfig="//@styleConfig.113">
-    <title lang="en" text="Cableway Link"/>
+    <title lang="en" text="Cableway Link Default Style"/>
     <title text="Seilbahnverbindung"/>
     <objectType>tn-c_4.0:CablewayLink</objectType>
   </layerConfig>
   <layerConfig name="TN_CommonT" registryId="http://inspire.ec.europa.eu/layer/TN.CommonTransportElements.TransportArea" tags="//@tags.0 //@tags.2" layerName="TN.CommonTransportElements.TransportArea" styleConfig="//@styleConfig.114">
-    <title lang="en" text="Generic Transport Area"/>
+    <title lang="en" text="Generic Transport Area Default Style"/>
     <title text="Generischer Verkehrsbereich"/>
     <objectType>tn_4.0:TransportArea</objectType>
   </layerConfig>
   <layerConfig name="TN_CommonT_1" registryId="http://inspire.ec.europa.eu/layer/TN.CommonTransportElements.TransportLink" tags="//@tags.0 //@tags.2" layerName="TN.CommonTransportElements.TransportLink" styleConfig="//@styleConfig.115">
-    <title lang="en" text="Generic Transport Link"/>
+    <title lang="en" text="Generic Transport Link Default Style"/>
     <title text="Generisches Verkehrssegment"/>
     <objectType>tn_4.0:TransportLink</objectType>
   </layerConfig>
   <layerConfig name="TN_CommonT_2" registryId="http://inspire.ec.europa.eu/layer/TN.CommonTransportElements.TransportNode" tags="//@tags.0 //@tags.2" layerName="TN.CommonTransportElements.TransportNode" styleConfig="//@styleConfig.116">
-    <title lang="en" text="Generic Transport Node"/>
+    <title lang="en" text="Generic Transport Node Default Style"/>
     <title text="Generischer Verkehrsknotenpunkt"/>
     <objectType>tn_4.0:TransportNode</objectType>
   </layerConfig>
   <layerConfig name="TN_RailTra" registryId="http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayArea" tags="//@tags.0 //@tags.2" layerName="TN.RailTransportNetwork.RailwayArea" styleConfig="//@styleConfig.117">
-    <title lang="en" text="Railway Area"/>
+    <title lang="en" text="Railway Area Default Style"/>
     <title text="Bahngelände"/>
     <objectType>tn-ra_4.0:RailwayArea</objectType>
   </layerConfig>
   <layerConfig name="TN_RailTra_1" registryId="http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayLink" tags="//@tags.0 //@tags.2" layerName="TN.RailTransportNetwork.RailwayLink" styleConfig="//@styleConfig.118">
-    <title lang="en" text="Railway Link"/>
+    <title lang="en" text="Railway Link Default Style"/>
     <title text="Eisenbahnverbindung"/>
     <objectType>tn-ra_4.0:RailwayLink</objectType>
   </layerConfig>
   <layerConfig name="TN_RailTra_2" registryId="http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayStationArea" tags="//@tags.0 //@tags.2" layerName="TN.RailTransportNetwork.RailwayStationArea" styleConfig="//@styleConfig.119">
-    <title lang="en" text="Railway Station Area"/>
+    <title lang="en" text="Railway Station Area Default Style"/>
     <title text="Bahnhofsgelände"/>
     <objectType>tn-ra_4.0:RailwayStationArea</objectType>
   </layerConfig>
   <layerConfig name="TN_RailTra_3" registryId="http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayYardArea" tags="//@tags.0 //@tags.2" layerName="TN.RailTransportNetwork.RailwayYardArea" styleConfig="//@styleConfig.120">
-    <title lang="en" text="Railway Yard Area"/>
+    <title lang="en" text="Railway Yard Area Default Style"/>
     <title text="Rangierbahnhofsgelände"/>
     <objectType>tn-ra_4.0:RailwayYardArea</objectType>
   </layerConfig>
   <layerConfig name="TN_RoadTra" registryId="http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadArea" tags="//@tags.0 //@tags.2" layerName="TN.RoadTransportNetwork.RoadArea" styleConfig="//@styleConfig.121">
-    <title lang="en" text="Road Area"/>
+    <title lang="en" text="Road Area Default Style"/>
     <title text="Straßenfläche"/>
     <objectType>tn-ro_4.0:RoadArea</objectType>
   </layerConfig>
   <layerConfig name="TN_RoadTra_1" registryId="http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadLink" tags="//@tags.0 //@tags.2" layerName="TN.RoadTransportNetwork.RoadLink" styleConfig="//@styleConfig.122">
-    <title lang="en" text="Road Link"/>
+    <title lang="en" text="Road Link Default Style"/>
     <title text="Straßensegment"/>
     <objectType>tn-ro_4.0:RoadLink</objectType>
   </layerConfig>
   <layerConfig name="TN_RoadTra_2" registryId="http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadServiceArea" tags="//@tags.0 //@tags.2" layerName="TN.RoadTransportNetwork.RoadServiceArea" styleConfig="//@styleConfig.123">
-    <title lang="en" text="Road Service Area"/>
+    <title lang="en" text="Road Service Area Default Style"/>
     <title text="Servicebereich"/>
     <objectType>tn-ro_4.0:RoadServiceArea</objectType>
   </layerConfig>
   <layerConfig name="TN_RoadTra_3" registryId="http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.VehicleTrafficArea" tags="//@tags.0 //@tags.2" layerName="TN.RoadTransportNetwork.VehicleTrafficArea" styleConfig="//@styleConfig.124">
-    <title lang="en" text="Vehicle traffic Area"/>
+    <title lang="en" text="Vehicle traffic Area Default Style"/>
     <title text="Verkehrsfläche"/>
     <objectType>tn-ro_4.0:VehicleTrafficArea</objectType>
   </layerConfig>
   <layerConfig name="TN_WaterTr" registryId="http://inspire.ec.europa.eu/layer/TN.WaterTransportNetwork.FairwayArea" tags="//@tags.0 //@tags.2" layerName="TN.WaterTransportNetwork.FairwayArea" styleConfig="//@styleConfig.125">
-    <title lang="en" text="Fairway Area"/>
+    <title lang="en" text="Fairway Area Default Style"/>
     <title text="Fahrrinnenbereich"/>
     <objectType>tn-w_4.0:FairwayArea</objectType>
   </layerConfig>
   <layerConfig name="TN_WaterTr_1" registryId="http://inspire.ec.europa.eu/layer/TN.WaterTransportNetwork.PortArea" tags="//@tags.0 //@tags.2" layerName="TN.WaterTransportNetwork.PortArea" styleConfig="//@styleConfig.126">
-    <title lang="en" text="Port Area"/>
+    <title lang="en" text="Port Area Default Style"/>
     <title text="Hafengelände"/>
     <objectType>tn-w_4.0:PortArea</objectType>
   </layerConfig>
   <layerConfig name="TN_WaterTr_2" registryId="http://inspire.ec.europa.eu/layer/TN.WaterTransportNetwork.WaterwayLink" tags="//@tags.0 //@tags.2" layerName="TN.WaterTransportNetwork.WaterwayLink" styleConfig="//@styleConfig.127">
-    <title lang="en" text="Waterway Link"/>
+    <title lang="en" text="Waterway Link Default Style"/>
     <title text="Wasserstraßenverbindung"/>
     <objectType>tn-w_4.0:WaterwayLink</objectType>
   </layerConfig>
@@ -464,7 +464,7 @@
     <objectType>ef_4.0:EnvironmentalMonitoringProgramme</objectType>
   </layerConfig>
   <layerConfig name="NZ_RiskZone" registryId="" tags="//@tags.0 //@tags.2" layerName="NZ.RiskZone" styleConfig="//@styleConfig.38">
-    <title lang="en" text="Risk Zone"/>
+    <title lang="en" text="Risk Zones"/>
     <title text="Risikogebiet"/>
     <objectType>nz-core_4.0:RiskZone</objectType>
   </layerConfig>
@@ -474,7 +474,7 @@
     <objectType>nz-core_4.0:HazardArea</objectType>
   </layerConfig>
   <layerConfig name="NZ_ExposedElement" registryId="http://inspire.ec.europa.eu/layer/NZ.ExposedElement" tags="//@tags.0 //@tags.2" layerName="NZ.ExposedElement" styleConfig="//@styleConfig.36">
-    <title lang="en" text="Exposed Element"/>
+    <title lang="en" text="Exposed Elements"/>
     <title text="Gefährdetes Element"/>
     <objectType>nz-core_4.0:ExposedElement</objectType>
   </layerConfig>
@@ -514,32 +514,32 @@
     <objectType>pf_4.0:ProductionFacility</objectType>
   </layerConfig>
   <layerConfig name="PF_ProductionBuilding" registryId="http://inspire.ec.europa.eu/layer/PF.ProductionBuilding" tags="//@tags.0 //@tags.2" layerName="PF.ProductionBuilding" styleConfig="//@styleConfig.28">
-    <title lang="en" text="Production and industrial building"/>
+    <title lang="en" text="Production And Industrial Building"/>
     <title text="Produktions- und Industriegebäude"/>
     <objectType>pf_4.0:ProductionBuilding</objectType>
   </layerConfig>
   <layerConfig name="PF_ProductionInstallation" registryId="http://inspire.ec.europa.eu/layer/PF.ProductionInstallation" tags="//@tags.0 //@tags.2" layerName="PF.ProductionInstallation" styleConfig="//@styleConfig.27">
-    <title lang="en" text="Production and industrial installation"/>
+    <title lang="en" text="Production And Industrial Installation"/>
     <title text="Produktions- und Industrieanlage"/>
     <objectType>pf_4.0:ProductionInstallation</objectType>
   </layerConfig>
   <layerConfig name="PF_ProductionInstallationPart" registryId="http://inspire.ec.europa.eu/layer/PF.ProductionInstallationPart" tags="//@tags.0 //@tags.2" layerName="PF.ProductionInstallationPart" styleConfig="//@styleConfig.26">
-    <title lang="en" text="Production and industrial installation part"/>
+    <title lang="en" text="Production And Industrial Installation Part"/>
     <title text="Produktions- und Industrieanlagenteil"/>
     <objectType>pf_4.0:ProductionInstallationPart</objectType>
   </layerConfig>
   <layerConfig name="PF_ProductionPlot" registryId="http://inspire.ec.europa.eu/layer/PF.ProductionPlot" tags="//@tags.0 //@tags.2" layerName="PF.ProductionPlot" styleConfig="//@styleConfig.25">
-    <title lang="en" text="Production and industrial parcel"/>
+    <title lang="en" text="Production And Industrial Plot"/>
     <title text="Produktions- und Industriegelände"/>
     <objectType>pf_4.0:ProductionPlot</objectType>
   </layerConfig>
   <layerConfig name="PF_ProductionSite" registryId="http://inspire.ec.europa.eu/layer/PF.ProductionSite" tags="//@tags.0 //@tags.2" layerName="PF.ProductionSite" styleConfig="//@styleConfig.24">
-    <title lang="en" text="Production and industrial site"/>
+    <title lang="en" text="Production And Industrial Site"/>
     <title text="Produktions- und Industriestandort"/>
     <objectType>pf_4.0:ProductionSite</objectType>
   </layerConfig>
   <layerConfig name="ER_RenewableAndWasteResource" registryId="http://inspire.ec.europa.eu/layer/ER.RenewableAndWasteResource" tags="//@tags.0" layerName="ER.RenewableAndWasteResource" styleConfig="//@styleConfig.23">
-    <title lang="en" text="Renewable and waste resources"/>
+    <title lang="en" text="Renewable And Waste Resource"/>
     <title text="Ressourcen erneuerbarer Energien und Abfallressourcen"/>
     <objectType>er-v_4.0:RenewableAndWasteResource</objectType>
   </layerConfig>
@@ -574,32 +574,32 @@
     <objectType>hh_4.0:EnvHealthDeterminantMeasure</objectType>
   </layerConfig>
   <layerConfig name="EL_BreakLine" registryId="http://inspire.ec.europa.eu/layer/EL.BreakLine" tags="//@tags.0 //@tags.2" layerName="EL.BreakLine" styleConfig="//@styleConfig.16">
-    <title lang="en" text="Break line"/>
+    <title lang="en" text="Break Line"/>
     <title text="Bruchkante"/>
     <objectType>el-vec_4.0:BreakLine</objectType>
   </layerConfig>
   <layerConfig name="EL_ContourLine" registryId="http://inspire.ec.europa.eu/layer/EL.ContourLine" tags="//@tags.0 //@tags.2" layerName="EL.ContourLine" styleConfig="//@styleConfig.15">
-    <title lang="en" text="Contour line"/>
+    <title lang="en" text="Contour Line"/>
     <title text="Höhenlinie"/>
     <objectType>el-vec_4.0:ContourLine</objectType>
   </layerConfig>
   <layerConfig name="EL_IsolatedArea" registryId="http://inspire.ec.europa.eu/layer/EL.IsolatedArea" tags="//@tags.0 //@tags.2" layerName="EL.IsolatedArea" styleConfig="//@styleConfig.14">
-    <title lang="en" text="Isolated area"/>
+    <title lang="en" text="Isolated Area"/>
     <title text="Abgesondertes Gebiet"/>
     <objectType>el-vec_4.0:IsolatedArea</objectType>
   </layerConfig>
   <layerConfig name="EL_SpotElevation" registryId="http://inspire.ec.europa.eu/layer/EL.SpotElevation" tags="//@tags.0 //@tags.2" layerName="EL.SpotElevation" styleConfig="//@styleConfig.13">
-    <title lang="en" text="Spot elevation"/>
+    <title lang="en" text="Spot Elevation"/>
     <title text="Höhenlagenpunkt"/>
     <objectType>el-vec_4.0:SpotElevation</objectType>
   </layerConfig>
   <layerConfig name="EL_VoidArea" registryId="http://inspire.ec.europa.eu/layer/EL.VoidArea" tags="//@tags.0 //@tags.2" layerName="EL.VoidArea" styleConfig="//@styleConfig.12">
-    <title lang="en" text="Void area"/>
+    <title lang="en" text="Void Area"/>
     <title text="Leeres Gebiet"/>
     <objectType>el-vec_4.0:VoidArea</objectType>
   </layerConfig>
   <layerConfig name="EL_ContourLineType" registryId="" tags="//@tags.0 //@tags.2" layerName="EL.ContourLineType" styleConfig="//@styleConfig.11">
-    <title lang="en" text="Contour line"/>
+    <title lang="en" text="Contour Line Type"/>
     <title text="Höhenlinie"/>
     <objectType>el-vec_4.0:ContourLine</objectType>
   </layerConfig>

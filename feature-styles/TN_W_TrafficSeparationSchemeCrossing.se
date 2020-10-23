@@ -11,7 +11,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
   <se:FeatureTypeName>tn-w:TrafficSeparationSchemeCrossing</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>Traffic Separation Scheme Crossing</se:Title>
+      <se:Title>Traffic separation scheme crossing</se:Title>
     </se:Description>
     <se:PolygonSymbolizer>
       <se:Geometry>

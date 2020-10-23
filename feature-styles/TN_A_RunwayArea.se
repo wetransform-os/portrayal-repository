@@ -12,7 +12,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
   <se:FeatureTypeName>tn-a:RunwayArea</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>runway area</se:Title>
+      <se:Title>Runway area</se:Title>
     </se:Description>
     <se:PolygonSymbolizer>
       <se:Geometry>

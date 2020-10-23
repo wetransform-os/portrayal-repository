@@ -12,7 +12,7 @@ version="1.1.0">
   <se:FeatureTypeName>hy-p:StandingWater</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>standing waters persistence: perennial</se:Title>
+      <se:Title>Standing waters persistence: perennial</se:Title>
     </se:Description>
     <ogc:Filter>
     <ogc:And>
@@ -48,7 +48,7 @@ version="1.1.0">
     </se:Rule>
     <se:Rule>
     <se:Description>
-      <se:Title>standing waters persistence: perennial</se:Title>
+      <se:Title>Standing waters persistence: perennial</se:Title>
     </se:Description>
     <ogc:Filter>
     <ogc:And>
@@ -75,7 +75,7 @@ version="1.1.0">
   </se:Rule>
   <se:Rule>
     <se:Description>
-      <se:Title>standing waters persistence: intermittent</se:Title>
+      <se:Title>Standing waters persistence: intermittent</se:Title>
     </se:Description>
     <ogc:Filter>
       <ogc:PropertyIsEqualTo>
@@ -96,7 +96,7 @@ version="1.1.0">
   </se:Rule>
   <se:Rule>
     <se:Description>
-      <se:Title>standing waters persistence: ephemeral or dry</se:Title>
+      <se:Title>Standing waters persistence: ephemeral or dry</se:Title>
     </se:Description>
     <ogc:Filter>
       <ogc:Or>

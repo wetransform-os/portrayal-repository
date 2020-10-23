@@ -10,7 +10,7 @@ xmlns:sld="http://www.opengis.net/sld" xmlns:tn-ra="http://inspire.ec.europa.eu/
   <se:FeatureTypeName>tn-ra:RailwayStationArea</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>railway station area</se:Title>
+      <se:Title>Railway station area</se:Title>
     </se:Description>
     <se:PolygonSymbolizer>
       <se:Geometry>

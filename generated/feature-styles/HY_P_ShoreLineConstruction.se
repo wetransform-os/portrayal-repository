@@ -13,7 +13,7 @@ version="1.1.0">
   <se:FeatureTypeName>hy-p:ShorelineConstruction</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>shoreline construction</se:Title>
+      <se:Title>Shoreline construction</se:Title>
     </se:Description>
     <ogc:Filter>
     <ogc:And>
@@ -46,7 +46,7 @@ version="1.1.0">
     </se:Rule>
     <se:Rule>
     <se:Description>
-      <se:Title>shoreline construction</se:Title>
+      <se:Title>Shoreline construction</se:Title>
     </se:Description>
     <ogc:Filter>
     <ogc:And>
@@ -74,7 +74,7 @@ version="1.1.0">
     </se:Rule>
     <se:Rule>
     <se:Description>
-      <se:Title>shoreline construction</se:Title>
+      <se:Title>Shoreline construction</se:Title>
     </se:Description>
     <ogc:Filter>
     <ogc:And>

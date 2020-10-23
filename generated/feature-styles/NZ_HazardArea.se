@@ -12,6 +12,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
 	</se:Description>
 	<se:FeatureTypeName>nz:HazardArea</se:FeatureTypeName> 
 	<se:Rule>
+	<se:Description>
+      <se:Title>Hazard area</se:Title>
+    </se:Description>
    	<se:PolygonSymbolizer>
 		<se:Geometry>
 	    	<ogc:PropertyName>nz:geometry</ogc:PropertyName>
@@ -26,6 +29,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
 	</se:PolygonSymbolizer>
   	</se:Rule>
   	<se:Rule>
+  	<se:Description>
+      <se:Title>Hazard area</se:Title>
+    </se:Description>
   	<ogc:Filter>
     	<ogc:PropertyIsNotEqualTo>
         	<ogc:PropertyName>nz:typeOfHazard/nz:NaturalHazardClassification/nz:hazardCategory/@xlink:href</ogc:PropertyName>
@@ -46,6 +52,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
 	</se:PolygonSymbolizer>
   	</se:Rule>
   	<se:Rule>
+  	<se:Description>
+      <se:Title>Flood</se:Title>
+    </se:Description>
   	<ogc:Filter>
     	<ogc:PropertyIsEqualTo>
         	<ogc:PropertyName>nz:typeOfHazard/nz:NaturalHazardClassification/nz:hazardCategory/@xlink:href</ogc:PropertyName>

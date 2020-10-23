@@ -12,7 +12,7 @@ version="1.1.0">
   <se:FeatureTypeName>hy-p:Watercourse</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>waterbodies persistence: perennial</se:Title>
+      <se:Title>Waterbodies persistence: perennial</se:Title>
     </se:Description>
     <ogc:Filter>
       <ogc:And>
@@ -44,7 +44,7 @@ version="1.1.0">
     </se:Rule>
     <se:Rule>
      <se:Description>
-      <se:Title>waterbodies persistence: perennial</se:Title>
+      <se:Title>Waterbodies persistence: perennial</se:Title>
     </se:Description>
     <ogc:Filter>
       <ogc:And>
@@ -75,7 +75,7 @@ version="1.1.0">
   </se:Rule>
   <se:Rule>
     <se:Description>
-      <se:Title>waterbodies persistence: intermittent</se:Title>
+      <se:Title>Waterbodies persistence: intermittent</se:Title>
     </se:Description>
    <ogc:Filter>
       <ogc:And>
@@ -108,7 +108,7 @@ version="1.1.0">
     </se:Rule>
     <se:Rule>
       <se:Description>
-      <se:Title>waterbodies persistence: intermittent</se:Title>
+      <se:Title>Waterbodies persistence: intermittent</se:Title>
     </se:Description>
    <ogc:Filter>
       <ogc:And>
@@ -141,7 +141,7 @@ version="1.1.0">
   </se:Rule>
   <se:Rule>
     <se:Description>
-      <se:Title>waterbodies persistence: ephemeral or dry</se:Title>
+      <se:Title>Waterbodies persistence: ephemeral or dry</se:Title>
     </se:Description>
     <ogc:Filter>
       <ogc:And>
@@ -180,7 +180,7 @@ version="1.1.0">
     </se:Rule>
     <se:Rule>
     <se:Description>
-      <se:Title>waterbodies persistence: ephemeral or dry</se:Title>
+      <se:Title>Waterbodies persistence: ephemeral or dry</se:Title>
     </se:Description>
     <ogc:Filter>
       <ogc:And>

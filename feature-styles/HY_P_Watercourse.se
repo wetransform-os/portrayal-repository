@@ -12,7 +12,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
   <se:FeatureTypeName>hy-p:Watercourse</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>physical waters - waterbodies: watercourse</se:Title>
+      <se:Title>Watercourse</se:Title>
     </se:Description>
     <ogc:Filter>
       	<ogc:PropertyIsEqualTo>
@@ -34,7 +34,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
      </se:Rule>
      <se:Rule>
      <se:Description>
-      <se:Title>physical waters - waterbodies: watercourse</se:Title>
+      <se:Title>Watercourse</se:Title>
     </se:Description>
     <ogc:Filter>
       	<ogc:PropertyIsEqualTo>

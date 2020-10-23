@@ -15,6 +15,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
     </se:Description>
   	<se:FeatureTypeName>plu:SpatialPlan</se:FeatureTypeName>
   	<se:Rule>
+  	<se:Description>
+      <se:Title>Spatial plan</se:Title>
+    </se:Description>
     	<se:LineSymbolizer>
       	<se:Geometry>
         	<ogc:PropertyName>plu:extent</ogc:PropertyName>

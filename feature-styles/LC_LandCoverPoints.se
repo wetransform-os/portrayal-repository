@@ -8,7 +8,7 @@
   <se:FeatureTypeName>lcv:LandCoverUnit</se:FeatureTypeName> 
   <se:Rule>
   	<se:Description>
-      <se:Title>land cover unit</se:Title>
+      <se:Title>Land cover unit</se:Title>
     </se:Description>
     <ogc:Filter>
     	<ogc:PropertyIsEqualTo>

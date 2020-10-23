@@ -12,7 +12,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
   <se:FeatureTypeName>gn:NamedPlace</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>label: geographical names</se:Title>
+      <se:Title>Geographical names</se:Title>
     </se:Description>
     <se:MinScaleDenominator>1</se:MinScaleDenominator>
     <se:MaxScaleDenominator>35000</se:MaxScaleDenominator>

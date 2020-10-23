@@ -12,7 +12,7 @@ version="1.1.0">
   <se:FeatureTypeName>hy-p:Watercourse</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>waterbodies natural</se:Title>
+      <se:Title>Waterbodies natural</se:Title>
     </se:Description>
     <ogc:Filter>
       <ogc:And>
@@ -44,7 +44,7 @@ version="1.1.0">
     </se:Rule>
     <se:Rule>
      <se:Description>
-      <se:Title>waterbodies natural</se:Title>
+      <se:Title>Waterbodies natural</se:Title>
     </se:Description>
     <ogc:Filter>
       <ogc:And>
@@ -75,7 +75,7 @@ version="1.1.0">
   </se:Rule>
   <se:Rule>
     <se:Description>
-      <se:Title>waterbodies man-made</se:Title>
+      <se:Title>Waterbodies man-made</se:Title>
     </se:Description>
     <ogc:Filter>
       <ogc:And>
@@ -107,7 +107,7 @@ version="1.1.0">
     </se:Rule>
     <se:Rule>
         <se:Description>
-      <se:Title>waterbodies man-made</se:Title>
+      <se:Title>Waterbodies man-made</se:Title>
     </se:Description>
     <ogc:Filter>
       <ogc:And>

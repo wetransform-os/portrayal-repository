@@ -8,7 +8,7 @@
   <se:FeatureTypeName>tn-a:AerodromeArea</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>aerodrome area</se:Title>
+      <se:Title>Aerodrome area</se:Title>
     </se:Description>
     <se:PolygonSymbolizer>
       <se:Geometry>
