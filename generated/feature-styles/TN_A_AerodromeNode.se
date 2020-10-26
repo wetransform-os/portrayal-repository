@@ -11,6 +11,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
   </se:Description>
   <se:FeatureTypeName>tn-a:AerodromeNode</se:FeatureTypeName>
   <se:Rule>
+  <se:Description>
+      <se:Title>Aerodrome node</se:Title>
+    </se:Description>
     <se:PointSymbolizer>
       <se:Geometry>
         <ogc:PropertyName>net:geometry</ogc:PropertyName>

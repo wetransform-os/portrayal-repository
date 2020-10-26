@@ -8,7 +8,7 @@
   <se:FeatureTypeName>tn:TransportArea</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>transport area</se:Title>
+      <se:Title>Transport area</se:Title>
     </se:Description>
     <se:PolygonSymbolizer>
       <se:Geometry>

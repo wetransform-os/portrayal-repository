@@ -10,7 +10,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http:/
   <se:FeatureTypeName>tn-a:AirspaceArea</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>air space area</se:Title>
+      <se:Title>Air space area</se:Title>
     </se:Description>
     <se:PolygonSymbolizer>
       <se:Geometry>

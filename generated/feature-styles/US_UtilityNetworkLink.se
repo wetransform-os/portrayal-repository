@@ -11,7 +11,7 @@ xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XML
   <se:FeatureTypeName>us-net-common:UtilityLink</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>Utility Link</se:Title>
+      <se:Title>Utility link</se:Title>
     </se:Description>
     <se:LineSymbolizer>
       <se:Geometry>

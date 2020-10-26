@@ -766,13 +766,13 @@ Layer{
 	Styles: AM_WaterBodyForWFD
 }
 Layer{
-	id: "US_EnvironmentalManagementFacility"
+	id: "US_EnvironmentalManagementFacilitySite"
 	registry-id: "https://inspire.ec.europa.eu/layer/US.EnvironmentalManagementFacility"
 	tags: inspire production
 	Name: "US.EnvironmentalManagementFacility"
-	Title: en "Environmental Management Facilities", de "Umweltmanagementeinrichtungen"
+	Title: en "Environmental Management Facility", de "Umweltmanagementeinrichtungen"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/us-emf/4.0:EnvironmentalManagementFacility
-	Styles: US_EnvironmentalManagementFacility
+	Styles: US_EnvironmentalManagementFacilitySite
 }
 Layer{
 	id: "US_UtilityNetworkAppurtenance"
@@ -1116,6 +1116,22 @@ Layer{
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0/:RoadNode
 	Styles: TN_RO_RoadNode
 }
+Layer{
+	id: "SF_SpatialSamplingFeature"
+	registry-id:""
+	tags: inspire production
+	Name: "SF.SpatialSamplingFeature"
+	Title: en "Spatial Sampling Feature", de "Spatial Sampling Feature"
+	SpatialObjectTypes: http://www.opengis.net/samplingSpatial/2.0:SF_SpatialSamplingFeature
+	Styles: SF_SpatialSamplingFeature
+}
+Style {
+	id: "SF_SpatialSamplingFeature"
+	Remote {
+		FeatureType: http://www.opengis.net/samplingSpatial/2.0:SF_SpatialSamplingFeature
+		URL: "feature-styles/SF_SpatialSamplingFeature.se"
+	}
+}
 Style {
 	id: "US_UtilityNetworkAppurtenance"
 	Remote {
@@ -1131,10 +1147,10 @@ Style {
 	}
 }
 Style {
-	id: "US_EnvironmentalManagementFacility"
+	id: "US_EnvironmentalManagementFacilitySite"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/us-emf/4.0:EnvironmentalManagementFacility
-		URL: "feature-styles/US_EnvironmentalManagementFacility.se"
+		URL: "feature-styles/US_EnvironmentalManagementFacilitySite.se"
 	}
 }
 Style {
