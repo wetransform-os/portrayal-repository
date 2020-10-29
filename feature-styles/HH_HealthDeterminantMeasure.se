@@ -14,7 +14,7 @@ version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.ope
   <se:FeatureTypeName>hh:EnvHealthDeterminantMeasure</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>Human health polygon</se:Title>
+      <se:Title>Human health: polygons</se:Title>
     </se:Description>
     <ogc:Filter>
     	<ogc:PropertyIsEqualTo>
@@ -36,7 +36,7 @@ version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.ope
   </se:Rule>
   <se:Rule>
     <se:Description>
-      <se:Title>Human health line</se:Title>
+      <se:Title>Human health: lines</se:Title>
     </se:Description>
     <ogc:Filter>
     	<ogc:PropertyIsEqualTo>
@@ -58,7 +58,7 @@ version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.ope
   </se:Rule>
   <se:Rule>
     <se:Description>
-      <se:Title>Human health point</se:Title>
+      <se:Title>Human health: points</se:Title>
     </se:Description>
     <ogc:Filter>
     	<ogc:PropertyIsEqualTo>
