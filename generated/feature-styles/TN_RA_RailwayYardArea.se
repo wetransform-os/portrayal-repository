@@ -11,7 +11,7 @@ xmlns:tn-ra="http://inspire.ec.europa.eu/schemas/tn-ra/4.0" xmlns:xlink="http://
   <se:FeatureTypeName>tn-ra:RailwayYardArea</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>railway yard area</se:Title>
+      <se:Title>Railway yard area</se:Title>
     </se:Description>
     <se:PolygonSymbolizer>
       <se:Geometry>

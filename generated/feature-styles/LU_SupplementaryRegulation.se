@@ -15,6 +15,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
     </se:Description>
   	<se:FeatureTypeName>plu:SupplementaryRegulation</se:FeatureTypeName>
  	<se:Rule>
+	<se:Description>
+      <se:Title>Impact on environment</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
 				<ogc:PropertyName>plu:supplementaryRegulation/@xlink:href</ogc:PropertyName>
@@ -32,6 +35,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:LineSymbolizer>
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Risk exposure</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
 				<ogc:PropertyName>plu:supplementaryRegulation/@xlink:href</ogc:PropertyName>
@@ -49,6 +55,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:LineSymbolizer>
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Heritage protection</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
 				<ogc:PropertyName>plu:supplementaryRegulation/@xlink:href</ogc:PropertyName>
@@ -66,6 +75,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:LineSymbolizer>
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>General interest</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
 				<ogc:PropertyName>plu:supplementaryRegulation/@xlink:href</ogc:PropertyName>
@@ -83,6 +95,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 		</se:LineSymbolizer>
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Land property right</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
 				<ogc:PropertyName>plu:supplementaryRegulation/@xlink:href</ogc:PropertyName>
@@ -100,6 +115,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 		</se:LineSymbolizer>
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Regulations on buildings</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
 				<ogc:PropertyName>plu:supplementaryRegulation/@xlink:href</ogc:PropertyName>
@@ -117,6 +135,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 		</se:LineSymbolizer>
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Local regional state development policies</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
 				<ogc:PropertyName>plu:supplementaryRegulation/@xlink:href</ogc:PropertyName>
@@ -134,6 +155,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 		</se:LineSymbolizer>
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Social health choices</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
 				<ogc:PropertyName>plu:supplementaryRegulation/@xlink:href</ogc:PropertyName>
@@ -151,6 +175,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 		</se:LineSymbolizer>
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Regulated activities</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
 				<ogc:PropertyName>plu:supplementaryRegulation/@xlink:href</ogc:PropertyName>
@@ -168,6 +195,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 		</se:LineSymbolizer>
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Other supplementary regulation</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsLike wildCard="*" singleChar="#" escapeChar="!">
 				<ogc:PropertyName>plu:supplementaryRegulation/@xlink:href</ogc:PropertyName>

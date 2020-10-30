@@ -13,7 +13,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
   <se:FeatureTypeName>pf:ProductionInstallationPart</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>Production Installation Part Default Style</se:Title>
+      <se:Title>Production installation part</se:Title>
     </se:Description>
     <se:MinScaleDenominator>1</se:MinScaleDenominator>
     <se:MaxScaleDenominator>35000</se:MaxScaleDenominator>

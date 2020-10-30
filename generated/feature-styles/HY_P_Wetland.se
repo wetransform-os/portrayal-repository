@@ -12,7 +12,7 @@ version="1.1.0">
   <se:FeatureTypeName>hy-p:Wetland</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>wetlands</se:Title>
+      <se:Title>Wetlands</se:Title>
     </se:Description>
     <se:PolygonSymbolizer>
       <se:Geometry>

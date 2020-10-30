@@ -8,7 +8,7 @@
   <se:FeatureTypeName>mu:InternalWaters</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>maritime zone: internal waters</se:Title>
+      <se:Title>Maritime zone: internal waters</se:Title>
     </se:Description>
     <ogc:Filter>
       <ogc:PropertyIsEqualTo>

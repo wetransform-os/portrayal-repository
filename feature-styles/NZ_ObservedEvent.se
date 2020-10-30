@@ -13,6 +13,9 @@ polygons or grid cells (coverage). Observed events are usually represented using
 </se:Description>
 <se:FeatureTypeName>nz:ObservedEvent</se:FeatureTypeName> 
 	<se:Rule>
+	<se:Description>
+      <se:Title>Observed event</se:Title>
+    </se:Description>
 	<ogc:Filter>
 	<ogc:PropertyIsEqualTo>
     	<ogc:Function name="IsSurface">
@@ -36,6 +39,9 @@ polygons or grid cells (coverage). Observed events are usually represented using
 	 </se:PolygonSymbolizer>
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Observed event</se:Title>
+    </se:Description>
 	<ogc:Filter>
 	<ogc:PropertyIsEqualTo>
     	<ogc:Function name="IsCurve">
@@ -55,6 +61,9 @@ polygons or grid cells (coverage). Observed events are usually represented using
 	</se:LineSymbolizer>   
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Observed event</se:Title>
+    </se:Description>
 	<ogc:Filter>
 	<ogc:PropertyIsEqualTo>
     	<ogc:Function name="IsPoint">

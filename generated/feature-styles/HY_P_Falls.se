@@ -13,7 +13,7 @@ version="1.1.0">
   <se:FeatureTypeName>hy-p:Falls</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>physical waters - hydrographic points of interest: falls</se:Title>
+      <se:Title>Falls</se:Title>
     </se:Description>
   	<ogc:Filter>
        <ogc:PropertyIsEqualTo>
@@ -43,7 +43,7 @@ version="1.1.0">
     </se:Rule>
     <se:Rule>
     <se:Description>
-      <se:Title>physical waters - hydrographic points of interest: falls</se:Title>
+      <se:Title>Falls</se:Title>
     </se:Description>
   	<ogc:Filter>
        <ogc:PropertyIsEqualTo>
@@ -77,7 +77,7 @@ version="1.1.0">
     </se:Rule>
     <se:Rule>
     <se:Description>
-      <se:Title>physical waters - hydrographic points of interest: falls</se:Title>
+      <se:Title>Falls</se:Title>
     </se:Description>
   	<ogc:Filter>
        <ogc:PropertyIsEqualTo>

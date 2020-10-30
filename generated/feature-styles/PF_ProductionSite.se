@@ -13,7 +13,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
   <se:FeatureTypeName>pf:ProductionSite</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>Production Site Default Style</se:Title>
+      <se:Title>Production site</se:Title>
     </se:Description>
     <ogc:Filter>
     	<ogc:PropertyIsEqualTo>

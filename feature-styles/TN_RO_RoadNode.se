@@ -16,7 +16,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 		  <se:FeatureTypeName>tn-ro:RoadNode</se:FeatureTypeName>
 		  <se:Rule>
 			<se:Description>
-			  <se:Title>Road Nodes</se:Title>
+			  <se:Title>Road node</se:Title>
 			</se:Description>
 			<se:PointSymbolizer>
 			  <se:Geometry>

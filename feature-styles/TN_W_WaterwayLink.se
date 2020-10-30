@@ -9,7 +9,7 @@ xmlns:se="http://www.opengis.net/se" xmlns:sld="http://www.opengis.net/sld" xmln
   <se:FeatureTypeName>tn-w:WaterwayLink</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>waterway link</se:Title>
+      <se:Title>Waterway link</se:Title>
     </se:Description>
     <se:LineSymbolizer>
       <se:Geometry>

@@ -13,6 +13,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
 	</se:Description>
 	<se:FeatureTypeName>nz:HazardArea</se:FeatureTypeName> 
   	<se:Rule>
+  	<se:Description>
+      <se:Title>Low magnitude or intensity</se:Title>
+    </se:Description>
   	<ogc:Filter>
     	<ogc:PropertyIsEqualTo>
         	<ogc:PropertyName>nz:magnitudeOrIntensity/nz:LevelOrIntensity/nz:qualitativeValue</ogc:PropertyName>
@@ -33,6 +36,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
 	</se:PolygonSymbolizer>
   	</se:Rule>
   	<se:Rule>
+  	<se:Description>
+      <se:Title>Medium magnitude or intensity</se:Title>
+    </se:Description>
   	<ogc:Filter>
     	<ogc:PropertyIsEqualTo>
         	<ogc:PropertyName>nz:magnitudeOrIntensity/nz:LevelOrIntensity/nz:qualitativeValue</ogc:PropertyName>
@@ -53,6 +59,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
 	</se:PolygonSymbolizer>
   	</se:Rule>
   	<se:Rule>
+  	<se:Description>
+      <se:Title>High magnitude or intensity</se:Title>
+    </se:Description>
   	<ogc:Filter>
     	<ogc:PropertyIsEqualTo>
         	<ogc:PropertyName>nz:magnitudeOrIntensity/nz:LevelOrIntensity/nz:qualitativeValue</ogc:PropertyName>
@@ -73,6 +82,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
 	</se:PolygonSymbolizer>
   	</se:Rule>
   	<se:Rule>
+  	<se:Description>
+      <se:Title>Low magnitude or intensity</se:Title>
+    </se:Description>
   	<ogc:Filter>
     	<ogc:PropertyIsEqualTo>
         	<ogc:PropertyName>nz:magnitudeOrIntensity/nz:LevelOrIntensity/nz:quantitativeValue</ogc:PropertyName>
@@ -193,6 +205,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
 	</se:PolygonSymbolizer>
   	</se:Rule>
   	<se:Rule>
+  	<se:Description>
+      <se:Title>High magnitude or intensity</se:Title>
+    </se:Description>
   	<ogc:Filter>
     	<ogc:PropertyIsGreaterThan>
         	<ogc:PropertyName>nz:magnitudeOrIntensity/nz:LevelOrIntensity/nz:quantitativeValue</ogc:PropertyName>

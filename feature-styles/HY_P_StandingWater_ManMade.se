@@ -12,7 +12,7 @@ version="1.1.0">
   <se:FeatureTypeName>hy-p:StandingWater</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>standing waters natural</se:Title>
+      <se:Title>Standing waters natural: points</se:Title>
     </se:Description>
     <ogc:Filter>
     <ogc:And>
@@ -48,7 +48,7 @@ version="1.1.0">
     </se:Rule>
     <se:Rule>
     <se:Description>
-      <se:Title>standing waters natural</se:Title>
+      <se:Title>Standing waters natural: polygons</se:Title>
     </se:Description>
     <ogc:Filter>
     <ogc:And>
@@ -75,7 +75,7 @@ version="1.1.0">
   </se:Rule>
   <se:Rule>
     <se:Description>
-      <se:Title>standing waters man-made</se:Title>
+      <se:Title>Standing waters man-made: points</se:Title>
     </se:Description>
     <ogc:Filter>
     <ogc:And>
@@ -111,7 +111,7 @@ version="1.1.0">
     </se:Rule>
     <se:Rule>
        <se:Description>
-      <se:Title>standing waters man-made</se:Title>
+      <se:Title>Standing waters man-made: polygons</se:Title>
     </se:Description>
         <ogc:Filter>
     <ogc:And>

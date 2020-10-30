@@ -8,7 +8,7 @@
   <se:FeatureTypeName>tn-a:TaxiwayArea</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>taxiway area</se:Title>
+      <se:Title>Taxiway area</se:Title>
     </se:Description>
     <se:PolygonSymbolizer>
       <se:Geometry>

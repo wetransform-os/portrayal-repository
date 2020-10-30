@@ -8,7 +8,7 @@
   <se:FeatureTypeName>mu:ExclusiveEconomicZone</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>maritime zone: exclusive economic zone</se:Title>
+      <se:Title>Maritime zone: exclusive economic zone</se:Title>
     </se:Description>
     <ogc:Filter>
       <ogc:PropertyIsEqualTo>

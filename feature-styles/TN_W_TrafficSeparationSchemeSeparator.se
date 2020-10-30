@@ -11,7 +11,7 @@ xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XML
   <se:FeatureTypeName>tn-w:TrafficSeparationSchemeSeparator</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>Traffic Separation Scheme Separator</se:Title>
+      <se:Title>Traffic separation scheme separator</se:Title>
     </se:Description>
     <se:PolygonSymbolizer>
       <se:Geometry>

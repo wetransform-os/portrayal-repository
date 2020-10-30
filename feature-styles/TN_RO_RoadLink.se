@@ -8,7 +8,7 @@
   <se:FeatureTypeName>tn-ro:RoadLink</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>road link</se:Title>
+      <se:Title>Road link</se:Title>
     </se:Description>
     <se:LineSymbolizer>
       <se:Geometry>

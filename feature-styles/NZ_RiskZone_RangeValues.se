@@ -13,6 +13,9 @@ clear to darker (low risk to high risk) depending on the attribute included in "
 	</se:Description>
 	<se:FeatureTypeName>nz:RiskZone</se:FeatureTypeName> 
   	<se:Rule>
+  	<se:Description>
+      <se:Title>Low level of risk</se:Title>
+    </se:Description>
   	<ogc:Filter>
     	<ogc:PropertyIsEqualTo>
         	<ogc:PropertyName>nz:levelOfRisk/nz:LevelOrIntensity/nz:qualitativeValue</ogc:PropertyName>
@@ -33,6 +36,9 @@ clear to darker (low risk to high risk) depending on the attribute included in "
 	</se:PolygonSymbolizer>
   	</se:Rule>
   	<se:Rule>
+  	<se:Description>
+      <se:Title>Medium level of risk</se:Title>
+    </se:Description>
   	<ogc:Filter>
     	<ogc:PropertyIsEqualTo>
         	<ogc:PropertyName>nz:levelOfRisk/nz:LevelOrIntensity/nz:qualitativeValue</ogc:PropertyName>
@@ -53,6 +59,9 @@ clear to darker (low risk to high risk) depending on the attribute included in "
 	</se:PolygonSymbolizer>
   	</se:Rule>
   	<se:Rule>
+  	<se:Description>
+      <se:Title>High level of risk</se:Title>
+    </se:Description>
   	<ogc:Filter>
     	<ogc:PropertyIsEqualTo>
         	<ogc:PropertyName>nz:levelOfRisk/nz:LevelOrIntensity/nz:qualitativeValue</ogc:PropertyName>
@@ -73,6 +82,9 @@ clear to darker (low risk to high risk) depending on the attribute included in "
 	</se:PolygonSymbolizer>
   	</se:Rule>
   	<se:Rule>
+  	<se:Description>
+      <se:Title>Low level of risk</se:Title>
+    </se:Description>
   	<ogc:Filter>
     	<ogc:PropertyIsEqualTo>
         	<ogc:PropertyName>nz:levelOfRisk/nz:LevelOrIntensity/nz:quantitativeValue</ogc:PropertyName>
@@ -193,6 +205,9 @@ clear to darker (low risk to high risk) depending on the attribute included in "
 	</se:PolygonSymbolizer>
   	</se:Rule>
   	<se:Rule>
+  	<se:Description>
+      <se:Title>High level of risk</se:Title>
+    </se:Description>
   	<ogc:Filter>
     	<ogc:PropertyIsGreaterThan>
         	<ogc:PropertyName>nz:levelOfRisk/nz:LevelOrIntensity/nz:quantitativeValue</ogc:PropertyName>

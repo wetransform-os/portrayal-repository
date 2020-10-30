@@ -29,6 +29,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:PolygonSymbolizer>
 	</se:Rule>
   	<se:Rule>
+  	<se:Description>
+      <se:Title>Alpine</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
@@ -49,6 +52,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:PolygonSymbolizer>
 	</se:Rule>
 	<se:Rule>
+	<se:Description>
+      <se:Title>Atlantic</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
@@ -69,6 +75,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:PolygonSymbolizer>
 	</se:Rule>  	
 	<se:Rule>
+	<se:Description>
+      <se:Title>Boreal</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
@@ -89,6 +98,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:PolygonSymbolizer>
 	</se:Rule>  	
 	<se:Rule>
+	<se:Description>
+      <se:Title>Continental</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
@@ -109,6 +121,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:PolygonSymbolizer>
 	</se:Rule>  	
 	<se:Rule>
+	<se:Description>
+      <se:Title>Macaronesian</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
@@ -129,6 +144,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:PolygonSymbolizer>
 	</se:Rule>  	
 	<se:Rule>
+	<se:Description>
+      <se:Title>Mediterranean</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
@@ -149,6 +167,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:PolygonSymbolizer>
 	</se:Rule>  	
 	<se:Rule>
+	<se:Description>
+      <se:Title>Arctic</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
@@ -169,6 +190,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:PolygonSymbolizer>
 	</se:Rule>  	
 	<se:Rule>
+	<se:Description>
+      <se:Title>Pannonian</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
@@ -189,6 +213,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:PolygonSymbolizer>
 	</se:Rule>  	
 	<se:Rule>
+	<se:Description>
+      <se:Title>Steppic</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
@@ -209,6 +236,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:PolygonSymbolizer>
 	</se:Rule>  	
 	<se:Rule>
+	<se:Description>
+      <se:Title>Black sea</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>
@@ -229,6 +259,9 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 	</se:PolygonSymbolizer>
 	</se:Rule>  	
 	<se:Rule>
+	<se:Description>
+      <se:Title>Anatolian</se:Title>
+    </se:Description>
 		<ogc:Filter>
 			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>br:regionClassification/@xlink:href</ogc:PropertyName>

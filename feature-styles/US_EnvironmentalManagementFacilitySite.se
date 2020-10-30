@@ -8,26 +8,51 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
 	<se:Name>US.EnvironmentalManagementSite.Default</se:Name>
 	<se:Description>
     	<se:Title>Environmental Management Facilities</se:Title>
-    	<se:Abstract>The geometry is rendered for points or representativePoints as a triangle with a size of 6 pixels, with a green (#008B00) fill and a black (#000000) outline; 
-    	for curves as a solid black (#000000) line with a stroke width of 1 pixel; and for surfaces using a 50% green (#008B00) fill and a solid black (#000000) outline 
-    	with a stroke width of 1 pixel.</se:Abstract>
+    	<se:Abstract>Point geometries are rendered as a triangle with a size of 5 pixels, with a 50% grey (#808080) fill and a black outline. Line geometries are rendered as a solid black line with a stroke width of 1 pixel.
+		Polygon geometries are rendered using a 50% grey (#808080) fill and a solid black outline with a stroke width of 1 pixel</se:Abstract>
 	</se:Description>
 	<se:FeatureTypeName>us-emf:EnvironmentalManagementFacility</se:FeatureTypeName> 
+	<se:Rule>
+    <se:Description>
+      <se:Title>Environmental management facility default</se:Title>
+    </se:Description>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+	        <ogc:PropertyName>act-core:geometry</ogc:PropertyName>
+	   </se:Geometry>
+	   <se:Fill>
+	     <se:SvgParameter name="fill">#808080</se:SvgParameter>
+	   </se:Fill>
+	   <se:Stroke>
+	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+	   </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
   	<se:Rule>
+  	 <se:Description>
+      <se:Title>Site</se:Title>
+    </se:Description>
   	<ogc:Filter>
-    	<ogc:PropertyIsEqualTo>
-        	<ogc:Function name="IsSurface">
-        		<ogc:PropertyName>act-core:geometry</ogc:PropertyName>
-       		</ogc:Function>
-       		<ogc:Literal>true</ogc:Literal>
-       	</ogc:PropertyIsEqualTo>	
-   		</ogc:Filter>
+    	<ogc:And>
+    		<ogc:PropertyIsEqualTo>
+        		<ogc:Function name="IsSurface">
+        			<ogc:PropertyName>act-core:geometry</ogc:PropertyName>
+       			</ogc:Function>
+       			<ogc:Literal>true</ogc:Literal>
+       		</ogc:PropertyIsEqualTo>
+		<ogc:PropertyIsEqualTo>
+				<ogc:PropertyName>us-emf:type/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/EnvironmentalManagementFacilityTypeValue/site</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		 </ogc:And>
+   	</ogc:Filter>
 	    <se:PolygonSymbolizer>
 	      <se:Geometry>
 	        <ogc:PropertyName>act-core:geometry</ogc:PropertyName>
 	      </se:Geometry>
 	      <se:Fill>
-	      	<se:SvgParameter name="fill">#008B00</se:SvgParameter>
+	      	<se:SvgParameter name="fill">#808080</se:SvgParameter>
 	      	<se:SvgParameter name="fill-opacity">0.50</se:SvgParameter>
 	      </se:Fill>
 	      <se:Stroke>
@@ -37,14 +62,23 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
 	    </se:PolygonSymbolizer>
 	  </se:Rule>
 	  <se:Rule>
+	   <se:Description>
+      <se:Title>Site</se:Title>
+    </se:Description>
 		<ogc:Filter>
+    	<ogc:And>
     		<ogc:PropertyIsEqualTo>
         		<ogc:Function name="IsPoint">
         			<ogc:PropertyName>act-core:geometry</ogc:PropertyName>
        			</ogc:Function>
        			<ogc:Literal>true</ogc:Literal>
        		</ogc:PropertyIsEqualTo>
-   		</ogc:Filter>
+		<ogc:PropertyIsEqualTo>
+				<ogc:PropertyName>us-emf:type/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/EnvironmentalManagementFacilityTypeValue/site</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		 </ogc:And>
+   	</ogc:Filter>
 	    <se:PointSymbolizer>
 	      <se:Geometry>
 	        <ogc:PropertyName>act-core:geometry</ogc:PropertyName>
@@ -53,26 +87,36 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
 	        <se:Mark>
 	          <se:WellKnownName>triangle</se:WellKnownName>
 	          <se:Fill>
-	            <se:SvgParameter name="fill">#008B00</se:SvgParameter>
+	            <se:SvgParameter name="fill">#808080</se:SvgParameter>
+	            <se:SvgParameter name="fill-opacity">0.50</se:SvgParameter>
 	          </se:Fill>
 	          <se:Stroke>
 	            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
 	            <se:SvgParameter name="stroke-width">1</se:SvgParameter> 
 	          </se:Stroke>
 	        </se:Mark>
-	        <se:Size>10</se:Size>
+	        <se:Size>5</se:Size>
 	      </se:Graphic>
 	    </se:PointSymbolizer>    
 	</se:Rule>
 	<se:Rule>
-		<ogc:Filter>
+	 <se:Description>
+      <se:Title>Site</se:Title>
+    </se:Description>
+	<ogc:Filter>
+    	<ogc:And>
     		<ogc:PropertyIsEqualTo>
         		<ogc:Function name="IsCurve">
         			<ogc:PropertyName>act-core:geometry</ogc:PropertyName>
        			</ogc:Function>
        			<ogc:Literal>true</ogc:Literal>
        		</ogc:PropertyIsEqualTo>
-   		</ogc:Filter>
+		<ogc:PropertyIsEqualTo>
+				<ogc:PropertyName>us-emf:type/@xlink:href</ogc:PropertyName>
+				<ogc:Literal>http://inspire.ec.europa.eu/codelist/EnvironmentalManagementFacilityTypeValue/site</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+		 </ogc:And>
+   	</ogc:Filter>
 	    <se:LineSymbolizer>
 	      <se:Geometry>
 	        <ogc:PropertyName>act-core:geometry</ogc:PropertyName>

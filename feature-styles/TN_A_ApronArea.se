@@ -8,7 +8,7 @@
   <se:FeatureTypeName>tn-a:ApronArea</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>apron area</se:Title>
+      <se:Title>Apron area</se:Title>
     </se:Description>
     <se:PolygonSymbolizer>
       <se:Geometry>

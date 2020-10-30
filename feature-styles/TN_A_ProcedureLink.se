@@ -8,7 +8,7 @@
   <se:FeatureTypeName>tn-a:ProcedureLink</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>air link</se:Title>
+      <se:Title>Air link</se:Title>
     </se:Description>
     <se:LineSymbolizer>
       <se:Geometry>

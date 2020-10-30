@@ -12,7 +12,7 @@ version="1.1.0">
   <se:FeatureTypeName>hy-p:Lock</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>lock</se:Title>
+      <se:Title>Lock</se:Title>
     </se:Description>
     <ogc:Filter>
     <ogc:And>
@@ -45,7 +45,7 @@ version="1.1.0">
     </se:Rule>
     <se:Rule>
     <se:Description>
-      <se:Title>lock</se:Title>
+      <se:Title>Lock</se:Title>
     </se:Description>
     <ogc:Filter>
     <ogc:And>
@@ -73,7 +73,7 @@ version="1.1.0">
     </se:Rule>
     <se:Rule>
     <se:Description>
-      <se:Title>lock</se:Title>
+      <se:Title>Lock</se:Title>
     </se:Description>
     <ogc:Filter>
     <ogc:And>

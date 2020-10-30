@@ -15,7 +15,7 @@ version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.ope
   <se:FeatureTypeName>er-v:RenewableAndWasteResource</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>Renewable and Waste Resource Default Style polygons</se:Title>
+      <se:Title>Renewable and Waste Resource: polygons</se:Title>
     </se:Description>
     <ogc:Filter>
     	<ogc:PropertyIsEqualTo>
@@ -40,7 +40,7 @@ version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.ope
   </se:Rule>
   <se:Rule>
     <se:Description>
-      <se:Title>Renewable and Waste Resource Default Style lines</se:Title>
+      <se:Title>Renewable and Waste Resource: lines</se:Title>
     </se:Description>
     <ogc:Filter>
     	<ogc:PropertyIsEqualTo>
@@ -62,7 +62,7 @@ version="1.1.0" xsi:schemaLocation="http://www.opengis.net/se http://schemas.ope
   </se:Rule>
   <se:Rule>
     <se:Description>
-      <se:Title>Renewable and Waste Resource Default Style points</se:Title>
+      <se:Title>Renewable and Waste Resource: points</se:Title>
     </se:Description>
     <ogc:Filter>
     	<ogc:PropertyIsEqualTo>

@@ -8,7 +8,7 @@
   <se:FeatureTypeName>mu:TerritorialSea</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>territorial sea - maritimeZone: territorial sea </se:Title>
+      <se:Title>Territorial sea - maritimeZone: territorial sea </se:Title>
     </se:Description>
     <ogc:Filter>
       <ogc:PropertyIsEqualTo>

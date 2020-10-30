@@ -8,7 +8,7 @@
   <se:FeatureTypeName>au:AdministrativeBoundary</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>administrative boundary</se:Title>
+      <se:Title>Administrative boundary</se:Title>
     </se:Description>
     <se:LineSymbolizer>
       <se:Geometry>

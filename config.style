@@ -275,7 +275,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AerodromeArea"
 	tags: inspire production
 	Name: "TN.AirTransportNetwork.AerodromeArea"
-	Title: en "Aerodrome Area", de "Flugplatzgelände"
+	Title: en "Aerodrome Area Default Style", de "Flugplatzgelände"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:AerodromeArea
 	Styles: TN_A_AerodromeArea
 }
@@ -284,7 +284,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AirLink"
 	tags: inspire production
 	Name: "TN.AirTransportNetwork.AirLink"
-	Title: en "Air Link", de "Luftverbindung"
+	Title: en "Air Link Default Style", de "Luftverbindung"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:ProcedureLink
 	, http://inspire.ec.europa.eu/schemas/tn-a/4.0:AirRouteLink Styles: TN_A_ProcedureLink , TN_A_AirRouteLink
 }
@@ -293,7 +293,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AirspaceArea"
 	tags: inspire production
 	Name: "TN.AirTransportNetwork.AirSpaceArea"
-	Title: en "Air Space Area", de "Luftraumbereich"
+	Title: en "Air Space Area Default Style", de "Luftraumbereich"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:AirspaceArea
 	Styles: TN_A_AirspaceArea
 }
@@ -302,7 +302,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.ApronArea"
 	tags: inspire production
 	Name: "TN.AirTransportNetwork.ApronArea"
-	Title: en "Apron Area", de "Vorfeldgelände"
+	Title: en "Apron Area Default Style", de "Vorfeldgelände"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:ApronArea
 	Styles: TN_A_ApronArea
 }
@@ -311,7 +311,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.RunwayArea"
 	tags: inspire production
 	Name: "TN.AirTransportNetwork.RunwayArea"
-	Title: en "Runway Area", de "Landebahngelände"
+	Title: en "Runway Area Default Style", de "Landebahngelände"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:RunwayArea
 	Styles: TN_A_RunwayArea
 }
@@ -320,7 +320,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.TaxiwayArea"
 	tags: inspire production
 	Name: "TN.AirTransportNetwork.TaxiwayArea"
-	Title: en "Taxiway Area", de "Rollfeld"
+	Title: en "Taxiway Area Default Style", de "Rollfeld"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:TaxiwayArea
 	Styles: TN_A_TaxiwayArea
 }
@@ -329,7 +329,7 @@ Layer {
 	registry-id:""
 	tags: inspire production
 	Name: "TN.AirTransportNetwork.DesignatedPoint"
-	Title: en "Designated Point", de "Designierter Punkt"
+	Title: en "Designated Point Default Style", de "Designierter Punkt"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:DesignatedPoint
 	Styles: TN_A_DesignatedPoint
 }
@@ -338,7 +338,7 @@ Layer {
 	registry-id:""
 	tags: inspire production
 	Name: "TN.AirTransportNetwork.AerodromeNode"
-	Title: en "Aerodrome Node", de "Flugplatzknotenpunkt"
+	Title: en "Aerodrome Node Default Style", de "Flugplatzknotenpunkt"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:AerodromeNode
 	Styles: TN_A_AerodromeNode
 }
@@ -347,7 +347,7 @@ Layer {
 	registry-id:""
 	tags: inspire production
 	Name: "TN.AirTransportNetwork.TouchDownLiftOff"
-	Title: en "Touch Down Lift Off Area", de "Start- und Landebereich für Hubschrauber"
+	Title: en "Touch Down Lift Off Area Default Style", de "Start- und Landebereich für Hubschrauber"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:TouchDownLiftOff
 	Styles: TN_A_TouchDownLiftOff
 }
@@ -356,7 +356,7 @@ Layer {
 	registry-id:""
 	tags: inspire production
 	Name: "TN.AirTransportNetwork.Navaid"
-	Title: en "Navaid", de "Navigationshilfe"
+	Title: en "Navaid Default Style", de "Navigationshilfe"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:Navaid
 	Styles: TN_A_Navaid
 }
@@ -365,7 +365,7 @@ Layer {
 	registry-id:""
 	tags: inspire production
 	Name: "TN.AirTransportNetwork.RunwayCentrelinePoint"
-	Title: en "Runway Centreline Point", de "Mittellinienpunkt der Landebahn"
+	Title: en "Runway Centreline Point Default Style", de "Mittellinienpunkt der Landebahn"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:RunwayCentrelinePoint
 	Styles: TN_A_RunwayCentrelinePoint
 }
@@ -374,7 +374,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.CableTransportNetwork.CablewayLink"
 	tags: inspire production
 	Name: "TN.CableTransportNetwork.CablewayLink"
-	Title: en "Cableway Link", de "Seilbahnverbindung"
+	Title: en "Cableway Link Default Style", de "Seilbahnverbindung"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-c/4.0:CablewayLink
 	Styles: TN_C_CablewayLink
 }
@@ -383,7 +383,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.CommonTransportElements.TransportArea"
 	tags: inspire production
 	Name: "TN.CommonTransportElements.TransportArea"
-	Title: en "Generic Transport Area", de "Generischer Verkehrsbereich"
+	Title: en "Generic Transport Area Default Style", de "Generischer Verkehrsbereich"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn/4.0:TransportArea
 	Styles: TN_TransportArea
 }
@@ -392,7 +392,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.CommonTransportElements.TransportLink"
 	tags: inspire production
 	Name: "TN.CommonTransportElements.TransportLink"
-	Title: en "Generic Transport Link", de "Generisches Verkehrssegment"
+	Title: en "Generic Transport Link Default Style", de "Generisches Verkehrssegment"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn/4.0:TransportLink
 	Styles: TN_TransportLink
 }
@@ -401,7 +401,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.CommonTransportElements.TransportNode"
 	tags: inspire production
 	Name: "TN.CommonTransportElements.TransportNode"
-	Title: en "Generic Transport Node", de "Generischer Verkehrsknotenpunkt"
+	Title: en "Generic Transport Node Default Style", de "Generischer Verkehrsknotenpunkt"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn/4.0:TransportNode
 	Styles: TN_TransportNode
 }
@@ -410,7 +410,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayArea"
 	tags: inspire production
 	Name: "TN.RailTransportNetwork.RailwayArea"
-	Title: en "Railway Area", de "Bahngelände"
+	Title: en "Railway Area Default Style", de "Bahngelände"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ra/4.0:RailwayArea
 	Styles: TN_RA_RailwayArea
 }
@@ -419,7 +419,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayLink"
 	tags: inspire production
 	Name: "TN.RailTransportNetwork.RailwayLink"
-	Title: en "Railway Link", de "Eisenbahnverbindung"
+	Title: en "Railway Link Default Style", de "Eisenbahnverbindung"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ra/4.0:RailwayLink
 	Styles: TN_RA_RailwayLink
 }
@@ -428,7 +428,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayStationArea"
 	tags: inspire production
 	Name: "TN.RailTransportNetwork.RailwayStationArea"
-	Title: en "Railway Station Area", de "Bahnhofsgelände"
+	Title: en "Railway Station Area Default Style", de "Bahnhofsgelände"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ra/4.0:RailwayStationArea
 	Styles: TN_RA_RailwayStationArea
 }
@@ -437,7 +437,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayYardArea"
 	tags: inspire production
 	Name: "TN.RailTransportNetwork.RailwayYardArea"
-	Title: en "Railway Yard Area", de "Rangierbahnhofsgelände"
+	Title: en "Railway Yard Area Default Style", de "Rangierbahnhofsgelände"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ra/4.0:RailwayYardArea
 	Styles: TN_RA_RailwayYardArea
 }
@@ -446,7 +446,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadArea"
 	tags: inspire production
 	Name: "TN.RoadTransportNetwork.RoadArea"
-	Title: en "Road Area", de "Straßenfläche"
+	Title: en "Road Area Default Style", de "Straßenfläche"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:RoadArea
 	Styles: TN_RO_RoadArea
 }
@@ -455,7 +455,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadLink"
 	tags: inspire production
 	Name: "TN.RoadTransportNetwork.RoadLink"
-	Title: en "Road Link", de "Straßensegment"
+	Title: en "Road Link Default Style", de "Straßensegment"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:RoadLink
 	Styles: TN_RO_RoadLink
 }
@@ -464,7 +464,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadServiceArea"
 	tags: inspire production
 	Name: "TN.RoadTransportNetwork.RoadServiceArea"
-	Title: en "Road Service Area", de "Servicebereich"
+	Title: en "Road Service Area Default Style", de "Servicebereich"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:RoadServiceArea
 	Styles: TN_RO_RoadServiceArea
 }
@@ -473,7 +473,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.VehicleTrafficArea"
 	tags: inspire production
 	Name: "TN.RoadTransportNetwork.VehicleTrafficArea"
-	Title: en "Vehicle traffic Area", de "Verkehrsfläche"
+	Title: en "Vehicle traffic Area Default Style", de "Verkehrsfläche"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:VehicleTrafficArea
 	Styles: TN_RO_VehicleTrafficArea
 }
@@ -482,7 +482,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.WaterTransportNetwork.FairwayArea"
 	tags: inspire production
 	Name: "TN.WaterTransportNetwork.FairwayArea"
-	Title: en "Fairway Area", de "Fahrrinnenbereich"
+	Title: en "Fairway Area Default Style", de "Fahrrinnenbereich"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/4.0:FairwayArea
 	Styles: TN_W_FairwayArea
 }
@@ -491,7 +491,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.WaterTransportNetwork.PortArea"
 	tags: inspire production
 	Name: "TN.WaterTransportNetwork.PortArea"
-	Title: en "Port Area", de "Hafengelände"
+	Title: en "Port Area Default Style", de "Hafengelände"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/4.0:PortArea
 	Styles: TN_W_PortArea
 }
@@ -500,7 +500,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.WaterTransportNetwork.WaterwayLink"
 	tags: inspire production
 	Name: "TN.WaterTransportNetwork.WaterwayLink"
-	Title: en "Waterway Link", de "Wasserstraßenverbindung"
+	Title: en "Waterway Link Default Style", de "Wasserstraßenverbindung"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/4.0:WaterwayLink
 	Styles: TN_W_WaterwayLink
 }
@@ -527,7 +527,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/BU.Building"
 	tags: inspire
 	Name: "BU.Building"
-	Title: en "Buildings", de "Gebäude"
+	Title: en "Building", de "Gebäude"
 	SpatialObjectTypes:	http://inspire.ec.europa.eu/schemas/bu-core2d/4.0:Building
 	Styles: BU_Building
 }
@@ -536,7 +536,7 @@ Layer {
 	registry-id:"http://inspire.ec.europa.eu/layer/BU.BuildingPart"
 	tags: inspire
 	Name: "BU.BuildingPart"
-	Title: en "Building Parts", de "Gebäudeteile"
+	Title: en "BuildingPart", de "Gebäudeteile"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/bu-core2d/4.0:BuildingPart
 	Styles: BU_BuildingPart
 }
@@ -766,13 +766,13 @@ Layer{
 	Styles: AM_WaterBodyForWFD
 }
 Layer{
-	id: "US_EnvironmentalManagementFacility"
+	id: "US_EnvironmentalManagementFacilitySite"
 	registry-id: "https://inspire.ec.europa.eu/layer/US.EnvironmentalManagementFacility"
 	tags: inspire production
 	Name: "US.EnvironmentalManagementFacility"
-	Title: en "Environmental Management Facilities", de "Umweltmanagementeinrichtungen"
+	Title: en "Environmental Management Facility", de "Umweltmanagementeinrichtungen"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/us-emf/4.0:EnvironmentalManagementFacility
-	Styles: US_EnvironmentalManagementFacility
+	Styles: US_EnvironmentalManagementFacilitySite
 }
 Layer{
 	id: "US_UtilityNetworkAppurtenance"
@@ -824,7 +824,7 @@ Layer{
 	registry-id:""
 	tags: inspire production
 	Name: "NZ.RiskZone"
-	Title: en "Risk Zone", de "Risikogebiet"
+	Title: en "Risk Zones", de "Risikogebiet"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/nz-core/4.0:RiskZone
 	Styles: NZ_RiskZone
 }
@@ -842,7 +842,7 @@ Layer{
 	registry-id:"http://inspire.ec.europa.eu/layer/NZ.ExposedElement"
 	tags: inspire production
 	Name: "NZ.ExposedElement"
-	Title: en "Exposed Element", de "Gefährdetes Element"
+	Title: en "Exposed Elements", de "Gefährdetes Element"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/nz-core/4.0:ExposedElement
 	Styles: NZ_ExposedElement
 }
@@ -914,7 +914,7 @@ Layer{
 	registry-id: "http://inspire.ec.europa.eu/layer/PF.ProductionBuilding"
 	tags: inspire production
 	Name: "PF.ProductionBuilding"
-	Title: en "Production and industrial building", de "Produktions- und Industriegebäude"
+	Title: en "Production And Industrial Building", de "Produktions- und Industriegebäude"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionBuilding 
 	Styles: PF_ProductionBuilding
 }
@@ -923,7 +923,7 @@ Layer{
 	registry-id:"http://inspire.ec.europa.eu/layer/PF.ProductionInstallation"
 	tags: inspire production
 	Name: "PF.ProductionInstallation"
-	Title: en "Production and industrial installation", de "Produktions- und Industrieanlage"
+	Title: en "Production And Industrial Installation", de "Produktions- und Industrieanlage"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionInstallation
 	Styles: PF_ProductionInstallation
 }
@@ -932,7 +932,7 @@ Layer{
 	registry-id: "http://inspire.ec.europa.eu/layer/PF.ProductionInstallationPart"
 	tags: inspire production
 	Name: "PF.ProductionInstallationPart"
-	Title: en "Production and industrial installation part", de "Produktions- und Industrieanlagenteil"
+	Title: en "Production And Industrial Installation Part", de "Produktions- und Industrieanlagenteil"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionInstallationPart 
 	Styles: PF_ProductionInstallationPart
 }
@@ -941,7 +941,7 @@ Layer{
 	registry-id:"http://inspire.ec.europa.eu/layer/PF.ProductionPlot"
 	tags: inspire production
 	Name: "PF.ProductionPlot"
-	Title: en "Production and industrial parcel", de "Produktions- und Industriegelände"
+	Title: en "Production And Industrial Plot", de "Produktions- und Industriegelände"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionPlot
 	Styles: PF_ProductionPlot
 }
@@ -950,7 +950,7 @@ Layer{
 	registry-id:"http://inspire.ec.europa.eu/layer/PF.ProductionSite"
 	tags: inspire production
 	Name: "PF.ProductionSite"
-	Title: en "Production and industrial site", de "Produktions- und Industriestandort"
+	Title: en "Production And Industrial Site", de "Produktions- und Industriestandort"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionSite
 	Styles: PF_ProductionSite
 }
@@ -977,7 +977,7 @@ Layer{
 	registry-id:"http://inspire.ec.europa.eu/layer/ER.RenewableAndWasteResource"
 	tags: inspire
 	Name: "ER.RenewableAndWasteResource"
-	Title: en "Renewable and waste resources", de "Ressourcen erneuerbarer Energien und Abfallressourcen"
+	Title: en "Renewable And Waste Resource", de "Ressourcen erneuerbarer Energien und Abfallressourcen"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/er-v/4.0:RenewableAndWasteResource
 	Styles: ER_RenewableAndWasteResource
 }
@@ -985,7 +985,7 @@ Layer{
 	id: "GE_GeologicUnit_AgeOfRocks"
 	registry-id: "http://inspire.ec.europa.eu/layer/GE.GeologicUnit"
 	tags: inspire production
-	Name: "GE.GeologicUnit"
+	Name: "GE.GeologicUnit.AgeOfRocks"
 	Title: en "Geologic Units", de "Geologische Einheiten"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/ge-core/4.0:MappedFeature
 	Styles: GE_GeologicUnit_AgeOfRocks
@@ -1040,7 +1040,7 @@ Layer{
 	registry-id: "http://inspire.ec.europa.eu/layer/EL.BreakLine"
 	tags: inspire production
 	Name: "EL.BreakLine"
-	Title: en "Break line", de "Bruchkante"
+	Title: en "Break Line", de "Bruchkante"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/el-vec/4.0:BreakLine
 	Styles: EL_BreakLine
 }
@@ -1049,7 +1049,7 @@ Layer{
 	registry-id: "http://inspire.ec.europa.eu/layer/EL.ContourLine"
 	tags: inspire production
 	Name: "EL.ContourLine"
-	Title: en "Contour line", de "Höhenlinie"
+	Title: en "Contour Line", de "Höhenlinie"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/el-vec/4.0:ContourLine
 	Styles: EL_ContourLine
 }
@@ -1058,7 +1058,7 @@ Layer{
 	registry-id: "http://inspire.ec.europa.eu/layer/EL.IsolatedArea"
 	tags: inspire production
 	Name: "EL.IsolatedArea"
-	Title: en "Isolated area", de "Abgesondertes Gebiet"
+	Title: en "Isolated Area", de "Abgesondertes Gebiet"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/el-vec/4.0:IsolatedArea
 	Styles: EL_IsolatedArea
 }
@@ -1067,7 +1067,7 @@ Layer{
 	registry-id: "http://inspire.ec.europa.eu/layer/EL.SpotElevation"
 	tags: inspire production
 	Name: "EL.SpotElevation"
-	Title: en "Spot elevation", de "Höhenlagenpunkt"
+	Title: en "Spot Elevation", de "Höhenlagenpunkt"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/el-vec/4.0:SpotElevation
 	Styles: EL_SpotElevation
 }
@@ -1076,7 +1076,7 @@ Layer{
 	registry-id: "http://inspire.ec.europa.eu/layer/EL.VoidArea"
 	tags: inspire production
 	Name: "EL.VoidArea"
-	Title: en "Void area", de "Leeres Gebiet"
+	Title: en "Void Area", de "Leeres Gebiet"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/el-vec/4.0:VoidArea
 	Styles: EL_VoidArea
 }
@@ -1085,7 +1085,7 @@ Layer{
 	registry-id: ""
 	tags: inspire production
 	Name: "EL.ContourLineType"
-	Title: en "Contour line", de "Höhenlinie"
+	Title: en "Contour Line Type", de "Höhenlinie"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/el-vec/4.0:ContourLine
 	Styles: EL_ContourLineType
 }
@@ -1116,6 +1116,22 @@ Layer{
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0/:RoadNode
 	Styles: TN_RO_RoadNode
 }
+Layer{
+	id: "SF_SpatialSamplingFeature"
+	registry-id:""
+	tags: inspire production
+	Name: "SF.SpatialSamplingFeature"
+	Title: en "Spatial Sampling Feature", de "Spatial Sampling Feature"
+	SpatialObjectTypes: http://www.opengis.net/samplingSpatial/2.0:SF_SpatialSamplingFeature
+	Styles: SF_SpatialSamplingFeature
+}
+Style {
+	id: "SF_SpatialSamplingFeature"
+	Remote {
+		FeatureType: http://www.opengis.net/samplingSpatial/2.0:SF_SpatialSamplingFeature
+		URL: "feature-styles/SF_SpatialSamplingFeature.se"
+	}
+}
 Style {
 	id: "US_UtilityNetworkAppurtenance"
 	Remote {
@@ -1131,10 +1147,10 @@ Style {
 	}
 }
 Style {
-	id: "US_EnvironmentalManagementFacility"
+	id: "US_EnvironmentalManagementFacilitySite"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/us-emf/4.0:EnvironmentalManagementFacility
-		URL: "feature-styles/US_EnvironmentalManagementFacility.se"
+		URL: "feature-styles/US_EnvironmentalManagementFacilitySite.se"
 	}
 }
 Style {

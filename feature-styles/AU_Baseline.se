@@ -8,7 +8,7 @@
   <se:FeatureTypeName>mu:Baseline</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>baseline</se:Title>
+      <se:Title>Baseline</se:Title>
     </se:Description>
     <se:LineSymbolizer>
       <se:Geometry>

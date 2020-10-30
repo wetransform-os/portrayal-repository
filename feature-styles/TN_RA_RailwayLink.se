@@ -8,7 +8,7 @@
   <se:FeatureTypeName>tn-ra:RailwayLink</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>railway link</se:Title>
+      <se:Title>Railway link</se:Title>
     </se:Description>
     <se:LineSymbolizer>
       <se:Geometry>

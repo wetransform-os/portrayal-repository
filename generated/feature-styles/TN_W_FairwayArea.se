@@ -11,7 +11,7 @@ xmlns:tn-w="http://inspire.ec.europa.eu/schemas/tn-w/4.0" xmlns:xlink="http://ww
   <se:FeatureTypeName>tn-w:FairwayArea</se:FeatureTypeName>
   <se:Rule>
     <se:Description>
-      <se:Title>fairway area</se:Title>
+      <se:Title>Fairway area</se:Title>
     </se:Description>
     <se:PolygonSymbolizer>
       <se:Geometry>
