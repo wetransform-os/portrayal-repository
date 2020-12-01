@@ -19,8 +19,6 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
     <se:Description>
       <se:Title>Administrative and social governmental services default</se:Title>
     </se:Description>
-    <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
-    <se:MaxScaleDenominator>500000.0</se:MaxScaleDenominator>
     <ogc:Filter>
     	<ogc:PropertyIsEqualTo>
         	<ogc:Function name="IsSurface">
@@ -29,6 +27,8 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
        		<ogc:Literal>true</ogc:Literal>
        	</ogc:PropertyIsEqualTo>
    	</ogc:Filter>
+   	<se:MinScaleDenominator>1.0</se:MinScaleDenominator>
+    <se:MaxScaleDenominator>500000.0</se:MaxScaleDenominator>
     <se:PolygonSymbolizer>
       <se:Geometry>
         <ogc:PropertyName>us:areaOfResponsibility/us:AreaOfResponsibilityType/us:areaOfResponsibilityByPolygon</ogc:PropertyName>
@@ -46,8 +46,6 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
     <se:Description>
       <se:Title>Administrative and social governmental services default</se:Title>
     </se:Description>
-    <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
-    <se:MaxScaleDenominator>500000.0</se:MaxScaleDenominator>
     <ogc:Filter>
     	<ogc:PropertyIsEqualTo>
         	<ogc:Function name="IsSurface">
@@ -56,6 +54,8 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
        		<ogc:Literal>true</ogc:Literal>
        	</ogc:PropertyIsEqualTo>
    	</ogc:Filter>
+   	  <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
+    <se:MaxScaleDenominator>500000.0</se:MaxScaleDenominator>
     <se:PolygonSymbolizer>
       <se:Geometry>
         <ogc:PropertyName>us:areaOfResponsibility/us:AreaOfResponsibilityType/us:areaOfResponsibilityByAdministrativeUnit/au:geometry</ogc:PropertyName>
