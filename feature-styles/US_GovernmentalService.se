@@ -19,7 +19,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
     <se:Description>
       <se:Title>Administrative and social governmental services default</se:Title>
     </se:Description>
-     <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
+    <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
     <se:MaxScaleDenominator>500000.0</se:MaxScaleDenominator>
     <ogc:Filter>
     	<ogc:PropertyIsEqualTo>
@@ -46,7 +46,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
     <se:Description>
       <se:Title>Administrative and social governmental services default</se:Title>
     </se:Description>
-     <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
+    <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
     <se:MaxScaleDenominator>500000.0</se:MaxScaleDenominator>
     <ogc:Filter>
     	<ogc:PropertyIsEqualTo>
