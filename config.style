@@ -525,16 +525,16 @@ Layer {
 Layer {
 	id: "BU_Building"
 	registry-id:"http://inspire.ec.europa.eu/layer/BU.Building"
-	tags: inspire
+	tags: inspire production
 	Name: "BU.Building"
 	Title: en "Building", de "Gebäude"
-	SpatialObjectTypes:	http://inspire.ec.europa.eu/schemas/bu-core2d/4.0:Building
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/bu-core2d/4.0:Building
 	Styles: BU_Building
 }
 Layer {
 	id: "BU_BuildingPart"
 	registry-id:"http://inspire.ec.europa.eu/layer/BU.BuildingPart"
-	tags: inspire
+	tags: inspire production
 	Name: "BU.BuildingPart"
 	Title: en "BuildingPart", de "Gebäudeteile"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/bu-core2d/4.0:BuildingPart
