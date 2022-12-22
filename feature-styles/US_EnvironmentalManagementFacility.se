@@ -1,52 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<se:FeatureTypeStyle xmlns:us-emf="http://inspire.ec.europa.eu/schemas/us-emf/4.0" 
+<se:FeatureTypeStyle xmlns:us-emf="http://inspire.ec.europa.eu/schemas/us-emf/4.0"
 xmlns:act-core="http://inspire.ec.europa.eu/schemas/act-core/4.0"
-xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" 
-xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se"
+xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink"
 xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
-	<se:Name>US.EnvironmentalManagementSite.Default</se:Name>
+	<se:Name>US.EnvironmentalManagementFacility</se:Name>
 	<se:Description>
-    	<se:Title>Environmental Management Facilities</se:Title>
+    	<se:Title>Environmental Management Facility</se:Title>
     	<se:Abstract>Point geometries are rendered as a triangle with a size of 5 pixels, with a 50% grey (#808080) fill and a black outline. Line geometries are rendered as a solid black line with a stroke width of 1 pixel.
 		Polygon geometries are rendered using a 50% grey (#808080) fill and a solid black outline with a stroke width of 1 pixel</se:Abstract>
 	</se:Description>
-	<se:FeatureTypeName>us-emf:EnvironmentalManagementFacility</se:FeatureTypeName> 
-	<se:Rule>
-    <se:Description>
-      <se:Title>Environmental management facility default</se:Title>
-    </se:Description>
-    <se:PolygonSymbolizer>
-      <se:Geometry>
-	        <ogc:PropertyName>act-core:geometry</ogc:PropertyName>
-	   </se:Geometry>
-	   <se:Fill>
-	     <se:SvgParameter name="fill">#808080</se:SvgParameter>
-	   </se:Fill>
-	   <se:Stroke>
-	      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
-	      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
-	   </se:Stroke>
-    </se:PolygonSymbolizer>
-  </se:Rule>
+	<se:FeatureTypeName>us-emf:EnvironmentalManagementFacility</se:FeatureTypeName>
   	<se:Rule>
-  	 <se:Description>
-      <se:Title>Site</se:Title>
-    </se:Description>
+			<se:Description>
+	      <se:Title>Environmental management facility default</se:Title>
+	    </se:Description>
   	<ogc:Filter>
-    	<ogc:And>
-    		<ogc:PropertyIsEqualTo>
-        		<ogc:Function name="IsSurface">
-        			<ogc:PropertyName>act-core:geometry</ogc:PropertyName>
-       			</ogc:Function>
-       			<ogc:Literal>true</ogc:Literal>
-       		</ogc:PropertyIsEqualTo>
-		<ogc:PropertyIsEqualTo>
-				<ogc:PropertyName>us-emf:type/@xlink:href</ogc:PropertyName>
-				<ogc:Literal>http://inspire.ec.europa.eu/codelist/EnvironmentalManagementFacilityTypeValue/site</ogc:Literal>
-			</ogc:PropertyIsEqualTo>
-		 </ogc:And>
-   	</ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:Function name="IsSurface">
+        		<ogc:PropertyName>act-core:geometry</ogc:PropertyName>
+       		</ogc:Function>
+       		<ogc:Literal>true</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   		</ogc:Filter>
 	    <se:PolygonSymbolizer>
 	      <se:Geometry>
 	        <ogc:PropertyName>act-core:geometry</ogc:PropertyName>
@@ -62,23 +39,14 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
 	    </se:PolygonSymbolizer>
 	  </se:Rule>
 	  <se:Rule>
-	   <se:Description>
-      <se:Title>Site</se:Title>
-    </se:Description>
 		<ogc:Filter>
-    	<ogc:And>
     		<ogc:PropertyIsEqualTo>
         		<ogc:Function name="IsPoint">
         			<ogc:PropertyName>act-core:geometry</ogc:PropertyName>
        			</ogc:Function>
        			<ogc:Literal>true</ogc:Literal>
        		</ogc:PropertyIsEqualTo>
-		<ogc:PropertyIsEqualTo>
-				<ogc:PropertyName>us-emf:type/@xlink:href</ogc:PropertyName>
-				<ogc:Literal>http://inspire.ec.europa.eu/codelist/EnvironmentalManagementFacilityTypeValue/site</ogc:Literal>
-			</ogc:PropertyIsEqualTo>
-		 </ogc:And>
-   	</ogc:Filter>
+   		</ogc:Filter>
 	    <se:PointSymbolizer>
 	      <se:Geometry>
 	        <ogc:PropertyName>act-core:geometry</ogc:PropertyName>
@@ -92,39 +60,30 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
 	          </se:Fill>
 	          <se:Stroke>
 	            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
-	            <se:SvgParameter name="stroke-width">1</se:SvgParameter> 
+	            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
 	          </se:Stroke>
 	        </se:Mark>
 	        <se:Size>5</se:Size>
 	      </se:Graphic>
-	    </se:PointSymbolizer>    
+	    </se:PointSymbolizer>
 	</se:Rule>
 	<se:Rule>
-	 <se:Description>
-      <se:Title>Site</se:Title>
-    </se:Description>
-	<ogc:Filter>
-    	<ogc:And>
+		<ogc:Filter>
     		<ogc:PropertyIsEqualTo>
         		<ogc:Function name="IsCurve">
         			<ogc:PropertyName>act-core:geometry</ogc:PropertyName>
        			</ogc:Function>
        			<ogc:Literal>true</ogc:Literal>
        		</ogc:PropertyIsEqualTo>
-		<ogc:PropertyIsEqualTo>
-				<ogc:PropertyName>us-emf:type/@xlink:href</ogc:PropertyName>
-				<ogc:Literal>http://inspire.ec.europa.eu/codelist/EnvironmentalManagementFacilityTypeValue/site</ogc:Literal>
-			</ogc:PropertyIsEqualTo>
-		 </ogc:And>
-   	</ogc:Filter>
+   		</ogc:Filter>
 	    <se:LineSymbolizer>
 	      <se:Geometry>
 	        <ogc:PropertyName>act-core:geometry</ogc:PropertyName>
 	      </se:Geometry>
 	      <se:Stroke>
 	      	<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-	        <se:SvgParameter name="stroke-width">1</se:SvgParameter> 
+	        <se:SvgParameter name="stroke-width">1</se:SvgParameter>
 	      </se:Stroke>
-	    </se:LineSymbolizer>   
+	    </se:LineSymbolizer>
   	</se:Rule>
   	</se:FeatureTypeStyle>

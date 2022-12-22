@@ -433,7 +433,7 @@
     <title text="Wasserkörper gemäß der Wasserrahmenrichtlinie (2000/60/EG)"/>
     <objectType>am_4.0:ManagementRestrictionOrRegulationZone</objectType>
   </layerConfig>
-  <layerConfig name="US_EnvironmentalManagementFacilitySite" registryId="https://inspire.ec.europa.eu/layer/US.EnvironmentalManagementFacility" tags="//@tags.0 //@tags.2" layerName="US.EnvironmentalManagementFacility" styleConfig="//@styleConfig.3">
+  <layerConfig name="US_EnvironmentalManagementFacility" registryId="https://inspire.ec.europa.eu/layer/US.EnvironmentalManagementFacility" tags="//@tags.0 //@tags.2" layerName="US.EnvironmentalManagementFacility" styleConfig="//@styleConfig.3">
     <title lang="en" text="Environmental Management Facility"/>
     <title text="Umweltmanagementeinrichtungen"/>
     <objectType>us-emf_4.0:EnvironmentalManagementFacility</objectType>
@@ -632,8 +632,8 @@
   <styleConfig name="US_UtilityNetworkLink">
     <remoteStyle featureTypeName="us-net-common_4.0:UtilityLink" url="feature-styles/US_UtilityNetworkLink.se"/>
   </styleConfig>
-  <styleConfig name="US_EnvironmentalManagementFacilitySite">
-    <remoteStyle featureTypeName="us-emf_4.0:EnvironmentalManagementFacility" url="feature-styles/US_EnvironmentalManagementFacilitySite.se"/>
+  <styleConfig name="US_EnvironmentalManagementFacility">
+    <remoteStyle featureTypeName="us-emf_4.0:EnvironmentalManagementFacility" url="feature-styles/US_EnvironmentalManagementFacility.se"/>
   </styleConfig>
   <styleConfig name="TN_A_DesignatedPoint">
     <remoteStyle featureTypeName="tn-a_4.0:DesignatedPoint" url="feature-styles/TN_A_DesignatedPoint.se"/>
