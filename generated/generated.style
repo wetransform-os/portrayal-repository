@@ -509,13 +509,13 @@ tags: inspire production Name: "AM.WaterBodyForWFD"
 Title: en "WaterBodyForWFD"
 , de "Wasserkörper gemäß der Wasserrahmenrichtlinie (2000/60/EG)"
 SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/am/4.0:ManagementRestrictionOrRegulationZone
-Styles: AM_WaterBodyForWFD } Layer { id: "US_EnvironmentalManagementFacilitySite"
+Styles: AM_WaterBodyForWFD } Layer { id: "US_EnvironmentalManagementFacility"
 registry-id: "https://inspire.ec.europa.eu/layer/US.EnvironmentalManagementFacility"
 tags: inspire production Name: "US.EnvironmentalManagementFacility"
 Title: en "Environmental Management Facility"
 , de "Umweltmanagementeinrichtungen"
 SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/us-emf/4.0:EnvironmentalManagementFacility
-Styles: US_EnvironmentalManagementFacilitySite } Layer { id: "US_UtilityNetworkAppurtenance"
+Styles: US_EnvironmentalManagementFacility } Layer { id: "US_UtilityNetworkAppurtenance"
 registry-id: ""
 tags: inspire production Name: "US.UtilityNetworkAppurtenance"
 Title: en "Appurtenance"
@@ -759,10 +759,10 @@ Style {
 	}
 }
 Style {
-	id: "US_EnvironmentalManagementFacilitySite"
+	id: "US_EnvironmentalManagementFacility"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/us-emf/4.0:EnvironmentalManagementFacility
-		URL: "feature-styles/US_EnvironmentalManagementFacilitySite.se"
+		URL: "feature-styles/US_EnvironmentalManagementFacility.se"
 	}
 }
 Style {
