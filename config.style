@@ -1,6 +1,6 @@
 tags: 'inspire' 'inspire_wetransform' 'production'
 Layer {
-	id: "AD_Address" 
+	id: "AD_Address"
 	registry-id: "http://inspire.ec.europa.eu/layer/AD.Address"
 	tags: inspire production
 	Name: "AD.Address"
@@ -30,7 +30,7 @@ Layer {
 Layer {
 	id: "AU_Baseline"
 	registry-id:"http://inspire.ec.europa.eu/layer/AU.Baseline"
-	tags: 
+	tags:
 	Name: "AU.Baseline"
 	Title: en "Baseline", de "Basislinie"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/mu/3.0:Baseline
@@ -39,7 +39,7 @@ Layer {
 Layer {
 	id: "AU_Condominium"
 	registry-id:"http://inspire.ec.europa.eu/layer/AU.Condominium"
-	tags: 
+	tags:
 	Name: "AU.Condominium"
 	Title: en "Condominium", de "Kondominium"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/au/4.0:Condominium
@@ -48,7 +48,7 @@ Layer {
 Layer {
 	id: "AU_ContiguousZone"
 	registry-id:"http://inspire.ec.europa.eu/layer/AU.ContiguousZone"
-	tags: 
+	tags:
 	Name: "AU.ContiguousZone"
 	Title: en "Contiguous zone", de "Anschlusszone"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/mu/3.0:ContiguousZone
@@ -57,16 +57,16 @@ Layer {
 Layer {
 	id: "AU_ContinentalShelf"
 	registry-id:"http://inspire.ec.europa.eu/layer/AU.ContinentalShelf"
-	tags: 
+	tags:
 	Name: "AU.ContinentalShelf"
 	Title: en "Continental shelf", de "Festlandsockel"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/mu/3.0:ContinentalShelf
 	Styles: AU_ContinentalShelf
 }
 Layer {
-	id: "AU_ExclusiveEconomicZone" 
+	id: "AU_ExclusiveEconomicZone"
 	registry-id:"http://inspire.ec.europa.eu/layer/AU.ExclusiveEconomicZone"
-	tags: 
+	tags:
 	Name: "AU.ExclusiveEconomicZone"
 	Title: en "Exclusive economic zone", de "Ausschließliche Wirtschaftszone"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/mu/3.0:ExclusiveEconomicZone
@@ -177,7 +177,7 @@ Layer {
 	tags: inspire production
 	Name: "HY.Network.HydroNode"
 	Title: en "Hydrographic network - HydroNode", de "Hydrografisches Netzwerk- HydroNode"
-	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-n/4.0:HydroNode 
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-n/4.0:HydroNode
 	Styles: HY_N_HydroNode
 }
 Layer {
@@ -581,7 +581,7 @@ Layer{
 	registry-id:""
 	tags: inspire
 	Name: "US.GovernmentalService"
-	Title: en "Governmental Service", de "Stätlicher Dienst"
+	Title: en "Governmental Service", de "Staatlicher Dienst"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/us-govserv/4.0:GovernmentalService
 	Styles: US_GovernmentalService
 }
@@ -637,7 +637,7 @@ Layer{
 	Name: "AM.CoastalZoneManagementArea"
 	Title: en "Coastal Zone Management Area", de "Gebiete des Küstenzonenmanagements"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/am/4.0:ManagementRestrictionOrRegulationZone
-	Styles: AM_CoastalZoneManagementArea 
+	Styles: AM_CoastalZoneManagementArea
 }
 Layer{
 	id:"AM_DesignatedWaters"
@@ -664,7 +664,7 @@ Layer{
 	Name: "AM.FloodUnitOfManagement"
 	Title: en "Flood Unit Of Management", de"Bewirtschaftungseinheit für Hochwasserrisiken"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/am/4.0:ManagementRestrictionOrRegulationZone
-	Styles: AM_FloodUnitOfManagement	
+	Styles: AM_FloodUnitOfManagement
 }
 Layer{
 	id:"AM_ForestManagementArea"
@@ -798,7 +798,7 @@ Layer{
 	tags: inspire production
 	Name: "EF.EnvironmentalMonitoringFacilities"
 	Title: en "Environmental Monitoring Facilities", de "Umweltüberwachungseinrichtungen"
-	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/ef/4.0:EnvironmentalMonitoringFacility 
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/ef/4.0:EnvironmentalMonitoringFacility
 	Styles: EF_EnvironmentalMonitoringFacilities
 }
 Layer{
@@ -807,7 +807,7 @@ Layer{
 	tags: inspire production
 	Name: "EF.EnvironmentalMonitoringNetworks"
 	Title: en "Environmental Monitoring Networks", de "Umweltüberwachungsnetzwerke"
-	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/ef/4.0:EnvironmentalMonitoringNetwork 
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/ef/4.0:EnvironmentalMonitoringNetwork
 	Styles:  EF_EnvironmentalMonitoringNetworks
 }
 Layer{
@@ -871,7 +871,7 @@ Layer{
 	Name:"TN.WaterTransportNetwork.Beacon"
 	Title: en "Beacon", de "Leuchtfeuer"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/4.0:Beacon
-	Styles: TN_W_Beacon	
+	Styles: TN_W_Beacon
 }
 Layer{
 	id: "TN_W_Buoy"
@@ -915,7 +915,7 @@ Layer{
 	tags: inspire production
 	Name: "PF.ProductionBuilding"
 	Title: en "Production And Industrial Building", de "Produktions- und Industriegebäude"
-	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionBuilding 
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionBuilding
 	Styles: PF_ProductionBuilding
 }
 Layer{
@@ -933,7 +933,7 @@ Layer{
 	tags: inspire production
 	Name: "PF.ProductionInstallationPart"
 	Title: en "Production And Industrial Installation Part", de "Produktions- und Industrieanlagenteil"
-	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionInstallationPart 
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionInstallationPart
 	Styles: PF_ProductionInstallationPart
 }
 Layer{
@@ -954,7 +954,7 @@ Layer{
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/pf/4.0:ProductionSite
 	Styles: PF_ProductionSite
 }
-//Layer{ 
+//Layer{
 //	id:"ER_EnergyStatisticalUnit"
 //	registry-id: ""
 //	tags: inspire
@@ -1020,10 +1020,10 @@ Layer{
 Layer{
 	id: "SU_StatisticalGridCell"
 	registry-id:"http://inspire.ec.europa.eu/layer/SU.StatisticalGridCell"
-	tags: inspire 
+	tags: inspire
 	Name: "SU.StatisticalGridCell"
 	Title: en "Statistical grid cells", de "Statistische Vektoreinheiten"
-	SpatialObjectTypes: https://inspire.ec.europa.eu/schemas/su-grid/4.0:StatisticalGridCell 
+	SpatialObjectTypes: https://inspire.ec.europa.eu/schemas/su-grid/4.0:StatisticalGridCell
 	Styles: SU_StatisticalGridCell
 }
 Layer{
@@ -1032,7 +1032,7 @@ Layer{
 	tags: inspire production
 	Name: "HH.HealthDeterminantMeasure"
 	Title: en "Health determinant measure", de "Messwerte für Gesundheitsfaktoren"
-	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hh/4.0:EnvHealthDeterminantMeasure 
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hh/4.0:EnvHealthDeterminantMeasure
 	Styles: HH_HealthDeterminantMeasure
 }
 Layer{
@@ -1105,7 +1105,7 @@ Layer{
 	Name: "SD.SpeciesDistribution"
 	Title: en "Species Distribution", de "Verteilung der Arten"
     SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/sd/4.0/:SpeciesDistributionUnit
-    Styles: SD_SpeciesDistribution		
+    Styles: SD_SpeciesDistribution
 }
 Layer{
 	id: "TN_RO_RoadNode"
@@ -1268,7 +1268,7 @@ Style{
 Style{
 	id: "SU_StatisticalGridCell"
 	Remote{
-		FeatureType: https://inspire.ec.europa.eu/schemas/su-grid/4.0:StatisticalGridCell 
+		FeatureType: https://inspire.ec.europa.eu/schemas/su-grid/4.0:StatisticalGridCell
 		URL: "feature-styles/SU_StatisticalGridCell.se"
 	}
 }
@@ -1422,7 +1422,7 @@ Style{
 Style{
 	id: "EF_EnvironmentalMonitoringProgrammes"
 	Remote{
-		FeatureType: http://inspire.ec.europa.eu/schemas/ef/4.0:EnvironmentalMonitoringProgramme 
+		FeatureType: http://inspire.ec.europa.eu/schemas/ef/4.0:EnvironmentalMonitoringProgramme
 		URL: "feature-styles/EF_EnvironmentalMonitoringProgrammes.se"
 	}
 }
@@ -1598,14 +1598,14 @@ Style{
 	id: "LU_ZoningElement"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/plu/4.0:ZoningElement
-		URL:"feature-styles/LU_ZoningElement.se"	
+		URL:"feature-styles/LU_ZoningElement.se"
 	}
 }
 Style{
 	id: "LU_SpatialPlan"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/plu/4.0:SpatialPlan
-		URL: "feature-styles/LU_SpatialPlan.se"	
+		URL: "feature-styles/LU_SpatialPlan.se"
 	}
 }
 Style{
@@ -1836,7 +1836,7 @@ Style {
 	id: "HY_P_Watercourse"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Watercourse
-		URL: "feature-styles/HY_P_Watercourse.se"		
+		URL: "feature-styles/HY_P_Watercourse.se"
 	}
 }
 Style {
@@ -2072,4 +2072,3 @@ Style {
 		URL: "feature-styles/BU_BuildingPart.se"
 	}
 }
-
