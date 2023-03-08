@@ -330,7 +330,7 @@
   </layerConfig>
   <layerConfig name="US_GovernmentalService" registryId="" tags="//@tags.0" layerName="US.GovernmentalService" styleConfig="//@styleConfig.63">
     <title lang="en" text="Governmental Service"/>
-    <title text="Stätlicher Dienst"/>
+    <title text="Staatlicher Dienst"/>
     <objectType>us-govserv_4.0:GovernmentalService</objectType>
   </layerConfig>
   <layerConfig name="HB_Habitat" registryId="http://inspire.ec.europa.eu/layer/HB.Habitat" tags="//@tags.0" layerName="HB.Habitat" styleConfig="//@styleConfig.62">
