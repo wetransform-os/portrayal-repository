@@ -548,6 +548,11 @@
     <title text="Geologische Einheiten"/>
     <objectType>ge-core_4.0:MappedFeature</objectType>
   </layerConfig>
+  <layerConfig name="GE_Borehole" registryId="http://inspire.ec.europa.eu/layer/GE.Borehole" tags="//@tags.0 //@tags.2" layerName="GE.Borehole" styleConfig="//@styleConfig.133">
+    <title lang="en" text="Boreholes"/>
+    <title text="Bohrlöcher"/>
+    <objectType>ge-core_4.0:Borehole</objectType>
+  </layerConfig>
   <layerConfig name="BR_BiogeographicalRegion" registryId="http://inspire.ec.europa.eu/layer/BR.Bio-geographicalRegion" tags="//@tags.0 //@tags.2" layerName="BR.Bio-geographicalRegion" styleConfig="//@styleConfig.22">
     <title lang="en" text="Bio-geographical regions"/>
     <title text="Biogeografische Regionen"/>
@@ -1021,5 +1026,8 @@
   </styleConfig>
   <styleConfig name="BU_BuildingPart">
     <remoteStyle featureTypeName="bu-core2d_4.0:BuildingPart" url="feature-styles/BU_BuildingPart.se"/>
+  </styleConfig>
+  <styleConfig name="GE_Borehole">
+    <remoteStyle featureTypeName="ge-core_4.0:Borehole" url="feature-styles/GE_Borehole.se"/>
   </styleConfig>
 </styleconfig:StyleModel>
