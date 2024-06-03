@@ -157,7 +157,7 @@
     <title text="Schutzgebiete"/>
     <objectType>ps_4.0:ProtectedSite</objectType>
   </layerConfig>
-  <layerConfig name="PS_ProtectedSite" registryId="http://inspire.ec.europa.eu/layer/PS.ProtectedSite" tags="//@tags.0 //@tags.2" layerName="PS.ProtectedSite" styleConfig="//@styleConfig.106">
+  <layerConfig name="PS_ProtectedSite" registryId="http://inspire.ec.europa.eu/layer/PS.ProtectedSite" tags="//@tags.0 //@tags.2" layerName="PS.ProtectedSite" styleConfig="//@styleConfig.134">
     <title lang="en" text="Protected Sites"/>
     <title text="Schutzgebiete"/>
     <objectType>ps_5.0:ProtectedSite</objectType>
@@ -953,6 +953,7 @@
   </styleConfig>
   <styleConfig name="PS_ProtectedSite">
     <remoteStyle featureTypeName="ps_4.0:ProtectedSite" url="feature-styles/PS_ProtectedSites.se"/>
+  </styleConfig>
   <styleConfig name="PS_ProtectedSite">
     <remoteStyle featureTypeName="ps_5.0:ProtectedSite" url="feature-styles/PS_ProtectedSites.se"/>
   </styleConfig>

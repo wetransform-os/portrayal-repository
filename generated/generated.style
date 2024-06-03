@@ -181,13 +181,13 @@ Title: en "Protected Sites"
 SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/ps/4.0:ProtectedSite
 Styles: PS_ProtectedSite } Layer { id: "PS_ProtectedSite"
 registry-id: "http://inspire.ec.europa.eu/layer/PS.ProtectedSite"
-tags: inspire production Name: "PS.ProtectedSite"
+tags: inspire Name: "PS.ProtectedSite"
 Title: en "Protected Sites"
 , de "Schutzgebiete"
 SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/ps/5.0:ProtectedSite
 Styles: PS_ProtectedSite } Layer { id: "TN_AirTran"
 registry-id: "http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AerodromeArea"
-tags: inspire Name: "TN.AirTransportNetwork.AerodromeArea"
+tags: inspire production Name: "TN.AirTransportNetwork.AerodromeArea"
 Title: en "Aerodrome Area Default Style"
 , de "Flugplatzgelände"
 SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:AerodromeArea
