@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<styleconfig:StyleModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ad_4.0="http://inspire.ec.europa.eu/schemas/ad/4.0" xmlns:am_4.0="http://inspire.ec.europa.eu/schemas/am/4.0" xmlns:au_4.0="http://inspire.ec.europa.eu/schemas/au/4.0" xmlns:br_4.0="http://inspire.ec.europa.eu/schemas/br/4.0" xmlns:bu-core2d_4.0="http://inspire.ec.europa.eu/schemas/bu-core2d/4.0" xmlns:cp_4.0="http://inspire.ec.europa.eu/schemas/cp/4.0" xmlns:ef_4.0="http://inspire.ec.europa.eu/schemas/ef/4.0" xmlns:el-tin_4.0="http://inspire.ec.europa.eu/schemas/el-tin/4.0" xmlns:el-vec_4.0="http://inspire.ec.europa.eu/schemas/el-vec/4.0" xmlns:elu_4.0="http://inspire.ec.europa.eu/schemas/elu/4.0" xmlns:er-v_4.0="http://inspire.ec.europa.eu/schemas/er-v/4.0" xmlns:ge-core_4.0="http://inspire.ec.europa.eu/schemas/ge-core/4.0" xmlns:gn_4.0="http://inspire.ec.europa.eu/schemas/gn/4.0" xmlns:hb_4.0="http://inspire.ec.europa.eu/schemas/hb/4.0" xmlns:hh_4.0="http://inspire.ec.europa.eu/schemas/hh/4.0" xmlns:hy-n_4.0="http://inspire.ec.europa.eu/schemas/hy-n/4.0" xmlns:hy-p_4.0="http://inspire.ec.europa.eu/schemas/hy-p/4.0" xmlns:lcv_4.0="http://inspire.ec.europa.eu/schemas/lcv/4.0" xmlns:mu_3.0="http://inspire.ec.europa.eu/schemas/mu/3.0" xmlns:nz-core_4.0="http://inspire.ec.europa.eu/schemas/nz-core/4.0" xmlns:pf_4.0="http://inspire.ec.europa.eu/schemas/pf/4.0" xmlns:plu_4.0="http://inspire.ec.europa.eu/schemas/plu/4.0" xmlns:ps_4.0="http://inspire.ec.europa.eu/schemas/ps/4.0" xmlns:samplingSpatial_2.0="http://www.opengis.net/samplingSpatial/2.0" xmlns:sd_4.0="http://inspire.ec.europa.eu/schemas/sd/4.0" xmlns:styleconfig="http://to.wetf.styling.models/model/styles" xmlns:su-grid_4.0="https://inspire.ec.europa.eu/schemas/su-grid/4.0" xmlns:su-vector_4.0="http://inspire.ec.europa.eu/schemas/su-vector/4.0" xmlns:tn-a_4.0="http://inspire.ec.europa.eu/schemas/tn-a/4.0" xmlns:tn-c_4.0="http://inspire.ec.europa.eu/schemas/tn-c/4.0" xmlns:tn-ra_4.0="http://inspire.ec.europa.eu/schemas/tn-ra/4.0" xmlns:tn-ro_4.0="http://inspire.ec.europa.eu/schemas/tn-ro/4.0" xmlns:tn-ro_4.0_1="http://inspire.ec.europa.eu/schemas/tn-ro/4.0" xmlns:tn-w_4.0="http://inspire.ec.europa.eu/schemas/tn-w/4.0" xmlns:tn_4.0="http://inspire.ec.europa.eu/schemas/tn/4.0" xmlns:us-emf_4.0="http://inspire.ec.europa.eu/schemas/us-emf/4.0" xmlns:us-govserv_4.0="http://inspire.ec.europa.eu/schemas/us-govserv/4.0" xmlns:us-net-common_4.0="http://inspire.ec.europa.eu/schemas/us-net-common/4.0">
+<styleconfig:StyleModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ad_4.0="http://inspire.ec.europa.eu/schemas/ad/4.0" xmlns:am_4.0="http://inspire.ec.europa.eu/schemas/am/4.0" xmlns:au_4.0="http://inspire.ec.europa.eu/schemas/au/4.0" xmlns:br_4.0="http://inspire.ec.europa.eu/schemas/br/4.0" xmlns:bu-core2d_4.0="http://inspire.ec.europa.eu/schemas/bu-core2d/4.0" xmlns:cp_4.0="http://inspire.ec.europa.eu/schemas/cp/4.0" xmlns:ef_4.0="http://inspire.ec.europa.eu/schemas/ef/4.0" xmlns:el-tin_4.0="http://inspire.ec.europa.eu/schemas/el-tin/4.0" xmlns:el-vec_4.0="http://inspire.ec.europa.eu/schemas/el-vec/4.0" xmlns:elu_4.0="http://inspire.ec.europa.eu/schemas/elu/4.0" xmlns:er-v_4.0="http://inspire.ec.europa.eu/schemas/er-v/4.0" xmlns:ge-core_4.0="http://inspire.ec.europa.eu/schemas/ge-core/4.0" xmlns:gn_4.0="http://inspire.ec.europa.eu/schemas/gn/4.0" xmlns:hb_4.0="http://inspire.ec.europa.eu/schemas/hb/4.0" xmlns:hh_4.0="http://inspire.ec.europa.eu/schemas/hh/4.0" xmlns:hy-n_4.0="http://inspire.ec.europa.eu/schemas/hy-n/4.0" xmlns:hy-p_4.0="http://inspire.ec.europa.eu/schemas/hy-p/4.0" xmlns:lcv_4.0="http://inspire.ec.europa.eu/schemas/lcv/4.0" xmlns:mu_3.0="http://inspire.ec.europa.eu/schemas/mu/3.0" xmlns:nz-core_4.0="http://inspire.ec.europa.eu/schemas/nz-core/4.0" xmlns:pf_4.0="http://inspire.ec.europa.eu/schemas/pf/4.0" xmlns:plu_4.0="http://inspire.ec.europa.eu/schemas/plu/4.0" xmlns:ps_4.0="http://inspire.ec.europa.eu/schemas/ps/4.0" xmlns:ps_5.0="http://inspire.ec.europa.eu/schemas/ps/5.0" xmlns:samplingSpatial_2.0="http://www.opengis.net/samplingSpatial/2.0" xmlns:sd_4.0="http://inspire.ec.europa.eu/schemas/sd/4.0" xmlns:styleconfig="http://to.wetf.styling.models/model/styles" xmlns:su-grid_4.0="https://inspire.ec.europa.eu/schemas/su-grid/4.0" xmlns:su-vector_4.0="http://inspire.ec.europa.eu/schemas/su-vector/4.0" xmlns:tn-a_4.0="http://inspire.ec.europa.eu/schemas/tn-a/4.0" xmlns:tn-c_4.0="http://inspire.ec.europa.eu/schemas/tn-c/4.0" xmlns:tn-ra_4.0="http://inspire.ec.europa.eu/schemas/tn-ra/4.0" xmlns:tn-ro_4.0="http://inspire.ec.europa.eu/schemas/tn-ro/4.0" xmlns:tn-ro_4.0_1="http://inspire.ec.europa.eu/schemas/tn-ro/4.0" xmlns:tn-w_4.0="http://inspire.ec.europa.eu/schemas/tn-w/4.0" xmlns:tn_4.0="http://inspire.ec.europa.eu/schemas/tn/4.0" xmlns:us-emf_4.0="http://inspire.ec.europa.eu/schemas/us-emf/4.0" xmlns:us-govserv_4.0="http://inspire.ec.europa.eu/schemas/us-govserv/4.0" xmlns:us-net-common_4.0="http://inspire.ec.europa.eu/schemas/us-net-common/4.0">
   <tags name="inspire"/>
   <tags name="inspire_wetransform"/>
   <tags name="production"/>
@@ -156,6 +156,11 @@
     <title lang="en" text="Protected Sites"/>
     <title text="Schutzgebiete"/>
     <objectType>ps_4.0:ProtectedSite</objectType>
+  </layerConfig>
+  <layerConfig name="PS_ProtectedSite" registryId="http://inspire.ec.europa.eu/layer/PS.ProtectedSite" tags="//@tags.0 //@tags.2" layerName="PS.ProtectedSite" styleConfig="//@styleConfig.134">
+    <title lang="en" text="Protected Sites"/>
+    <title text="Schutzgebiete"/>
+    <objectType>ps_5.0:ProtectedSite</objectType>
   </layerConfig>
   <layerConfig name="TN_AirTran" registryId="http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AerodromeArea" tags="//@tags.0 //@tags.2" layerName="TN.AirTransportNetwork.AerodromeArea" styleConfig="//@styleConfig.107">
     <title lang="en" text="Aerodrome Area Default Style"/>
@@ -330,7 +335,7 @@
   </layerConfig>
   <layerConfig name="US_GovernmentalService" registryId="" tags="//@tags.0" layerName="US.GovernmentalService" styleConfig="//@styleConfig.63">
     <title lang="en" text="Governmental Service"/>
-    <title text="Stätlicher Dienst"/>
+    <title text="Staatlicher Dienst"/>
     <objectType>us-govserv_4.0:GovernmentalService</objectType>
   </layerConfig>
   <layerConfig name="HB_Habitat" registryId="http://inspire.ec.europa.eu/layer/HB.Habitat" tags="//@tags.0" layerName="HB.Habitat" styleConfig="//@styleConfig.62">
@@ -433,7 +438,7 @@
     <title text="Wasserkörper gemäß der Wasserrahmenrichtlinie (2000/60/EG)"/>
     <objectType>am_4.0:ManagementRestrictionOrRegulationZone</objectType>
   </layerConfig>
-  <layerConfig name="US_EnvironmentalManagementFacilitySite" registryId="https://inspire.ec.europa.eu/layer/US.EnvironmentalManagementFacility" tags="//@tags.0 //@tags.2" layerName="US.EnvironmentalManagementFacility" styleConfig="//@styleConfig.3">
+  <layerConfig name="US_EnvironmentalManagementFacility" registryId="https://inspire.ec.europa.eu/layer/US.EnvironmentalManagementFacility" tags="//@tags.0 //@tags.2" layerName="US.EnvironmentalManagementFacility" styleConfig="//@styleConfig.3">
     <title lang="en" text="Environmental Management Facility"/>
     <title text="Umweltmanagementeinrichtungen"/>
     <objectType>us-emf_4.0:EnvironmentalManagementFacility</objectType>
@@ -548,6 +553,11 @@
     <title text="Geologische Einheiten"/>
     <objectType>ge-core_4.0:MappedFeature</objectType>
   </layerConfig>
+  <layerConfig name="GE_Borehole" registryId="http://inspire.ec.europa.eu/layer/GE.Borehole" tags="//@tags.0 //@tags.2" layerName="GE.Borehole" styleConfig="//@styleConfig.133">
+    <title lang="en" text="Boreholes"/>
+    <title text="Bohrlöcher"/>
+    <objectType>ge-core_4.0:Borehole</objectType>
+  </layerConfig>
   <layerConfig name="BR_BiogeographicalRegion" registryId="http://inspire.ec.europa.eu/layer/BR.Bio-geographicalRegion" tags="//@tags.0 //@tags.2" layerName="BR.Bio-geographicalRegion" styleConfig="//@styleConfig.22">
     <title lang="en" text="Bio-geographical regions"/>
     <title text="Biogeografische Regionen"/>
@@ -632,8 +642,8 @@
   <styleConfig name="US_UtilityNetworkLink">
     <remoteStyle featureTypeName="us-net-common_4.0:UtilityLink" url="feature-styles/US_UtilityNetworkLink.se"/>
   </styleConfig>
-  <styleConfig name="US_EnvironmentalManagementFacilitySite">
-    <remoteStyle featureTypeName="us-emf_4.0:EnvironmentalManagementFacility" url="feature-styles/US_EnvironmentalManagementFacilitySite.se"/>
+  <styleConfig name="US_EnvironmentalManagementFacility">
+    <remoteStyle featureTypeName="us-emf_4.0:EnvironmentalManagementFacility" url="feature-styles/US_EnvironmentalManagementFacility.se"/>
   </styleConfig>
   <styleConfig name="TN_A_DesignatedPoint">
     <remoteStyle featureTypeName="tn-a_4.0:DesignatedPoint" url="feature-styles/TN_A_DesignatedPoint.se"/>
@@ -944,6 +954,9 @@
   <styleConfig name="PS_ProtectedSite">
     <remoteStyle featureTypeName="ps_4.0:ProtectedSite" url="feature-styles/PS_ProtectedSites.se"/>
   </styleConfig>
+  <styleConfig name="PS_ProtectedSite">
+    <remoteStyle featureTypeName="ps_5.0:ProtectedSite" url="feature-styles/PS_ProtectedSites.se"/>
+  </styleConfig>
   <styleConfig name="TN_A_AerodromeArea">
     <remoteStyle featureTypeName="tn-a_4.0:AerodromeArea" url="feature-styles/TN_A_AerodromeArea.se"/>
   </styleConfig>
@@ -1021,5 +1034,8 @@
   </styleConfig>
   <styleConfig name="BU_BuildingPart">
     <remoteStyle featureTypeName="bu-core2d_4.0:BuildingPart" url="feature-styles/BU_BuildingPart.se"/>
+  </styleConfig>
+  <styleConfig name="GE_Borehole">
+    <remoteStyle featureTypeName="ge-core_4.0:Borehole" url="feature-styles/GE_Borehole.se"/>
   </styleConfig>
 </styleconfig:StyleModel>

@@ -179,6 +179,12 @@ tags: inspire production Name: "PS.ProtectedSite"
 Title: en "Protected Sites"
 , de "Schutzgebiete"
 SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/ps/4.0:ProtectedSite
+Styles: PS_ProtectedSite } Layer { id: "PS_ProtectedSite"
+registry-id: "http://inspire.ec.europa.eu/layer/PS.ProtectedSite"
+tags: inspire Name: "PS.ProtectedSite"
+Title: en "Protected Sites"
+, de "Schutzgebiete"
+SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/ps/5.0:ProtectedSite
 Styles: PS_ProtectedSite } Layer { id: "TN_AirTran"
 registry-id: "http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AerodromeArea"
 tags: inspire production Name: "TN.AirTransportNetwork.AerodromeArea"
@@ -387,7 +393,7 @@ Styles: LU_SupplementaryRegulation } Layer { id: "US_GovernmentalService"
 registry-id: ""
 tags: inspire Name: "US.GovernmentalService"
 Title: en "Governmental Service"
-, de "Stätlicher Dienst"
+, de "Staatlicher Dienst"
 SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/us-govserv/4.0:GovernmentalService
 Styles: US_GovernmentalService } Layer { id: "HB_Habitat"
 registry-id: "http://inspire.ec.europa.eu/layer/HB.Habitat"
@@ -509,13 +515,13 @@ tags: inspire production Name: "AM.WaterBodyForWFD"
 Title: en "WaterBodyForWFD"
 , de "Wasserkörper gemäß der Wasserrahmenrichtlinie (2000/60/EG)"
 SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/am/4.0:ManagementRestrictionOrRegulationZone
-Styles: AM_WaterBodyForWFD } Layer { id: "US_EnvironmentalManagementFacilitySite"
+Styles: AM_WaterBodyForWFD } Layer { id: "US_EnvironmentalManagementFacility"
 registry-id: "https://inspire.ec.europa.eu/layer/US.EnvironmentalManagementFacility"
 tags: inspire production Name: "US.EnvironmentalManagementFacility"
 Title: en "Environmental Management Facility"
 , de "Umweltmanagementeinrichtungen"
 SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/us-emf/4.0:EnvironmentalManagementFacility
-Styles: US_EnvironmentalManagementFacilitySite } Layer { id: "US_UtilityNetworkAppurtenance"
+Styles: US_EnvironmentalManagementFacility } Layer { id: "US_UtilityNetworkAppurtenance"
 registry-id: ""
 tags: inspire production Name: "US.UtilityNetworkAppurtenance"
 Title: en "Appurtenance"
@@ -647,7 +653,13 @@ tags: inspire production Name: "GE.GeologicUnit.AgeOfRocks"
 Title: en "Geologic Units"
 , de "Geologische Einheiten"
 SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/ge-core/4.0:MappedFeature
-Styles: GE_GeologicUnit_AgeOfRocks } Layer { id: "BR_BiogeographicalRegion"
+Styles: GE_GeologicUnit_AgeOfRocks } Layer { id: "GE_Borehole"
+registry-id: "http://inspire.ec.europa.eu/layer/GE.Borehole"
+tags: inspire production Name: "GE.Borehole"
+Title: en "Boreholes"
+, de "Bohrlöcher"
+SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/ge-core/4.0:Borehole
+Styles: GE_Borehole } Layer { id: "BR_BiogeographicalRegion"
 registry-id: "http://inspire.ec.europa.eu/layer/BR.Bio-geographicalRegion"
 tags: inspire production Name: "BR.Bio-geographicalRegion"
 Title: en "Bio-geographical regions"
@@ -759,10 +771,10 @@ Style {
 	}
 }
 Style {
-	id: "US_EnvironmentalManagementFacilitySite"
+	id: "US_EnvironmentalManagementFacility"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/us-emf/4.0:EnvironmentalManagementFacility
-		URL: "feature-styles/US_EnvironmentalManagementFacilitySite.se"
+		URL: "feature-styles/US_EnvironmentalManagementFacility.se"
 	}
 }
 Style {
