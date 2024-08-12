@@ -15,8 +15,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
     <se:Description>
       <se:Title>Production installation</se:Title>
     </se:Description>
-    <se:MinScaleDenominator>1</se:MinScaleDenominator>
-    <se:MaxScaleDenominator>35000</se:MaxScaleDenominator>
+    <se:MinScaleDenominator>1000</se:MinScaleDenominator>
+    <se:MaxScaleDenominator>25000</se:MaxScaleDenominator>
     <se:PointSymbolizer>
       <se:Geometry>
         <ogc:PropertyName>pf:pointGeometry</ogc:PropertyName>
