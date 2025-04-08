@@ -31,7 +31,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 		 </ogc:And> -->
 	</ogc:Filter>
 	<se:MinScaleDenominator>50</se:MinScaleDenominator>
-	<se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
+	<se:MaxScaleDenominator>25000</se:MaxScaleDenominator>
 	<se:PolygonSymbolizer>
 		<se:Geometry>
 			<ogc:PropertyName>bu:geometry2D/bu-base:BuildingGeometry2D/bu-base:geometry</ogc:PropertyName>
@@ -61,7 +61,7 @@ xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.
 		</ogc:And>-->	
 	</ogc:Filter>
 	<se:MinScaleDenominator>50</se:MinScaleDenominator>
-	<se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
+	<se:MaxScaleDenominator>25000</se:MaxScaleDenominator>
 	<se:PointSymbolizer>
 		<se:Geometry>
 			<ogc:PropertyName>bu:geometry2D/bu-base:BuildingGeometry2D/bu-base:geometry</ogc:PropertyName>
