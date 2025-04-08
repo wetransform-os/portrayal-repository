@@ -349,13 +349,13 @@ Title: en "Land Cover Points"
 SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/lcv/4.0:LandCoverUnit
 Styles: LC_LandCoverPoints } Layer { id: "BU_Building"
 registry-id: "http://inspire.ec.europa.eu/layer/BU.Building"
-tags: inspire Name: "BU.Building"
+tags: inspire production Name: "BU.Building"
 Title: en "Building"
 , de "Gebäude"
 SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/bu-core2d/4.0:Building
 Styles: BU_Building } Layer { id: "BU_BuildingPart"
 registry-id: "http://inspire.ec.europa.eu/layer/BU.BuildingPart"
-tags: inspire Name: "BU.BuildingPart"
+tags: inspire production Name: "BU.BuildingPart"
 Title: en "BuildingPart"
 , de "Gebäudeteile"
 SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/bu-core2d/4.0:BuildingPart
@@ -389,13 +389,7 @@ tags: inspire Name: "US.GovernmentalService"
 Title: en "Governmental Service"
 , de "Staatlicher Dienst"
 SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/us-govserv/4.0:GovernmentalService
-Styles: US_GovernmentalService } Layer { id: "HB_Habitat"
-registry-id: "http://inspire.ec.europa.eu/layer/HB.Habitat"
-tags: inspire Name: "HB.Habitat"
-Title: en "Habitat"
-, de "Lebensraum"
-SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hb/4.0:Habitat
-Styles: HB_Habitat } Layer { id: "AM_AirQualityManagementZone"
+Styles: US_GovernmentalService } Layer { id: "AM_AirQualityManagementZone"
 registry-id: "http://inspire.ec.europa.eu/layer/AM.AirQualityManagementZone"
 tags: inspire production Name: "AM.AirQualityManagementZone"
 Title: en "Air Quality Management Zone"
@@ -1178,13 +1172,6 @@ Style {
 	}
 }
 Style {
-	id: "HB_Habitat"
-	Remote {
-		FeatureType: http://inspire.ec.europa.eu/schemas/hb/4.0:Habitat
-		URL: "feature-styles/HB_Habitat.se"
-	}
-}
-Style {
 	id: "US_GovernmentalService"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/us-govserv/4.0:GovernmentalService
@@ -1672,5 +1659,12 @@ Style {
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/bu-core2d/4.0:BuildingPart
 		URL: "feature-styles/BU_BuildingPart.se"
+	}
+}
+Style {
+	id: "GE_Borehole"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/ge-core/4.0:Borehole
+		URL: "feature-styles/GE_Borehole.se"
 	}
 }
