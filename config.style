@@ -586,15 +586,6 @@ Layer{
 	Styles: US_GovernmentalService
 }
 Layer{
-	id:"HB_Habitat"
-	registry-id:"http://inspire.ec.europa.eu/layer/HB.Habitat"
-	tags: inspire
-	Name: "HB.Habitat"
-	Title: en "Habitat", de "Lebensraum"
-	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hb/4.0:Habitat
-	Styles: HB_Habitat
-}
-Layer{
 	id:"AM_AirQualityManagementZone"
 	registry-id: "http://inspire.ec.europa.eu/layer/AM.AirQualityManagementZone"
 	tags: inspire production
@@ -1580,13 +1571,6 @@ Style{
 	Remote{
 		FeatureType: http://inspire.ec.europa.eu/schemas/am/4.0:ManagementRestrictionOrRegulationZone
 		URL: "feature-styles/AM_AnimalHealthRestrictionZone.se"
-	}
-}
-Style{
-	id:"HB_Habitat"
-	Remote{
-		FeatureType: http://inspire.ec.europa.eu/schemas/hb/4.0:Habitat
-		URL: "feature-styles/HB_Habitat.se"
 	}
 }
 Style{
