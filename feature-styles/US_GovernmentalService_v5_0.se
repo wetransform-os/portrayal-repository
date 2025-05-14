@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle  xmlns:us="http://inspire.ec.europa.eu/schemas/us-govserv/4.0" 
+xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0" 
+xmlns:ogc="http://www.opengis.net/ogc" 
+xmlns:se="http://www.opengis.net/se" 
+xmlns:sld="http://www.opengis.net/sld" 
+xmlns:gml="http://www.opengis.net/gml/3.2"
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+version="1.1.0" 
+xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd">
+  <se:Name>US.AdministrativeAndSocialGovernmentalServices.Default</se:Name>
+  <se:Description>
+    <se:Title>Administrative and Social Governmental Services Default Style</se:Title>
+    <se:Abstract>The location of the service shall be portrayed as point symbols.</se:Abstract>
+  </se:Description>
+  <se:FeatureTypeName>us:GovernmentalService</se:FeatureTypeName>
+  <se:Rule>
+    <se:Description>
+      <se:Title>Administrative and social governmental services default</se:Title>
+    </se:Description>
+    <ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:Function name="IsSurface">
+        		<ogc:PropertyName>us:areaOfResponsibility/us:AreaOfResponsibilityType/us:areaOfResponsibilityByPolygon</ogc:PropertyName>
+       		</ogc:Function>
+       		<ogc:Literal>true</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   	</ogc:Filter>
+   	<se:MinScaleDenominator>1.0</se:MinScaleDenominator>
+    <se:MaxScaleDenominator>500000.0</se:MaxScaleDenominator>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>us:areaOfResponsibility/us:AreaOfResponsibilityType/us:areaOfResponsibilityByPolygon</ogc:PropertyName>
+      </se:Geometry>
+      <se:Fill>
+        <se:SvgParameter name="fill">#808080</se:SvgParameter>
+      </se:Fill>
+      <se:Stroke>
+        <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+        <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+      </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+  <se:Rule>
+    <se:Description>
+      <se:Title>Administrative and social governmental services default</se:Title>
+    </se:Description>
+    <ogc:Filter>
+    	<ogc:PropertyIsEqualTo>
+        	<ogc:Function name="IsSurface">
+        		<ogc:PropertyName>us:areaOfResponsibility/us:AreaOfResponsibilityType/us:areaOfResponsibilityByAdministrativeUnit/au:geometry</ogc:PropertyName>
+       		</ogc:Function>
+       		<ogc:Literal>true</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+   	</ogc:Filter>
+   	  <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
+    <se:MaxScaleDenominator>500000.0</se:MaxScaleDenominator>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>us:areaOfResponsibility/us:AreaOfResponsibilityType/us:areaOfResponsibilityByAdministrativeUnit/au:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Fill>
+        <se:SvgParameter name="fill">#000000</se:SvgParameter>
+      </se:Fill>
+      <se:Stroke>
+        <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+        <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+      </se:Stroke>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+    <se:Rule>
+  <se:Description>
+      <se:Title>Administrative and social governmental services default</se:Title>
+    </se:Description>
+    <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
+    <se:MaxScaleDenominator>500000.0</se:MaxScaleDenominator>
+    <se:PointSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>us:serviceLocation/us:ServiceLocationType/us:serviceLocationByGeometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Graphic>
+        <se:Mark>
+          <se:WellKnownName>circle</se:WellKnownName>
+          <se:Fill>
+            <se:SvgParameter name="fill">#FF0000</se:SvgParameter>
+          </se:Fill>
+          <se:Stroke>
+            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+            <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+          </se:Stroke>
+        </se:Mark>
+        <se:Size>6</se:Size>
+      </se:Graphic>
+    </se:PointSymbolizer>
+  </se:Rule> 
+  
+<!--  
+  <se:Rule>
+  <se:Description>
+      <se:Title>Administrative and social governmental services - Education - point symbol</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>us:serviceType/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/administrationForEducation</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
+    <se:MaxScaleDenominator>500000.0</se:MaxScaleDenominator>
+    <se:PointSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>us:serviceLocation/us:ServiceLocationType/us:serviceLocationByGeometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Graphic>
+        <se:ExternalGraphic>
+        	<se:OnlineResource xlink:type="simple"
+        	xlink:href="https://wetransform.box.com/s/4wwic9yuphf8yxhinzatkqm6a2et3gg8"/>
+        	<se:Format>image/svg</se:Format>
+        </se:ExternalGraphic>
+        <se:Size>20</se:Size>
+      </se:Graphic>
+    </se:PointSymbolizer>
+  </se:Rule>
+ <se:Rule>
+    <se:Description>
+      <se:Title>Administrative and social governmental services - Education - point symbol</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>us:serviceType/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/administrationForEducation</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
+    <se:MaxScaleDenominator>500000.0</se:MaxScaleDenominator>
+    <se:PointSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>us:serviceLocation/us:ServiceLocationType/us:serviceLocationByGeometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Graphic>
+        <se:ExternalGraphic>
+        	<se:OnlineResource xlink:type="simple"
+        	xlink:href="https://wetransform.box.com/s/4wwic9yuphf8yxhinzatkqm6a2et3gg8"/>
+        	<se:Format>image/svg</se:Format>
+        </se:ExternalGraphic>
+        <se:Size>20</se:Size>
+      </se:Graphic>
+    </se:PointSymbolizer>
+  </se:Rule>
+    <se:Rule>
+    <se:Description>
+      <se:Title>Administrative and social governmental services - Police - point symbol</se:Title>
+    </se:Description>
+    <ogc:Filter>
+		<ogc:PropertyIsEqualTo> 
+			<ogc:PropertyName>us:serviceType/@xlink:href</ogc:PropertyName>
+			<ogc:Literal>http://inspire.ec.europa.eu/codelist/ServiceTypeValue/policeService</ogc:Literal>
+		</ogc:PropertyIsEqualTo>
+	</ogc:Filter>
+    <se:MinScaleDenominator>1.0</se:MinScaleDenominator>
+    <se:MaxScaleDenominator>500000.0</se:MaxScaleDenominator>
+    <se:PointSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>us:serviceLocation/us:ServiceLocationType/us:serviceLocationByGeometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Graphic>
+        <se:ExternalGraphic>
+        	<se:OnlineResource xlink:type="simple"
+        	xlink:href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/800px-Flag_of_Germany.svg.png"/>
+        	<se:Format>image/png</se:Format>
+        </se:ExternalGraphic>
+        <se:Size>20</se:Size>
+      </se:Graphic>
+    </se:PointSymbolizer>
+  </se:Rule>
+  -->
+</se:FeatureTypeStyle>
