@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" 
+xmlns:sld="http://www.opengis.net/sld" xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0" 
+xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/4.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd" version="1.1.0">
+  <se:Name>US.UtilityNetworkAppurtenance.Default</se:Name>
+  <se:Description>
+    <se:Title>Appurtenance Default Style</se:Title>
+    <se:Abstract>The geometry is rendered using a yellow (#FFFF00) fill.</se:Abstract>
+  </se:Description>
+  <se:FeatureTypeName>us-net-common:Appurtenance</se:FeatureTypeName>
+  <se:Rule>
+  <se:Description>
+      <se:Title>Appurtenance</se:Title>
+    </se:Description>
+    <se:PointSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>net:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Graphic>
+        <se:Mark>
+          <se:WellKnownName>square</se:WellKnownName>
+          <se:Fill>
+            <se:SvgParameter name="fill">#FFFF00</se:SvgParameter>
+          </se:Fill>
+          <se:Stroke>
+            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+          </se:Stroke>
+        </se:Mark>
+        <se:Size>10</se:Size>
+      </se:Graphic>
+    </se:PointSymbolizer>
+  </se:Rule>
+</se:FeatureTypeStyle>

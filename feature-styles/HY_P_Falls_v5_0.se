@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle xmlns:hy-p="http://inspire.ec.europa.eu/schemas/hy-p/4.0" 
+xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" 
+xmlns:sld="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.opengis.net/se http://schemas.opengis.net/se/1.1.0/FeatureStyle.xsd"
+version="1.1.0">
+  <se:Name>HY.PhysicalWaters.HydroPointOfInterest.Default</se:Name>
+  <se:Description>
+    <se:Title>Hydrographic Points Of Interest Default Style</se:Title>
+    <se:Abstract>Fluvial points as rapids or falls are depicted with symbols; if the geometry is a curve they are depicted in aligned blue (#0066FF) marks (stars for Falls and crosses for Rapids); if the geometry is a surface it will be an area with blue (#0066FF) marks (stars for Falls and crosses for Rapids).</se:Abstract>
+  </se:Description>
+  <se:FeatureTypeName>hy-p:Falls</se:FeatureTypeName>
+  <se:Rule>
+    <se:Description>
+      <se:Title>Falls</se:Title>
+    </se:Description>
+  	<ogc:Filter>
+       <ogc:PropertyIsEqualTo>
+        	<ogc:Function name="IsPoint">
+        		<ogc:PropertyName>hy-p:geometry</ogc:PropertyName>
+       		</ogc:Function>
+       		<ogc:Literal>true</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+    </ogc:Filter>
+    <se:PointSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>hy-p:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Graphic>
+        <se:Mark>
+          <se:WellKnownName>star</se:WellKnownName>
+          <se:Fill>
+            <se:SvgParameter name="fill">#0066FF</se:SvgParameter>
+          </se:Fill>
+           <se:Stroke>
+            <se:SvgParameter name="stroke">#0066FF</se:SvgParameter>
+          </se:Stroke>
+        </se:Mark>
+        <se:Size>10.0</se:Size>
+      </se:Graphic>
+    </se:PointSymbolizer>
+    </se:Rule>
+    <se:Rule>
+    <se:Description>
+      <se:Title>Falls</se:Title>
+    </se:Description>
+  	<ogc:Filter>
+       <ogc:PropertyIsEqualTo>
+        	<ogc:Function name="IsCurve">
+        		<ogc:PropertyName>hy-p:geometry</ogc:PropertyName>
+       		</ogc:Function>
+       		<ogc:Literal>true</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+    </ogc:Filter>
+    <se:LineSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>hy-p:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Stroke>
+        <se:GraphicStroke>
+          <se:Graphic>
+            <se:Mark>
+              <se:WellKnownName>star</se:WellKnownName>
+              <se:Fill>
+                <se:SvgParameter name="fill">#0066FF</se:SvgParameter>
+              </se:Fill>
+              <se:Stroke>
+            	<se:SvgParameter name="stroke">#0066FF</se:SvgParameter>
+          	</se:Stroke>
+            </se:Mark>
+            <se:Size>5.0</se:Size>
+          </se:Graphic>
+        </se:GraphicStroke>
+      </se:Stroke>
+    </se:LineSymbolizer>
+    </se:Rule>
+    <se:Rule>
+    <se:Description>
+      <se:Title>Falls</se:Title>
+    </se:Description>
+  	<ogc:Filter>
+       <ogc:PropertyIsEqualTo>
+        	<ogc:Function name="IsSurface">
+        		<ogc:PropertyName>hy-p:geometry</ogc:PropertyName>
+       		</ogc:Function>
+       		<ogc:Literal>true</ogc:Literal>
+       	</ogc:PropertyIsEqualTo>
+    </ogc:Filter>
+    <se:PolygonSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>hy-p:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Fill>
+        <se:GraphicFill>
+          <se:Graphic>
+            <se:Mark>
+              <se:WellKnownName>star</se:WellKnownName>
+              <se:Fill>
+                <se:SvgParameter name="fill">#0066FF</se:SvgParameter>
+              </se:Fill>
+              <se:Stroke>
+            	<se:SvgParameter name="stroke">#0066FF</se:SvgParameter>
+          	</se:Stroke>
+            </se:Mark>
+            <se:Size>5.0</se:Size>
+          </se:Graphic>
+        </se:GraphicFill>
+      </se:Fill>
+    </se:PolygonSymbolizer>
+  </se:Rule>
+</se:FeatureTypeStyle>
