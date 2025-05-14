@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<se:FeatureTypeStyle xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" 
+xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0"
+xmlns:tn-w="http://inspire.ec.europa.eu/schemas/tn-w/4.0"
+xmlns:sld="http://www.opengis.net/sld" xmlns:tn="http://inspire.ec.europa.eu/schemas/tn/4.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
+  <se:Name>TN.WaterTransportNetwork.Buoy.Default</se:Name>
+  <se:Description>
+    <se:Title>Buoy Default Style</se:Title>
+    <se:Abstract>The geometry is rendered as a circle with a size of 3 pixels, with a green (#008000) fill and a black outline (#000000).</se:Abstract>
+  </se:Description>
+  <se:FeatureTypeName>tn-w:Buoy</se:FeatureTypeName>
+  <se:Rule>
+    <se:Description>
+      <se:Title>Buoy</se:Title>
+    </se:Description>
+    <se:PointSymbolizer>
+      <se:Geometry>
+        <ogc:PropertyName>tn:geometry</ogc:PropertyName>
+      </se:Geometry>
+      <se:Graphic>
+        <se:Mark>
+          <se:WellKnownName>circle</se:WellKnownName>
+          <se:Fill>
+            <se:SvgParameter name="fill">#008000</se:SvgParameter>
+          </se:Fill>
+          <se:Stroke>
+            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+            <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+          </se:Stroke>
+        </se:Mark>
+        <se:Size>3</se:Size>
+      </se:Graphic>
+    </se:PointSymbolizer>
+  </se:Rule>
+</se:FeatureTypeStyle>
