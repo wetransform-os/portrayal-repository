@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<se:FeatureTypeStyle xmlns:lcv="http://inspire.ec.europa.eu/schemas/lcv/4.0" 
-xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0" 
+<se:FeatureTypeStyle xmlns:lcv="http://inspire.ec.europa.eu/schemas/lcv/5.0" 
+xmlns:net="http://inspire.ec.europa.eu/schemas/net/5.0" 
 xmlns:ogc="http://www.opengis.net/ogc" 
 xmlns:se="http://www.opengis.net/se" 
 xmlns:sld="http://www.opengis.net/sld" 

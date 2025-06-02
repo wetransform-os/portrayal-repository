@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <se:FeatureTypeStyle xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xmlns:sld="http://www.opengis.net/sld" 
-xmlns:tn-w="http://inspire.ec.europa.eu/schemas/tn-w/4.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
-xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0"
+xmlns:tn-w="http://inspire.ec.europa.eu/schemas/tn-w/5.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:net="http://inspire.ec.europa.eu/schemas/net/5.0"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0">
   <se:Name>TN.WaterTransportNetwork.TrafficSeparationSchemeCrossing.Default</se:Name>
   <se:Description>
