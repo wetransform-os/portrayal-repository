@@ -172,6 +172,15 @@ Layer {
 	Styles: HY_N_WatercourseLink
 }
 Layer {
+	id: "HY_Network_WatercourseLink_v5"
+	registry-id:""
+	tags: inspire production
+	Name: "HY.Network.WatercourseLink"
+	Title: en "Hydrographic network - WatercourseLink", de "Hydrografisches Netzwerk- WatercourseLink"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-n/5.0:WatercourseLink
+	Styles: HY_N_WatercourseLink_v5
+}
+Layer {
 	id: "HY_Network_HydroNode"
 	registry-id:""
 	tags: inspire production
@@ -179,6 +188,15 @@ Layer {
 	Title: en "Hydrographic network - HydroNode", de "Hydrografisches Netzwerk- HydroNode"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-n/4.0:HydroNode
 	Styles: HY_N_HydroNode
+}
+Layer {
+	id: "HY_Network_HydroNode_v5"
+	registry-id:""
+	tags: inspire production
+	Name: "HY.Network.HydroNode"
+	Title: en "Hydrographic network - HydroNode", de "Hydrografisches Netzwerk- HydroNode"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-n/5.0:HydroNode
+	Styles: HY_N_HydroNode_v5
 }
 Layer {
 	id: "HY_Physica"
@@ -190,6 +208,15 @@ Layer {
 	, http://inspire.ec.europa.eu/schemas/hy-p/4.0:RiverBasin Styles: HY_P_DrainageBasin , HY_P_RiverBasin
 }
 Layer {
+	id: "HY_Physica_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Catchments"
+	tags: inspire production
+	Name: "HY.PhysicalWaters.Catchments"
+	Title: en "Catchment", de "Einzugsgebiete"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/5.0:DrainageBasin
+	, http://inspire.ec.europa.eu/schemas/hy-p/5.0:RiverBasin Styles: HY_P_DrainageBasin_v5 , HY_P_RiverBasin_v5
+}
+Layer {
 	id: "HY_Physica_1"
 	registry-id:"http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.HydroPointOfInterest"
 	tags: inspire production
@@ -197,6 +224,15 @@ Layer {
 	Title: en "Hydro Point of Interest", de "Interessante hydrologische Punkte"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Rapids
 	, http://inspire.ec.europa.eu/schemas/hy-p/4.0:Falls Styles: HY_P_Rapids , HY_P_Falls
+}
+Layer {
+	id: "HY_Physica_1_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.HydroPointOfInterest"
+	tags: inspire production
+	Name: "HY.PhysicalWaters.HydroPointOfInterest"
+	Title: en "Hydro Point of Interest", de "Interessante hydrologische Punkte"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/5.0:Rapids
+	, http://inspire.ec.europa.eu/schemas/hy-p/5.0:Falls Styles: HY_P_Rapids_v5 , HY_P_Falls_v5
 }
 Layer {
 	id: "HY_Physica_2"
@@ -208,6 +244,15 @@ Layer {
 	Styles: HY_P_LandWaterBoundary
 }
 Layer {
+	id: "HY_Physica_2_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.LandWaterBoundary"
+	tags: inspire production
+	Name: "HY.PhysicalWaters.LandWaterBoundary"
+	Title: en "Land water boundary", de "Uferlinien"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/5.0:LandWaterBoundary
+	Styles: HY_P_LandWaterBoundary_v5
+}
+Layer {
 	id: "HY_Physica_4"
 	registry-id:"http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.ManMadeObject"
 	tags: inspire production
@@ -215,6 +260,15 @@ Layer {
 	Title: en "Man-made Object", de "Bauwerke an Gewässern"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Crossing
 	, http://inspire.ec.europa.eu/schemas/hy-p/4.0:DamOrWeir , http://inspire.ec.europa.eu/schemas/hy-p/4.0:ShorelineConstruction , http://inspire.ec.europa.eu/schemas/hy-p/4.0:Ford , http://inspire.ec.europa.eu/schemas/hy-p/4.0:Lock Styles: HY_P_Crossing , HY_P_DamOrWeir , HY_P_ShoreLineConstruction , HY_P_Ford , HY_P_Lock
+}
+Layer {
+	id: "HY_Physica_4_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.ManMadeObject"
+	tags: inspire production
+	Name: "HY.PhysicalWaters.ManMadeObject"
+	Title: en "Man-made Object", de "Bauwerke an Gewässern"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Crossing
+	, http://inspire.ec.europa.eu/schemas/hy-p/5.0:DamOrWeir , http://inspire.ec.europa.eu/schemas/hy-p/5.0:ShorelineConstruction , http://inspire.ec.europa.eu/schemas/hy-p/5.0:Ford , http://inspire.ec.europa.eu/schemas/hy-p/5.0:Lock Styles: HY_P_Crossing_v5 , HY_P_DamOrWeir_v5 , HY_P_ShoreLineConstruction_v5 , HY_P_Ford_v5 , HY_P_Lock_v5
 }
 Layer {
 	id: "HY_PhysicalWaters_Shore"
@@ -226,6 +280,15 @@ Layer {
 	Styles: HY_P_Shore
 }
 Layer {
+	id: "HY_PhysicalWaters_Shore_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Shore"
+	tags: inspire production
+	Name: "HY.PhysicalWaters.Shore"
+	Title: en "Shores", de "Küsten"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/5.0:Shore
+	Styles: HY_P_Shore_v5
+}
+Layer {
 	id: "HY_Physica_5"
 	registry-id:"http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Waterbodies"
 	tags: inspire production
@@ -233,6 +296,15 @@ Layer {
 	Title: en "Waterbody", de "Wasserkörper"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Watercourse
 	, http://inspire.ec.europa.eu/schemas/hy-p/4.0:StandingWater Styles: HY_P_Watercourse , HY_P_StandingWater
+}
+Layer {
+	id: "HY_Physica_5_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Waterbodies"
+	tags: inspire production
+	Name: "HY.PhysicalWaters.Waterbodies"
+	Title: en "Waterbody", de "Wasserkörper"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/5.0:Watercourse
+	, http://inspire.ec.europa.eu/schemas/hy-p/5.0:StandingWater Styles: HY_P_Watercourse_v5 , HY_P_StandingWater_v5
 }
 Layer {
 	id: "HY_Physica_6"
@@ -244,6 +316,15 @@ Layer {
 	, http://inspire.ec.europa.eu/schemas/hy-p/4.0:StandingWater Styles: HY_P_Watercourse_ManMade , HY_P_StandingWater_ManMade
 }
 Layer {
+	id: "HY_Physica_6_v5"
+	registry-id:""
+	tags: inspire production
+	Name: "HY.PhysicalWaters.Waterbodies.Man.Made"
+	Title: en "Man-made Object (Natural)"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/5.0:Watercourse
+	, http://inspire.ec.europa.eu/schemas/hy-p/5.0:StandingWater Styles: HY_P_Watercourse_ManMade_v5 , HY_P_StandingWater_ManMade_v5
+}
+Layer {
 	id: "HY_Physica_7"
 	registry-id:""
 	tags: inspire production
@@ -251,6 +332,15 @@ Layer {
 	Title: en "Waterbody (Persistence)"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Watercourse
 	, http://inspire.ec.europa.eu/schemas/hy-p/4.0:StandingWater Styles: HY_P_WatercoursePersistence , HY_P_WaterbodiesPersistence
+}
+Layer {
+	id: "HY_Physica_7_v5"
+	registry-id:""
+	tags: inspire production
+	Name: "HY.PhysicalWaters.Waterbodies.Persistence"
+	Title: en "Waterbody (Persistence)"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/5.0:Watercourse
+	, http://inspire.ec.europa.eu/schemas/hy-p/5.0:StandingWater Styles: HY_P_WatercoursePersistence_v5 , HY_P_WaterbodiesPersistence_v5
 }
 Layer {
 	id: "HY_PhysicalWaters_Wetland"
@@ -262,6 +352,15 @@ Layer {
 	Styles: HY_P_Wetland
 }
 Layer {
+	id: "HY_PhysicalWaters_Wetland_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/HY.PhysicalWaters.Wetland"
+	tags: inspire production
+	Name: "HY.PhysicalWaters.Wetland"
+	Title: en "Wetlands", de "Feuchtgebiete"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hy-p/5.0:Wetland
+	Styles: HY_P_Wetland_v5
+}
+Layer {
 	id: "PS_ProtectedSite"
 	registry-id:"http://inspire.ec.europa.eu/layer/PS.ProtectedSite"
 	tags: inspire production
@@ -269,6 +368,15 @@ Layer {
 	Title: en "Protected Sites", de "Schutzgebiete"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/ps/4.0:ProtectedSite
 	Styles: PS_ProtectedSite
+}
+Layer {
+	id: "PS_ProtectedSite_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/PS.ProtectedSite"
+	tags: inspire production
+	Name: "PS.ProtectedSite"
+	Title: en "Protected Sites", de "Schutzgebiete"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/ps/5.0:ProtectedSite
+	Styles: PS_ProtectedSite_v5
 }
 Layer {
 	id: "TN_AirTran"
@@ -280,6 +388,15 @@ Layer {
 	Styles: TN_A_AerodromeArea
 }
 Layer {
+	id: "TN_AirTran_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AerodromeArea"
+	tags: inspire production
+	Name: "TN.AirTransportNetwork.AerodromeArea"
+	Title: en "Aerodrome Area Default Style", de "Flugplatzgelände"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/5.0:AerodromeArea
+	Styles: TN_A_AerodromeArea_v5
+}
+Layer {
 	id: "TN_AirTran_1"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AirLink"
 	tags: inspire production
@@ -287,6 +404,15 @@ Layer {
 	Title: en "Air Link Default Style", de "Luftverbindung"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:ProcedureLink
 	, http://inspire.ec.europa.eu/schemas/tn-a/4.0:AirRouteLink Styles: TN_A_ProcedureLink , TN_A_AirRouteLink
+}
+Layer {
+	id: "TN_AirTran_1_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AirLink"
+	tags: inspire production
+	Name: "TN.AirTransportNetwork.AirLink"
+	Title: en "Air Link Default Style", de "Luftverbindung"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/5.0:ProcedureLink
+	, http://inspire.ec.europa.eu/schemas/tn-a/5.0:AirRouteLink Styles: TN_A_ProcedureLink_v5 , TN_A_AirRouteLink_v5
 }
 Layer {
 	id: "TN_AirTran_2"
@@ -298,6 +424,15 @@ Layer {
 	Styles: TN_A_AirspaceArea
 }
 Layer {
+	id: "TN_AirTran_2_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.AirspaceArea"
+	tags: inspire production
+	Name: "TN.AirTransportNetwork.AirSpaceArea"
+	Title: en "Air Space Area Default Style", de "Luftraumbereich"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/5.0:AirspaceArea
+	Styles: TN_A_AirspaceArea_v5
+}
+Layer {
 	id: "TN_AirTran_3"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.ApronArea"
 	tags: inspire production
@@ -305,6 +440,15 @@ Layer {
 	Title: en "Apron Area Default Style", de "Vorfeldgelände"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:ApronArea
 	Styles: TN_A_ApronArea
+}
+Layer {
+	id: "TN_AirTran_3_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.ApronArea"
+	tags: inspire production
+	Name: "TN.AirTransportNetwork.ApronArea"
+	Title: en "Apron Area Default Style", de "Vorfeldgelände"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/5.0:ApronArea
+	Styles: TN_A_ApronArea_v5
 }
 Layer {
 	id: "TN_AirTran_4"
@@ -316,6 +460,15 @@ Layer {
 	Styles: TN_A_RunwayArea
 }
 Layer {
+	id: "TN_AirTran_4_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.RunwayArea"
+	tags: inspire production
+	Name: "TN.AirTransportNetwork.RunwayArea"
+	Title: en "Runway Area Default Style", de "Landebahngelände"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/5.0:RunwayArea
+	Styles: TN_A_RunwayArea_v5
+}
+Layer {
 	id: "TN_AirTran_5"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.TaxiwayArea"
 	tags: inspire production
@@ -323,6 +476,15 @@ Layer {
 	Title: en "Taxiway Area Default Style", de "Rollfeld"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:TaxiwayArea
 	Styles: TN_A_TaxiwayArea
+}
+Layer {
+	id: "TN_AirTran_5_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/TN.AirTransportNetwork.TaxiwayArea"
+	tags: inspire production
+	Name: "TN.AirTransportNetwork.TaxiwayArea"
+	Title: en "Taxiway Area Default Style", de "Rollfeld"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/5.0:TaxiwayArea
+	Styles: TN_A_TaxiwayArea_v5
 }
 Layer {
 	id: "TN_AirTran_6"
@@ -334,6 +496,15 @@ Layer {
 	Styles: TN_A_DesignatedPoint
 }
 Layer {
+	id: "TN_AirTran_6_v5"
+	registry-id:""
+	tags: inspire production
+	Name: "TN.AirTransportNetwork.DesignatedPoint"
+	Title: en "Designated Point Default Style", de "Designierter Punkt"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/5.0:DesignatedPoint
+	Styles: TN_A_DesignatedPoint_v5
+}
+Layer {
 	id: "TN_AirTran_7"
 	registry-id:""
 	tags: inspire production
@@ -341,6 +512,15 @@ Layer {
 	Title: en "Aerodrome Node Default Style", de "Flugplatzknotenpunkt"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:AerodromeNode
 	Styles: TN_A_AerodromeNode
+}
+Layer {
+	id: "TN_AirTran_7_v5"
+	registry-id:""
+	tags: inspire production
+	Name: "TN.AirTransportNetwork.AerodromeNode"
+	Title: en "Aerodrome Node Default Style", de "Flugplatzknotenpunkt"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/5.0:AerodromeNode
+	Styles: TN_A_AerodromeNode_v5
 }
 Layer {
 	id: "TN_AirTran_8"
@@ -352,6 +532,15 @@ Layer {
 	Styles: TN_A_TouchDownLiftOff
 }
 Layer {
+	id: "TN_AirTran_8_v5"
+	registry-id:""
+	tags: inspire production
+	Name: "TN.AirTransportNetwork.TouchDownLiftOff"
+	Title: en "Touch Down Lift Off Area Default Style", de "Start- und Landebereich für Hubschrauber"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/5.0:TouchDownLiftOff
+	Styles: TN_A_TouchDownLiftOff_v5
+}
+Layer {
 	id: "TN_AirTran_9"
 	registry-id:""
 	tags: inspire production
@@ -359,6 +548,15 @@ Layer {
 	Title: en "Navaid Default Style", de "Navigationshilfe"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/4.0:Navaid
 	Styles: TN_A_Navaid
+}
+Layer {
+	id: "TN_AirTran_9_v5"
+	registry-id:""
+	tags: inspire production
+	Name: "TN.AirTransportNetwork.Navaid"
+	Title: en "Navaid Default Style", de "Navigationshilfe"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/5.0:Navaid
+	Styles: TN_A_Navaid_v5
 }
 Layer {
 	id: "TN_AirTran_10"
@@ -370,6 +568,15 @@ Layer {
 	Styles: TN_A_RunwayCentrelinePoint
 }
 Layer {
+	id: "TN_AirTran_10_v5"
+	registry-id:""
+	tags: inspire production
+	Name: "TN.AirTransportNetwork.RunwayCentrelinePoint"
+	Title: en "Runway Centreline Point Default Style", de "Mittellinienpunkt der Landebahn"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-a/5.0:RunwayCentrelinePoint
+	Styles: TN_A_RunwayCentrelinePoint_v5
+}
+Layer {
 	id: "TN_CableTr"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.CableTransportNetwork.CablewayLink"
 	tags: inspire production
@@ -377,6 +584,15 @@ Layer {
 	Title: en "Cableway Link Default Style", de "Seilbahnverbindung"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-c/4.0:CablewayLink
 	Styles: TN_C_CablewayLink
+}
+Layer {
+	id: "TN_CableTr_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/TN.CableTransportNetwork.CablewayLink"
+	tags: inspire production
+	Name: "TN.CableTransportNetwork.CablewayLink"
+	Title: en "Cableway Link Default Style", de "Seilbahnverbindung"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-c/5.0:CablewayLink
+	Styles: TN_C_CablewayLink_v5
 }
 Layer {
 	id: "TN_CommonT"
@@ -388,6 +604,15 @@ Layer {
 	Styles: TN_TransportArea
 }
 Layer {
+	id: "TN_CommonT_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/TN.CommonTransportElements.TransportArea"
+	tags: inspire production
+	Name: "TN.CommonTransportElements.TransportArea"
+	Title: en "Generic Transport Area Default Style", de "Generischer Verkehrsbereich"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn/5.0:TransportArea
+	Styles: TN_TransportArea_v5
+}
+Layer {
 	id: "TN_CommonT_1"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.CommonTransportElements.TransportLink"
 	tags: inspire production
@@ -395,6 +620,15 @@ Layer {
 	Title: en "Generic Transport Link Default Style", de "Generisches Verkehrssegment"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn/4.0:TransportLink
 	Styles: TN_TransportLink
+}
+Layer {
+	id: "TN_CommonT_1_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/TN.CommonTransportElements.TransportLink"
+	tags: inspire production
+	Name: "TN.CommonTransportElements.TransportLink"
+	Title: en "Generic Transport Link Default Style", de "Generisches Verkehrssegment"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn/5.0:TransportLink
+	Styles: TN_TransportLink_v5
 }
 Layer {
 	id: "TN_CommonT_2"
@@ -406,6 +640,15 @@ Layer {
 	Styles: TN_TransportNode
 }
 Layer {
+	id: "TN_CommonT_2_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/TN.CommonTransportElements.TransportNode"
+	tags: inspire production
+	Name: "TN.CommonTransportElements.TransportNode"
+	Title: en "Generic Transport Node Default Style", de "Generischer Verkehrsknotenpunkt"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn/5.0:TransportNode
+	Styles: TN_TransportNode_v5
+}
+Layer {
 	id: "TN_RailTra"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayArea"
 	tags: inspire production
@@ -413,6 +656,15 @@ Layer {
 	Title: en "Railway Area Default Style", de "Bahngelände"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ra/4.0:RailwayArea
 	Styles: TN_RA_RailwayArea
+}
+Layer {
+	id: "TN_RailTra_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayArea"
+	tags: inspire production
+	Name: "TN.RailTransportNetwork.RailwayArea"
+	Title: en "Railway Area Default Style", de "Bahngelände"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ra/5.0:RailwayArea
+	Styles: TN_RA_RailwayArea_v5
 }
 Layer {
 	id: "TN_RailTra_1"
@@ -424,6 +676,15 @@ Layer {
 	Styles: TN_RA_RailwayLink
 }
 Layer {
+	id: "TN_RailTra_1_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayLink"
+	tags: inspire production
+	Name: "TN.RailTransportNetwork.RailwayLink"
+	Title: en "Railway Link Default Style", de "Eisenbahnverbindung"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ra/5.0:RailwayLink
+	Styles: TN_RA_RailwayLink_v5
+}
+Layer {
 	id: "TN_RailTra_2"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayStationArea"
 	tags: inspire production
@@ -431,6 +692,15 @@ Layer {
 	Title: en "Railway Station Area Default Style", de "Bahnhofsgelände"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ra/4.0:RailwayStationArea
 	Styles: TN_RA_RailwayStationArea
+}
+Layer {
+	id: "TN_RailTra_2_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayStationArea"
+	tags: inspire production
+	Name: "TN.RailTransportNetwork.RailwayStationArea"
+	Title: en "Railway Station Area Default Style", de "Bahnhofsgelände"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ra/5.0:RailwayStationArea
+	Styles: TN_RA_RailwayStationArea_v5
 }
 Layer {
 	id: "TN_RailTra_3"
@@ -442,6 +712,15 @@ Layer {
 	Styles: TN_RA_RailwayYardArea
 }
 Layer {
+	id: "TN_RailTra_3_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/TN.RailTransportNetwork.RailwayYardArea"
+	tags: inspire production
+	Name: "TN.RailTransportNetwork.RailwayYardArea"
+	Title: en "Railway Yard Area Default Style", de "Rangierbahnhofsgelände"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ra/5.0:RailwayYardArea
+	Styles: TN_RA_RailwayYardArea_v5
+}
+Layer {
 	id: "TN_RoadTra"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadArea"
 	tags: inspire production
@@ -449,6 +728,15 @@ Layer {
 	Title: en "Road Area Default Style", de "Straßenfläche"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:RoadArea
 	Styles: TN_RO_RoadArea
+}
+Layer {
+	id: "TN_RoadTra_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadArea"
+	tags: inspire production
+	Name: "TN.RoadTransportNetwork.RoadArea"
+	Title: en "Road Area Default Style", de "Straßenfläche"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/5.0:RoadArea
+	Styles: TN_RO_RoadArea_v5
 }
 Layer {
 	id: "TN_RoadTra_1"
@@ -460,6 +748,15 @@ Layer {
 	Styles: TN_RO_RoadLink
 }
 Layer {
+	id: "TN_RoadTra_1_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadLink"
+	tags: inspire production
+	Name: "TN.RoadTransportNetwork.RoadLink"
+	Title: en "Road Link Default Style", de "Straßensegment"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/5.0:RoadLink
+	Styles: TN_RO_RoadLink_v5
+}
+Layer {
 	id: "TN_RoadTra_2"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadServiceArea"
 	tags: inspire production
@@ -467,6 +764,15 @@ Layer {
 	Title: en "Road Service Area Default Style", de "Servicebereich"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:RoadServiceArea
 	Styles: TN_RO_RoadServiceArea
+}
+Layer {
+	id: "TN_RoadTra_2_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.RoadServiceArea"
+	tags: inspire production
+	Name: "TN.RoadTransportNetwork.RoadServiceArea"
+	Title: en "Road Service Area Default Style", de "Servicebereich"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/5.0:RoadServiceArea
+	Styles: TN_RO_RoadServiceArea_v5
 }
 Layer {
 	id: "TN_RoadTra_3"
@@ -478,6 +784,15 @@ Layer {
 	Styles: TN_RO_VehicleTrafficArea
 }
 Layer {
+	id: "TN_RoadTra_3_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/TN.RoadTransportNetwork.VehicleTrafficArea"
+	tags: inspire production
+	Name: "TN.RoadTransportNetwork.VehicleTrafficArea"
+	Title: en "Vehicle traffic Area Default Style", de "Verkehrsfläche"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/5.0:VehicleTrafficArea
+	Styles: TN_RO_VehicleTrafficArea_v5
+}
+Layer {
 	id: "TN_WaterTr"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.WaterTransportNetwork.FairwayArea"
 	tags: inspire production
@@ -485,6 +800,15 @@ Layer {
 	Title: en "Fairway Area Default Style", de "Fahrrinnenbereich"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/4.0:FairwayArea
 	Styles: TN_W_FairwayArea
+}
+Layer {
+	id: "TN_WaterTr_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/TN.WaterTransportNetwork.FairwayArea"
+	tags: inspire production
+	Name: "TN.WaterTransportNetwork.FairwayArea"
+	Title: en "Fairway Area Default Style", de "Fahrrinnenbereich"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/5.0:FairwayArea
+	Styles: TN_W_FairwayArea_v5
 }
 Layer {
 	id: "TN_WaterTr_1"
@@ -496,6 +820,15 @@ Layer {
 	Styles: TN_W_PortArea
 }
 Layer {
+	id: "TN_WaterTr_1_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/TN.WaterTransportNetwork.PortArea"
+	tags: inspire production
+	Name: "TN.WaterTransportNetwork.PortArea"
+	Title: en "Port Area Default Style", de "Hafengelände"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/5.0:PortArea
+	Styles: TN_W_PortArea_v5
+}
+Layer {
 	id: "TN_WaterTr_2"
 	registry-id:"http://inspire.ec.europa.eu/layer/TN.WaterTransportNetwork.WaterwayLink"
 	tags: inspire production
@@ -503,6 +836,15 @@ Layer {
 	Title: en "Waterway Link Default Style", de "Wasserstraßenverbindung"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/4.0:WaterwayLink
 	Styles: TN_W_WaterwayLink
+}
+Layer {
+	id: "TN_WaterTr_2_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/TN.WaterTransportNetwork.WaterwayLink"
+	tags: inspire production
+	Name: "TN.WaterTransportNetwork.WaterwayLink"
+	Title: en "Waterway Link Default Style", de "Wasserstraßenverbindung"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/5.0:WaterwayLink
+	Styles: TN_W_WaterwayLink_v5
 }
 Layer {
 	id:"LC_LandCoverSurfaces"
@@ -514,6 +856,15 @@ Layer {
 	Styles: LC_LandCoverSurfaces
 }
 Layer {
+	id: "LC_LandCoverSurfaces_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/LC.LandCoverSurfaces"
+	tags: production inspire
+	Name: "LC.LandCoverSurfaces"
+	Title: en "Land Cover Surfaces", de "Bodenbedeckungsflächen"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/lcv/5.0:LandCoverUnit
+	Styles: LC_LandCoverSurfaces_v5
+}
+Layer {
 	id:"LC_LandCoverPoints"
 	registry-id:"http://inspire.ec.europa.eu/layer/LC.LandCoverPoints"
 	tags: production inspire
@@ -521,6 +872,15 @@ Layer {
 	Title: en "Land Cover Points", de "Bodenbedeckungspunkte"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/lcv/4.0:LandCoverUnit
 	Styles: LC_LandCoverPoints
+}
+Layer {
+	id: "LC_LandCoverPoints_v5"
+	registry-id:"http://inspire.ec.europa.eu/layer/LC.LandCoverPoints"
+	tags: production inspire
+	Name: "LC.LandCoverPoints"
+	Title: en "Land Cover Points", de "Bodenbedeckungspunkte"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/lcv/5.0:LandCoverUnit
+	Styles: LC_LandCoverPoints_v5
 }
 Layer {
 	id: "BU_Building"
@@ -584,6 +944,15 @@ Layer{
 	Title: en "Governmental Service", de "Staatlicher Dienst"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/us-govserv/4.0:GovernmentalService
 	Styles: US_GovernmentalService
+}
+Layer {
+	id: "US_GovernmentalService_v5"
+	registry-id:""
+	tags: inspire
+	Name: "US.GovernmentalService"
+	Title: en "Governmental Service", de "Staatlicher Dienst"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/us-govserv/5.0:GovernmentalService
+	Styles: US_GovernmentalService_v5
 }
 Layer{
 	id:"AM_AirQualityManagementZone"
@@ -765,6 +1134,15 @@ Layer{
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/us-emf/4.0:EnvironmentalManagementFacility
 	Styles: US_EnvironmentalManagementFacility
 }
+Layer {
+	id: "US_EnvironmentalManagementFacility_v5"
+	registry-id: "https://inspire.ec.europa.eu/layer/US.EnvironmentalManagementFacility"
+	tags: inspire production
+	Name: "US.EnvironmentalManagementFacility"
+	Title: en "Environmental Management Facility", de "Umweltmanagementeinrichtungen"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/us-emf/5.0:EnvironmentalManagementFacility
+	Styles: US_EnvironmentalManagementFacility_v5
+}
 Layer{
 	id: "US_UtilityNetworkAppurtenance"
 	registry-id: ""
@@ -774,6 +1152,15 @@ Layer{
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/us-net-common/4.0:Appurtenance
 	Styles: US_UtilityNetworkAppurtenance
 }
+Layer {
+	id: "US_UtilityNetworkAppurtenance_v5"
+	registry-id: ""
+	tags: inspire production
+	Name: "US.UtilityNetworkAppurtenance"
+	Title: en "Appurtenance", de "Zubehörteil"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/us-net-common/5.0:Appurtenance
+	Styles: US_UtilityNetworkAppurtenance_v5
+}
 Layer{
 	id: "US_UtilityNetworkLink"
 	registry-id: ""
@@ -782,6 +1169,15 @@ Layer{
 	Title: en "Utility Link", de "Versorgungsverbindung"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/us-net-common/4.0:UtilityLink
 	Styles: US_UtilityNetworkLink
+}
+Layer {
+	id: "US_UtilityNetworkLink_v5"
+	registry-id: ""
+	tags: inspire production
+	Name: "US.UtilityNetworkLink"
+	Title: en "Utility Link", de "Versorgungsverbindung"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/us-net-common/5.0:UtilityLink
+	Styles: US_UtilityNetworkLink_v5
 }
 Layer{
 	id: "EF_EnvironmentalMonitoringFacilities"
@@ -855,6 +1251,15 @@ Layer{
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn/4.0:MarkerPost
 	Styles: TN_MarkerPost
 }
+Layer {
+	id: "TN_MarkerPost_v5"
+	registry-id:""
+	tags: inspire production //wetransform custom
+	Name: "TN.CommonTransportElements.MarkerPost"
+	Title: en "Marker Post", de "Stationszeichen"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn/5.0:MarkerPost
+	Styles: TN_MarkerPost_v5
+}
 Layer{
 	id: "TN_W_Beacon"
 	registry-id: ""
@@ -863,6 +1268,15 @@ Layer{
 	Title: en "Beacon", de "Leuchtfeuer"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/4.0:Beacon
 	Styles: TN_W_Beacon
+}
+Layer {
+	id: "TN_W_Beacon_v5"
+	registry-id: ""
+	tags: inspire production //wetransform custom
+	Name:"TN.WaterTransportNetwork.Beacon"
+	Title: en "Beacon", de "Leuchtfeuer"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/5.0:Beacon
+	Styles: TN_W_Beacon_v5
 }
 Layer{
 	id: "TN_W_Buoy"
@@ -873,6 +1287,15 @@ Layer{
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/4.0:Buoy
 	Styles: TN_W_Buoy
 }
+Layer {
+	id: "TN_W_Buoy_v5"
+	registry-id: ""
+	tags: inspire production //wetransform custom
+	Name: "TN.WaterTransportNetwork.Buoy"
+	Title: en "Buoy", de "Tonne"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/5.0:Buoy
+	Styles: TN_W_Buoy_v5
+}
 Layer{
 	id: "TN_W_TrafficSeparationSchemeCrossing"
 	registry-id:""
@@ -882,6 +1305,15 @@ Layer{
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/4.0:TrafficSeparationSchemeCrossing
 	Styles: TN_W_TrafficSeparationSchemeCrossing
 }
+Layer {
+	id: "TN_W_TrafficSeparationSchemeCrossing_v5"
+	registry-id:""
+	tags: inspire production //wetransform custom
+	Name: "TN.WaterTransportNetwork.TrafficSeparationSchemeCrossing"
+	Title: en "Traffic Separation Scheme Crossing", de "Kreuzung eines Verkehrstrennungsgebiets"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/5.0:TrafficSeparationSchemeCrossing
+	Styles: TN_W_TrafficSeparationSchemeCrossing_v5
+}
 Layer{
 	id: "TN_W_TrafficSeparationSchemeSeparator"
 	registry-id:""
@@ -890,6 +1322,15 @@ Layer{
 	Title: en "Traffic Separation Scheme Separator", de "Übergangszone eines Verkehrstrennungsgebiets"
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/4.0:TrafficSeparationSchemeSeparator
 	Styles: TN_W_TrafficSeparationSchemeSeparator
+}
+Layer {
+	id: "TN_W_TrafficSeparationSchemeSeparator_v5"
+	registry-id:""
+	tags: inspire production //wetransform custom
+	Name: "TN.WaterTransportNetwork.TrafficSeparationSchemeSeparator"
+	Title: en "Traffic Separation Scheme Separator", de "Übergangszone eines Verkehrstrennungsgebiets"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-w/5.0:TrafficSeparationSchemeSeparator
+	Styles: TN_W_TrafficSeparationSchemeSeparator_v5
 }
 Layer{
 	id: "PF_ProductionFacility"
@@ -1035,6 +1476,15 @@ Layer{
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hh/4.0:EnvHealthDeterminantMeasure
 	Styles: HH_HealthDeterminantMeasure
 }
+Layer {
+	id: "HH_HealthDeterminantMeasure_v5"
+	registry-id: "http://inspire.ec.europa.eu/layer/HH.HealthDeterminantMeasure"
+	tags: inspire production
+	Name: "HH.HealthDeterminantMeasure"
+	Title: en "Health determinant measure", de "Messwerte für Gesundheitsfaktoren"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/hh/5.0:EnvHealthDeterminantMeasure
+	Styles: HH_HealthDeterminantMeasure_v5
+}
 Layer{
 	id: "EL_BreakLine"
 	registry-id: "http://inspire.ec.europa.eu/layer/EL.BreakLine"
@@ -1116,6 +1566,15 @@ Layer{
 	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:RoadNode
 	Styles: TN_RO_RoadNode
 }
+Layer {
+	id: "TN_RO_RoadNode_v5"
+	registry-id:""
+	tags: inspire production
+	Name: "TN.RoadNode"
+	Title: en "Road Node", de "Strassenknotenpunkt"
+	SpatialObjectTypes: http://inspire.ec.europa.eu/schemas/tn-ro/5.0:RoadNode
+	Styles: TN_RO_RoadNode_v5
+}
 Layer{
 	id: "SF_SpatialSamplingFeature"
 	registry-id:""
@@ -1140,10 +1599,24 @@ Style {
 	}
 }
 Style {
+	id: "US_UtilityNetworkAppurtenance_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/us-net-common/5.0:Appurtenance
+		URL: "feature-styles/US_UtilityNetworkAppurtenance_v5_0.se"
+	}
+}
+Style {
 	id: "US_UtilityNetworkLink"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/us-net-common/4.0:UtilityLink
 		URL: "feature-styles/US_UtilityNetworkLink.se"
+	}
+}
+Style {
+	id: "US_UtilityNetworkLink_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/us-net-common/5.0:UtilityLink
+		URL: "feature-styles/US_UtilityNetworkLink_v5_0.se"
 	}
 }
 Style {
@@ -1154,10 +1627,24 @@ Style {
 	}
 }
 Style {
+	id: "US_EnvironmentalManagementFacility_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/us-emf/5.0:EnvironmentalManagementFacility
+		URL: "feature-styles/US_EnvironmentalManagementFacility_v5_0.se"
+	}
+}
+Style {
 	id: "TN_A_DesignatedPoint"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/4.0:DesignatedPoint
 		URL: "feature-styles/TN_A_DesignatedPoint.se"
+	}
+}
+Style {
+	id: "TN_A_DesignatedPoint_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/5.0:DesignatedPoint
+		URL: "feature-styles/TN_A_DesignatedPoint_v5_0.se"
 	}
 }
 Style {
@@ -1168,10 +1655,24 @@ Style {
 	}
 }
 Style {
+	id: "TN_A_Navaid_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/5.0:Navaid
+		URL: "feature-styles/TN_A_Navaid_v5_0.se"
+	}
+}
+Style {
 	id: "TN_A_RunwayCentrelinePoint"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/4.0:RunwayCentrelinePoint
 		URL: "feature-styles/TN_A_RunwayCentrelinePoint.se"
+	}
+}
+Style {
+	id: "TN_A_RunwayCentrelinePoint_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/5.0:RunwayCentrelinePoint
+		URL: "feature-styles/TN_A_RunwayCentrelinePoint_v5_0.se"
 	}
 }
 Style {
@@ -1182,10 +1683,24 @@ Style {
 	}
 }
 Style {
+	id: "TN_A_AerodromeNode_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/5.0:AerodromeNode
+		URL: "feature-styles/TN_A_AerodromeNode_v5_0.se"
+	}
+}
+Style {
 	id: "TN_A_TouchDownLiftOff"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/4.0:TouchDownLiftOff
 		URL: "feature-styles/TN_A_TouchDownLiftOff.se"
+	}
+}
+Style {
+	id: "TN_A_TouchDownLiftOff_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/5.0:TouchDownLiftOff
+		URL: "feature-styles/TN_A_TouchDownLiftOff_v5_0.se"
 	}
 }
 Style{
@@ -1193,6 +1708,13 @@ Style{
 	Remote{
 		FeatureType: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:RoadNode
 		URL: "feature-styles/TN_RO_RoadNode.se"
+	}
+}
+Style {
+	id: "TN_RO_RoadNode_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-ro/5.0:RoadNode
+		URL: "feature-styles/TN_RO_RoadNode_v5_0.se"
 	}
 }
 Style{
@@ -1256,6 +1778,13 @@ Style{
 	Remote{
 		FeatureType: http://inspire.ec.europa.eu/schemas/hh/4.0:EnvHealthDeterminantMeasure
 		URL: "feature-styles/HH_HealthDeterminantMeasure.se"
+	}
+}
+Style {
+	id: "HH_HealthDeterminantMeasure_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hh/5.0:EnvHealthDeterminantMeasure
+		URL: "feature-styles/HH_HealthDeterminantMeasure_v5_0.se"
 	}
 }
 Style{
@@ -1363,11 +1892,25 @@ Style{
 		URL:"feature-styles/TN_W_TrafficSeparationSchemeSeparator.se"
 	}
 }
+Style {
+	id: "TN_W_TrafficSeparationSchemeSeparator_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-w/5.0:TrafficSeparationSchemeSeparator
+		URL: "feature-styles/TN_W_TrafficSeparationSchemeSeparator_v5_0.se"
+	}
+}
 Style{
 	id: "TN_W_TrafficSeparationSchemeCrossing"
 	Remote{
 		FeatureType: http://inspire.ec.europa.eu/schemas/tn-w/4.0:TrafficSeparationSchemeCrossing
 		URL: "feature-styles/TN_W_TrafficSeparationSchemeCrossing.se"
+	}
+}
+Style {
+	id: "TN_W_TrafficSeparationSchemeCrossing_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-w/5.0:TrafficSeparationSchemeCrossing
+		URL: "feature-styles/TN_W_TrafficSeparationSchemeCrossing_v5_0.se"
 	}
 }
 Style{
@@ -1377,6 +1920,13 @@ Style{
 		URL: "feature-styles/TN_W_Buoy.se"
 	}
 }
+Style {
+	id: "TN_W_Buoy_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-w/5.0:Buoy
+		URL: "feature-styles/TN_W_Buoy_v5_0.se"
+	}
+}
 Style{
 	id: "TN_W_Beacon"
 	Remote{
@@ -1384,11 +1934,25 @@ Style{
 		URL: "feature-styles/TN_W_Beacon.se"
 	}
 }
+Style {
+	id: "TN_W_Beacon_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-w/5.0:Beacon
+		URL: "feature-styles/TN_W_Beacon_v5_0.se"
+	}
+}
 Style{
 	id: "TN_MarkerPost"
 	Remote{
 		FeatureType: http://inspire.ec.europa.eu/schemas/tn/4.0:MarkerPost
 		URL: "feature-styles/TN_MarkerPost.se"
+	}
+}
+Style {
+	id: "TN_MarkerPost_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn/5.0:MarkerPost
+		URL: "feature-styles/TN_MarkerPost_v5_0.se"
 	}
 }
 Style{
@@ -1580,6 +2144,13 @@ Style{
 		URL: "feature-styles/US_GovernmentalService.se"
 	}
 }
+Style {
+	id: "US_GovernmentalService_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/us-govserv/5.0:GovernmentalService
+		URL: "feature-styles/US_GovernmentalService_v5_0.se"
+	}
+}
 Style{
 	id:"LU_SupplementaryRegulation"
 	Remote{
@@ -1742,10 +2313,24 @@ Style {
 	}
 }
 Style {
+	id: "HY_N_WatercourseLink_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-n/5.0:WatercourseLink
+		URL: "feature-styles/HY_N_WatercourseLink_v5_0.se"
+	}
+}
+Style {
 	id: "HY_N_HydroNode"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/hy-n/4.0:HydroNode
 		URL: "feature-styles/HY_N_HydroNode.se"
+	}
+}
+Style {
+	id: "HY_N_HydroNode_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-n/5.0:HydroNode
+		URL: "feature-styles/HY_N_HydroNode_v5_0.se"
 	}
 }
 Style {
@@ -1756,10 +2341,24 @@ Style {
 	}
 }
 Style {
+	id: "HY_P_DrainageBasin_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/5.0:DrainageBasin
+		URL: "feature-styles/HY_P_DrainageBasin_v5_0.se"
+	}
+}
+Style {
 	id: "HY_P_RiverBasin"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:RiverBasin
 		URL: "feature-styles/HY_P_RiverBasin.se"
+	}
+}
+Style {
+	id: "HY_P_RiverBasin_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/5.0:RiverBasin
+		URL: "feature-styles/HY_P_RiverBasin_v5_0.se"
 	}
 }
 Style {
@@ -1770,10 +2369,24 @@ Style {
 	}
 }
 Style {
+	id: "HY_P_Rapids_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/5.0:Rapids
+		URL: "feature-styles/HY_P_Rapids_v5_0.se"
+	}
+}
+Style {
 	id: "HY_P_Falls"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Falls
 		URL: "feature-styles/HY_P_Falls.se"
+	}
+}
+Style {
+	id: "HY_P_Falls_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/5.0:Falls
+		URL: "feature-styles/HY_P_Falls_v5_0.se"
 	}
 }
 Style {
@@ -1784,10 +2397,24 @@ Style {
 	}
 }
 Style {
+	id: "HY_P_LandWaterBoundary_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/5.0:LandWaterBoundary
+		URL: "feature-styles/HY_P_LandWaterBoundary_v5_0.se"
+	}
+}
+Style {
 	id: "HY_P_Crossing"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Crossing
 		URL: "feature-styles/HY_P_Crossing.se"
+	}
+}
+Style {
+	id: "HY_P_Crossing_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/5.0:Crossing
+		URL: "feature-styles/HY_P_Crossing_v5_0.se"
 	}
 }
 Style {
@@ -1798,10 +2425,24 @@ Style {
 	}
 }
 Style {
+	id: "HY_P_DamOrWeir_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/5.0:DamOrWeir
+		URL: "feature-styles/HY_P_DamOrWeir_v5_0.se"
+	}
+}
+Style {
 	id: "HY_P_ShoreLineConstruction"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:ShorelineConstruction
 		URL: "feature-styles/HY_P_ShoreLineConstruction.se"
+	}
+}
+Style {
+	id: "HY_P_ShoreLineConstruction_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/5.0:ShorelineConstruction
+		URL: "feature-styles/HY_P_ShoreLineConstruction_v5_0.se"
 	}
 }
 Style {
@@ -1812,10 +2453,24 @@ Style {
 	}
 }
 Style {
+	id: "HY_P_Ford_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/5.0:Ford
+		URL: "feature-styles/HY_P_Ford_v5_0.se"
+	}
+}
+Style {
 	id: "HY_P_Lock"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Lock
 		URL: "feature-styles/HY_P_Lock.se"
+	}
+}
+Style {
+	id: "HY_P_Lock_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/5.0:Lock
+		URL: "feature-styles/HY_P_Lock_v5_0.se"
 	}
 }
 Style {
@@ -1826,10 +2481,24 @@ Style {
 	}
 }
 Style {
+	id: "HY_P_Shore_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/5.0:Shore
+		URL: "feature-styles/HY_P_Shore_v5_0.se"
+	}
+}
+Style {
 	id: "HY_P_Watercourse"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Watercourse
 		URL: "feature-styles/HY_P_Watercourse.se"
+	}
+}
+Style {
+	id: "HY_P_Watercourse_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/5.0:Watercourse
+		URL: "feature-styles/HY_P_Watercourse_v5_0.se"
 	}
 }
 Style {
@@ -1840,10 +2509,24 @@ Style {
 	}
 }
 Style {
+	id: "HY_P_StandingWater_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/5.0:StandingWater
+		URL: "feature-styles/HY_P_StandingWater_v5_0.se"
+	}
+}
+Style {
 	id: "HY_P_Watercourse_ManMade"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Watercourse
 		URL: "feature-styles/HY_P_Watercourse_ManMade.se"
+	}
+}
+Style {
+	id: "HY_P_Watercourse_ManMade_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/5.0:Watercourse
+		URL: "feature-styles/HY_P_Watercourse_ManMade_v5_0.se"
 	}
 }
 Style {
@@ -1854,10 +2537,24 @@ Style {
 	}
 }
 Style {
+	id: "HY_P_StandingWater_ManMade_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/5.0:StandingWater
+		URL: "feature-styles/HY_P_StandingWater_ManMade_v5_0.se"
+	}
+}
+Style {
 	id: "HY_P_WatercoursePersistence"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Watercourse
 		URL: "feature-styles/HY_P_WatercoursePersistence.se"
+	}
+}
+Style {
+	id: "HY_P_WatercoursePersistence_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/5.0:Watercourse
+		URL: "feature-styles/HY_P_WatercoursePersistence_v5_0.se"
 	}
 }
 Style {
@@ -1868,10 +2565,24 @@ Style {
 	}
 }
 Style {
+	id: "HY_P_WaterbodiesPersistence_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/5.0:StandingWater
+		URL: "feature-styles/HY_P_WaterbodiesPersistence_v5_0.se"
+	}
+}
+Style {
 	id: "HY_P_Wetland"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/4.0:Wetland
 		URL: "feature-styles/HY_P_Wetland.se"
+	}
+}
+Style {
+	id: "HY_P_Wetland_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/hy-p/5.0:Wetland
+		URL: "feature-styles/HY_P_Wetland_v5_0.se"
 	}
 }
 
@@ -1883,10 +2594,24 @@ Style {
 	}
 }
 Style {
+	id: "PS_ProtectedSite_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/ps/5.0:ProtectedSite
+		URL: "feature-styles/PS_ProtectedSites_v5_0.se"
+	}
+}
+Style {
 	id: "TN_A_AerodromeArea"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/4.0:AerodromeArea
 		URL: "feature-styles/TN_A_AerodromeArea.se"
+	}
+}
+Style {
+	id: "TN_A_AerodromeArea_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/5.0:AerodromeArea
+		URL: "feature-styles/TN_A_AerodromeArea_v5_0.se"
 	}
 }
 
@@ -1898,10 +2623,24 @@ Style {
 	}
 }
 Style {
+	id: "TN_A_ProcedureLink_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/5.0:ProcedureLink
+		URL: "feature-styles/TN_A_ProcedureLink_v5_0.se"
+	}
+}
+Style {
 	id: "TN_A_AirRouteLink"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/4.0:AirRouteLink
 		URL: "feature-styles/TN_A_AirRouteLink.se"
+	}
+}
+Style {
+	id: "TN_A_AirRouteLink_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/5.0:AirRouteLink
+		URL: "feature-styles/TN_A_AirRouteLink_v5_0.se"
 	}
 }
 Style {
@@ -1912,10 +2651,24 @@ Style {
 	}
 }
 Style {
+	id: "TN_A_AirspaceArea_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/5.0:AirspaceArea
+		URL: "feature-styles/TN_A_AirspaceArea_v5_0.se"
+	}
+}
+Style {
 	id: "TN_A_ApronArea"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/4.0:ApronArea
 		URL: "feature-styles/TN_A_ApronArea.se"
+	}
+}
+Style {
+	id: "TN_A_ApronArea_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/5.0:ApronArea
+		URL: "feature-styles/TN_A_ApronArea_v5_0.se"
 	}
 }
 Style {
@@ -1926,10 +2679,24 @@ Style {
 	}
 }
 Style {
+	id: "TN_A_RunwayArea_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/5.0:RunwayArea
+		URL: "feature-styles/TN_A_RunwayArea_v5_0.se"
+	}
+}
+Style {
 	id: "TN_A_TaxiwayArea"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/4.0:TaxiwayArea
 		URL: "feature-styles/TN_A_TaxiwayArea.se"
+	}
+}
+Style {
+	id: "TN_A_TaxiwayArea_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-a/5.0:TaxiwayArea
+		URL: "feature-styles/TN_A_TaxiwayArea_v5_0.se"
 	}
 }
 Style {
@@ -1940,10 +2707,24 @@ Style {
 	}
 }
 Style {
+	id: "TN_C_CablewayLink_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-c/5.0:CablewayLink
+		URL: "feature-styles/TN_C_CablewayLink_v5_0.se"
+	}
+}
+Style {
 	id: "TN_TransportArea"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/tn/4.0:TransportArea
 		URL: "feature-styles/TN_TransportArea.se"
+	}
+}
+Style {
+	id: "TN_TransportArea_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn/5.0:TransportArea
+		URL: "feature-styles/TN_TransportArea_v5_0.se"
 	}
 }
 Style {
@@ -1954,10 +2735,24 @@ Style {
 	}
 }
 Style {
+	id: "TN_TransportLink_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn/5.0:TransportLink
+		URL: "feature-styles/TN_TransportLink_v5_0.se"
+	}
+}
+Style {
 	id: "TN_TransportNode"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/tn/4.0:TransportNode
 		URL: "feature-styles/TN_TransportNode.se"
+	}
+}
+Style {
+	id: "TN_TransportNode_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn/5.0:TransportNode
+		URL: "feature-styles/TN_TransportNode_v5_0.se"
 	}
 }
 Style {
@@ -1968,10 +2763,24 @@ Style {
 	}
 }
 Style {
+	id: "TN_RA_RailwayArea_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-ra/5.0:RailwayArea
+		URL: "feature-styles/TN_RA_RailwayArea_v5_0.se"
+	}
+}
+Style {
 	id: "TN_RA_RailwayLink"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/tn-ra/4.0:RailwayLink
 		URL: "feature-styles/TN_RA_RailwayLink.se"
+	}
+}
+Style {
+	id: "TN_RA_RailwayLink_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-ra/5.0:RailwayLink
+		URL: "feature-styles/TN_RA_RailwayLink_v5_0.se"
 	}
 }
 Style {
@@ -1982,10 +2791,24 @@ Style {
 	}
 }
 Style {
+	id: "TN_RA_RailwayStationArea_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-ra/5.0:RailwayStationArea
+		URL: "feature-styles/TN_RA_RailwayStationArea_v5_0.se"
+	}
+}
+Style {
 	id: "TN_RA_RailwayYardArea"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/tn-ra/4.0:RailwayYardArea
 		URL: "feature-styles/TN_RA_RailwayYardArea.se"
+	}
+}
+Style {
+	id: "TN_RA_RailwayYardArea_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-ra/5.0:RailwayYardArea
+		URL: "feature-styles/TN_RA_RailwayYardArea_v5_0.se"
 	}
 }
 Style {
@@ -1996,10 +2819,24 @@ Style {
 	}
 }
 Style {
+	id: "TN_RO_RoadArea_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-ro/5.0:RoadArea
+		URL: "feature-styles/TN_RO_RoadArea_v5_0.se"
+	}
+}
+Style {
 	id: "TN_RO_RoadLink"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:RoadLink
 		URL: "feature-styles/TN_RO_RoadLink.se"
+	}
+}
+Style {
+	id: "TN_RO_RoadLink_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-ro/5.0:RoadLink
+		URL: "feature-styles/TN_RO_RoadLink_v5_0.se"
 	}
 }
 Style {
@@ -2010,10 +2847,24 @@ Style {
 	}
 }
 Style {
+	id: "TN_RO_RoadServiceArea_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-ro/5.0:RoadServiceArea
+		URL: "feature-styles/TN_RO_RoadServiceArea_v5_0.se"
+	}
+}
+Style {
 	id: "TN_RO_VehicleTrafficArea"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/tn-ro/4.0:VehicleTrafficArea
 		URL: "feature-styles/TN_RO_VehicleTrafficArea.se"
+	}
+}
+Style {
+	id: "TN_RO_VehicleTrafficArea_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-ro/5.0:VehicleTrafficArea
+		URL: "feature-styles/TN_RO_VehicleTrafficArea_v5_0.se"
 	}
 }
 Style {
@@ -2024,10 +2875,24 @@ Style {
 	}
 }
 Style {
+	id: "TN_W_FairwayArea_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-w/5.0:FairwayArea
+		URL: "feature-styles/TN_W_FairwayArea_v5_0.se"
+	}
+}
+Style {
 	id: "TN_W_PortArea"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/tn-w/4.0:PortArea
 		URL: "feature-styles/TN_W_PortArea.se"
+	}
+}
+Style {
+	id: "TN_W_PortArea_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-w/5.0:PortArea
+		URL: "feature-styles/TN_W_PortArea_v5_0.se"
 	}
 }
 Style {
@@ -2038,6 +2903,13 @@ Style {
 	}
 }
 Style {
+	id: "TN_W_WaterwayLink_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/tn-w/5.0:WaterwayLink
+		URL: "feature-styles/TN_W_WaterwayLink_v5_0.se"
+	}
+}
+Style {
 	id: "LC_LandCoverSurfaces"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/lcv/4.0:LandCoverUnit
@@ -2045,10 +2917,24 @@ Style {
 	}
 }
 Style {
+	id: "LC_LandCoverSurfaces_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/lcv/5.0:LandCoverUnit
+		URL: "feature-styles/LC_LandCoverSurfaces_v5_0.se"
+	}
+}
+Style {
 	id: "LC_LandCoverPoints"
 	Remote {
 		FeatureType: http://inspire.ec.europa.eu/schemas/lcv/4.0:LandCoverUnit
 		URL: "feature-styles/LC_LandCoverPoints.se"
+	}
+}
+Style {
+	id: "LC_LandCoverPoints_v5"
+	Remote {
+		FeatureType: http://inspire.ec.europa.eu/schemas/lcv/5.0:LandCoverUnit
+		URL: "feature-styles/LC_LandCoverPoints_v5_0.se"
 	}
 }
 Style {
